@@ -6,6 +6,7 @@ const API_URL = "http://localhost:8000";
 
 type ReportData = {
   bar_chart: Record<string, Record<string, number>>;
+  radar_chart: Record<string, {Environmental: number, Social: number, Governance: number}>;
   heatmap_chart: { section: string; GRI_code: string; score: number; gri_desc: string }[];
   sections_by_gri: Record<string, { section: string; gri_desc: string }[]>;
 };
@@ -18,11 +19,22 @@ function App() {
   const [myReports, setMyReports] = useState<string[]>([]);
   const [selectedMyReports, setSelectedMyReports] = useState<string[]>([]);
   const [griLevel, setGriLevel] = useState<"l1" | "l2">("l1");
-  const [chartType, setChartType] = useState<"bar" | "heatmap">("bar");
+  const [chartType, setChartType] = useState<"bar"| "radar" | "heatmap">("bar");
   const [reportData, setReportData] = useState<ReportData | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [selectedGRI, setSelectedGRI] = useState<string | null>(null);
   const [selectedCell, setSelectedCell] = useState<null | { gri: string; section: string; score: number; gri_desc: string }>(null);
+
+
+  // console.log(reportData)
+
+  // useEffect(() => {
+  //     if (reportData && "radar_chart" in reportData) {
+  //       console.log("Radar data:", reportData.radar_chart);
+  //     } else {
+  //       console.warn("Radar data missing or malformed");
+  //     }
+  // }, [reportData]);
 
   useEffect(() => {
     fetch(`${API_URL}/industries`)
@@ -46,6 +58,8 @@ function App() {
     const allReports = [...selectedExistingReports, ...selectedMyReports];
     if (allReports.length === 0) return;
 
+    // console.log("Current chart type: ", chartType)
+
     setIsLoading(true);
     fetch(`${API_URL}/chart-data`, {
       method: "POST",
@@ -53,8 +67,12 @@ function App() {
       body: JSON.stringify({ report_names: allReports, gri_level: griLevel, chart: chartType }),
     })
       .then((res) => res.json())
-      .then(setReportData)
+      .then((data) => {
+          console.log("Received data:", data);
+          setReportData(data);
+      })
       .finally(() => setIsLoading(false));
+      // .then(setReportData)
   }, [selectedExistingReports, selectedMyReports, griLevel, chartType]);
 
   const handleFileUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -122,31 +140,51 @@ function App() {
         </div>
 
         {/* My Reports Section */}
-        <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200">
-            <h2 className="text-xl font-semibold text-gray-700 mb-4">Your Reports</h2>
-          <h2 className="block mb-1 text-sm text-gray-700">Upload your Reports</h2>
-          <input type="file" accept="application/pdf" onChange={handleFileUpload} className="block w-full text-sm text-gray-700 border border-gray-300 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 file:bg-gray-100 file:border-none file:px-3 file:py-1" />
+          <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200">
+              <h2 className="text-xl font-semibold text-gray-700 mb-4">Your Reports</h2>
+              <h2 className="block mb-1 text-sm text-gray-700">Upload your Reports</h2>
+              <input type="file" accept="application/pdf" onChange={handleFileUpload}
+                     className="block w-full text-sm text-gray-700 border border-gray-300 rounded-lg cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500 file:bg-gray-100 file:border-none file:px-3 file:py-1"/>
 
-          {myReports.map((rep) => (
-            <label key={rep} className="checkbox-label justify-evely text-grey-8 flex w-fit items-center gap-x-2 p-3 ms-2 text-sm font-medium">
-              <input
-                type="checkbox"
-                className="w-4 h-4 gap-x-2 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
-                checked={selectedMyReports.includes(rep)}
-                onChange={(e) => {
-                  setSelectedMyReports((prev) =>
-                    e.target.checked ? [...prev, rep] : prev.filter((r) => r !== rep)
-                  );
-                }}
-              />
-              {rep}
-            </label>
-          ))}
-        </div>
+              {myReports.map((rep) => (
+                  <label key={rep}
+                         className="checkbox-label justify-evely text-grey-8 flex w-fit items-center gap-x-2 p-3 ms-2 text-sm font-medium">
+                      <input
+                          type="checkbox"
+                          className="w-4 h-4 gap-x-2 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                          checked={selectedMyReports.includes(rep)}
+                          onChange={(e) => {
+                              setSelectedMyReports((prev) =>
+                                  e.target.checked ? [...prev, rep] : prev.filter((r) => r !== rep)
+                              );
+                          }}
+                      />
+                      {rep}
+                  </label>
+              ))}
+
+              {/*<h2 className="block mb-1 text-sm text-gray-700">Export alignment</h2>*/}
+              {/*<div>*/}
+              {/*    <label key={json}*/}
+              {/*           className="checkbox-label justify-evely text-grey-8 flex w-fit items-center gap-x-2 p-3 ms-2 text-sm font-medium">*/}
+              {/*    <input*/}
+              {/*        type="checkbox"*/}
+              {/*        className="w-4 h-4 gap-x-2 text-blue-600 bg-gray-100 border-gray-300 rounded-sm focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"*/}
+              {/*    />*/}
+              {/*    JSON*/}
+              {/*    </label>*/}
+              {/*        <select id="export" className="w-full px-4 py-2 border rounded mb-3">*/}
+              {/*            <option value="json">JSON</option>*/}
+              {/*            <option value="csv">CSV</option>*/}
+              {/*        </select>*/}
+              {/*        <button type="button">Export</button>*/}
+              {/*</div>*/}
+
+          </div>
       </div>
 
-      {/* Display */}
-      <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200">
+        {/* Display */}
+        <div className="bg-white p-5 rounded-lg shadow-md border border-gray-200">
         <h2 className="text-xl font-semibold text-gray-700 mb-4">Display</h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -157,26 +195,27 @@ function App() {
                 value={griLevel}
                 onChange={(e) => setGriLevel(e.target.value as "l1" | "l2")}
             >
-                <option value="l1">Level 1</option>
-                <option value="l2">Level 2</option>
+                <option value="l1">GRI standard</option>
+                <option value="l2">GRI disclosure</option>
             </select>
             </div>
             <div>
             <label className="block text-sm font-medium text-gray-700 mb-1">Chart Type</label>
-            <select
-                className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
-                value={chartType}
-                onChange={(e) => setChartType(e.target.value as "bar" | "heatmap")}
-                disabled={!allowHeatmap && chartType === "heatmap"}
-            >
-                <option value="bar">GRI Distribution</option>
-                <option value="heatmap" disabled={!allowHeatmap}>Heatmap</option>
-            </select>
+                <select
+                    className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    value={chartType}
+                    onChange={(e) => setChartType(e.target.value as "bar" | "radar" | "heatmap")}
+                    disabled={!allowHeatmap && chartType === "heatmap"}
+                >
+                    <option value="bar">GRI coverage distribution</option>
+                    <option value="radar">Radar</option>
+                    <option value="heatmap" disabled={!allowHeatmap}>Heatmap</option>
+                </select>
             </div>
         </div>
-      </div>    
+      </div>
 
-      {isLoading && (
+        {isLoading && (
         <div className="flex justify-center items-center py-6">
             <div className="w-10 h-10 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
         </div>
@@ -185,7 +224,8 @@ function App() {
       {reportData && (
         <div className="bg-white p-6 rounded-lg shadow-md mt-6">
             <ChartView
-            barChartData={reportData.bar_chart}
+            barChartData={reportData?.bar_chart || {}}
+            radarChartData={reportData?.radar_chart || null}
             heatmapData={reportData.heatmap_chart}
             sectionsByGRI={reportData.sections_by_gri}
             selectedGRI={selectedGRI}
@@ -193,7 +233,9 @@ function App() {
             selectedCell={selectedCell}
             onHeatmapCellClick={setSelectedCell}
             showBarChart={chartType === "bar" || !allowHeatmap}
+            showRadarChart={chartType === "radar" || !allowHeatmap}
             showHeatmap={chartType === "heatmap" && allowHeatmap}
+            chartType={chartType}
             />
         </div>
       )}

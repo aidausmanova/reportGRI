@@ -152,7 +152,7 @@ def get_chart_data(
     chart_type = body.get("chart", "bar")  # bar or heatmap
 
     assert gri_level in ("l1", "l2")
-    assert chart_type in ("bar", "heatmap")
+    assert chart_type in ("bar", "radar", "heatmap")
 
     all_rows = []
 
@@ -174,7 +174,6 @@ def get_chart_data(
                         all_rows.append(row)
 
     response_data = {}
-
     if chart_type == "bar":
         bar_chart_data = defaultdict(lambda: defaultdict(int))  # report -> GRI -> count
         sections_by_gri = defaultdict(list)
@@ -190,6 +189,39 @@ def get_chart_data(
 
         response_data["bar_chart"] = bar_chart_data
         response_data["sections_by_gri"] = sections_by_gri
+
+        # e_category = ['gri_301', 'gri_302', 'gri_303', 'gri_304', 'gri_305', 'gri_306', 'gri_307', 'gri_308']
+        # s_category = ['gri_401', 'gri_402', 'gri_403', 'gri_404', 'gri_405', 'gri_413', 'gri_415', 'gri_416', 'gri_418']
+        # g_category = ['gri_2', 'gri_201']
+        #
+        # radar_chart_data = defaultdict(lambda: {"Environmental": 0, "Social": 0, "Governance": 0})
+        #
+        # for row in all_rows:
+        #     if gri_level == "l2":
+        #         gri = row["gri_l2"].split("-")[0]
+        #     else:
+        #         gri = row["gri_l1"]
+        #
+        #     report = row["organization"]
+        #
+        #     if gri in e_category:
+        #         radar_chart_data[report]["Environmental"] += 1
+        #     elif gri in s_category:
+        #         radar_chart_data[report]["Social"] += 1
+        #     elif gri in g_category:
+        #         radar_chart_data[report]["Governance"] += 1
+        #
+        # # Convert counts to percentages
+        # for report, counts in radar_chart_data.items():
+        #     total = sum(counts.values())
+        #     if total > 0:
+        #         for cat in ["Environmental", "Social", "Governance"]:
+        #             counts[cat] = float(round((counts[cat] / total) * 100, 2))
+        #     else:
+        #         for cat in ["Environmental", "Social", "Governance"]:
+        #             counts[cat] = float(0.0)
+        #
+        # response_data["radar_chart"] = radar_chart_data
 
     elif chart_type == "heatmap":
         heatmap_data = []
@@ -209,4 +241,75 @@ def get_chart_data(
         response_data["heatmap_chart"] = heatmap_data
         response_data["sections_by_gri"] = sections_by_gri
 
+    elif chart_type == "radar":
+        e_category = ['gri_301', 'gri_302', 'gri_303', 'gri_304', 'gri_305', 'gri_306', 'gri_307', 'gri_308']
+        s_category = ['gri_401', 'gri_402', 'gri_403', 'gri_404', 'gri_405', 'gri_413', 'gri_415', 'gri_416', 'gri_418']
+        g_category = ['gri_2', 'gri_201']
+
+        gri_standards = {
+            "gri_2": "General disclosure",
+            "gri_201": "Economic performance",
+            "gri_301": "Materials",
+            "gri_302": "Energy",
+            "gri_303": "Water",
+            "gri_304": "Biodiversity",
+            "gri_305": "Emissions",
+            "gri_306": "Waste",
+            "gri_307": "Environmental compliance",
+            "gri_308": "Supplier assessment",
+            "gri_401": "Employment",
+            "gri_403": "Employee safety",
+            "gri_404": "Training",
+            "gri_405": "Diversity",
+            "gri_413": "Communities",
+            "gri_415": "Public policy",
+            "gri_416": "Customer safety",
+            "gri_418": "Customer privacy"
+        }
+        radar_chart_data = defaultdict(lambda: {"Environmental": 0, "Social": 0, "Governance": 0})
+        radar_chart_data = defaultdict(lambda: {"General disclosure": 0, "Economic performance": 0, "Materials": 0,
+                                                "Energy": 0, "Water": 0, "Biodiversity": 0, "Emissions": 0, "Waste": 0,
+                                                "Environmental compliance": 0, "Supplier assessment": 0, "Employment": 0,
+                                                "Employee safety": 0, "Training": 0, "Diversity": 0,"Communities": 0,
+                                                "Public policy": 0, "Customer safety": 0, "Customer privacy": 0})
+        sections_by_gri = defaultdict(list)
+
+        for row in all_rows:
+            if gri_level == "l2":
+                gri = row["gri_l2"].split("-")[0]
+            else:
+                gri = row["gri_l1"]
+
+            report = row["organization"]
+
+            radar_chart_data[report][gri_standards[gri]] += 1
+            # if gri in e_category:
+            #     radar_chart_data[report]["Environmental"] += 1
+            # elif gri in s_category:
+            #     radar_chart_data[report]["Social"] += 1
+            # elif gri in g_category:
+            #     radar_chart_data[report]["Governance"] += 1
+
+        # Convert counts to percentages
+        for report, counts in radar_chart_data.items():
+            total = sum(counts.values())
+            # if total > 0:
+            #     for cat in ["Environmental", "Social", "Governance"]:
+            #         counts[cat] = float(round((counts[cat] / total) * 100, 2))
+            # else:
+            #     for cat in ["Environmental", "Social", "Governance"]:
+            #         counts[cat] = float(0.0)
+            if total > 0:
+                for cat in gri_standards.values():
+                    counts[cat] = float(round((counts[cat] / total) * 100, 2))
+            else:
+                for cat in gri_standards.values():
+                    counts[cat] = float(0.0)
+
+        response_data["radar_chart"] = radar_chart_data
+        # response_data["bar_chart"] = bar_chart_data
+        # response_data["sections_by_gri"] = sections_by_gri
+        print(response_data["radar_chart"])
+
+    # print(response_data)
     return response_data
