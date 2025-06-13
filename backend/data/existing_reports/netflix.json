@@ -1,0 +1,99 @@
+[
+    {
+        "disclosure": "gri_2-2",
+        "section_ids": [
+            "netflix-esg-2022-66",
+            "netflix-esg-2022-130"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": "The disclosure partially addresses the GRI disclosure by mentioning the oversight of ESG efforts by the Board and the management decisions related to sustainability programs. However, it lacks specific information on the entities included in the sustainability reporting, such as subsidiaries, joint ventures, or other controlled entities. The materiality score is moderate because the paragraph indicates some relevance by mentioning the oversight of ESG efforts by the Board and management decisions related to sustainability programs. However, it lacks a clear explanation of why the entities included in sustainability reporting are important to the business and stakeholders"
+    },
+    {
+        "disclosure": "gri_2-23",
+        "section_ids": [
+            "netflix-esg-2022-128"
+        ],
+        "completeness": 9,
+        "materiality": 9,
+        "comment": " The disclosure fully addresses the company's policy commitments for responsible business conduct, providing explicit and detailed information on various aspects such as the Code of Ethics, reporting mechanisms, compliance risk assessment process, global anti-corruption policy, training, and availability of policies to employees. The importance of these commitments to the business and stakeholders is clearly demonstrated, showing alignment with ethical conduct, risk mitigation, legal compliance, and human rights legislation."
+    },
+    {
+        "disclosure": "gri_302-4",
+        "section_ids": [
+            "netflix-esg-2022-30"
+        ],
+        "completeness": 6,
+        "materiality": 7,
+        "comment": " The paragraph reasonably addresses the company's initiatives to reduce energy consumption by providing specific details on the progress against Scope 1 and 2 emissions targets, the impact of emissions reduction initiatives, and the transition to renewable energy. However, it lacks specific examples of decarbonization actions or details of onsite generation or power purchase agreements, which would have improved completeness. The connection to stakeholder interest and business impact is indicated but lacks full context or explanation of significance, impacting the materiality score."
+    },
+    {
+        "disclosure": "gri_305-1",
+        "section_ids": [
+            "netflix-esg-2022-23",
+            "netflix-esg-2022-30",
+            "netflix-esg-2022-159",
+            "netflix-esg-2022-158"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably addresses the Scope 1 emissions by providing detailed information on the emissions reduction initiatives, methods used for emissions calculation, and the boundary of emissions covered. However, it lacks specific examples of decarbonization actions. The importance of the disclosure is clearly demonstrated by aligning with the GHG Protocol and providing detailed information on the calculation methods, covering the relevance to the business and stakeholders."
+    },
+    {
+        "disclosure": "gri_305-2",
+        "section_ids": [
+            "netflix-esg-2022-23",
+            "netflix-esg-2022-30",
+            "netflix-esg-2022-159",
+            "netflix-esg-2022-158"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the Scope 2 greenhouse gas emissions, covering key elements such as the methods used for calculation, the impact of emissions reductions initiatives, and the boundary of emissions. However, it lacks specific examples or detailed information about the indirect GHG emissions sources and the breakdown of emissions by activity or location. The disclosure indicates relevance to the business and stakeholders by demonstrating the company's commitment to tracking progress against emissions targets and its alignment with the GHG Protocol. It also highlights the importance of including all relevant Scope 3 categories and the challenges associated"
+    },
+    {
+        "disclosure": "gri_305-3",
+        "section_ids": [
+            "netflix-esg-2022-7",
+            "netflix-esg-2022-159",
+            "netflix-esg-2022-158",
+            "netflix-esg-2022-23",
+            "netflix-esg-2022-52",
+            "netflix-esg-2022-15"
+        ],
+        "completeness": 9,
+        "materiality": 9,
+        "comment": " The disclosure provides explicit and detailed information about the company's Scope 3 greenhouse gas emissions, including its targets, methods for calculation, and the categories included in the Scope 3 boundary. The paragraphs also demonstrate the importance of the disclosure to the business and stakeholders, showing alignment with sustainability commitments, engagement with the Science Based Targets Initiative, and the company's efforts to improve Scope 3 data and set specific intensity targets."
+    },
+    {
+        "disclosure": "gri_305-4",
+        "section_ids": [
+            "netflix-esg-2022-159",
+            "netflix-esg-2022-158"
+        ],
+        "completeness": 9,
+        "materiality": 9,
+        "comment": "The disclosure is very comprehensive and provides explicit and detailed information about the company's approach to GHG emissions intensity. It covers all key elements such as the inclusion of Scope 1, 2, and 3 emissions, the calculation methods for Scope 2 emissions, the establishment of the Scope 3 boundary, and the reporting standards followed. The company clearly demonstrates the importance of the disclosure to its business and stakeholders by aligning its reporting with internationally recognized standards, explaining the relevance of its emission factors, and emphasizing the significance of including all relevant sources"
+    },
+    {
+        "disclosure": "gri_305-5",
+        "section_ids": [
+            "netflix-esg-2022-30",
+            "netflix-esg-2022-17",
+            "netflix-esg-2022-18",
+            "netflix-esg-2022-57"
+        ],
+        "completeness": 5,
+        "materiality": 5,
+        "comment": " The disclosure partially addresses the reduction of GHG emissions by providing some details on the company's emission reduction efforts and its alignment with the ISO Net Zero Guidelines. However, it lacks specific examples or detailed information on the emission reduction initiatives and their impacts. The relevance of the disclosure is indicated, but it lacks full context or explanation of significance. The connection to business strategy and stakeholder concerns is mentioned but could be further elaborated."
+    },
+    {
+        "disclosure": "gri_403-2",
+        "section_ids": [
+            "netflix-esg-2022-151"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "The disclosure reasonably addresses the processes for identifying and assessing climate-related risks, including the frameworks referenced and the integration into enterprise risk management. However, it lacks specific examples of the hazard identification and incident investigation processes. The description of the initial climate risk assessment and its alignment with established risk mitigation strategies demonstrates a clear understanding of the importance of climate-related risks to the organization and stakeholders, but it could provide more context on the significance of these risks to fully justify the materiality score."
+    }
+]

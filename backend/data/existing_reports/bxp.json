@@ -1,0 +1,180 @@
+[
+    {
+        "disclosure": "gri_2-2",
+        "section_ids": [
+            "bxp-esg-2022-73",
+            "bxp-esg-2022-58",
+            "bxp-esg-2022-59",
+            "bxp-esg-2022-60",
+            "bxp-esg-2022-8",
+            "bxp-esg-2022-68",
+            "bxp-esg-2022-3",
+            "bxp-esg-2022-57",
+            "bxp-esg-2022-70",
+            "bxp-esg-2022-56",
+            "bxp-esg-2022-28",
+            "bxp-esg-2022-69",
+            "bxp-esg-2022-74"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The paragraph provides some information about the entities included in sustainability reporting, but lacks specific details such as a comprehensive list of all entities. The materiality is demonstrated by indicating that material topics identified in the materiality assessment are governed by various committees and departments, and that the Board of Directors and Sustainability Committee play a strong role in defining sustainability ambition."
+    },
+    {
+        "disclosure": "gri_2-9",
+        "section_ids": [
+            "bxp-esg-2022-56"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": "The paragraph provides detailed information about the governance structure, including the responsibilities of the Board and the composition of committees, but lacks specific examples of how the structure operates in practice."
+    },
+    {
+        "disclosure": "gri_2-23",
+        "section_ids": [
+            "bxp-esg-2022-56",
+            "bxp-esg-2022-62"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "Reasonably addresses the company's policy commitments for responsible business conduct, providing details about governance principles, sustainability oversight, and code of business conduct, but lacks specific examples of ESG priorities and environmental sustainability initiatives."
+    },
+    {
+        "disclosure": "gri_2-25",
+        "section_ids": [
+            "bxp-esg-2022-30"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": "The paragraph partially addresses the disclosure by mentioning the identification of risks related to climate change impacts, but lacks specific examples of remediation processes. It demonstrates relevance by showing alignment with business continuity risks and regulation."
+    },
+    {
+        "disclosure": "gri_2-29",
+        "section_ids": [
+            "bxp-esg-2022-4",
+            "bxp-esg-2022-74"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "The paragraph provides a reasonable level of detail about the stakeholders engaged and the process, but lacks specific examples. It demonstrates the relevance of stakeholder engagement to the business and its connection to management processes and corporate responsibility."
+    },
+    {
+        "disclosure": "gri_201-2",
+        "section_ids": [
+            "bxp-esg-2022-29",
+            "bxp-esg-2022-31",
+            "bxp-esg-2022-27",
+            "bxp-esg-2022-26",
+            "bxp-esg-2022-30"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "The paragraph provides detailed information about the company's process for assessing climate-related risks and opportunities, including the use of the TCFD framework. It also demonstrates a clear understanding of the importance of managing climate change risks and aligns with stakeholder interests."
+    },
+    {
+        "disclosure": "gri_302-3",
+        "section_ids": [
+            "bxp-esg-2022-12"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing specific reduction targets and achievements. It also clearly demonstrates the importance of energy intensity reduction to the business and stakeholders by showing alignment with the reduction goal and achievement."
+    },
+    {
+        "disclosure": "gri_302-4",
+        "section_ids": [
+            "bxp-esg-2022-35",
+            "bxp-esg-2022-11",
+            "bxp-esg-2022-37",
+            "bxp-esg-2022-12"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "The paragraph provides specific information about energy reduction targets and achievements, but lacks details on the specific measures taken to achieve the reduction."
+    },
+    {
+        "disclosure": "gri_305-1",
+        "section_ids": [
+            "bxp-esg-2022-14",
+            "bxp-esg-2022-15",
+            "bxp-esg-2022-34",
+            "bxp-esg-2022-13",
+            "bxp-esg-2022-32"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": "Reasonably well addresses the disclosure by providing specific targets and reporting units, but lacks explicit details on current emissions. Clearly demonstrates the importance through alignment with science-based targets, net-zero target, and commitment to external initiatives."
+    },
+    {
+        "disclosure": "gri_305-2",
+        "section_ids": [
+            "bxp-esg-2022-14",
+            "bxp-esg-2022-15",
+            "bxp-esg-2022-34",
+            "bxp-esg-2022-13",
+            "bxp-esg-2022-32"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "Reasonably addresses the disclosure by providing specific targets and initiatives, but lacks specific details about current performance or progress."
+    },
+    {
+        "disclosure": "gri_305-3",
+        "section_ids": [
+            "bxp-esg-2022-71",
+            "bxp-esg-2022-15",
+            "bxp-esg-2022-14",
+            "bxp-esg-2022-34",
+            "bxp-esg-2022-13",
+            "bxp-esg-2022-32"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": "The paragraph provides some details on reduction targets and initiatives related to Scope 1, 2, and 3 GHG emissions, but lacks explicit and detailed information on the specific measurement and reporting of Company's Scope 3 greenhouse gas emissions. The information demonstrates relevance to the business and stakeholders, aligning with decarbonization commitments and long-term objectives."
+    },
+    {
+        "disclosure": "gri_305-4",
+        "section_ids": [
+            "bxp-esg-2022-15",
+            "bxp-esg-2022-14",
+            "bxp-esg-2022-34",
+            "bxp-esg-2022-13"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": "Reasonably addresses the reduction targets for Scope 1, 2, and 3 GHG emissions intensity, but lacks specific details on current performance and progress towards the targets. The disclosure demonstrates relevance to the business strategy and long-term carbon neutrality goal, but could provide more context on stakeholder concerns and potential risks."
+    },
+    {
+        "disclosure": "gri_305-5",
+        "section_ids": [
+            "bxp-esg-2022-11",
+            "bxp-esg-2022-14",
+            "bxp-esg-2022-15",
+            "bxp-esg-2022-34",
+            "bxp-esg-2022-13",
+            "bxp-esg-2022-32"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": "The paragraph provides specific targets for reducing GHG emissions and mentions the company's commitment to external initiatives, demonstrating a clear relevance to business strategy and stakeholder concerns. However, it lacks specific examples of emission reduction efforts and detailed information on progress."
+    },
+    {
+        "disclosure": "gri_405-1",
+        "section_ids": [
+            "bxp-esg-2022-50"
+        ],
+        "completeness": 9,
+        "materiality": 9,
+        "comment": "The paragraph provides explicit details about the company's workforce and governance diversity, including the formation and activities of the Diversity, Equity & Inclusion Council, and its impact on the company's culture and business activities, demonstrating the importance and relevance of the disclosure to the business and stakeholders."
+    },
+    {
+        "disclosure": "gri_413-1",
+        "section_ids": [
+            "bxp-esg-2022-4",
+            "bxp-esg-2022-55"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": "The paragraph partially addresses the disclosure by providing some information on stakeholder engagement and community involvement, but lacks specific examples or details of impact assessments and development programs. The relevance to stakeholders and alignment with business strategy is indicated, but lacks full context or explanation of significance."
+    }
+]

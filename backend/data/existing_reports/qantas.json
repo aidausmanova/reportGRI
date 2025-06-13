@@ -1,0 +1,119 @@
+[
+    {
+        "disclosure": "gri_2-2",
+        "section_ids": [
+            "qantas-sustainability-2023-1",
+            "qantas-sustainability-2023-69",
+            "qantas-sustainability-2023-29",
+            "qantas-sustainability-2023-267",
+            "qantas-sustainability-2023-18"
+        ],
+        "completeness": 2,
+        "materiality": 5,
+        "comment": " The disclosure partially addresses the GRI disclosure by stating that a materiality assessment was undertaken and by providing a list of entities included in the sustainability reporting. However, the information is vague and lacks specific details or examples. The materiality is indicated through the mention of a materiality assessment and the inclusion of key performance indicators, but the explanation of the significance and relevance of the disclosure to the business and stakeholders is lacking."
+    },
+    {
+        "disclosure": "gri_201-2",
+        "section_ids": [
+            "qantas-sustainability-2023-104",
+            "qantas-sustainability-2023-99"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the financial implications and other risks and opportunities due to climate change by providing details of the climate scenario analysis, including the consideration of transition and physical risks, and the frequency of reporting to the Board. However, it lacks specific examples or details of the financial implications and the specific controls and measures used to manage climate-related risks. The disclosure demonstrates the relevance of climate change as a material business risk, aligning with stakeholder interest and the business impact. It also indicates the integration of climate-related risks into the Group Risk Report,"
+    },
+    {
+        "disclosure": "gri_302-4",
+        "section_ids": [
+            "qantas-sustainability-2023-111"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well addresses the initiatives to reduce energy consumption, providing explicit information on various operational and fleet efficiency initiatives. However, it could benefit from more specific examples and details to fully address the disclosure. The paragraph clearly demonstrates the importance of reducing energy consumption to the business and stakeholders, aligning with the company's operational efficiency focus and its environmental impact, thus scoring high for materiality."
+    },
+    {
+        "disclosure": "gri_305-1",
+        "section_ids": [
+            "qantas-sustainability-2023-272",
+            "qantas-sustainability-2023-142"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the GRI disclosure on direct greenhouse gas (GHG) emissions (Scope 1) by providing detailed information on the calculation of emissions and activities undertaken to manage emissions. However, the disclosure could be more explicit in providing specific examples and details. The importance of the disclosure is indicated by explaining the significance of aviation fuel emissions, the increase in emissions, and the relevance of indirect emissions from the value chain. However, there is a lack of alignment with strategy, risk, or stakeholder concerns."
+    },
+    {
+        "disclosure": "gri_305-2",
+        "section_ids": [
+            "qantas-sustainability-2023-272",
+            "qantas-sustainability-2023-142"
+        ],
+        "completeness": 6,
+        "materiality": 8,
+        "comment": " The disclosure reasonably covers the key elements of the GRI disclosure on indirect greenhouse gas emissions. It provides specific information about the measurement period, sources of emissions, and changes in emissions over time. However, it lacks specific examples and details about mitigation measures. The disclosure demonstrates the importance of the topic to the business and stakeholders by providing detailed emissions data, discussing the relevance of emissions sources, and indicating plans for a more detailed analysis of Scope 3 emissions in the future."
+    },
+    {
+        "disclosure": "gri_305-3",
+        "section_ids": [
+            "qantas-sustainability-2023-272",
+            "qantas-sustainability-2023-142"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph comprehensively covers the measurement and reporting of indirect greenhouse gas emissions (Scope 3) and provides details on the emissions inclusions, exclusions, and restatements. It also explains the methodology and factors used for calculation. However, the paragraph could benefit from more specific examples and details to further enhance completeness. The disclosure demonstrates the materiality of Scope 3 emissions by linking it to the company's strategy, operational efficiency measures, and the increase in emissions due to fuel consumption and emissions factor change. It also highlights the impact of flying"
+    },
+    {
+        "disclosure": "gri_305-5",
+        "section_ids": [
+            "qantas-sustainability-2023-96",
+            "qantas-sustainability-2023-142"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure provides comprehensive information on the company's emission reduction efforts, including specific targets, initiatives, and governance structure. It also includes detailed reporting on Scope 1, 2, and 3 greenhouse gas emissions. However, it could benefit from more specific examples of emission reduction projects and their impact to fully address the disclosure. The company demonstrates the materiality of the topic by aligning its efforts with global climate agreements and providing detailed reporting on its emissions, including the increase in emissions and the reasons behind it."
+    },
+    {
+        "disclosure": "gri_306-2",
+        "section_ids": [
+            "qantas-sustainability-2023-96"
+        ],
+        "completeness": 4,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the waste management disclosure by mentioning the commitment to address waste impact, reduction targets, and governance structure. It lacks specific details on waste treatment methods and efforts to reduce waste generation. The mention of waste is somewhat relevant to stakeholders and the business as it shows a commitment to environmental impact, but the lack of specific details hinders a higher materiality score."
+    },
+    {
+        "disclosure": "gri_308-2",
+        "section_ids": [
+            "qantas-sustainability-2023-227"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the completion of a human rights assessment and engagement with an advisory firm. However, it lacks explicit information about the negative environmental impacts in the supply chain and the actions taken to address them. The connection to the business impact or stakeholder concerns is not clearly demonstrated, resulting in a low materiality score. The disclosure also lacks specific examples or details, leading to a low completeness score."
+    },
+    {
+        "disclosure": "gri_401-3",
+        "section_ids": [
+            "qantas-sustainability-2023-220"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The paragraph partially addresses the disclosure by mentioning initiatives to support parental leave, such as streamlining the process, providing resources, and launching a program for employees transitioning to and from parental leave. However, it lacks specific details about the parental leave entitlements, such as duration, eligibility, and benefits. The mention of supporting employees who are veterans and spotlighting employee stories on Anzac Day is not directly related to the parental leave disclosure, impacting completeness. The materiality is low as the paragraph does not clearly demonstrate why parental leave is important to the business and"
+    },
+    {
+        "disclosure": "gri_403-2",
+        "section_ids": [
+            "qantas-sustainability-2023-62"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably addresses the disclosure by detailing the Supply Chain Assurance (SCA) program, its risk-based framework, and the specific risk areas evaluated. It also mentions the number of assessments performed and outlines the ongoing specialized program for assessing unassessed suppliers. However, it lacks specific examples of hazard identification, risk assessment processes, and incident investigation procedures, which would have provided more explicit information to fully address the disclosure. In terms of materiality, the paragraph clearly demonstrates the importance of the SCA program in assessing potential compliance risks and ethical business"
+    },
+    {
+        "disclosure": "gri_416-1",
+        "section_ids": [
+            "qantas-sustainability-2023-62"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph provides a detailed description of the Supply Chain Assurance program, including the risk areas assessed, the number of assessments performed, and the prioritization of suppliers for assessment. However, it lacks explicit information on the assessment specifically related to health and safety impacts of product and service categories, which could enhance completeness. The paragraph demonstrates the materiality of the topic by showing how the program aligns with the company's commitment to compliance with the law and ethical business practices, and the use of internationally recognized standards."
+    }
+]
