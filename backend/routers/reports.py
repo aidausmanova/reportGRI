@@ -3,6 +3,7 @@ import os
 import shutil
 import uuid
 import json
+from traceback import print_tb
 from typing import List, Optional, Any
 
 from fastapi import (
@@ -152,6 +153,179 @@ def get_my_reports(session_id: str = Depends(get_or_create_session_id)) -> Any:
 
 
 @router.post("/chart-data")
+def get_chart_data_new(
+    body: dict = Body(...),
+    session_id: str = Depends(get_or_create_session_id),
+):
+    gri_topic_counts = {
+        "gri_2": 11,
+        "gri_201": 2,
+        "gri_301": 3,
+        "gri_302": 5,
+        "gri_303": 5,
+        "gri_304": 4,
+        "gri_305": 5,
+        "gri_306": 3,
+        "gri_307": 2,
+        "gri_308": 2,
+        "gri_401": 3,
+        "gri_403": 4,
+        "gri_404": 1,
+        "gri_405": 2,
+        "gri_413": 1,
+        "gri_415": 1,
+        "gri_416": 1,
+        "gri_418": 1
+    }
+    gri_topic_map = {
+        "gri_2": "General disclosure",
+        "gri_201": "Economic performance",
+        "gri_301": "Materials",
+        "gri_302": "Energy",
+        "gri_303": "Water",
+        "gri_304": "Biodiversity",
+        "gri_305": "Emissions",
+        "gri_306": "Waste",
+        "gri_307": "Environmental compliance",
+        "gri_308": "Supplier assessment",
+        "gri_401": "Employment",
+        "gri_403": "Employee safety",
+        "gri_404": "Training",
+        "gri_405": "Diversity",
+        "gri_413": "Communities",
+        "gri_415": "Public policy",
+        "gri_416": "Customer safety",
+        "gri_418": "Customer privacy"
+    }
+    gri_disclosure_titles = {
+        "gri_2-2": "Entities included in report",
+        "gri_2-5": "External assurance",
+        "gri_2-9": "Governance structure",
+        "gri_2-13": "Delegation of responsibility for managing impacts",
+        "gri_2-23": "Policy commitments",
+        "gri_2-24": "Embedding policy commitments",
+        "gri_2-22": "Statement on sustainable development and climate goals",
+        "gri_2-25": "Processes to remediate negative impacts",
+        "gri_2-27": "Compliance with laws and regulations",
+        "gri_2-28": "Membership associations",
+        "gri_2-29": "Approach to stakeholder engagement",
+        "gri_201-1": "Direct economic value generated",
+        "gri_201-2": "Financial implications due to climate change",
+        "gri_301-1": "Materials used",
+        "gri_301-2": "Recycled input materials used",
+        "gri_301-3": "Reclaimed products and their packaging materials",
+        "gri_302-1": "Energy consumption within company",
+        "gri_302-2": "Energy consumption outside company",
+        "gri_302-3": "Energy intensity",
+        "gri_302-4": "Reduction of energy consumption",
+        "gri_302-5": "Reductions in energy requirements of products and services",
+        "gri_303-1": "Interactions with water as a shared resource",
+        "gri_303-2": "Management of water discharge-related impacts",
+        "gri_303-3": "Water withdrawal",
+        "gri_303-4": "Water discharge",
+        "gri_303-5": "Water consumption",
+        "gri_304-1": "Operational sites owned/managed",
+        "gri_304-2": "Significant impacts on biodiversity",
+        "gri_304-3": "Habitats protected or restored",
+        "gri_304-4": "Affected IUCN Red List and Conservation List Species",
+        "gri_305-1": "Scope 1: direct emissions",
+        "gri_305-2": "Scope 2: indirect emissions",
+        "gri_305-3": "Scope 3: indirect emissions",
+        "gri_305-4": "GHG emissions intensity",
+        "gri_305-5": "GHG emissions reduction",
+        "gri_306-1": "Waste-related impacts",
+        "gri_306-2": "Waste impact management",
+        "gri_306-3": "Waste generated",
+        "gri_307-1": "Environmental fines",
+        "gri_307-2": "Environmental non-monetary sanctions",
+        "gri_308-1": "Environmental screening of new suppliers",
+        "gri_308-2": "Negative environmental impacts in the supply chain",
+        "gri_401-1": "New employee hires and employee turnover",
+        "gri_401-2": "Employee benefits",
+        "gri_401-3": "Parental leave",
+        "gri_403-1": "Occupational health and safety management",
+        "gri_403-2": "Hazard identification",
+        "gri_403-3": "Occupational health services",
+        "gri_403-5": "Worker training on occupational health and safety",
+        "gri_404-2": "Programs for upgrading employee skills",
+        "gri_405-1": "Diversity of governance bodies and employees",
+        "gri_405-2": "Ratio of basic salary and remuneration of women to men",
+        "gri_413-1": "Operations with local community engagement",
+        "gri_415-1": "Political contributions",
+        "gri_416-1": "Assessment of the health and safety impacts of product",
+        "gri_418-1": "Customer privacy complaints"
+    }
+
+    report_names = body.get("report_names", [])
+    if not report_names:
+        raise HTTPException(status_code=400, detail="No reported selected.")
+
+    base_path = os.path.join(DATA_FOLDER, "existing_reports")
+
+    response_data = {}
+    all_rows = []
+    bar_chart_data = defaultdict(lambda: defaultdict(int))
+    radar_chart_data = defaultdict(lambda: defaultdict(int))
+    scatter_chart_data = defaultdict(list)
+
+    for report_name in report_names:
+        json_filename = f"{report_name}.json"
+        json_path = os.path.join(base_path, json_filename)
+
+        if not os.path.exists(json_path):
+            continue  # Optionally log missing file
+        try:
+            with open(json_path, "r", encoding="utf-8") as f:
+                report_data = json.load(f)
+            reported_disclosure_topics = {}
+
+            for item in report_data:
+                disclosure = item.get("disclosure")
+                section_count = len(item.get("section_ids", []))
+                bar_chart_data[report_name][disclosure] = section_count
+                standard = disclosure.split("-")[0]
+                if standard in reported_disclosure_topics.keys():
+                    reported_disclosure_topics[standard] += 1
+                else: reported_disclosure_topics[standard] = 1
+                completeness = item.get("completeness", 0)
+                materiality = item.get("materiality", 0)
+                comment = item.get("comment", "")
+                disclosure_title = gri_disclosure_titles[disclosure]
+                disclosure_esg = None
+                if "gri_2" in disclosure:
+                    disclosure_esg = "g"
+                elif "gri_3" in disclosure:
+                    disclosure_esg = "e"
+                else: disclosure_esg = "s"
+
+                scatter_chart_data[report_name].append({
+                    "disclosure": disclosure,
+                    "title": disclosure_title,
+                    "esg": disclosure_esg,
+                    "completeness": completeness,
+                    "materiality": materiality,
+                    "comment": comment,
+                })
+
+            for standard, reported_count in reported_disclosure_topics.items():
+                total = gri_topic_counts[standard]
+                percentage = (reported_count / total * 100) if total > 0 else 0
+                topic = gri_topic_map[standard]
+                radar_chart_data[report_name][topic] = round(percentage, 2)
+
+        except Exception as e:
+            raise HTTPException(
+                status_code=500, detail=f"Error processing {json_filename}: {e}"
+            )
+    response_data["bar_chart"]= {k: dict(v) for k, v in bar_chart_data.items()}
+    response_data["radar_chart"] = {k: dict(v) for k, v in radar_chart_data.items()}
+    response_data["scatter_chart"] = dict(scatter_chart_data)
+    # print(response_data['scatter_chart'])
+    return response_data
+
+
+
+# @router.post("/chart-data")
 def get_chart_data(
     body: dict = Body(...),
     session_id: str = Depends(get_or_create_session_id),
@@ -168,7 +342,9 @@ def get_chart_data(
 
     base_path = os.path.join(DATA_FOLDER, "existing_reports")
 
+    response_data = {}
     all_rows = []
+    bar_chart_data = defaultdict(lambda: defaultdict(int))
 
     for report_name in report_names:
         json_filename = f"{report_name}.json"
@@ -181,7 +357,7 @@ def get_chart_data(
             with open(json_path, "r", encoding="utf-8") as f:
                 report_data = json.load(f)
 
-            print(report_data)
+            # print(report_data)
             
             disclosure_counts = {}
             for item in report_data:
@@ -189,9 +365,10 @@ def get_chart_data(
                 section_ids = item.get("section_ids", [])
                 if disclosure:
                     disclosure_counts[disclosure] = len(section_ids)
+                # print(disclosure_counts)
 
             chart_data[org] = disclosure_counts
-
+            print(bar_chart_data)
         except Exception as e:
             raise HTTPException(
                 status_code=500, detail=f"Error processing {json_filename}: {e}"
@@ -328,9 +505,7 @@ def get_chart_data(
         "gri_416": "Customer safety",
         "gri_418": "Customer privacy",
     }
-    radar_chart_data = defaultdict(
-        lambda: {"Environmental": 0, "Social": 0, "Governance": 0}
-    )
+
     radar_chart_data = defaultdict(
         lambda: {
             "General disclosure": 0,

@@ -6,7 +6,8 @@ const API_URL = "http://localhost:8000";
 
 type ReportData = {
   bar_chart: Record<string, Record<string, number>>;
-  radar_chart: Record<string, {Environmental: number, Social: number, Governance: number}>;  
+  radar_chart: Record<string, {Environmental: number, Social: number, Governance: number}>;
+  scatter_chart: Record<string, {disclosure: string, title: string, esg: string, completeness: number, materiality: number, comment: string}[]>;
 };
 
 function App() {
@@ -106,7 +107,7 @@ function App() {
           <h1 className="text-2xl font-bold">Sustainability Report Analyzer</h1>
         </div>
         <p className="text-sm text-gray-500">
-          We use LLM based on GRI taxonomy to align report paragraphs with GRI disclosures.
+          This tool helps index your report to align with GRI framework. The report is also assessed by LLM on how well it covers disclosures.
         </p>
 
         <div>
@@ -197,7 +198,8 @@ function App() {
         {reportData && (          
           <ChartView
           barChartData={reportData?.bar_chart || {}}
-          radarChartData={reportData?.radar_chart || null}             
+          radarChartData={reportData?.radar_chart || null}
+          scatterChartData={reportData?.scatter_chart || null}
           />          
         )}
         
