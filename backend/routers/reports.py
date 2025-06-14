@@ -3,7 +3,12 @@ import os
 import shutil
 import uuid
 import json
-from traceback import print_tb
+from pathlib import Path
+from collections import defaultdict
+import asyncio
+from backend.routers.parse_docling import run_parser
+
+# from traceback import print_tb
 from typing import List, Optional, Any
 
 from fastapi import (
@@ -17,12 +22,6 @@ from fastapi import (
     Body,
     HTTPException,
 )
-# from fastapi.responses import JSONResponse
-# from starlette.responses import FileResponse
-
-from pathlib import Path
-from collections import defaultdict
-import asyncio
 
 router = APIRouter()
 DATA_FOLDER = Path("data")
@@ -89,59 +88,43 @@ async def upload_file(
     file: UploadFile = File(...),
     session_id: str = Depends(get_or_create_session_id),
 ):
-    session_folder = DATA_FOLDER / session_id
-    session_folder.mkdir(exist_ok=True)
+    session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
+    Path(session_folder).mkdir(exist_ok=True)
 
-    dest = session_folder / file.filename
-    with open(dest, "wb") as buffer:
+    uploaded_report = os.path.join(session_folder, file.filename)
+    with open(uploaded_report, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
-    # Simulate parsing: generate a dummy CSV based on the filename
-    await asyncio.sleep(5)
+    # Parse the uploaded report and generate the json output file
+    run_parser(uploaded_report)
 
-    # Fake parsed CSV with same columns
-    dummy_csv = session_folder / (file.filename.replace(".pdf", ".csv"))
-    with open(dummy_csv, "w", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(
-            f,
-            fieldnames=[
-                "index",
-                "organization",
-                "industry",
-                "section",
-                "gri_l1",
-                "gri_l2",
-                "sim_score",
-                "gri_desc",
-            ],
-        )
-        writer.writeheader()
-        for i in range(1, 6):
-            writer.writerow(
-                {
-                    "index": i,
-                    "organization": file.filename.replace(".pdf", ""),
-                    "industry": "MyIndustry",
-                    "section": f"Section {i}",
-                    "gri_l1": f"GRI-{i % 3 + 1}00",
-                    "gri_l2": f"GRI-{i % 3 + 1}01",
-                    "sim_score": round(0.6 + 0.1 * (i % 3), 2),
-                    "gri_desc": f"Description for GRI-{i % 3 + 1}00",
-                }
-            )
+    # await asyncio.sleep(5)
+
+    # # Fake parsed CSV with same columns
+    # dummy_json = os.path.join(session_folder, file.filename.replace(".pdf", ".json"))
+
+    # data = {}
+    # for i in range(1, 5):
+    #     name = str(i)
+    #     x = i + 1
+    #     y = i + 2
+    #     z = i + 3
+    #     data[name] = {"x": x, "y": y, "z": z}
+    # with open(dummy_json, "w") as f:
+    #     json.dump(data, f, indent=4)
 
     files = list_uploaded_files(session_id)
     return {"uploaded": file.filename, "my_reports": files}
 
 
 def list_uploaded_files(session_id: str) -> List[str]:
-    session_folder = DATA_FOLDER / session_id
-    if not session_folder.exists():
+    session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
+    if not Path(session_folder).exists():
         return []
     return sorted(
         [
-            f.name.replace(".csv", "")
-            for f in session_folder.glob("*.csv")
+            f.name.replace(".json", "")
+            for f in Path(session_folder).glob("*.json")
             if f.is_file()
         ]
     )
@@ -175,7 +158,7 @@ def get_chart_data_new(
         "gri_413": 1,
         "gri_415": 1,
         "gri_416": 1,
-        "gri_418": 1
+        "gri_418": 1,
     }
     gri_topic_map = {
         "gri_2": "General disclosure",
@@ -195,7 +178,7 @@ def get_chart_data_new(
         "gri_413": "Communities",
         "gri_415": "Public policy",
         "gri_416": "Customer safety",
-        "gri_418": "Customer privacy"
+        "gri_418": "Customer privacy",
     }
     gri_disclosure_titles = {
         "gri_2-2": "Entities included in report",
@@ -253,7 +236,7 @@ def get_chart_data_new(
         "gri_413-1": "Operations with local community engagement",
         "gri_415-1": "Political contributions",
         "gri_416-1": "Assessment of the health and safety impacts of product",
-        "gri_418-1": "Customer privacy complaints"
+        "gri_418-1": "Customer privacy complaints",
     }
 
     report_names = body.get("report_names", [])
@@ -286,7 +269,8 @@ def get_chart_data_new(
                 standard = disclosure.split("-")[0]
                 if standard in reported_disclosure_topics.keys():
                     reported_disclosure_topics[standard] += 1
-                else: reported_disclosure_topics[standard] = 1
+                else:
+                    reported_disclosure_topics[standard] = 1
                 completeness = item.get("completeness", 0)
                 materiality = item.get("materiality", 0)
                 comment = item.get("comment", "")
@@ -296,16 +280,19 @@ def get_chart_data_new(
                     disclosure_esg = "g"
                 elif "gri_3" in disclosure:
                     disclosure_esg = "e"
-                else: disclosure_esg = "s"
+                else:
+                    disclosure_esg = "s"
 
-                scatter_chart_data[report_name].append({
-                    "disclosure": disclosure,
-                    "title": disclosure_title,
-                    "esg": disclosure_esg,
-                    "completeness": completeness,
-                    "materiality": materiality,
-                    "comment": comment,
-                })
+                scatter_chart_data[report_name].append(
+                    {
+                        "disclosure": disclosure,
+                        "title": disclosure_title,
+                        "esg": disclosure_esg,
+                        "completeness": completeness,
+                        "materiality": materiality,
+                        "comment": comment,
+                    }
+                )
 
             for standard, reported_count in reported_disclosure_topics.items():
                 total = gri_topic_counts[standard]
@@ -317,12 +304,11 @@ def get_chart_data_new(
             raise HTTPException(
                 status_code=500, detail=f"Error processing {json_filename}: {e}"
             )
-    response_data["bar_chart"]= {k: dict(v) for k, v in bar_chart_data.items()}
+    response_data["bar_chart"] = {k: dict(v) for k, v in bar_chart_data.items()}
     response_data["radar_chart"] = {k: dict(v) for k, v in radar_chart_data.items()}
     response_data["scatter_chart"] = dict(scatter_chart_data)
     # print(response_data['scatter_chart'])
     return response_data
-
 
 
 # @router.post("/chart-data")

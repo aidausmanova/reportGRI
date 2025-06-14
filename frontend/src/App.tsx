@@ -186,15 +186,17 @@ function App() {
           </button>
         </div>
       </aside>
-      {isLoading && (
-        <div className="flex justify-center items-center py-6">
-            <div className="w-10 h-10 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
-        </div>
-      )}
+      
 
 
       {/* Main chart display area */}
       <main className="flex-1 p-6 grid grid-cols-2 gap-6">
+        {isLoading && (
+          <div className="flex justify-center items-center py-6 col-span-2">
+              <div className="w-10 h-10 border-4 border-blue-500 border-dashed rounded-full animate-spin"></div>
+          </div>
+        )}        
+        
         {reportData && (          
           <ChartView
           barChartData={reportData?.bar_chart || {}}
