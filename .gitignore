@@ -5,6 +5,8 @@ venv/
 .venv/
 .env
 .vscode
+.ipynb
+backend/logs/
 
 
 # Node

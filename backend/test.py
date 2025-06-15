@@ -27,11 +27,9 @@ if __name__ == "__main__":
     is_few_shot = args.run_type
     
     print("Start report parsing")
-    # report_name = run_parser(report)
-
-
+    report_name = run_parser(report)
+    
     print("Start disclosure-paragraph alignment")
-    report_name = "microsoft-sustainability-2022"
     run_retrieval(report_name)
     
     print("Start report assessment")
