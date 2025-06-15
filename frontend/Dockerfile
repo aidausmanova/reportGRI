@@ -1,17 +1,14 @@
 # Step 1: Build the app using Node.js and Vite
-FROM node:18 AS build
+FROM node:20-alpine as build
 
 # Set working directory
-WORKDIR /app
+WORKDIR /frontend
 
-# Copy package.json and package-lock.json
-COPY package.json package-lock.json ./
+# Copy all source files
+COPY ./ /frontend/
 
 # Install dependencies
 RUN npm install
-
-# Copy all source files
-COPY . .
 
 # Build the app for production
 RUN npm run build
@@ -20,7 +17,7 @@ RUN npm run build
 FROM nginx:alpine
 
 # Copy built files from the build stage
-COPY --from=build /app/dist /usr/share/nginx/html
+COPY --from=build /frontend/dist /usr/share/nginx/html
 
 # Expose port 80 for serving the app
 EXPOSE 80

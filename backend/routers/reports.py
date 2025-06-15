@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 from collections import defaultdict
 import asyncio
-from backend.routers.parse_docling import run_parser
+from routers.parse_docling import run_parser
 
 # from traceback import print_tb
 from typing import List, Optional, Any

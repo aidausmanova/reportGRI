@@ -14,3 +14,8 @@ app.add_middleware(
 )
 
 app.include_router(reports.router)
+
+
+@app.get("/")
+def root():
+    return {"Hello": "World"}
