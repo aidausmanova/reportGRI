@@ -1,0 +1,428 @@
+[
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-25",
+        "disclosure_code": "GRI 2-25",
+        "disclosure_title": "Processes to remediate negative impacts (climate change adaptation)",
+        "section_ids": [
+            "meta-sustainability-2023-57"
+        ],
+        "completeness": 6,
+        "materiality": 7,
+        "comment": " The paragraph provides a reasonable level of detail about the company's commitments and actions to remediate negative impacts related to climate change. It covers a range of initiatives including operations, employee preparedness, supply chain, apps and services, and partnerships. However, it lacks specific examples or quantifiable outcomes. The company demonstrates some relevance of the topic to its business and stakeholders, showing alignment with its operations, partnerships, and community impact. However, more context or explanation of significance would strengthen the materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-57",
+                "title": "Building climate resilience",
+                "text": "We conduct ongoing climaterelated risk and opportunity assessments to help us take the right measures to build our company's and our world's resilience to changes that are already happening.Many of our emissions, energy, water and biodiversity initiatives promote community climate resilience.And by sharing the insights we gain with our local partners - and vice versa - we can further increase opportunities for communities to build resilience for themselves.Building community is at the heart of accelerating resilience and adapting to climate change.Meta technologies reach 3 billion people globally, including some of the communities most on the frontlines of climate change.Meta's commitment to action on climate adaptation and resilience includes:- \u00b7 Operations.We integrate climate risk and resilience assessment findings into key business decisions such as site selection and infrastructure development and partner with local communities to enhance climate resilience.- \u00b7 People.We also integrate climate risk and resilience into our employee preparedness programs to provide proactive actions employees and their households can take to be more prepared for climaterelated, natural and other hazards we may face.- \u00b7 Supply chain.We work with our supply chain partners to ensure they have the tools to identify and manage the climate risks they may face.Assessing resilience to climate change is crucial to guiding our efforts to ensure the people and communities within our supply chain are prepared for climate risks.- \u00b7 Apps and services.We worked with partners to help launch our first Climate Science Literacy Initiative.Its goal is to pre-bunk climate misinformation by running ads across our apps and services that feature five of the most common techniques used to misrepresent climate change.- \u00b7 Partnerships.Meta amplified at COP27 \u2197 by launchingAction on Adaptation \u2197 in Department and U.S.Agency for International Development alongside Microsoft, Google, supported the Resilience Hub and organized a panel about the role of technology \u2197 in building climate resilience.- its climate resilience initiatives the PREPARE Call to partnership with the U.S.State Mastercard and others.We also \u2197"
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-4",
+        "disclosure_code": "GRI 302-4",
+        "disclosure_title": "Reduction of energy consumption",
+        "section_ids": [
+            "meta-sustainability-2023-24",
+            "meta-sustainability-2023-18",
+            "meta-sustainability-2023-20"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably addresses the disclosure by providing details of the company's initiatives to reduce energy consumption, such as the procurement of 100% renewable energy, purchase of sustainable aviation fuel, and setting a science-aligned emissions reduction target. However, it lacks specific examples of energy-saving measures implemented within the company's operations. The mention of the increase in emissions and the need for decarbonization measures provides some context for the materiality score, but it could be further strengthened by explicitly connecting the reduction of energy consumption to the company's strategy, risks, or",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-24",
+                "title": "Putting emissions first",
+                "text": "Meta is part of the Emissions First partnership, a coalition of like-minded companies that created a set of objectives and principles aiming to update purchased electricity GHG emissions accounting systems to better drive carbon reductions.GHG accounting standards provide the framework companies use to ensure the climate solutions they pursue are credible and will meet the criteria to be included in corporate climate goals.To reduce emissions from purchased electricity (Scope 2), accounting standards and emissions calculation programs encourage companies to purchase an amount of renewable energy equal to that of the electricity purchased.This approach has driven hundreds of new renewable energy projects onto grids around the world.Since 2012, Meta's corporate procurement has galvanized more than 10 gigawatts (GW) of new renewable energy, enough to power more than 750,000 homes.Focusing on the emissions impact of electricity generation rather than comparing megawatt-hours used vs megawatt-hours purchased is critical to unlocking decarbonization at scale.Silicon Ranch SolarWe've partnered with Silicon Ranch, one of the largest independent power producers in the U.S., on 16 projects totaling approximately 1,500 MW of new solar energy, including 720 MW contracted in Georgia and Tennessee in 2022.Silicon Ranch's model of land management colocates renewable energy production with regenerative agriculture practices."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-18",
+                "title": "Path to net zero",
+                "text": "Early in this decade, we do not expect decarbonization and business growth to be in harmony.In fact, our emissions increased 46% in 2022 due to Meta employees returning to offices and because our business growth accelerated at a faster pace than we can scale decarbonization measures.This reality underscores the need for us to drive innovative solutions across our business and in collaboration with our suppliers today, so that growth can happen sustainably.We are already seeing tangible results in our push to decarbonize our operations.Particularly, our market-based emissions were39% smaller than our locationbased emissions in 2022, reflecting significant emissions reduction from initiatives such as our procurement of 100% renewable energy.In the coming years, we will build upon the strong foundation for emissions reduction we have set in 2022 with our suppliers and across our value chain as detailed throughout the rest of this report.More details on our path to net zero can be found here \u2197 .Our 2022 market-based emissions were 39% smaller than our location-based emissions (14 M tons CO e).2 Our market-based emissions adjust for emissions reductions from purchasing decisions we have made.This includes our contracting of more than 10,000 megawatt (MW) of renewable energy and purchase of more than 1 million gallons of sustainable aviation fuel for business travel, which has an up to 80% lower carbon footprint than traditional jet fuel."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-20",
+                "title": "Reducing our emissions",
+                "text": "Reducing GHG emissions across our global operations and value chain is a top priority and the most effective strategy to reach net zero.Failure to reduce emissions today will lock in high-carbon intensity business tomorrow.Rapid decarbonization is our best chance to limit the worst impacts of climate change, which is critical to sustain healthy and equitable communities.We are setting a sciencealigned emissions reduction target in line with what is necessary to transition to a zero-carbon future, and we have roadmapped our strategy to systematically transform the way we do business.The core principles guiding our approach to emissions reduction include:Designing with less and reducing the volume of materials in construction and hardware, extending the life of hardware components and reducing waste.Choosing better and incorporating principles of circularity into our supply chain, construction and purchases.Embracing low-carbon technology and finding alternatives such as low-carbon fuels and innovative new materials."
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-3",
+        "disclosure_code": "GRI 303-3",
+        "disclosure_title": "Water withdrawal",
+        "section_ids": [
+            "meta-sustainability-2023-175"
+        ],
+        "completeness": 8,
+        "materiality": 7,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing information on the sources of water withdrawal (local water utilities or local aquifers) and the basis for reporting water withdrawals. It also mentions the exclusion of water withdrawal for construction, which adds some detail to the disclosure. However, it lacks specific quantitative data on the total water withdrawal, such as the total volume withdrawn from all sources. The disclosure indicates the relevance of water withdrawal to the business, as it includes information on water withdrawal for construction activities, but it could further explain the significance of water withdrawal to",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-175",
+                "title": "Meta's water withdrawal",
+                "text": "The water that we use in our offices and at our data centers are withdrawn from our local water utilities or local aquifers.We report our water withdrawals based on data from our local water utilities or meter data, where available.We also report our water withdrawal during construction, based on reported data from our construction partners.Not included in Meta's 2022 operational water withdrawal numbers are an additional 1,780,000 cubic meters of water withdrawn for the construction of Meta data centers."
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-5",
+        "disclosure_code": "GRI 303-5",
+        "disclosure_title": "Water consumption",
+        "section_ids": [
+            "meta-sustainability-2023-86"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well addresses the volume of water consumed by the company, providing specific information about the water restoration projects, the amount of water restored annually, and the impact in water-stressed regions. However, it lacks specific details about the actual volume of water consumed in the company's operations. The materiality is high as the company demonstrates the importance of water restoration projects in water-stressed regions, aligning with stakeholder concerns and showing clear relevance to the business and sustainability strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-86",
+                "title": "(in cubic meters)",
+                "text": "the source water consumed in our operations and are verified by independent thirdparty experts, applying industry standard methodologies.Working with local organizations and utilities, we invest in water restoration projects in waterstressed regions that also provide co-benefits such as supporting local water supply or restoring local habitats and wildlife.Since 2017, we have funded or supported more than 25 water restoration projects in eight watersheds where we operate.Once all projects are online and fully implemented, they will restore 1.9 billion gallons of water annually.In 2022, the operational restoration projects returned 621 million gallons (2,351,562 cubic meters) of water to high and medium water stressed regions."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "meta-sustainability-2023-104",
+            "meta-sustainability-2023-157",
+            "meta-sustainability-2023-158",
+            "meta-sustainability-2023-116",
+            "meta-sustainability-2023-108",
+            "meta-sustainability-2023-173",
+            "meta-sustainability-2023-24"
+        ],
+        "completeness": 3,
+        "materiality": 6,
+        "comment": " The disclosure partially addresses the GRI disclosure on direct greenhouse gas (GHG) emissions (Scope 1) by providing some information on the company's emissions reporting process, updates to reporting, and future plans. However, it lacks explicit and detailed information on the actual Scope 1 greenhouse gas emissions produced by the company in CO2e.The materiality score is 6 as the paragraph indicates some relevance by mentioning the company's efforts to decarbonize its value chain and improve its emissions reporting. However, it lacks a clear demonstration of why",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-104",
+                "title": "Greenhouse gas intensity",
+                "text": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e/unit of key performance indicators)1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.2.'Other data center-related facilities' includes facilities where Meta used less than 100,000 MWh of electricity in the reporting year, such as warehouses or colocation facilities.Owned, online data centers are always reported by site, even if they were below this threshold.3.Meta's methodology for calculating greenhouse gas emissions can be found on page 57.4.Prior to 2018, Scope 3 emissions included only business travel, employee commute and construction.Meta includes emissions from all relevant categories in Scope 3 for reporting years 2019 to the present.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.(c) All Scope 3 Categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories'(d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party party construction-related fuel use outside of Meta's Operational Control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-157",
+                "title": "Meta's GHG emissions",
+                "text": "Meta's GHG footprint includes the emissions associated with running our business and data centers, as well as the indirect emissions upstream and downstream of our operations.These emissions correspond to Scope 1, Scope 2 and Scope 3 emissions as defined by the World Resources Institute (WRI) Greenhouse Gas Protocol \u2197 .Meta uses the operational control approach when calculating our GHG footprint, in which we account for 100% of the GHG emissions over which we have operational control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-158",
+                "title": "OPERATIONAL EMISSIONS",
+                "text": "Scope 1 and 2 emissions are considered our operational emissions.Scope 1 emissions come from our direct operations, such as combustion of natural gas to heat our offices and the fuel burned in our employee shuttles.Scope 2 includes indirect emissions from purchased energy, such as the electricity powering our data centers.We consider purchased electricity for construction and overhead electricity within leased data centers outside of our operational control and therefore report these in Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-116",
+                "title": "Scope 3 emissions (in Metric Tons CO2e)(Continued)",
+                "text": "1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 Category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.- (c) All Scope 3 categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories.'- (d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.- (e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party construction-related fuel use outside of Meta's Operational Control.7.Sustainable Aviation Fuel was purchased in 2022 and associated emissions reductions are reflected in the inventory.8.In the 2022 reporting year, the following updates to the methodology were applied:(a) A new Category 5 estimation methodology was developed to improve completeness across all operations.(b) Employee commuting now includes emissions calculations on a well-to-tank basis.(c) a new Category 1 and Category 2 methodology was developed to improve the completeness, accuracy and reliability of the underlying activity and financial data."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-108",
+                "title": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e) 6  (Continued)",
+                "text": "6.In the 2019 reporting year, three updates to reporting were applied to 2017 (baseline year) and later inventories:(a) Vehicles operated by the Transportation Team in support of commuting and inter-campus travel were previously counted in Scope 3 - Employee commute.After re-visiting Meta's operational control of these vehicles, it was determined that they should be accounted for in Scope 1.(b) It was determined that Meta overestimated natural gas emissions by including estimates for offices that do not in fact use natural gas.Recalculations have been applied to the inventory to remove these inaccuracies.(c) Fugitive emissions from refrigerant losses at offices not under Meta operational control were moved from Scope 2 to Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-173",
+                "title": "Improving our GHG methodology",
+                "text": "As Meta decarbonizes our value chain over the next decade, the data and methodology that drives our climate work will evolve and improve each year.We have disclosed our Scope 1 and 2 emissions for the last decade.We began reporting on some Scope 3 categories in 2015 and have reported on every relevant category defined by the GHG Protocol since 2019.As techniques to calculate our emissions improve, we will apply those methods to previous years to refine our GHG footprint.For example, in 2020 we used the EPA's updated EEIO emission factors for our Scope 3 calculations and updated our 2019 data accordingly.Going forward, we will focus on increasing accuracy and granularity of our data.For example, we rebaselined our 2020 data based on updated LCA data for key data center hardware and our AR/VR-related consumer hardware.We will use activity data for more emissions categories as methods to do so become available.We will continue reporting and updating our emissions boundaries as our business grows on our path to net zero emissions."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-24",
+                "title": "Putting emissions first",
+                "text": "Meta is part of the Emissions First partnership, a coalition of like-minded companies that created a set of objectives and principles aiming to update purchased electricity GHG emissions accounting systems to better drive carbon reductions.GHG accounting standards provide the framework companies use to ensure the climate solutions they pursue are credible and will meet the criteria to be included in corporate climate goals.To reduce emissions from purchased electricity (Scope 2), accounting standards and emissions calculation programs encourage companies to purchase an amount of renewable energy equal to that of the electricity purchased.This approach has driven hundreds of new renewable energy projects onto grids around the world.Since 2012, Meta's corporate procurement has galvanized more than 10 gigawatts (GW) of new renewable energy, enough to power more than 750,000 homes.Focusing on the emissions impact of electricity generation rather than comparing megawatt-hours used vs megawatt-hours purchased is critical to unlocking decarbonization at scale.Silicon Ranch SolarWe've partnered with Silicon Ranch, one of the largest independent power producers in the U.S., on 16 projects totaling approximately 1,500 MW of new solar energy, including 720 MW contracted in Georgia and Tennessee in 2022.Silicon Ranch's model of land management colocates renewable energy production with regenerative agriculture practices."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "meta-sustainability-2023-157",
+            "meta-sustainability-2023-158",
+            "meta-sustainability-2023-104",
+            "meta-sustainability-2023-108",
+            "meta-sustainability-2023-116",
+            "meta-sustainability-2023-24",
+            "meta-sustainability-2023-173"
+        ],
+        "completeness": 3,
+        "materiality": 7,
+        "comment": " The paragraph provides some information about the company's reporting of Scope 1, 2, and 3 emissions, including some updates to the reporting process and the company's commitment to improving data accuracy. However, it lacks explicit details about the indirect greenhouse gas (GHG) emissions (Scope 2) and the specific metrics related to these emissions. The paragraph also includes some irrelevant information about the company's future plans for decarbonization, which does not directly address the disclosure.The materiality score is higher because the paragraph does indicate some relevance by discussing the company's",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-157",
+                "title": "Meta's GHG emissions",
+                "text": "Meta's GHG footprint includes the emissions associated with running our business and data centers, as well as the indirect emissions upstream and downstream of our operations.These emissions correspond to Scope 1, Scope 2 and Scope 3 emissions as defined by the World Resources Institute (WRI) Greenhouse Gas Protocol \u2197 .Meta uses the operational control approach when calculating our GHG footprint, in which we account for 100% of the GHG emissions over which we have operational control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-158",
+                "title": "OPERATIONAL EMISSIONS",
+                "text": "Scope 1 and 2 emissions are considered our operational emissions.Scope 1 emissions come from our direct operations, such as combustion of natural gas to heat our offices and the fuel burned in our employee shuttles.Scope 2 includes indirect emissions from purchased energy, such as the electricity powering our data centers.We consider purchased electricity for construction and overhead electricity within leased data centers outside of our operational control and therefore report these in Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-104",
+                "title": "Greenhouse gas intensity",
+                "text": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e/unit of key performance indicators)1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.2.'Other data center-related facilities' includes facilities where Meta used less than 100,000 MWh of electricity in the reporting year, such as warehouses or colocation facilities.Owned, online data centers are always reported by site, even if they were below this threshold.3.Meta's methodology for calculating greenhouse gas emissions can be found on page 57.4.Prior to 2018, Scope 3 emissions included only business travel, employee commute and construction.Meta includes emissions from all relevant categories in Scope 3 for reporting years 2019 to the present.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.(c) All Scope 3 Categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories'(d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party party construction-related fuel use outside of Meta's Operational Control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-108",
+                "title": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e) 6  (Continued)",
+                "text": "6.In the 2019 reporting year, three updates to reporting were applied to 2017 (baseline year) and later inventories:(a) Vehicles operated by the Transportation Team in support of commuting and inter-campus travel were previously counted in Scope 3 - Employee commute.After re-visiting Meta's operational control of these vehicles, it was determined that they should be accounted for in Scope 1.(b) It was determined that Meta overestimated natural gas emissions by including estimates for offices that do not in fact use natural gas.Recalculations have been applied to the inventory to remove these inaccuracies.(c) Fugitive emissions from refrigerant losses at offices not under Meta operational control were moved from Scope 2 to Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-116",
+                "title": "Scope 3 emissions (in Metric Tons CO2e)(Continued)",
+                "text": "1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 Category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.- (c) All Scope 3 categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories.'- (d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.- (e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party construction-related fuel use outside of Meta's Operational Control.7.Sustainable Aviation Fuel was purchased in 2022 and associated emissions reductions are reflected in the inventory.8.In the 2022 reporting year, the following updates to the methodology were applied:(a) A new Category 5 estimation methodology was developed to improve completeness across all operations.(b) Employee commuting now includes emissions calculations on a well-to-tank basis.(c) a new Category 1 and Category 2 methodology was developed to improve the completeness, accuracy and reliability of the underlying activity and financial data."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-24",
+                "title": "Putting emissions first",
+                "text": "Meta is part of the Emissions First partnership, a coalition of like-minded companies that created a set of objectives and principles aiming to update purchased electricity GHG emissions accounting systems to better drive carbon reductions.GHG accounting standards provide the framework companies use to ensure the climate solutions they pursue are credible and will meet the criteria to be included in corporate climate goals.To reduce emissions from purchased electricity (Scope 2), accounting standards and emissions calculation programs encourage companies to purchase an amount of renewable energy equal to that of the electricity purchased.This approach has driven hundreds of new renewable energy projects onto grids around the world.Since 2012, Meta's corporate procurement has galvanized more than 10 gigawatts (GW) of new renewable energy, enough to power more than 750,000 homes.Focusing on the emissions impact of electricity generation rather than comparing megawatt-hours used vs megawatt-hours purchased is critical to unlocking decarbonization at scale.Silicon Ranch SolarWe've partnered with Silicon Ranch, one of the largest independent power producers in the U.S., on 16 projects totaling approximately 1,500 MW of new solar energy, including 720 MW contracted in Georgia and Tennessee in 2022.Silicon Ranch's model of land management colocates renewable energy production with regenerative agriculture practices."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-173",
+                "title": "Improving our GHG methodology",
+                "text": "As Meta decarbonizes our value chain over the next decade, the data and methodology that drives our climate work will evolve and improve each year.We have disclosed our Scope 1 and 2 emissions for the last decade.We began reporting on some Scope 3 categories in 2015 and have reported on every relevant category defined by the GHG Protocol since 2019.As techniques to calculate our emissions improve, we will apply those methods to previous years to refine our GHG footprint.For example, in 2020 we used the EPA's updated EEIO emission factors for our Scope 3 calculations and updated our 2019 data accordingly.Going forward, we will focus on increasing accuracy and granularity of our data.For example, we rebaselined our 2020 data based on updated LCA data for key data center hardware and our AR/VR-related consumer hardware.We will use activity data for more emissions categories as methods to do so become available.We will continue reporting and updating our emissions boundaries as our business grows on our path to net zero emissions."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "meta-sustainability-2023-157",
+            "meta-sustainability-2023-116",
+            "meta-sustainability-2023-104",
+            "meta-sustainability-2023-158",
+            "meta-sustainability-2023-108",
+            "meta-sustainability-2023-161",
+            "meta-sustainability-2023-173",
+            "meta-sustainability-2023-132",
+            "meta-sustainability-2023-6"
+        ],
+        "completeness": 3,
+        "materiality": 6,
+        "comment": " The disclosure partially addresses the GRI disclosure on indirect greenhouse gas (GHG) emissions (Scope 3) by providing some information on the breakdown of emissions categories and updates to reporting. However, it lacks explicit and detailed information on the actual Scope 3 emissions, the methodologies used, and the specific data on emissions. The importance of the disclosure is indicated by mentioning the goal of reaching net zero emissions across the value chain, but it lacks a clear demonstration of why this topic is important to the business and stakeholders, particularly in terms of alignment with",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-157",
+                "title": "Meta's GHG emissions",
+                "text": "Meta's GHG footprint includes the emissions associated with running our business and data centers, as well as the indirect emissions upstream and downstream of our operations.These emissions correspond to Scope 1, Scope 2 and Scope 3 emissions as defined by the World Resources Institute (WRI) Greenhouse Gas Protocol \u2197 .Meta uses the operational control approach when calculating our GHG footprint, in which we account for 100% of the GHG emissions over which we have operational control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-116",
+                "title": "Scope 3 emissions (in Metric Tons CO2e)(Continued)",
+                "text": "1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 Category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.- (c) All Scope 3 categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories.'- (d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.- (e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party construction-related fuel use outside of Meta's Operational Control.7.Sustainable Aviation Fuel was purchased in 2022 and associated emissions reductions are reflected in the inventory.8.In the 2022 reporting year, the following updates to the methodology were applied:(a) A new Category 5 estimation methodology was developed to improve completeness across all operations.(b) Employee commuting now includes emissions calculations on a well-to-tank basis.(c) a new Category 1 and Category 2 methodology was developed to improve the completeness, accuracy and reliability of the underlying activity and financial data."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-104",
+                "title": "Greenhouse gas intensity",
+                "text": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e/unit of key performance indicators)1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.2.'Other data center-related facilities' includes facilities where Meta used less than 100,000 MWh of electricity in the reporting year, such as warehouses or colocation facilities.Owned, online data centers are always reported by site, even if they were below this threshold.3.Meta's methodology for calculating greenhouse gas emissions can be found on page 57.4.Prior to 2018, Scope 3 emissions included only business travel, employee commute and construction.Meta includes emissions from all relevant categories in Scope 3 for reporting years 2019 to the present.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.(c) All Scope 3 Categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories'(d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party party construction-related fuel use outside of Meta's Operational Control."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-158",
+                "title": "OPERATIONAL EMISSIONS",
+                "text": "Scope 1 and 2 emissions are considered our operational emissions.Scope 1 emissions come from our direct operations, such as combustion of natural gas to heat our offices and the fuel burned in our employee shuttles.Scope 2 includes indirect emissions from purchased energy, such as the electricity powering our data centers.We consider purchased electricity for construction and overhead electricity within leased data centers outside of our operational control and therefore report these in Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-108",
+                "title": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e) 6  (Continued)",
+                "text": "6.In the 2019 reporting year, three updates to reporting were applied to 2017 (baseline year) and later inventories:(a) Vehicles operated by the Transportation Team in support of commuting and inter-campus travel were previously counted in Scope 3 - Employee commute.After re-visiting Meta's operational control of these vehicles, it was determined that they should be accounted for in Scope 1.(b) It was determined that Meta overestimated natural gas emissions by including estimates for offices that do not in fact use natural gas.Recalculations have been applied to the inventory to remove these inaccuracies.(c) Fugitive emissions from refrigerant losses at offices not under Meta operational control were moved from Scope 2 to Scope 3."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-161",
+                "title": "FULL VALUE CHAIN EMISSIONS",
+                "text": "Scope 3 emissions come from sources within our full value chain beyond our operations and comprise the largest component of our footprint.Scope 3 includes:- 1. Upstream emissions, such as the emissions from manufacturing our data center servers or emissions from employee commutes; and2.Downstream emissions, such as the emissions associated with people using our Portal or Quest devices."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-173",
+                "title": "Improving our GHG methodology",
+                "text": "As Meta decarbonizes our value chain over the next decade, the data and methodology that drives our climate work will evolve and improve each year.We have disclosed our Scope 1 and 2 emissions for the last decade.We began reporting on some Scope 3 categories in 2015 and have reported on every relevant category defined by the GHG Protocol since 2019.As techniques to calculate our emissions improve, we will apply those methods to previous years to refine our GHG footprint.For example, in 2020 we used the EPA's updated EEIO emission factors for our Scope 3 calculations and updated our 2019 data accordingly.Going forward, we will focus on increasing accuracy and granularity of our data.For example, we rebaselined our 2020 data based on updated LCA data for key data center hardware and our AR/VR-related consumer hardware.We will use activity data for more emissions categories as methods to do so become available.We will continue reporting and updating our emissions boundaries as our business grows on our path to net zero emissions."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-132",
+                "title": "Sustainable design",
+                "text": "Green building standards for data centers and offices (% of sq ft covered by green building standards and/or EnMS)---005.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 Category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.(c) All Scope 3 categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories' (d) Emissions associated with 3rd party construction related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries(e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate 3rd party construction-related fuel use outside of Meta's Operational Control"
+            },
+            {
+                "section_idx": "meta-sustainability-2023-6",
+                "title": "Rachel Peterson",
+                "text": "VICE PRESIDENT, DATA CENTER STRATEGYAs of 2020, our global operations reached net zero emissions and are supported by 100% renewable energy.We are now reaching toward the goals of net zero emissions across our value chain and becoming water positive throughout our operations, aiming to achieve both of these milestones in 2030.suppliers to determine their Scope 1, 2 and 3 emissions, set reduction targets and promote strategic action.Meta's net zero in 2030 goal focuses on embedding sustainability into everything we do, whether designing products, commuting, selecting construction materials or working with suppliers to set their own net zero targets.For example, through our Net Zero program, we work closely withWe know that reaching net zero emissions across our value chain will not be an easy task.Right now, our Scope 3 emissions are increasing and will continue to do so as we work to support the global demand for the services we provide.We see our role as protecting people and the planet through responsible operations minimizing our emissions and the energy and water used to power our data centers that enable users to access our products and the workplaces where those products are built and managed - while protecting workers and the environment in our supply chain.Within our global footprint, our data centers generate the highest percentage of our energy use, water use and GHG emissions, which is why increasing their efficiency is critical in maintaining net zero operations and striving for a net zero value chain.Our approach to data center sustainability focuses on using less - less energy, water, unnecessary infrastructure, and waste - and building the most efficient buildings we can.We further reduce our environmental impact through renewable energy, water stewardship, circularity, and low-carbon alternatives.Operating sustainable data centers is foundational to our sustainability strategy.Our strategy is anchored by three components - how we operate, what we create and how we collaborate.Our size and global reach give us the opportunity - and the responsibility - to drive sustainable change across our industry.Our work to reduce emissions will drive market availability for other companies to do the same.Our challenge, to transform our ambition into rapid decarbonization, extends beyond our data centers and offices, including emissions from the server components our suppliers manufacture to our employees' commutes.We do not have all of the answers yet, but we commit to continuing to share our journey with you through this annual report.This report details our progress in 2022 and looks to the challenges facing us in 2023 and beyond.Follow our journey by visiting our sustainability homepage \u2197 .203Our mission"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-4",
+        "disclosure_code": "GRI 305-4",
+        "disclosure_title": "GHG emissions intensity",
+        "section_ids": [
+            "meta-sustainability-2023-104"
+        ],
+        "completeness": 5,
+        "materiality": 5,
+        "comment": " The disclosure partially addresses the GRI disclosure by providing information about the market-based Scope 1 & 2 emissions and changes made to improve transparency. However, it lacks explicit details such as specific examples of emissions intensity ratios and may benefit from more explicit information on how the company is managing or reducing its GHG emissions. The materiality is scored as 5 because while the disclosure mentions improvements for transparency, it does not fully demonstrate the importance of GHG emissions intensity to the business or stakeholders.",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-104",
+                "title": "Greenhouse gas intensity",
+                "text": "Market-based Scope 1 &amp; 2 emissions (in metric tons CO2e/unit of key performance indicators)1.Prior to 2021, values were rounded and totals were calculated before rounding throughout this report.2.'Other data center-related facilities' includes facilities where Meta used less than 100,000 MWh of electricity in the reporting year, such as warehouses or colocation facilities.Owned, online data centers are always reported by site, even if they were below this threshold.3.Meta's methodology for calculating greenhouse gas emissions can be found on page 57.4.Prior to 2018, Scope 3 emissions included only business travel, employee commute and construction.Meta includes emissions from all relevant categories in Scope 3 for reporting years 2019 to the present.5.In the 2022 reporting year, several updates to reporting were applied to the 2021 and later inventories.(a) Data from life cycle assessments for our hardware and sold products were used to calculate our Scope 3 emissions.(b) 2021 category 1, 2, 8, &amp; 11 emissions were recalculated with higher quality data inputs to improve accuracy.(c) All Scope 3 Categories were broken out individually to improve transparency and eliminate the previously reported 'Other Applicable Categories'(d) Emissions associated with third-party construction-related energy usage were recategorized into Category 1 instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(e) Emissions associated with overhead electricity load at leased data centers was recategorized into Category 8 Instead of Category 3 to better align with the GHG Protocol Scope 3 Category Boundaries.(f) 2021 Category 6 emissions were recalculated to incorporate more accurate and transparent methodologies for applying sustainable aviation fuel emissions reductions.(g) 2021 Total Fuel and Energy Consumption were recalculated to eliminate third-party party construction-related fuel use outside of Meta's Operational Control."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "meta-sustainability-2023-20",
+            "meta-sustainability-2023-24",
+            "meta-sustainability-2023-16",
+            "meta-sustainability-2023-156",
+            "meta-sustainability-2023-166",
+            "meta-sustainability-2023-6",
+            "meta-sustainability-2023-31"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph provides comprehensive information on the company's efforts to reduce GHG emissions, including specific measures and targets. However, it lacks specific examples and details in some areas. The disclosure demonstrates the importance of emission reduction to the business and stakeholders, aligning with the company's strategy, risk, and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-20",
+                "title": "Reducing our emissions",
+                "text": "Reducing GHG emissions across our global operations and value chain is a top priority and the most effective strategy to reach net zero.Failure to reduce emissions today will lock in high-carbon intensity business tomorrow.Rapid decarbonization is our best chance to limit the worst impacts of climate change, which is critical to sustain healthy and equitable communities.We are setting a sciencealigned emissions reduction target in line with what is necessary to transition to a zero-carbon future, and we have roadmapped our strategy to systematically transform the way we do business.The core principles guiding our approach to emissions reduction include:Designing with less and reducing the volume of materials in construction and hardware, extending the life of hardware components and reducing waste.Choosing better and incorporating principles of circularity into our supply chain, construction and purchases.Embracing low-carbon technology and finding alternatives such as low-carbon fuels and innovative new materials."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-24",
+                "title": "Putting emissions first",
+                "text": "Meta is part of the Emissions First partnership, a coalition of like-minded companies that created a set of objectives and principles aiming to update purchased electricity GHG emissions accounting systems to better drive carbon reductions.GHG accounting standards provide the framework companies use to ensure the climate solutions they pursue are credible and will meet the criteria to be included in corporate climate goals.To reduce emissions from purchased electricity (Scope 2), accounting standards and emissions calculation programs encourage companies to purchase an amount of renewable energy equal to that of the electricity purchased.This approach has driven hundreds of new renewable energy projects onto grids around the world.Since 2012, Meta's corporate procurement has galvanized more than 10 gigawatts (GW) of new renewable energy, enough to power more than 750,000 homes.Focusing on the emissions impact of electricity generation rather than comparing megawatt-hours used vs megawatt-hours purchased is critical to unlocking decarbonization at scale.Silicon Ranch SolarWe've partnered with Silicon Ranch, one of the largest independent power producers in the U.S., on 16 projects totaling approximately 1,500 MW of new solar energy, including 720 MW contracted in Georgia and Tennessee in 2022.Silicon Ranch's model of land management colocates renewable energy production with regenerative agriculture practices."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-16",
+                "title": "SINCE 2020, WE HAVE MAINTAINED NET ZERO EMISSIONS IN OUR GLOBAL OPERATIONS.",
+                "text": "To get there, we reduced our operational emissions by 94% from a 2017 baseline, primarily by supporting our data centers and offices with 100% renewable energy.Our renewable energy commitments have reduced our GHG emissions by more than 12.3 million metric tons of carbon dioxide equivalent (CO e) 2 since 2018.We know that achieving net zero value chain emissions in 2030 is going to be difficult, and this challenge requires material shifts in how we build infrastructure and operate our business.Our approach to reaching our goal will evolve over time as we transform our business and explore climate solutions that will scale with varying degrees of success.But reaching net zero emissions in our operations is not enough.Meta's responsibility to decarbonize our footprint extends beyond our data centers and offices.To align with the Paris Agreement \u2197 , we have set a goal to reach net zero emissions across our value chain in 2030."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-156",
+                "title": "Environmental methodology",
+                "text": "At Meta, our sustainability work helps us to operate efficiently and responsibly in our mission to build community and bring the world closer together.As a global company, we recognize the tech industry's environmental impact and role to play in addressing climate change.We embrace the responsibility to understand the full scope of our footprint and be transparent and accountable in our mission to reduce our emissions.Identifying the source of our emissions on an annual basis enables us to prioritize emissions reduction where we can make the most meaningful progress on our path to net zero emissions across our value chain in 2030.Similarly, minimizing our water use, being transparent with our water data, and restoring water in the same watersheds where our data centers are located are vital to reach our commitment to restore more water than we use by 2030.Where activity data is incomplete or unavailable for an operation that results in GHG emissions, existing activity data is used as a proxy to estimate these emissions.This ensures we are reporting a complete GHG inventory across all of our operations.For example, the weight of waste at several Meta sites is used as a proxy to estimate waste at other sites in the same region that do not have final waste weight data."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-166",
+                "title": "How we calculate our GHG emissions",
+                "text": "Meta is aligning our emissions reduction targets with the Science Based Targets initiative \u2197 and takes a scientific, standardized approach to calculating its GHG emissions in accordance with the GHG Protocol \u2197 .Furthermore, Meta's GHG emissions data and methodologies undergo third party verification each year.This is completed annually to ensure that only the most accurate and up-to-date data is publicly reported.We quantify our GHG emissions via activity data, LCAs and financial data.We prioritize calculating our emissions through activity data that directly measures an activity that results in GHG emissions, such as kilowatt hours (kWh) of electricity.Due to the complex nature of our business and value chain, we use other methods to help calculate our emissions when activity data is not available.We measure our emissions by metric tons of carbon dioxide equivalent, or CO2e, units.CO2e is used to standardize the emissions from different GHGs based on their global warming potentials."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-6",
+                "title": "Rachel Peterson",
+                "text": "VICE PRESIDENT, DATA CENTER STRATEGYAs of 2020, our global operations reached net zero emissions and are supported by 100% renewable energy.We are now reaching toward the goals of net zero emissions across our value chain and becoming water positive throughout our operations, aiming to achieve both of these milestones in 2030.suppliers to determine their Scope 1, 2 and 3 emissions, set reduction targets and promote strategic action.Meta's net zero in 2030 goal focuses on embedding sustainability into everything we do, whether designing products, commuting, selecting construction materials or working with suppliers to set their own net zero targets.For example, through our Net Zero program, we work closely withWe know that reaching net zero emissions across our value chain will not be an easy task.Right now, our Scope 3 emissions are increasing and will continue to do so as we work to support the global demand for the services we provide.We see our role as protecting people and the planet through responsible operations minimizing our emissions and the energy and water used to power our data centers that enable users to access our products and the workplaces where those products are built and managed - while protecting workers and the environment in our supply chain.Within our global footprint, our data centers generate the highest percentage of our energy use, water use and GHG emissions, which is why increasing their efficiency is critical in maintaining net zero operations and striving for a net zero value chain.Our approach to data center sustainability focuses on using less - less energy, water, unnecessary infrastructure, and waste - and building the most efficient buildings we can.We further reduce our environmental impact through renewable energy, water stewardship, circularity, and low-carbon alternatives.Operating sustainable data centers is foundational to our sustainability strategy.Our strategy is anchored by three components - how we operate, what we create and how we collaborate.Our size and global reach give us the opportunity - and the responsibility - to drive sustainable change across our industry.Our work to reduce emissions will drive market availability for other companies to do the same.Our challenge, to transform our ambition into rapid decarbonization, extends beyond our data centers and offices, including emissions from the server components our suppliers manufacture to our employees' commutes.We do not have all of the answers yet, but we commit to continuing to share our journey with you through this annual report.This report details our progress in 2022 and looks to the challenges facing us in 2023 and beyond.Follow our journey by visiting our sustainability homepage \u2197 .203Our mission"
+            },
+            {
+                "section_idx": "meta-sustainability-2023-31",
+                "title": "Removing what we can't eliminate",
+                "text": "will require carbon removal projects to reach our net zero goal.While our climate strategy prioritizes achieving significant emission reductions, some emissions from hard-to-abate sectors will remain difficult to eliminate by 2030.Any residual emissions we cannot eliminateSupporting a diverse portfolio of natural and technological carbon removal projects is essential to maximize near-term climate impact while supporting necessary carbon removal solutions for the future.Nature-based carbon removal projects are available now and begin sequestering carbon within the first years of implementation.These projects also address the multifaceted nature of climate change beyond carbon sequestration and can provide positive local impacts such as supporting community resilience or increasing the ecological health of a region.Emerging technologies like direct air capture will be a necessary complement to emissions reduction and nature-based removals in order for the world to reach a zero carbon future.These projects will require early demand signals to scale and are in various stages of research, development, and deployment; nevertheless, many have a high global climate mitigation potential.These technologies can offer durable carbon storage, especially geologic storage that is less vulnerable to reversal.Supporting a wide range of projects today aligns with the urgency needed to address climate change."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-1",
+        "disclosure_code": "GRI 308-1",
+        "disclosure_title": "Environmental Screening of New suppliers",
+        "section_ids": [
+            "meta-sustainability-2023-35",
+            "meta-sustainability-2023-38"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by detailing the process of conducting environmental screening for new suppliers, including questionnaires, onsite assessments, and the development of practical toolkits. It lacks specific examples of environmental criteria used for screening. The paragraph clearly demonstrates the importance of the topic to the business and stakeholders by emphasizing the focus on mitigating EHS risks, developing best practices, and supporting suppliers in implementing corrective actions.",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-35",
+                "title": "Developing our suppliers",
+                "text": "Our approach to supplier development is based on a continuous improvement model, working closely with suppliers to help them understand, prevent and mitigate risks in and to their business.We use a risk-based methodology to regularly assess suppliers' social and environmental risks, then engage with them to build their capabilities to meet Meta's expectations.We assess supplier conformance to the RBA Code of Conduct and other Meta standards via independent third-party audits, supplier questionnaires and other types of on-site assessments.For any identified areas of concern, we work with suppliers to understand root causes, develop corrective action plans, and assess closure.Throughout this process, ongoing supplier dialogue and engagement are key.We engage with suppliers in an array of programs that aim to improve working conditions, support worker well-being, maximize resource efficiency, reduce environmental risks, and lead to sustained progress."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-38",
+                "title": "Ensuring health &amp; safety",
+                "text": "Effectively protecting workers and the environment in our supply chain means understanding and focusing on ways to mitigate the environmental, health and safety (EHS) risks associated with the activities our supply chain partners undertake on our behalf.In 2022, we conducted an indepth questionnaire and onsite EHS risk assessment for selected supplier sites based on a prioritization exercise.This led to the development of practical toolkits to help suppliers and Meta's sourcing managers implement best practices for managing the most common EHS issues.We are focused on safe process chemical management by leveraging the RBA Industry Focus Process Chemicals Policy \u2197 center hardware and Reality.Working with key data Labs supplier sites, we assessed policies and procedures in place to protect worker safety.Surveying tools, desktop reviews and in-person facility-level assessments also support our suppliers in developing corrective actions and improvement plans."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "meta-sustainability-2023-38",
+            "meta-sustainability-2023-35",
+            "meta-sustainability-2023-33"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well addresses the GRI disclosure by providing detailed information on the actions taken to assess and mitigate environmental impacts in the supply chain. It discusses the specific steps taken, such as conducting questionnaires, onsite assessments, and developing toolkits. However, it could further improve completeness by providing specific examples of environmental impacts identified and actions taken to address them.The materiality is high as the paragraph clearly demonstrates the importance of the topic to the business and stakeholders. It aligns with stakeholder concerns, business impact, and the company's strategy to",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-38",
+                "title": "Ensuring health &amp; safety",
+                "text": "Effectively protecting workers and the environment in our supply chain means understanding and focusing on ways to mitigate the environmental, health and safety (EHS) risks associated with the activities our supply chain partners undertake on our behalf.In 2022, we conducted an indepth questionnaire and onsite EHS risk assessment for selected supplier sites based on a prioritization exercise.This led to the development of practical toolkits to help suppliers and Meta's sourcing managers implement best practices for managing the most common EHS issues.We are focused on safe process chemical management by leveraging the RBA Industry Focus Process Chemicals Policy \u2197 center hardware and Reality.Working with key data Labs supplier sites, we assessed policies and procedures in place to protect worker safety.Surveying tools, desktop reviews and in-person facility-level assessments also support our suppliers in developing corrective actions and improvement plans."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-35",
+                "title": "Developing our suppliers",
+                "text": "Our approach to supplier development is based on a continuous improvement model, working closely with suppliers to help them understand, prevent and mitigate risks in and to their business.We use a risk-based methodology to regularly assess suppliers' social and environmental risks, then engage with them to build their capabilities to meet Meta's expectations.We assess supplier conformance to the RBA Code of Conduct and other Meta standards via independent third-party audits, supplier questionnaires and other types of on-site assessments.For any identified areas of concern, we work with suppliers to understand root causes, develop corrective action plans, and assess closure.Throughout this process, ongoing supplier dialogue and engagement are key.We engage with suppliers in an array of programs that aim to improve working conditions, support worker well-being, maximize resource efficiency, reduce environmental risks, and lead to sustained progress."
+            },
+            {
+                "section_idx": "meta-sustainability-2023-33",
+                "title": "Responsible supply chain",
+                "text": "Meta is part of a complex value chain that touches lives and communities around the globe.Our Responsible Supply Chain (RSC) \u2197 program strives to empower workers and protect the environment - through open and frequent communication with our suppliers; deep understanding of core sustainability issues; and initiatives that support safe, healthy and fair working conditions.Focusing on social and environmental responsibility within our supply chain enables us to protect workers; promote circularity; proactively identify, assess and mitigate risks to our business; and drive responsible manufacturing practices.Our approach begins with establishing clear expectations with our suppliers through our standards and policies.The Responsible Business Alliance (RBA) Code of Conduct \u2197 , Meta's Anti-Slavery and Human Trafficking Statement \u2197 and Meta's Conflict Minerals Policy form the basis of our RSC program.We work closely with our suppliers to help them build internal capabilities to meet our requirements and improve their overall sustainability performance.\u2197"
+            }
+        ]
+    },
+    {
+        "topic": "gri_416",
+        "topic_title": "Customer Health and Safety",
+        "disclosure": "gri_416-1",
+        "disclosure_code": "GRI 416-1",
+        "disclosure_title": "Assessment of the health and safety impacts of product and service categories",
+        "section_ids": [
+            "meta-sustainability-2023-38"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the GRI disclosure by outlining the company's efforts to assess and mitigate health and safety impacts of its product and service categories. It provides detailed information about the actions taken, such as conducting indepth questionnaires, onsite risk assessments, developing toolkits, and assessing policies at supplier sites. The specific actions and initiatives demonstrate a substantial effort to address health and safety impacts. Additionally, the company clearly demonstrates the importance of this disclosure to its business and stakeholders by emphasizing the focus on mitigating EHS risks in the supply chain and working",
+        "paragraphs": [
+            {
+                "section_idx": "meta-sustainability-2023-38",
+                "title": "Ensuring health &amp; safety",
+                "text": "Effectively protecting workers and the environment in our supply chain means understanding and focusing on ways to mitigate the environmental, health and safety (EHS) risks associated with the activities our supply chain partners undertake on our behalf.In 2022, we conducted an indepth questionnaire and onsite EHS risk assessment for selected supplier sites based on a prioritization exercise.This led to the development of practical toolkits to help suppliers and Meta's sourcing managers implement best practices for managing the most common EHS issues.We are focused on safe process chemical management by leveraging the RBA Industry Focus Process Chemicals Policy \u2197 center hardware and Reality.Working with key data Labs supplier sites, we assessed policies and procedures in place to protect worker safety.Surveying tools, desktop reviews and in-person facility-level assessments also support our suppliers in developing corrective actions and improvement plans."
+            }
+        ]
+    }
+]

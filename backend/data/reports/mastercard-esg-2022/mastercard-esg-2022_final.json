@@ -1,0 +1,478 @@
+[
+    {
+        "topic": "gri_2-organization",
+        "topic_title": "General Disclosures: Company Profile",
+        "disclosure": "gri_2-2",
+        "disclosure_code": "GRI 2-2",
+        "disclosure_title": "Entities included in company's sustainability reporting",
+        "section_ids": [
+            "mastercard-esg-2022-120"
+        ],
+        "completeness": 1,
+        "materiality": 2,
+        "comment": " The paragraph does not fully address the GRI disclosure on entities included in the sustainability reporting. It lacks explicit information about the entities included in the report and does not provide a clear overview of the report's coverage. The statement mentions reporting principles of materiality, sustainability context, and stakeholder inclusiveness, but it fails to explicitly specify the entities included. The lack of specific details and examples results in a low completeness score. Regarding materiality, the paragraph briefly acknowledges the importance of reporting in accordance with GRI principles and other relevant standards, but it does not provide a clear",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-120",
+                "title": "About this report",
+                "text": "This report covers only Mastercard 's business and does not address the performance or operations of our suppliers , contractors or partners .\nStatements regarding our Environmental Social and Governance ( ESG ) goals , targets and commitments are aspirational and may also be based on estimates and assumptions under developing standards that may change in the future , as such , no guarantees or promises are made that they will be met or successfully executed , and actual results may differ , possibly and metrics included in this report are nonaudited estimates , are not necessarily prepared in accordance with generally accepted accounting principles ( GAAP ) continue to evolve , and may be based on assumptions believed to be reasonable at the time of preparation , but may be subject to revision .\nThe report covers Mastercard 's global operations for the fiscal year ended December 31 , 2022 , and has not been externally assured or verified by an independent third party unless current policy and intent and is not intended to create legal rights or obligations .\nWe have reported in accordance with the Global Reporting Initiative ( GRI ) 's reporting principles of materiality , sustainability context , and stakeholder inclusiveness and completeness : In addition , this report is informed by the Sustainability Accounting Standards Board ( SASB ) 's Software & Information Technology ( IT ) Services Standard and the recommendations of the Task Force on Climate-related Financial Disclosures ( TCFD ) .\nIn this report , our use of the terms `` material , ' `` materiality '' and other similar terms is consistent with such standards or refers to topics that reflect Mastercard 's significant impacts of ESG or that substantially influence the assessments and decisions of a diverse set of stakeholders .\nWe are not using these terms as are used under the securities or other laws of the United States or any other jurisdiction or as these terms are used in the context of financial which speaks only as of its date and is not on Form 10-K , our subsequent reports on Forms 10- @ and 8-K , and other made with the Securities and Exchange Commission ( SEC ) they filings This report contains forward-looking statements pursuant to the safe harbor provisions of the U.S .\nPrivate Securities Litigation Reform Act of 1995.All statements other than statements of historical fact could be forward-looking statements .\nWhen in this report , the words `` believe '' `` expect `` could , 'would , '' `` will , '' `` trend , '' `` intend , ' `` aim 'estimate ' `` drive '' and other similar words and expressions are intended to identify forward-looking statements .\nExamples of forward-looking statements include , but are not limited to , statements that relate to Mastercard 's future prospects , developments and business strategies as well as ESG targets , goals and commitments outlined in this report or elsewhere .\nused `` may Especially with respect to the matters uncertainties relating to our operations and business environment , all of which are difficult to predict and many of which are outside of our control , influence whether any forward-looking statements can or will be achieved .\none of those factors , including as the result of changes in circumstances , estimates that turn out to be incorrect , standards of measurement that change over time , assumptions not being realized , or other risks or uncertainties could cause our actual results , including the or commitments , to differ materially from those expressed or implied in writing in any forward-looking statements made by Any We describe these risks and uncertainties in our SEC filings , including our most recent Annual Report on Form 10-Kand our subsequent reports on Forms 10-Q and 8-K , as well as , with respect to our ESG goals , targets and commitments outlined in this report or elsewhere , the challenges and assumptions that are either identified in this report or that we are unable to foresee at this time We can not assure you that the results reflected or implied by any forward-looking statement will be realized or , even if substantially realized , that those results will have the forecasted or expected consequences and effects .\nWe also caution you that the important factors referenced there not include all of the factors that are important to you .\nOur forward-looking statements speak only as of the date of this report or as of the date are made and , except as required by law , we undertake no obligation to update this report to reflect subsequent events or circumstances may they"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-22",
+        "disclosure_code": "GRI 2-22",
+        "disclosure_title": "Statement on sustainable development strategy and climate goals",
+        "section_ids": [
+            "mastercard-esg-2022-121"
+        ],
+        "completeness": 1,
+        "materiality": 2,
+        "comment": " The paragraph only vaguely mentions the importance of commitment, collaboration, and collective action for the realization of SDGs. It lacks explicit and detailed information about the company's sustainable development strategy and climate goals, as well as the CEO's statement about the relevance of sustainable development and strategy for contributing to sustainable development. The relevance of sustainable development strategy and climate goals to the business and stakeholders is not clearly demonstrated, and the paragraph lacks context or explanation of significance.",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-121",
+                "title": "Sustainable Development Goals",
+                "text": "The United Nations Sustainable Development Goals ( SDGs ) outline a pathway toward a more inclusive and sustainable future by addressing the most pressing global challenges . The realization of SDGs will require commitment , collaboration and collective action aligned across the public sector , the private sector and civil society ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-29",
+        "disclosure_code": "GRI 2-29",
+        "disclosure_title": "Approach to stakeholder engagement",
+        "section_ids": [
+            "mastercard-esg-2022-15"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph provides a reasonable overview of the approach to stakeholder engagement, mentioning the different stakeholder groups and the need to understand their specific needs and priorities. However, it lacks specific examples or details of the process for identifying relevant stakeholders and how their needs are considered in decision-making. The materiality score is relatively high because it indicates the relevance of stakeholder engagement to shaping the ESG strategy and understanding key issues that can impact stakeholders and the business. However, it could further demonstrate the clear connection between stakeholder engagement and business strategy or stakeholder concerns",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-15",
+                "title": "Stakeholder engagement",
+                "text": "At Mastercard , we regularly engage with our internal and external stakeholders on a wide variety of topics . This engagement is essential to how we operate . Listening to and interacting with a diverse group of stakeholders helps shape our ESG strategy and contributes to our understanding and management of key issues that can impact our stakeholders and our business .\nOur internal stakeholders include employees and shareholders .\nOur external stakeholders are comprised of financial institutions , merchants , consumers , nongovernmental organizations ( NGOs ) suppliers , governments , international organizations and regulators To understand the specific needs and priorities of each stakeholder group , we engage our stakeholders in ways most meaningful and relevant to them , based on their expectations and requirements .\nAs evidenced over the past few years , we know that stakeholder priorities can change quickly That 's why we work to pursue an open and ongoing dialogue with stakeholders , gathering insight into their changing views and perspectives and continually assessing our ESG strategy and efforts .\nkey For our employees , we help them connect to broader purpose through our expanded volunteer and employee giving programs . We work with national and local governments to drive increased financial inclusion and inclusive economic growth .\nWe financial institutions and other organizations create secure customer experiences : We give consumers faster , safer and more convenient ways to pay , get and transfer funds . And we work closely with our suppliers to ensure that we can source responsibly and conduct business with integrity . paid"
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-4",
+        "disclosure_code": "GRI 302-4",
+        "disclosure_title": "Reduction of energy consumption",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-127"
+        ],
+        "completeness": 3,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure by mentioning initiatives to reduce energy consumption, but lacks specific details or examples of the company's efforts. It also includes some irrelevant information about revenue and supply chain statistics. The materiality is scored at 7 as the paragraph does indicate relevance to the company's sustainability goals and stakeholder concerns, but it fails to fully demonstrate the importance of the energy consumption reduction initiatives.",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-127",
+                "title": "SDG Responsible consumption and production",
+                "text": "12.2 By 2030 , achieve sustainable management and efficient use of natural resources 12.5 By 2030 , substantially reduce waste generation through prevention , reduction . We are committed to driving our business toward net zero emissions and accelerating the transition to a low- carbon , regenerative economy .\nThis starts with managing the impacts of our own operations and extends across our full value chain . And we are designing and developing differentiated products and solutions that help our customers , partners and consumers make environmentally conscious choices and achieve their environmental sustainability goals .\n12.8 By 2030 , ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature . We diverted 71 % of the waste generated by Mastercard-owned sites through recycling , composting , donations and other forms of landfill diversion in 2022 .\n12.b Develop and implement tools to monitor sustainable development impacts for sustainable tourism which creates jobs , promotes local culture and products .\nWe continued to ensure that 100 % of our global electronic waste in 2022 was recycled by using responsible partners certified in environmental standards and data destruction to protect our customers ' data privacy and the planet.production Ensure sustainable consumption and production patterns .\nIn 2022 , our San Francisco office received TRUE Zero Waste certification , and nine other Mastercard locations became TRUE precertified .\nMastercard 's Sustainability Innovation Lab - our global research and development center for climate-conscious digital products and solutions - and our Data & Services advisory services focus on ways to empower our customers , partners and consumers to transform how they produce , distribute and purchase products and services and help move toward a circular , more sustainable economy .\nWe integrated the Mastercard Carbon Calculator across our global network for banking partners so that their consumers can understand the environmental impact of their spending . In 2022 , the Carbon Calculator went live with Mastercard issuers in the U.K. , Hungary , Taiwan and Italy .\nMastercard announced that effective January 1 , 2028 , all newly produced cards must be CEC certified . Cards made from first-use polyvinyl chloride ( PVC ) will no longer be accepted . \u00b7 Since 2018 , Mastercard 's Sustainable Card Badge and Certification Program has helped more than 330 financial |"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-116",
+            "mastercard-esg-2022-17",
+            "mastercard-esg-2022-55",
+            "mastercard-esg-2022-5"
+        ],
+        "completeness": 1,
+        "materiality": 3,
+        "comment": " The paragraph only briefly mentions the company's commitment to reducing greenhouse gas emissions across its value chain and sets a net zero goal by 2040. However, it lacks specific information about the direct greenhouse gas (GHG) emissions (Scope 1) produced by the company in CO2e, such as the current emissions levels, reduction initiatives, or performance data. The materiality is low as the paragraph does not demonstrate the specific relevance of this disclosure to the business or stakeholders, and it lacks context or explanation of significance.",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-116",
+                "title": "GHG Emissions performance",
+                "text": "Scope 1 , 2 GHG emissions reduction % ( 2016 base year ) : - In 2022 44 % - In 2021 45 % - In 2020 44 % Scope 3 GHG emissions reduction % ( 2016 base year ) : - In 2022 40 % - In 2021 42 % - In 2020 57 % Scope 1 GHG emissions : - In 2022 4,769 MTCO2e - In 2021 5,164 MTCO2e - In 2020 3,221 MTCO2e Scope 2 GHG emissions ( location-based ) : - In 2022 51,233 MTCO2e - In 2021 48,974 MTCO2e - In 2020 52,538 MTCO2e Scope 2 GHG emissions ( market-based ) : - In 2022 367 MTCO2e - In 2021 229 MTCO2e - In 2020 268 MTCO2e Scope 3 GHG emissions : - In 2022 506,581 MTCO2e - In 2021 494,564 MTCO2e - In 2020 366,143 MTCO2e"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-17",
+                "title": "Operational environmental footprint",
+                "text": "Climate change is one of the most important issues facing the world today . Mastercard 's commitment to environmental sustainability starts with managing the impacts of our own operations and extends across our full value chain . This means reducing overall greenhouse gas ( GHG ) emissions , reducing waste , and working with our suppliers to do the same .\n- Scope 1 , 2 , and 3 GHG emissions Progress : 41 % reduction in 2022 , from our 2016 base year - Scope 1 and 2 GHG emissions Progress : 44 % reduction in 2022 , from our 2016 base year .\nOur 2025 goal 38 % reduction - Scope 3 GHG emissions Progress : 40 % reduction in 2022 , from our 2016 base year . Our 2025 goal 20 % reduction"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-55",
+                "title": "Supplier GHG emissions",
+                "text": "Our suppliers particularly technology and services account for most of our Scope 3 emissions . Hence , we focus our efforts on engaging with our suppliers to support them in their own reduction goals . Our supplier selection criteria prioritize direct suppliers who are committed to decarbonization and"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-5",
+                "title": "Planet: Our goals and progress in 2022",
+                "text": "- Toward our goal of net zero greenhouse gas emissions by 2040 , reduce Mastercard 's absolute emissions by our science-based targets of 38 % for Scope 1 and 2 , and 20 % for Scope 3 by 2025 , from our 2016 base year : In 2022 , Mastercard 's Scope 1 and 2 emissions were 44 % less than in 2016 , and Scope 3 emissions were 40 % less than in 2016 .\nOverall , in 2022 , total Scope 1 , 2 , and 3 emissions were 41 % less than in 2016 .\n- Through our Priceless Planet Coalition , restore 100 million trees by 2025 : Through 2022 , we have engaged more than 130 corporate partners globally to support forest restoration projects , we have secured funding to restore an estimated 13 million trees and have already restored million trees ? . - Integrating sustainability with economic growth : carbon footprint of their purchases .\nIn 2022 , we continued to expand Carbon Calculator to Hungary Taiwan and Italy . ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-116",
+            "mastercard-esg-2022-17",
+            "mastercard-esg-2022-55",
+            "mastercard-esg-2022-5"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the goal to achieve net zero GHG emissions across Scope 1, 2, and 3 emissions by 2040. However, it lacks specific information on the indirect GHG (Scope 2) emissions produced by the company in CO2e. The mention of the 1% reduction in supply chain emissions provides some detail, but overall, the disclosure is vague and lacks specific examples or detail.The materiality score is low because while the paragraph mentions the commitment to environmental sustainability and the importance",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-116",
+                "title": "GHG Emissions performance",
+                "text": "Scope 1 , 2 GHG emissions reduction % ( 2016 base year ) : - In 2022 44 % - In 2021 45 % - In 2020 44 % Scope 3 GHG emissions reduction % ( 2016 base year ) : - In 2022 40 % - In 2021 42 % - In 2020 57 % Scope 1 GHG emissions : - In 2022 4,769 MTCO2e - In 2021 5,164 MTCO2e - In 2020 3,221 MTCO2e Scope 2 GHG emissions ( location-based ) : - In 2022 51,233 MTCO2e - In 2021 48,974 MTCO2e - In 2020 52,538 MTCO2e Scope 2 GHG emissions ( market-based ) : - In 2022 367 MTCO2e - In 2021 229 MTCO2e - In 2020 268 MTCO2e Scope 3 GHG emissions : - In 2022 506,581 MTCO2e - In 2021 494,564 MTCO2e - In 2020 366,143 MTCO2e"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-17",
+                "title": "Operational environmental footprint",
+                "text": "Climate change is one of the most important issues facing the world today . Mastercard 's commitment to environmental sustainability starts with managing the impacts of our own operations and extends across our full value chain . This means reducing overall greenhouse gas ( GHG ) emissions , reducing waste , and working with our suppliers to do the same .\n- Scope 1 , 2 , and 3 GHG emissions Progress : 41 % reduction in 2022 , from our 2016 base year - Scope 1 and 2 GHG emissions Progress : 44 % reduction in 2022 , from our 2016 base year .\nOur 2025 goal 38 % reduction - Scope 3 GHG emissions Progress : 40 % reduction in 2022 , from our 2016 base year . Our 2025 goal 20 % reduction"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-55",
+                "title": "Supplier GHG emissions",
+                "text": "Our suppliers particularly technology and services account for most of our Scope 3 emissions . Hence , we focus our efforts on engaging with our suppliers to support them in their own reduction goals . Our supplier selection criteria prioritize direct suppliers who are committed to decarbonization and"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-5",
+                "title": "Planet: Our goals and progress in 2022",
+                "text": "- Toward our goal of net zero greenhouse gas emissions by 2040 , reduce Mastercard 's absolute emissions by our science-based targets of 38 % for Scope 1 and 2 , and 20 % for Scope 3 by 2025 , from our 2016 base year : In 2022 , Mastercard 's Scope 1 and 2 emissions were 44 % less than in 2016 , and Scope 3 emissions were 40 % less than in 2016 .\nOverall , in 2022 , total Scope 1 , 2 , and 3 emissions were 41 % less than in 2016 .\n- Through our Priceless Planet Coalition , restore 100 million trees by 2025 : Through 2022 , we have engaged more than 130 corporate partners globally to support forest restoration projects , we have secured funding to restore an estimated 13 million trees and have already restored million trees ? . - Integrating sustainability with economic growth : carbon footprint of their purchases .\nIn 2022 , we continued to expand Carbon Calculator to Hungary Taiwan and Italy . ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-55",
+            "mastercard-esg-2022-116",
+            "mastercard-esg-2022-17",
+            "mastercard-esg-2022-5",
+            "mastercard-esg-2022-22"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": " The disclosure partially addresses the GRI disclosure on indirect greenhouse gas (GHG) emissions (Scope 3) by mentioning the company's goal to achieve net zero GHG emissions across Scope 1, 2, and 3 by 2040 and providing some details about the emissions from the supply chain. However, it lacks explicit information on the Scope 3 greenhouse gas emissions produced by the company in CO2e, such as the specific categories of emissions included in Scope 3 and the quantification of these emissions. The materiality",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-55",
+                "title": "Supplier GHG emissions",
+                "text": "Our suppliers particularly technology and services account for most of our Scope 3 emissions . Hence , we focus our efforts on engaging with our suppliers to support them in their own reduction goals . Our supplier selection criteria prioritize direct suppliers who are committed to decarbonization and"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-116",
+                "title": "GHG Emissions performance",
+                "text": "Scope 1 , 2 GHG emissions reduction % ( 2016 base year ) : - In 2022 44 % - In 2021 45 % - In 2020 44 % Scope 3 GHG emissions reduction % ( 2016 base year ) : - In 2022 40 % - In 2021 42 % - In 2020 57 % Scope 1 GHG emissions : - In 2022 4,769 MTCO2e - In 2021 5,164 MTCO2e - In 2020 3,221 MTCO2e Scope 2 GHG emissions ( location-based ) : - In 2022 51,233 MTCO2e - In 2021 48,974 MTCO2e - In 2020 52,538 MTCO2e Scope 2 GHG emissions ( market-based ) : - In 2022 367 MTCO2e - In 2021 229 MTCO2e - In 2020 268 MTCO2e Scope 3 GHG emissions : - In 2022 506,581 MTCO2e - In 2021 494,564 MTCO2e - In 2020 366,143 MTCO2e"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-17",
+                "title": "Operational environmental footprint",
+                "text": "Climate change is one of the most important issues facing the world today . Mastercard 's commitment to environmental sustainability starts with managing the impacts of our own operations and extends across our full value chain . This means reducing overall greenhouse gas ( GHG ) emissions , reducing waste , and working with our suppliers to do the same .\n- Scope 1 , 2 , and 3 GHG emissions Progress : 41 % reduction in 2022 , from our 2016 base year - Scope 1 and 2 GHG emissions Progress : 44 % reduction in 2022 , from our 2016 base year .\nOur 2025 goal 38 % reduction - Scope 3 GHG emissions Progress : 40 % reduction in 2022 , from our 2016 base year . Our 2025 goal 20 % reduction"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-5",
+                "title": "Planet: Our goals and progress in 2022",
+                "text": "- Toward our goal of net zero greenhouse gas emissions by 2040 , reduce Mastercard 's absolute emissions by our science-based targets of 38 % for Scope 1 and 2 , and 20 % for Scope 3 by 2025 , from our 2016 base year : In 2022 , Mastercard 's Scope 1 and 2 emissions were 44 % less than in 2016 , and Scope 3 emissions were 40 % less than in 2016 .\nOverall , in 2022 , total Scope 1 , 2 , and 3 emissions were 41 % less than in 2016 .\n- Through our Priceless Planet Coalition , restore 100 million trees by 2025 : Through 2022 , we have engaged more than 130 corporate partners globally to support forest restoration projects , we have secured funding to restore an estimated 13 million trees and have already restored million trees ? . - Integrating sustainability with economic growth : carbon footprint of their purchases .\nIn 2022 , we continued to expand Carbon Calculator to Hungary Taiwan and Italy . ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-22",
+                "title": "Partnering with suppliers to reduce our Scope 3 emissions",
+                "text": "Because our suppliers ' emissions account for 80 % of our emissions including just 50 suppliers who account for more than half of those emissions we are committed to active supplier engagement and development .\nOur efforts revolve around four-stage environmental sustainability supplier engagement model that encourages suppliers to : - Disclose their emissions footprint by completing the CDP Climate Change Questionnaire - Leverage educational resources , both Mastercard and external , to assist them in advancing environmental management practices and performance - Evaluate and align on key performance based emission reduction goals - Collaborate with us to find ways to reduce emissions In 2022 , we improved to 78 % the percentage of our invited Tier 1 suppliers who responded to the CDP Climate Change 2021 .\nOf those suppliers , 39 % already possess or have submitted science-based targets to the SBTi for review and approval , and 38 % have net zero goals . To help our suppliers set and reach their own dedicated staff who collaborate with suppliers and participated in several new initiatives across our supply chain sectors .\nFor example , because sponsorships represent a significant part of our purchased goods and services , we launched pilot program with several of our sponsorship suppliers to help them gain a deeper understanding of their event-related emissions and identify opportunities to reduce emissions .\nThis initiative the groundwork for engaging sponsorships in emission reductions as we work to substantially decarbonize our supply chain : lays Another supplier engagement program that and production suppliers to provide more sustainable options , and track emission reductions . The focus is to utilize a carbon attributed to the activities of Mastercard media campaigns and productions .\nOur initial analysis has identified opportunities for improvement in GHG emission hot spots . As Mastercard continues to develop this program , we will aim to refine the data collection process , expand market data sets , and further incorporate industry leading tools . In 2022 , for the fifth consecutive year , we received an A rating from CDP for supplier engagement ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-4",
+        "disclosure_code": "GRI 305-4",
+        "disclosure_title": "GHG emissions intensity",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-116"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the company's goal to achieve net zero GHG emissions by 2040 and some reduction achieved in 2022. However, it lacks specific details on the GHG emissions intensity ratio for the company, such as the actual ratio, the baseline year, and the progress made towards the target. The paragraph also fails to provide a clear breakdown of Scope 1, 2, and 3 emissions. In terms of materiality, the paragraph indicates some relevance by mentioning the company's goal and reduction",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-116",
+                "title": "GHG Emissions performance",
+                "text": "Scope 1 , 2 GHG emissions reduction % ( 2016 base year ) : - In 2022 44 % - In 2021 45 % - In 2020 44 % Scope 3 GHG emissions reduction % ( 2016 base year ) : - In 2022 40 % - In 2021 42 % - In 2020 57 % Scope 1 GHG emissions : - In 2022 4,769 MTCO2e - In 2021 5,164 MTCO2e - In 2020 3,221 MTCO2e Scope 2 GHG emissions ( location-based ) : - In 2022 51,233 MTCO2e - In 2021 48,974 MTCO2e - In 2020 52,538 MTCO2e Scope 2 GHG emissions ( market-based ) : - In 2022 367 MTCO2e - In 2021 229 MTCO2e - In 2020 268 MTCO2e Scope 3 GHG emissions : - In 2022 506,581 MTCO2e - In 2021 494,564 MTCO2e - In 2020 366,143 MTCO2e"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "mastercard-esg-2022-18",
+            "mastercard-esg-2022-55",
+            "mastercard-esg-2022-22",
+            "mastercard-esg-2022-17",
+            "mastercard-esg-2022-116",
+            "mastercard-esg-2022-33",
+            "mastercard-esg-2022-54",
+            "mastercard-esg-2022-128",
+            "mastercard-esg-2022-5"
+        ],
+        "completeness": 4,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure, providing some information on the company's emission reduction efforts, such as setting a net zero GHG emissions goal and engaging with suppliers. However, it lacks specific details on current emissions levels, reduction initiatives, and progress towards targets. The information is somewhat vague and lacks depth.The materiality score is higher as the paragraph demonstrates some relevance to the business and stakeholders by outlining the company's commitment to environmental sustainability and the importance of managing the impacts of its operations and supply chain. The disclosure aligns with stakeholder interest",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-18",
+                "title": "Greenhouse gas emissions reduction",
+                "text": "We strive to reduce the climate impact of our global operations and value chain , with a goal to achieve net zero GHG emissions across our Scope 1 , 2 and 3 emissions by 2040 , aligned with Science Based Targets Initiative 's ( SBTi 's ) recommendations .\nOur interim targets to reduce absolute Scope 1 and Scope 2 GHG emissions by 38 % and absolute Scope 3 GHG emissions by 20 % by 2025 , compared to 2016 , have been approved by SBTi .\nMastercard remains on target to achieve the short-term milestones in 2025 , reaching a reduction of In 2022 , Mastercard experienced 18 % growth in net revenue and 12 % growth in switched transactions , compared to the year .\nTotal company emissions for Scope 1 , 2 and 3 totaled 562,583 metric tons of carbon dioxide ( MtCOze ) which is a 3 % increase over 2021 . For several years now , we have seen signs of decoupling our corporate growth from our levels of GHG emissions and we remain focused on this task .\nprior Our operations ( Scope 1 and 2 ) account for 10 % of our GHG emissions , with data center operations accounting for 57 % of our Scope 1 produced 56,002 MtCOze , which is a 3 % increase over 2021 . This increase in emissions is primarily influenced by several key factors .\nIn 2022 , employees began returning to the office post-pandemic , the number of employees increased and Mastercard 's office footprint grew to accommodate this growth . While transactions increased 12 % , our owned data center energy usage increased 2 % .\nThe EPA eGrid emissions factors which are used in our carbon accounting for U.S.-based locations , increased 6 % on average for our operations due to reduced carbon-neutral options powering the and an increased reliance on fossil fuels . This specifically affected our sites in Missouri and New York , which account for 65 % of our energy usage .\nWe are working with our utility providers to bring green energy onto the grid by investing in long-term renewable energy projects and working with utilities to bring new renewable energy to the grid .\ngrid Since 2020 , Mastercard 's global operations ( Scope 1 and 2 ) have been carbon neutral , achieved through ongoing decarbonization efforts , energy efficiency usage of 100 % renewable electricity , and purchase of carbon credits to address residual emissions . We employ high-integrity carbon credits verified to recognized standards and only in conjunction with real reductions in carbon emissions .\nWe strive to select credits that have characteristics of permanence and source them from a range of geographic regions . Project types include forestry clean cookstoves , renewable energy and destruction of refrigerants .\nOur suppliers ( Scope 3 , Categories 1 , 2 and 4 ) account for 80 % of our GHG emissions , and their efforts to reduce emissions are key to our emissions reduction efforts .\nIn 2022 , our supply chain produced 449,641 which is a 1 % reduction compared fuel- and energy-related activities , and employee commuting and business travel , account for the remaining 10 % of our GHG primarily due to a post-pandemic rebound in our business travel ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-55",
+                "title": "Supplier GHG emissions",
+                "text": "Our suppliers particularly technology and services account for most of our Scope 3 emissions . Hence , we focus our efforts on engaging with our suppliers to support them in their own reduction goals . Our supplier selection criteria prioritize direct suppliers who are committed to decarbonization and"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-22",
+                "title": "Partnering with suppliers to reduce our Scope 3 emissions",
+                "text": "Because our suppliers ' emissions account for 80 % of our emissions including just 50 suppliers who account for more than half of those emissions we are committed to active supplier engagement and development .\nOur efforts revolve around four-stage environmental sustainability supplier engagement model that encourages suppliers to : - Disclose their emissions footprint by completing the CDP Climate Change Questionnaire - Leverage educational resources , both Mastercard and external , to assist them in advancing environmental management practices and performance - Evaluate and align on key performance based emission reduction goals - Collaborate with us to find ways to reduce emissions In 2022 , we improved to 78 % the percentage of our invited Tier 1 suppliers who responded to the CDP Climate Change 2021 .\nOf those suppliers , 39 % already possess or have submitted science-based targets to the SBTi for review and approval , and 38 % have net zero goals . To help our suppliers set and reach their own dedicated staff who collaborate with suppliers and participated in several new initiatives across our supply chain sectors .\nFor example , because sponsorships represent a significant part of our purchased goods and services , we launched pilot program with several of our sponsorship suppliers to help them gain a deeper understanding of their event-related emissions and identify opportunities to reduce emissions .\nThis initiative the groundwork for engaging sponsorships in emission reductions as we work to substantially decarbonize our supply chain : lays Another supplier engagement program that and production suppliers to provide more sustainable options , and track emission reductions . The focus is to utilize a carbon attributed to the activities of Mastercard media campaigns and productions .\nOur initial analysis has identified opportunities for improvement in GHG emission hot spots . As Mastercard continues to develop this program , we will aim to refine the data collection process , expand market data sets , and further incorporate industry leading tools . In 2022 , for the fifth consecutive year , we received an A rating from CDP for supplier engagement ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-17",
+                "title": "Operational environmental footprint",
+                "text": "Climate change is one of the most important issues facing the world today . Mastercard 's commitment to environmental sustainability starts with managing the impacts of our own operations and extends across our full value chain . This means reducing overall greenhouse gas ( GHG ) emissions , reducing waste , and working with our suppliers to do the same .\n- Scope 1 , 2 , and 3 GHG emissions Progress : 41 % reduction in 2022 , from our 2016 base year - Scope 1 and 2 GHG emissions Progress : 44 % reduction in 2022 , from our 2016 base year .\nOur 2025 goal 38 % reduction - Scope 3 GHG emissions Progress : 40 % reduction in 2022 , from our 2016 base year . Our 2025 goal 20 % reduction"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-116",
+                "title": "GHG Emissions performance",
+                "text": "Scope 1 , 2 GHG emissions reduction % ( 2016 base year ) : - In 2022 44 % - In 2021 45 % - In 2020 44 % Scope 3 GHG emissions reduction % ( 2016 base year ) : - In 2022 40 % - In 2021 42 % - In 2020 57 % Scope 1 GHG emissions : - In 2022 4,769 MTCO2e - In 2021 5,164 MTCO2e - In 2020 3,221 MTCO2e Scope 2 GHG emissions ( location-based ) : - In 2022 51,233 MTCO2e - In 2021 48,974 MTCO2e - In 2020 52,538 MTCO2e Scope 2 GHG emissions ( market-based ) : - In 2022 367 MTCO2e - In 2021 229 MTCO2e - In 2020 268 MTCO2e Scope 3 GHG emissions : - In 2022 506,581 MTCO2e - In 2021 494,564 MTCO2e - In 2020 366,143 MTCO2e"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-33",
+                "title": "Climate resilience: Approach",
+                "text": "Mastercard 's approach to climate resilience centers around achieving our climate goals and assessing and responding to climate-related risk and opportunities in our own operations and beyond .\nOur climate include achieving goals net zero emissions by 2040 , reducing Mastercard 's GHG emissions by our sciencebased targets of 38 % for Scope 1 and 2 and 20 % for Scope 3 by 2025 , compared to 2016 .\nIn maintained carbon neutrality in our global operations used 100 % renewable energy focused on decarbonization across our value chain and limited our use of offsets : Read more related to these goals in our Operational environmental footprint section Mastercard 's Enterprise Risk Management ( ERM ) program is designed to provide comprehensive , integrated and balanced transparent identification and reporting of key incorporated and considered ESG and climateFramework ) for managing risks presented to Mastercard through normal business Since 2020 , Mastercard has engaged external consultants to support us in the identification and analysis of climaterelated physical and transition risks .\nThis analysis includes different climate scenarios over medium- and long-term horizons . We have started to utilize and incorporate results from our analysis of climate-related risks into our business practices .\nFor example , we leverage the results from our climate scenario analysis to inform our real estate competencies , such as transaction management , project management and addition , we understand that climaterelated physical vulnerabilities have the potential to disrupt technical capabilities , service delivery customer service , and employee safety and well-being .\nFor example , extreme temperatures or drought may affect the delivery of energy and water required by information technology ( IT ) and cooling systems .\nThese results have informed our design of our facility risk evaluations and business continuity planning ( BCP ) exercises , performed multiple times per year , and we have implemented activities and responses to mitigate potential climate-related disruptions .\nAs part of our approach to climate resilience , Mastercard also looks for opportunities to support and affect change with our customers and communities , including preparation for , and responding to , climate-related risks and opportunities . As an example , extreme weather events such as tornados , flooding and winter storms directly affect Mastercard 's customers .\nHumanitarian agencies and international development organizations are increasingly looking to deliver aid digitally . Mastercard 's suite of powerful , flexible solutions are faster , more efficient and more secure than cash and paper vouchers and can be used to support the important work aid agencies undertake during climaterelated events by benefiting communities , stimulating local markets and providing beneficiaries dignity through choice .\nWe will continue to monitor and assess climate-related risks and opportunities and embed these decisions into our business strategy and operational execution :"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-54",
+                "title": "Responsible sourcing",
+                "text": "Our business success depends transparent and inclusive supply chain that supports our objectives , drives development and innovation and minimizes environmental impact . We hold ourselves to the highest ethical , professional and legal same of our suppliers .\nThrough our responsible sourcing and supplier diversity programs , we work with suppliers to promote sustainable environmental and social practices , as well as compliance with government regulations .\nOur primary efforts focus on three areas : reducing the greenhouse gas ( GHG ) emissions of our supply chain , increasing the diversity of our suppliers and ensuring that our suppliers protect human rights ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-128",
+                "title": "SDG Climate action",
+                "text": "13.1 Strengthen resilience and adaptive capacity to climate-related hazards and natural disasters in all countries . We are reducing emissions and resource use up and down our value chain , including offering innovative solutions that help our customers , partners and consumers do the same .\nToward our goal of net zero greenhouse gas emissions by 2040 , in 2022 , Mastercard 's Scope 1 and 2 emissions were 44 % less than in 2016 , and Scope 3 emissions were 40 % less than in 2016 .\n\u00b7 As part of our Priceless Planet Coalition , through 2022 , we have engaged more than 130 corporate partners 13.3 Improve education , awareness-raising and human and institutional capacity .\nAs part of our Priceless Planet Coalition , through 2022 , we have engaged more than 130 corporate partners globally to support forest restoration projects , we have secured funding to restore an estimated 13 million trees and have already restored 4 million trees . Climate action Take urgent action to combat climate change and its impacts .\nWe integrated the Mastercard Carbon Calculator across our global network for banking partners so that their consumers can understand the environmental impact of their spending . In 2022 , the Carbon Calculator went live with Mastercard issuers in the U.K. , Hungary , Taiwan and Italy .\n\u00b7 Since 2018 , Mastercard 's Sustainable Card Badge and Certification Program has helped more than 330 financial institutions reduce first-use polyvinyl chloride ( PVC ) plastic in payment card production by issuing cards"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-5",
+                "title": "Planet: Our goals and progress in 2022",
+                "text": "- Toward our goal of net zero greenhouse gas emissions by 2040 , reduce Mastercard 's absolute emissions by our science-based targets of 38 % for Scope 1 and 2 , and 20 % for Scope 3 by 2025 , from our 2016 base year : In 2022 , Mastercard 's Scope 1 and 2 emissions were 44 % less than in 2016 , and Scope 3 emissions were 40 % less than in 2016 .\nOverall , in 2022 , total Scope 1 , 2 , and 3 emissions were 41 % less than in 2016 .\n- Through our Priceless Planet Coalition , restore 100 million trees by 2025 : Through 2022 , we have engaged more than 130 corporate partners globally to support forest restoration projects , we have secured funding to restore an estimated 13 million trees and have already restored million trees ? . - Integrating sustainability with economic growth : carbon footprint of their purchases .\nIn 2022 , we continued to expand Carbon Calculator to Hungary Taiwan and Italy . ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-1",
+        "disclosure_code": "GRI 306-1",
+        "disclosure_title": "Waste generation and significant waste-related impacts",
+        "section_ids": [
+            "mastercard-esg-2022-127"
+        ],
+        "completeness": 3,
+        "materiality": 6,
+        "comment": " The disclosure partially addresses waste generation and significant waste-related impacts by mentioning the goal to achieve sustainable management and efficient use of natural resources by 2030, as well as the aim to substantially reduce waste generation through prevention and reduction. However, the paragraph lacks specific details on current waste generation levels, waste management practices, and the company's progress towards these goals. It also does not provide examples of waste reduction initiatives or specific waste-related impacts. The materiality is scored as 6 because while the paragraph indicates some relevance to the business's sustainability goals",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-127",
+                "title": "SDG Responsible consumption and production",
+                "text": "12.2 By 2030 , achieve sustainable management and efficient use of natural resources 12.5 By 2030 , substantially reduce waste generation through prevention , reduction . We are committed to driving our business toward net zero emissions and accelerating the transition to a low- carbon , regenerative economy .\nThis starts with managing the impacts of our own operations and extends across our full value chain . And we are designing and developing differentiated products and solutions that help our customers , partners and consumers make environmentally conscious choices and achieve their environmental sustainability goals .\n12.8 By 2030 , ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature . We diverted 71 % of the waste generated by Mastercard-owned sites through recycling , composting , donations and other forms of landfill diversion in 2022 .\n12.b Develop and implement tools to monitor sustainable development impacts for sustainable tourism which creates jobs , promotes local culture and products .\nWe continued to ensure that 100 % of our global electronic waste in 2022 was recycled by using responsible partners certified in environmental standards and data destruction to protect our customers ' data privacy and the planet.production Ensure sustainable consumption and production patterns .\nIn 2022 , our San Francisco office received TRUE Zero Waste certification , and nine other Mastercard locations became TRUE precertified .\nMastercard 's Sustainability Innovation Lab - our global research and development center for climate-conscious digital products and solutions - and our Data & Services advisory services focus on ways to empower our customers , partners and consumers to transform how they produce , distribute and purchase products and services and help move toward a circular , more sustainable economy .\nWe integrated the Mastercard Carbon Calculator across our global network for banking partners so that their consumers can understand the environmental impact of their spending . In 2022 , the Carbon Calculator went live with Mastercard issuers in the U.K. , Hungary , Taiwan and Italy .\nMastercard announced that effective January 1 , 2028 , all newly produced cards must be CEC certified . Cards made from first-use polyvinyl chloride ( PVC ) will no longer be accepted . \u00b7 Since 2018 , Mastercard 's Sustainable Card Badge and Certification Program has helped more than 330 financial |"
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-2",
+        "disclosure_code": "GRI 306-2",
+        "disclosure_title": "Management of significant waste related impacts",
+        "section_ids": [
+            "mastercard-esg-2022-127",
+            "mastercard-esg-2022-24"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The disclosure reasonably addresses the GRI disclosure by discussing the company's efforts to achieve sustainable management and efficient use of natural resources, reduce waste generation, and ensure the recycling of electronic waste. It lacks specific details about waste treatment methods and efforts to reduce waste generation in operations and the value chain. The importance of waste management is indicated through the company's commitment to achieving sustainability goals, recycling electronic waste, and pursuing zero waste certification, showing alignment with stakeholder and business interests. However, more context or explanation of the significance could further enhance materiality.",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-127",
+                "title": "SDG Responsible consumption and production",
+                "text": "12.2 By 2030 , achieve sustainable management and efficient use of natural resources 12.5 By 2030 , substantially reduce waste generation through prevention , reduction . We are committed to driving our business toward net zero emissions and accelerating the transition to a low- carbon , regenerative economy .\nThis starts with managing the impacts of our own operations and extends across our full value chain . And we are designing and developing differentiated products and solutions that help our customers , partners and consumers make environmentally conscious choices and achieve their environmental sustainability goals .\n12.8 By 2030 , ensure that people everywhere have the relevant information and awareness for sustainable development and lifestyles in harmony with nature . We diverted 71 % of the waste generated by Mastercard-owned sites through recycling , composting , donations and other forms of landfill diversion in 2022 .\n12.b Develop and implement tools to monitor sustainable development impacts for sustainable tourism which creates jobs , promotes local culture and products .\nWe continued to ensure that 100 % of our global electronic waste in 2022 was recycled by using responsible partners certified in environmental standards and data destruction to protect our customers ' data privacy and the planet.production Ensure sustainable consumption and production patterns .\nIn 2022 , our San Francisco office received TRUE Zero Waste certification , and nine other Mastercard locations became TRUE precertified .\nMastercard 's Sustainability Innovation Lab - our global research and development center for climate-conscious digital products and solutions - and our Data & Services advisory services focus on ways to empower our customers , partners and consumers to transform how they produce , distribute and purchase products and services and help move toward a circular , more sustainable economy .\nWe integrated the Mastercard Carbon Calculator across our global network for banking partners so that their consumers can understand the environmental impact of their spending . In 2022 , the Carbon Calculator went live with Mastercard issuers in the U.K. , Hungary , Taiwan and Italy .\nMastercard announced that effective January 1 , 2028 , all newly produced cards must be CEC certified . Cards made from first-use polyvinyl chloride ( PVC ) will no longer be accepted . \u00b7 Since 2018 , Mastercard 's Sustainable Card Badge and Certification Program has helped more than 330 financial |"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-24",
+                "title": "Waste reduction",
+                "text": "We continue efforts to eliminate waste in our operations .\nIn 2022 , we diverted 71 % of the waste generated by Mastercard-owned sites through recycling , composting donations and other forms of landfill down from 86 % of waste diverted in 2021 , which we attribute to an increase in office attendance as COVID restrictions eased and an increase in the use of single-use plastic in cafeterias .\nIn 2022 , we also continued to ensure that 100 % of our global electronic waste was recycled by using responsible partners certified in environmental standards and data destruction to protect our customers ' data privacy and the planet .\nWe strive to achieve IRUE certification for zero waste at all of our owned facilities and leased sites across the globe where we have the ability to select waste haulers .\nIn 2022 , nine Mastercard locations became TRUE precertified , achieving recognition for a demonstrated commitment to attaining TRUE certification by working on projects that implement fundamental actions and policies needed to effectively pursue zero waste"
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-1",
+        "disclosure_code": "GRI 308-1",
+        "disclosure_title": "Environmental Screening of New suppliers",
+        "section_ids": [
+            "mastercard-esg-2022-55",
+            "mastercard-esg-2022-22"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by outlining a four-stage environmental sustainability supplier engagement model, including specific actions taken to screen new suppliers using environmental criteria. However, it lacks specific examples or details of the outcomes of the initiatives. The mention of the improvement in the percentage of Tier 1 suppliers responding to the CDP Climate Change questionnaire in 2022 demonstrates some relevance, but further context or explanation of significance is needed to fully clarify the materiality of the disclosure to the business and stakeholders.",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-55",
+                "title": "Supplier GHG emissions",
+                "text": "Our suppliers particularly technology and services account for most of our Scope 3 emissions . Hence , we focus our efforts on engaging with our suppliers to support them in their own reduction goals . Our supplier selection criteria prioritize direct suppliers who are committed to decarbonization and"
+            },
+            {
+                "section_idx": "mastercard-esg-2022-22",
+                "title": "Partnering with suppliers to reduce our Scope 3 emissions",
+                "text": "Because our suppliers ' emissions account for 80 % of our emissions including just 50 suppliers who account for more than half of those emissions we are committed to active supplier engagement and development .\nOur efforts revolve around four-stage environmental sustainability supplier engagement model that encourages suppliers to : - Disclose their emissions footprint by completing the CDP Climate Change Questionnaire - Leverage educational resources , both Mastercard and external , to assist them in advancing environmental management practices and performance - Evaluate and align on key performance based emission reduction goals - Collaborate with us to find ways to reduce emissions In 2022 , we improved to 78 % the percentage of our invited Tier 1 suppliers who responded to the CDP Climate Change 2021 .\nOf those suppliers , 39 % already possess or have submitted science-based targets to the SBTi for review and approval , and 38 % have net zero goals . To help our suppliers set and reach their own dedicated staff who collaborate with suppliers and participated in several new initiatives across our supply chain sectors .\nFor example , because sponsorships represent a significant part of our purchased goods and services , we launched pilot program with several of our sponsorship suppliers to help them gain a deeper understanding of their event-related emissions and identify opportunities to reduce emissions .\nThis initiative the groundwork for engaging sponsorships in emission reductions as we work to substantially decarbonize our supply chain : lays Another supplier engagement program that and production suppliers to provide more sustainable options , and track emission reductions . The focus is to utilize a carbon attributed to the activities of Mastercard media campaigns and productions .\nOur initial analysis has identified opportunities for improvement in GHG emission hot spots . As Mastercard continues to develop this program , we will aim to refine the data collection process , expand market data sets , and further incorporate industry leading tools . In 2022 , for the fifth consecutive year , we received an A rating from CDP for supplier engagement ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "mastercard-esg-2022-54",
+            "mastercard-esg-2022-22"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably addresses the disclosure by outlining the company's efforts to assess and mitigate negative environmental impacts in the supply chain. It mentions the specific actions taken, such as supplier engagement model, disclosure of emissions footprint, and improvement in supplier response rates. However, it lacks specific examples or details of the environmental impacts and actions taken. The paragraph demonstrates the relevance of the disclosure to the business and stakeholders by highlighting the company's efforts to promote sustainable environmental and social practices and compliance with government regulations. It also emphasizes the importance of reducing greenhouse gas emissions and protecting",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-54",
+                "title": "Responsible sourcing",
+                "text": "Our business success depends transparent and inclusive supply chain that supports our objectives , drives development and innovation and minimizes environmental impact . We hold ourselves to the highest ethical , professional and legal same of our suppliers .\nThrough our responsible sourcing and supplier diversity programs , we work with suppliers to promote sustainable environmental and social practices , as well as compliance with government regulations .\nOur primary efforts focus on three areas : reducing the greenhouse gas ( GHG ) emissions of our supply chain , increasing the diversity of our suppliers and ensuring that our suppliers protect human rights ."
+            },
+            {
+                "section_idx": "mastercard-esg-2022-22",
+                "title": "Partnering with suppliers to reduce our Scope 3 emissions",
+                "text": "Because our suppliers ' emissions account for 80 % of our emissions including just 50 suppliers who account for more than half of those emissions we are committed to active supplier engagement and development .\nOur efforts revolve around four-stage environmental sustainability supplier engagement model that encourages suppliers to : - Disclose their emissions footprint by completing the CDP Climate Change Questionnaire - Leverage educational resources , both Mastercard and external , to assist them in advancing environmental management practices and performance - Evaluate and align on key performance based emission reduction goals - Collaborate with us to find ways to reduce emissions In 2022 , we improved to 78 % the percentage of our invited Tier 1 suppliers who responded to the CDP Climate Change 2021 .\nOf those suppliers , 39 % already possess or have submitted science-based targets to the SBTi for review and approval , and 38 % have net zero goals . To help our suppliers set and reach their own dedicated staff who collaborate with suppliers and participated in several new initiatives across our supply chain sectors .\nFor example , because sponsorships represent a significant part of our purchased goods and services , we launched pilot program with several of our sponsorship suppliers to help them gain a deeper understanding of their event-related emissions and identify opportunities to reduce emissions .\nThis initiative the groundwork for engaging sponsorships in emission reductions as we work to substantially decarbonize our supply chain : lays Another supplier engagement program that and production suppliers to provide more sustainable options , and track emission reductions . The focus is to utilize a carbon attributed to the activities of Mastercard media campaigns and productions .\nOur initial analysis has identified opportunities for improvement in GHG emission hot spots . As Mastercard continues to develop this program , we will aim to refine the data collection process , expand market data sets , and further incorporate industry leading tools . In 2022 , for the fifth consecutive year , we received an A rating from CDP for supplier engagement ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_403",
+        "topic_title": "Occupational Health and Safety",
+        "disclosure": "gri_403-2",
+        "disclosure_code": "GRI 403-2",
+        "disclosure_title": "Hazard identification, risk assessment, and incident investigation",
+        "section_ids": [
+            "mastercard-esg-2022-114"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": " The paragraph provides some information on the processes used to identify work-related hazards and assess risks, but it lacks specific details about the actual hazard identification and incident investigation processes. The mention of the risk assessment framework and the consideration of various risks is somewhat relevant, but it does not clearly demonstrate the specific processes related to hazard identification, risk assessment, and incident investigation. The materiality score is higher due to the mention of ESG-related risks and their consideration within the risk assessment process, showing some relevance to stakeholders and business impact. However, it still lacks full",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-114",
+                "title": "Application of our ERM framework for ESG",
+                "text": "Our risk assessment framework uses a rolling , three-year time horizon for risk enterprise-level risks . However , our assessment of climate-related risks considers potential impacts and mitigations over short- , medium- and long-term horizons . As our business evolves and the risk landscape so does our risk risks that were identified in our 2020 ESG Materiality Assessment ( e.g .\nhuman capital/talent , inclusive of DEI , data privacy and security , climate , third-party , cybersecurity , and responsible data usage ) are captured in our existing risk taxonomy and considered within our ongoing ERM risk assessment process and risk appetite framework .\nAs part of our Many The outputs of the risk identification and assessment process are captured in risk registers that are updated regularly . Based on materiality , the results of these risk assessments feed into periodic updates to the Board and its committees on our consolidated risk profile , including ESGrelated risks ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_405",
+        "topic_title": "Diversity and Equal Opportunity",
+        "disclosure": "gri_405-1",
+        "disclosure_code": "GRI 405-1",
+        "disclosure_title": "Diversity of governance bodies and employees",
+        "section_ids": [
+            "mastercard-esg-2022-61"
+        ],
+        "completeness": 6,
+        "materiality": 8,
+        "comment": " The paragraph provides a reasonable level of detail on the diversity initiatives in place, including governance bodies and employees. It discusses various aspects of diversity and inclusion, such as age, gender, sexual orientation, race, ethnicity, and cultural background. However, it lacks specific examples or quantitative data to fully illustrate the effectiveness of the initiatives. The materiality is scored higher as the paragraph demonstrates the clear relevance of diversity and inclusion to the company's culture, strategy, and governance. It also highlights the various committees, councils, and initiatives in place, indicating alignment",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-61",
+                "title": "Board of Directors",
+                "text": "Because DEI is central to our culture and strategy its value is recognized , discussed and reviewed by our top decision-makers , including the Mastercard Board of Directors Compensation Committee reviews people and inclusion initiatives Mastercard 's Corporate Governance Guidelines state that the Boards Nominating and Corporate foster Board diversity ( geographic age gender , sexual orientation , race , ethnicity and cultural background ) when nominating directors for election : - Management Committee : Mastercard 's Management Committee meets bi-monthly to discuss various culture .\nCommittee members also participate in town halls and act as Business Resource Groups ( BRG ) executive sponsors or mentors - Functional and regional plans : We maintain six functional and five regional limitless possibilities for our employees , customers , consumers and other Our five regional Inclusion Action Plans Caribbean and North America were created in 2020 through a process that included collaboration between regional presidents and their senior management teams , local human resources People and Capabilities teams , our global DEI team and other key stakeholders .\nThe process included examining and adapting inclusivity efforts from best practices and themes at the global level , tailoring them to meet locally relevant focus areas and priorities : Our six functional Inclusion Action Plans Finance , Law and Policy , Mastercard Technology and Products and Engineering were also created in 2020 through the same process outlined above and with the same primary goal of identifying opportunities where we can make more of an impact .\n- Global DEI team : Our day-to-day DEl efforts are guided by our Chief Inclusion Officer , who reports to our Chief Administrative Officer , and our global DEI team : Our Chief Inclusion Officer plans in partnership with business leaders , meets regularly with our CEO and Management Committee and provides DEI updates to the Mastercard Board of Directors - Councils and committees : Our Global DEI Council is chaired by our Chief Executive Officer and provides direction on how best to execute our strategy and to ensure it is embedded throughout the organization : Our Gender Balance and In Solidarity initiatives each have a steering committee consisting of executive sponsors , business leaders , People and Capability leaders and the DEI team .\nSome of our functions and regions also opt to have their own DEI governance to further drive accountability and progress . Examples include the Cyber & Intelligence Inclusion Council and the Latin America & Caribbean In 2022 , we added a third governing body , the Accessibility Steering Committee focused on driving and monitoring progress in the workplace people with disabilities .\nThese steering committees lead and direct the efforts of each group and take an active role in delivering against plans .\nfor In addition , our major DEI campaigns and initiatives are reviewed by our Integrated Marketing and Communications Employee Advisory Council , composed of a global team and regional sub-teams that represent diverse perspectives and make sure our DEI efforts are thoughtful , considerate of local contexts and aligned with our overall Mastercard brand and purpose - DEI policies : through our global Mastercard Policy Inclusion our Code of Conduct and our Mastercard is a member of the Human Rights Campaign 's Business Coalition for the Equality Act .\nWe work to provide LGBTQIA+ employees with the same basic protections as other federally protected groups . - Raising concerns : implementation , our Employee Relations Team and other People and Capabilities professionals investigate employee DEI concerns , perform regular climate checks and monitor our workplace culture .\nWe have also established a third-party-managed Mastercard Ethics Helpline for reporting activity suspect of violating the law , our Code of Conduct or any other company policy . More information on this service can be found in the Ethicsand compliance section of this report ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_415",
+        "topic_title": "Public Policy",
+        "disclosure": "gri_415-1",
+        "disclosure_code": "GRI 415-1",
+        "disclosure_title": "Political contributions",
+        "section_ids": [
+            "mastercard-esg-2022-115"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The disclosure partially addresses the GRI disclosure by mentioning the oversight and review processes for political contributions and public policy activities. However, it lacks specific details such as the actual amounts of contributions, the recipients of the contributions, and the specific areas of public policy the company engages in. The disclosure also lacks depth in explaining the company's approach to political contributions and the potential impacts on stakeholders.The materiality score is low because while the paragraph mentions oversight and compliance procedures, it does not clearly demonstrate why political contributions and public policy activities are important to the business",
+        "paragraphs": [
+            {
+                "section_idx": "mastercard-esg-2022-115",
+                "title": "Policy engagement and political activity",
+                "text": "Our Government Relations and Public Policy teams issues that align with our business interests and could potentially impact our company and stakeholders .\nMastercard 's belief in transparency around these efforts is expressed in our Policx Statement : Information on our 2022 contributions can be found on our website 's Archived Mastercard 's Government Relations team oversees the company 's public policy strategy , and political contributions and corporate political expenditures are Public Policy .\nThe Nominating and Corporate Directors is responsible for overseeing Mastercard 's public policy activities and , at least annually , will review political contributions trade association dues used for political purposes , corporate political expenditures , lobbying efforts and strategies , Mastercard 's political activity policies and our Political Activity and Public Policy Statement .\nMastercard maintains comprehensive internal compliance procedures to ensure that the company 's political and public policy activities fully comply with all laws , regulations and company policies . Mastercard 's political and public policy activities and our Political Activity and Public Policy Statement are reviewed on an annual basis by outside counsel ."
+            }
+        ]
+    }
+]

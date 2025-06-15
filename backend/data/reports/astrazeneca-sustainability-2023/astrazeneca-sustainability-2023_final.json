@@ -1,0 +1,396 @@
+[
+    {
+        "topic": "gri_2-organization",
+        "topic_title": "General Disclosures: Company Profile",
+        "disclosure": "gri_2-2",
+        "disclosure_code": "GRI 2-2",
+        "disclosure_title": "Entities included in company's sustainability reporting",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-40",
+            "astrazeneca-sustainability-2023-47",
+            "astrazeneca-sustainability-2023-7",
+            "astrazeneca-sustainability-2023-199"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": " The paragraph briefly mentions the establishment of a Sustainability Steering Committee and its responsibilities, but it lacks explicit information on which entities are included in the sustainability reporting, such as subsidiaries, joint ventures, etc. The paragraph also mentions the reporting of sustainability activities but doesn't provide specific details on the entities covered. The materiality is scored as 5 since the paragraph indicates some relevance to the business but lacks full context or explanation of significance.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-40",
+                "title": "Sustainability Steering Committee",
+                "text": "In 2023, we established an internal Sustainability Steering Committee (SteerCo) comprised of leaders representing functions relevant to the sustainability strategy.The SteerCo is responsible for monitoring key sustainability impacts, risks and opportunities, including reporting and compliance, and ensuring (1) appropriate mitigation measures, (2) sustainability data quality and transition to reasonable assurance and (3) that crossfunctional teams are in place to manage ESG risks, regulatory reporting compliance and ESG ratings.The SteerCo is co-chaired by the SVP Finance, Group Controller and Head of Global Finance Services and the VP Global Sustainability and SHE.For further details on Corporate Governance, please see pages 75-138, in the Annual Report 2023.Other governance information relating to specific priorities is included in the overview sections of this report."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-47",
+                "title": "For more details on the interests, engagements and",
+                "text": "outcomes of contact with these and other stakeholder groups, please see 'Connecting with our stakeholders' in the Corporate Governance section of our Annual Report 2023 (pages 84-86).Our global supply chain supports key operational areas of our business with a wide range of goods and services, including raw materials and equipment.Many of our business-critical operations have also been outsourced to third party providers.For more information on our business structure, workforce, and operations please see pages 10-11 in our Annual Report 2023.We also work closely with academia and R&amp;D partners across the healthcare and environmental fields, as well as our industry peers and other major companies with a shared ambition to tackle sustainability challenges, through global forums and collaborations.We partner with a wide range of governmental and non-governmental bodies across our sustainability priorities.In addition, our suppliers are key to achieving many of our environmental targets and our commitments to ethical behaviour and transparency.We also aim to have a positive impact in the communities where we operate, often through collaborations with others facing shared local challenges.Finally, we have an extensive process of communication and engagement with our employees, who are critical to the achievement of our sustainability goals.The remainder of this report is organised by our strategic priorities and focus areas, followed by the data annex section for details of performance against targets and progress on our priorities."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-7",
+                "title": "Assurance",
+                "text": "Bureau Veritas has provided limited assurance for sustainability activities reported in the sustainability data annex and in the Annual Report 2023.Details are described in the Letters of Assurance, which are publicly available.Assurance is in accordance with the International Standard on Assurance Engagements (ISAE) 3000 (Revised), Assurance Engagements Other than Audits or Reviews of Historical Financial Information and with International Standard on Assurance Engagements 3410 'Assurance Engagements on Greenhouse Gas Statements' ('ISAE 3410'), issued by the International Auditing and Assurance Standards Board.Data annex29Metrics and performance data29"
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-199",
+                "title": "Drive Success driver safety campaign to protect employees and communities",
+                "text": "As outlined in the Sustainability Report 2022, AstraZeneca responded to an increasing collision trend by developing a safe driving campaign and training programme endorsed by the Commercial SHE Executive Committee.This campaign continued into 2023 and has shown a positive impact on collisions per million kilometres (CPMK).In 2023 the CPMK was 1.96, exceeding the 2.5 target for the year and on course to meet or exceed the target for 2025 of 1.90.See data annex for full metricsWe are committed to contributing to a more sustainable future for people, society and the planet.We describe our targets and progress on our priorities in this data annex.Bureau Veritas has provided limited assurance for sustainability activities reported here and in the Annual Report 2023.Details are described in the Letters of Assurance.Selected metrics identified with the symbol (BV) have been prepared in accordance with the AstraZeneca Sustainability Data Reporting Criteria 2023 and Greenhouse Gas Methodologies 2023.- BV Data has been externally assured.See also letter of assurance and reporting criteria."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-governance",
+        "topic_title": "General Disclosures: Governance Structure and Composition",
+        "disclosure": "gri_2-14",
+        "disclosure_code": "GRI 2-14",
+        "disclosure_title": "Role of the highest governance body in sustainability reporting",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-40"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by detailing the establishment of a dedicated Sustainability Steering Committee responsible for managing sustainability impacts, risks, and opportunities. It outlines the specific responsibilities of the committee and the senior leaders involved. However, it lacks specific examples or details of how the committee operates. The importance of the disclosure is clearly demonstrated by explaining the role of the highest governance body in managing sustainability impacts and risks, aligning with stakeholder interests and business impact. The reference to further governance information in the Annual Report shows a clear effort to provide comprehensive details.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-40",
+                "title": "Sustainability Steering Committee",
+                "text": "In 2023, we established an internal Sustainability Steering Committee (SteerCo) comprised of leaders representing functions relevant to the sustainability strategy.The SteerCo is responsible for monitoring key sustainability impacts, risks and opportunities, including reporting and compliance, and ensuring (1) appropriate mitigation measures, (2) sustainability data quality and transition to reasonable assurance and (3) that crossfunctional teams are in place to manage ESG risks, regulatory reporting compliance and ESG ratings.The SteerCo is co-chaired by the SVP Finance, Group Controller and Head of Global Finance Services and the VP Global Sustainability and SHE.For further details on Corporate Governance, please see pages 75-138, in the Annual Report 2023.Other governance information relating to specific priorities is included in the overview sections of this report."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-22",
+        "disclosure_code": "GRI 2-22",
+        "disclosure_title": "Statement on sustainable development strategy and climate goals",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-65"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the sustainable development strategy and climate goals. It covers key elements such as governance, incentives, collaboration, and specific initiatives related to access to healthcare and carbon reduction. However, it lacks specific examples and detailed information. The relevance of the disclosure is well demonstrated, aligning with stakeholder interest and business impact, including the importance of reducing GHG emissions and adherence to ethical standards.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-65",
+                "title": "Governance",
+                "text": "Overall responsibility for Access to healthcare is at Board-level, where progress is tracked against our Group People and Sustainability strategic priority, including our ESG goals.We incentivise select senior executives and in-country managers to perform on access initiatives with financial and nonfinancial rewards.Our CEO also has accessrelated incentives linked to the company's ESG performance.We publicly disclose outcomes of our access activities, including progress on our commitments, measurable goals, objectives and targets for improving health equity for patients in the countries where we operate.We collaborate on our Access to healthcare material focus areas on a cross-functional basis to deliver our strategy and measure progress.We also have a dedicated team within Global Corporate Affairs who oversee progress against targets and report on these to the Board Sustainability Committee, along with the development of our health equity strategy and expansion of our access programmes.We are playing our part to address health inequities and eliminate discrimination from the delivery of healthcare.As a company at the forefront of scientific and medical innovation, we are also harnessing the latest digital technologies to support improved access.This includes using the power of data and analytics for early diagnosis and expanding access to the latest medical research and training for healthcare professionals.We are committed to improving equitable access to healthcare for patients globally, including to our innovative product portfolio.Our executive-led Ambition Zero Carbon Governance Group is accountable for the delivery of Ambition Zero Carbon across all three of our Environmental protection focus areas.In 2023, this Governance Group included our CEO, CFO, and the EVP , Global Operations, IT &amp; Chief Sustainability Officer.Since 2021, delivery of Ambition Zero Carbon Scope 1 and 2 commitments has been included in our executive incentive arrangements for the Performance Share Plan (PSP), with a weighting of 10% of award.This measure reflects the importance of reducing our Scope 1 and 2 GHG emissions on the way to achieving our verified science-based target of a 98% reduction by 2026 from the 2015 baseline.GHG emissions are calculated in line with the World Resources Institute/World Business Council for Sustainable Development GHG Protocol methodology for accounting and reporting of our emissions footprint.The PSP is determined by the Board's Remuneration Committee and approved by the Annual General Meeting.As outlined in our Code of Ethics, we are committed to driving the highest ethical standards.As members of the International Federation of Pharmaceutical Manufacturers &amp; Associations (IFPMA), and the EFPIA, we adhere to their codes.We value speaking up as part of our ethical business culture.We want anyone who has a concern about our ethics or conduct to report it without delay.With our AZethics platform, we are making it easier for individuals to make a report using a simple, one-step intake form and the option to remain anonymous where permitted by local law.Internally, we also encourage a culture of transparent reporting of concerns to the relevant manager, Human Resources or Compliance functions.We are committed to investigating and responding to all concerns of alleged misconduct or breaches of law or policy that are raised to us.Our Code of Ethics and its supporting Standards are designed to help protect against unlawful discrimination on any"
+            }
+        ]
+    },
+    {
+        "topic": "gri_201",
+        "topic_title": "Economic Performance",
+        "disclosure": "gri_201-2",
+        "disclosure_code": "GRI 201-2",
+        "disclosure_title": "Financial implications and other risks and opportunities due to climate change",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-109"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing explicit information about the application of the TCFD framework, the scope of business operations, the risk-based approach, and the measures in place. However, it lacks specific examples or details about the financial implications and potential changes in operations, revenue, or expenditure due to climate change. The mention of the TCFD Report on the company's website provides additional information. The disclosure demonstrates materiality by clearly showing alignment with the TCFD framework, risk management processes, and the identification of climate-related risks as",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-109",
+                "title": "Task Force on Climate-related Financial Disclosures (TCFD)",
+                "text": "We support the Task Force on Climate-related Financial Disclosures (TCFD) framework, which we have applied annually since 2020.All our business operations worldwide are in scope, unless otherwise stated.The framework applies a risk-based approach, focusing on the most material physical and transitional risks and opportunities.We will build resilience across the value chain through adaptation and business continuity planning.A TCFD Steering Group with cross-functional membership has oversight of the physical and transitional risks and opportunities posed to AstraZeneca by climate change.The identification and assessment of climate risk forms part of our existing risk management processes.In many cases, mitigation measures are already in place, including for the risks and opportunities presented by the transition to a low-carbon economy and the provision of netzero healthcare.Based on current assessments, physical and transitional climate-related risks are included within a specific risk in the Group's risk landscape 'Failure to meet regulatory or ethical expectations on environmental impact, including climate change', which is not currently considered to be a Principal Risk for the Group.For further details on TCFD please see pages 51-53 in the Annual Report 2023 and our TCFD Report on www.astrazeneca.com/annualreport2023."
+            }
+        ]
+    },
+    {
+        "topic": "gri_301",
+        "topic_title": "Materials",
+        "disclosure": "gri_301-2",
+        "disclosure_code": "GRI 301-2",
+        "disclosure_title": "Recycled input materials used",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "completeness": 3,
+        "materiality": 8,
+        "comment": " The paragraph provides a comprehensive overview of the company's commitment to sustainability and circular economy principles, but it lacks specific details on the quantities and proportions of recycled input materials used. The mention of developing suitable metrics and targets demonstrates the materiality of the topic to the business and stakeholders.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-144",
+                "title": "Our circular economy approach",
+                "text": "Incorporate the principles of the circular economy into the design of all our processes and products, from initial research and development through to productionDevelop suitable metrics to monitor our progress towards a more circular economySeek to minimise the amount of materials required and waste generated during manufacture and use of our productsMaximise proportion of waste recycled and aim to eliminate waste to landfillIncrease reused or recycled content of the materials we use (both directly, and in our supply chain)Where possible, regenerate nature and use renewable natural resources instead of non-renewable onesTo do this, we are leveraging our experience with lean manufacturing, which includes tools to enhance efficiency and eliminate waste, and embedding recognised best practices from partners such as My Green Lab into our business as usual.These efforts empower employees across our global network to identify and implement ideas that contribute to our environmental targets.Our key targets aim to decouple water use and waste generation from business growth, supported by efficiency projects, partnership, and engagement with suppliers, and designing out waste and pollution in support of water security and minimised environmental impact where we operate.Moving beyond efficiency within our direct operations, we are working in collaboration with key stakeholders, including our ongoing collaboration with the World Wide Fund for Nature (WWF) Sweden, to make positive contributions to nature and local communities near our sites while mitigating risks from a changing climate.We are also working to embed emerging best practice into our own operations and across our supply chain, for example using tools and guidance that Science Based Targets for Nature (SBTN) is developing, to set long-term, science-led water and biodiversity targets that are informed by local context by 2025.Recognising that our supply chains have the potential to impact biodiversity, we have committed to developing a framework to systematically assess biodiversity risks and dependencies across our value chain during 2024.We will build on this knowledge to ensure all agricultural, forestry and marinederived materials used in our products and research activities are sustainably sourced by 2028.We are also committed to demonstrating key forest risk commodities are free from deforestation and ecosystem conversion by 2025.More details can be found in our position statements on Water stewardship and Biodiversity.We are also furthering our commitment to assess and minimise environmental impacts from our supply chain.While making progress on our existing responsible sourcing targets to create action plans for identified key raw materials of natural origin, we are building a risk-based approach to assess additional new and existing materials' impacts and dependencies on nature.This is helping prepare us for future reporting to the Taskforce on Nature-related Financial Disclosures (TNFD) framework, where we have announced we will be an early adopter.More details of our approach can be found in our Raw Materials Responsible Sourcing Framework."
+            }
+        ]
+    },
+    {
+        "topic": "gri_304",
+        "topic_title": "Biodiversity",
+        "disclosure": "gri_304-2",
+        "disclosure_code": "GRI 304-2",
+        "disclosure_title": "Significant impacts of activities, products, and services on biodiversity",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-43"
+        ],
+        "completeness": 1,
+        "materiality": 1,
+        "comment": " The paragraph makes vague references to sustainability and biodiversity, but it lacks explicit and detailed information about the company's impact on biodiversity and a management plan. It also does not demonstrate why biodiversity is important to the business and stakeholders, and it lacks specific examples or explanation of significance. Therefore, it only partially addresses the disclosure and the relevance to the company and stakeholders is not clear.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-43",
+                "title": "Our ambitions",
+                "text": "Promoting prevention, increasing access to life-saving treatments, and strengthening health system resilience and sustainability.Accelerating the delivery of net-zero healthcare, proactively managing our environmental impact across all activities and investing in nature and biodiversity.Ensuring ethical, open and inclusive behaviour across our organisation and value chain.We seek to create value beyond the impact of our medicines by embedding sustainability into everything we do - from the lab to the patient.We are committed to contributing to a more sustainable future for people, society and planet.As a global organisation, we are committed to operating ethically and responsibly.We are helping tackle the biggest challenges of our time, such as climate change, biodiversity loss, health equity and health system resilience.We believe these challenges are interconnected and require collaboration within and beyond the health sector.Through science-based solutions, we believe we can drive positive change and a healthier future."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the reduction targets and progress on Scope 1, 2, and 3 emissions, but lacks specific details and absolute emissions data. The connection to stakeholder interest and business impact is indicated through the progress on reduction targets, partnerships for renewable energy adoption, and supplier sustainability assessments, demonstrating alignment with stakeholder concerns and sustainability strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-125",
+                "title": "Progress",
+                "text": "Reduce absolute Scope 1 and 2 GHG emissions by 98% by 2026, from a 2015 base year.Reduce absolute Scope 3 GHG emissions by 50% by 2030 and 90% by 2045, from a 2019 base year.Reduced Scope 1 and 2 GHG emissions by 67.6% since 2015, a reduction of 420 kilotonnes CO e.2Status: On planTotal Scope 3 increased by 18.6% from a 2019 baseline and Scope 3 intensity reduced by 24%.Significant increase in use of primary data and suppliers setting science-based targets (SBTs) will support future absolute emissions reductions towards 2030 target.- Status: On planscale for our suppliers, with the programme's first PPA buyers' cohort to purchase 2 TWh renewable electricity announced in November 2022.To date, 286 AstraZeneca suppliers have registered with the programme.In 2023, a partnership was announced between Energize and the Pharmaceutical Supply Chain Initiative (PSCI) to accelerate the adoption of renewable energy across the pharmaceutical sector supply chain to support the transition to net zero.We are tackling 20% of our Scope 3 footprint through our commitment to developing a nextgeneration pressurised metered-dose inhaler (pMDI) using the propellant HFO-1234ze(E), which has a near-zero Global Warming Potential (GWP) - see details below in Product sustainability key initiatives.We are working to build transparent supply chains by asking our partners to assess and disclose their GHG emissions to the CDP Supply Chain Programme, with 708 suppliers (59% of in-scope spend).See data annex for full metricsMaintain 100% of active employees trained on the Code of Ethics.100% of active employees trained on the Code of Ethics in 2023.Improve the AstraZeneca global biennial human rights survey results and use Fair Wage Network data to more robustly assess our performance against local living wage data.- Status: On planThe biennial human rights survey has been completed in 2022 and action plans are in progress.The analysis of Fair Wage Network data has enabled us to ensure we continue to pay a fair living wage globally.Status: On planambition is to achieve 100% ethical spend, ensuring we only work with suppliers that share our Values.Our approach fosters our suppliers' progress on sustainability, enables us to innovate together on challenges and accelerates supplier diversity.To achieve our goal, in 2023 we continued our partnership with EcoVadis to assess our suppliers' environmental, ethical, and social performance; of the 70% of our suppliers (by spend) that were assessed, 66% achieved an acceptable score of more than 45."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably addresses the Scope 2 GHG emissions reduction targets and progress, including absolute and intensity reduction figures. It also provides information on the use of primary data and suppliers setting science-based targets. However, it lacks specific details on the current absolute emissions of Scope 2 GHG and the method used for the reduction. The mention of the partnership with the Pharmaceutical Supply Chain Initiative and the commitment to developing a next-generation pressurised metered-dose inhaler using a low GWP propellant is relevant to stakeholders and the business, demonstrating",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-125",
+                "title": "Progress",
+                "text": "Reduce absolute Scope 1 and 2 GHG emissions by 98% by 2026, from a 2015 base year.Reduce absolute Scope 3 GHG emissions by 50% by 2030 and 90% by 2045, from a 2019 base year.Reduced Scope 1 and 2 GHG emissions by 67.6% since 2015, a reduction of 420 kilotonnes CO e.2Status: On planTotal Scope 3 increased by 18.6% from a 2019 baseline and Scope 3 intensity reduced by 24%.Significant increase in use of primary data and suppliers setting science-based targets (SBTs) will support future absolute emissions reductions towards 2030 target.- Status: On planscale for our suppliers, with the programme's first PPA buyers' cohort to purchase 2 TWh renewable electricity announced in November 2022.To date, 286 AstraZeneca suppliers have registered with the programme.In 2023, a partnership was announced between Energize and the Pharmaceutical Supply Chain Initiative (PSCI) to accelerate the adoption of renewable energy across the pharmaceutical sector supply chain to support the transition to net zero.We are tackling 20% of our Scope 3 footprint through our commitment to developing a nextgeneration pressurised metered-dose inhaler (pMDI) using the propellant HFO-1234ze(E), which has a near-zero Global Warming Potential (GWP) - see details below in Product sustainability key initiatives.We are working to build transparent supply chains by asking our partners to assess and disclose their GHG emissions to the CDP Supply Chain Programme, with 708 suppliers (59% of in-scope spend).See data annex for full metricsMaintain 100% of active employees trained on the Code of Ethics.100% of active employees trained on the Code of Ethics in 2023.Improve the AstraZeneca global biennial human rights survey results and use Fair Wage Network data to more robustly assess our performance against local living wage data.- Status: On planThe biennial human rights survey has been completed in 2022 and action plans are in progress.The analysis of Fair Wage Network data has enabled us to ensure we continue to pay a fair living wage globally.Status: On planambition is to achieve 100% ethical spend, ensuring we only work with suppliers that share our Values.Our approach fosters our suppliers' progress on sustainability, enables us to innovate together on challenges and accelerates supplier diversity.To achieve our goal, in 2023 we continued our partnership with EcoVadis to assess our suppliers' environmental, ethical, and social performance; of the 70% of our suppliers (by spend) that were assessed, 66% achieved an acceptable score of more than 45."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125",
+            "astrazeneca-sustainability-2023-115"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph provides detailed information about the company's targets and actions to reduce Scope 1, 2, and 3 greenhouse gas emissions, including specific percentage reduction goals and progress updates. However, it lacks specific examples or details about the initiatives implemented to achieve these targets. The materiality is rated high as it clearly demonstrates the importance of reducing greenhouse gas emissions and the impact on the company's sustainability strategy and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-125",
+                "title": "Progress",
+                "text": "Reduce absolute Scope 1 and 2 GHG emissions by 98% by 2026, from a 2015 base year.Reduce absolute Scope 3 GHG emissions by 50% by 2030 and 90% by 2045, from a 2019 base year.Reduced Scope 1 and 2 GHG emissions by 67.6% since 2015, a reduction of 420 kilotonnes CO e.2Status: On planTotal Scope 3 increased by 18.6% from a 2019 baseline and Scope 3 intensity reduced by 24%.Significant increase in use of primary data and suppliers setting science-based targets (SBTs) will support future absolute emissions reductions towards 2030 target.- Status: On planscale for our suppliers, with the programme's first PPA buyers' cohort to purchase 2 TWh renewable electricity announced in November 2022.To date, 286 AstraZeneca suppliers have registered with the programme.In 2023, a partnership was announced between Energize and the Pharmaceutical Supply Chain Initiative (PSCI) to accelerate the adoption of renewable energy across the pharmaceutical sector supply chain to support the transition to net zero.We are tackling 20% of our Scope 3 footprint through our commitment to developing a nextgeneration pressurised metered-dose inhaler (pMDI) using the propellant HFO-1234ze(E), which has a near-zero Global Warming Potential (GWP) - see details below in Product sustainability key initiatives.We are working to build transparent supply chains by asking our partners to assess and disclose their GHG emissions to the CDP Supply Chain Programme, with 708 suppliers (59% of in-scope spend).See data annex for full metricsMaintain 100% of active employees trained on the Code of Ethics.100% of active employees trained on the Code of Ethics in 2023.Improve the AstraZeneca global biennial human rights survey results and use Fair Wage Network data to more robustly assess our performance against local living wage data.- Status: On planThe biennial human rights survey has been completed in 2022 and action plans are in progress.The analysis of Fair Wage Network data has enabled us to ensure we continue to pay a fair living wage globally.Status: On planambition is to achieve 100% ethical spend, ensuring we only work with suppliers that share our Values.Our approach fosters our suppliers' progress on sustainability, enables us to innovate together on challenges and accelerates supplier diversity.To achieve our goal, in 2023 we continued our partnership with EcoVadis to assess our suppliers' environmental, ethical, and social performance; of the 70% of our suppliers (by spend) that were assessed, 66% achieved an acceptable score of more than 45."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-115",
+                "title": "Scope 3 emissions, strategic approach",
+                "text": "For more detail, see AmbitionZero Carbon infographic.packaging, distribution, patient use and disposal.Pharmaceutical products have a long development cycle, which makes it critical to design in and embed climate considerations at an early stage.To achieve our goals, we must also tackle emissions from our existing commercial portfolio, which creates challenges with heavily regulated production processes and materials.To develop an effective response, we need to increase a shared understanding with our suppliers, investing time to help align with our expectations across our supply chain.By enabling suppliers to reduce their GHG emissions, we can reduce our own Scope 3 emissions and achieve our net-zero targets.Other challenges include difficulties in accessing renewable sources of heat, exacerbated by the energy crisis and the relative immaturity of commercial-scale clean heat solutions.The global transition to BEVs is being impeded by a lack of vehicles and charging infrastructure in some markets, although the supply of vehicles has improved and we are on plan to transition by the end of 2025 where technically feasible."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-4",
+        "disclosure_code": "GRI 305-4",
+        "disclosure_title": "GHG emissions intensity",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The disclosure reasonably addresses the reduction targets for both scopes 1 and 2 GHG emissions, and provides some details on the reduction achieved. However, it lacks specific examples of initiatives undertaken to achieve the targets. The paragraph also mentions the increase in Scope 3 emissions and reduction in intensity but lacks specific details on the actions taken to address this. The disclosure indicates progress in using primary data and suppliers setting science-based targets, which demonstrates some relevance and alignment with stakeholder interest. The mention of the partnership to accelerate the adoption of renewable energy across the",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-125",
+                "title": "Progress",
+                "text": "Reduce absolute Scope 1 and 2 GHG emissions by 98% by 2026, from a 2015 base year.Reduce absolute Scope 3 GHG emissions by 50% by 2030 and 90% by 2045, from a 2019 base year.Reduced Scope 1 and 2 GHG emissions by 67.6% since 2015, a reduction of 420 kilotonnes CO e.2Status: On planTotal Scope 3 increased by 18.6% from a 2019 baseline and Scope 3 intensity reduced by 24%.Significant increase in use of primary data and suppliers setting science-based targets (SBTs) will support future absolute emissions reductions towards 2030 target.- Status: On planscale for our suppliers, with the programme's first PPA buyers' cohort to purchase 2 TWh renewable electricity announced in November 2022.To date, 286 AstraZeneca suppliers have registered with the programme.In 2023, a partnership was announced between Energize and the Pharmaceutical Supply Chain Initiative (PSCI) to accelerate the adoption of renewable energy across the pharmaceutical sector supply chain to support the transition to net zero.We are tackling 20% of our Scope 3 footprint through our commitment to developing a nextgeneration pressurised metered-dose inhaler (pMDI) using the propellant HFO-1234ze(E), which has a near-zero Global Warming Potential (GWP) - see details below in Product sustainability key initiatives.We are working to build transparent supply chains by asking our partners to assess and disclose their GHG emissions to the CDP Supply Chain Programme, with 708 suppliers (59% of in-scope spend).See data annex for full metricsMaintain 100% of active employees trained on the Code of Ethics.100% of active employees trained on the Code of Ethics in 2023.Improve the AstraZeneca global biennial human rights survey results and use Fair Wage Network data to more robustly assess our performance against local living wage data.- Status: On planThe biennial human rights survey has been completed in 2022 and action plans are in progress.The analysis of Fair Wage Network data has enabled us to ensure we continue to pay a fair living wage globally.Status: On planambition is to achieve 100% ethical spend, ensuring we only work with suppliers that share our Values.Our approach fosters our suppliers' progress on sustainability, enables us to innovate together on challenges and accelerates supplier diversity.To achieve our goal, in 2023 we continued our partnership with EcoVadis to assess our suppliers' environmental, ethical, and social performance; of the 70% of our suppliers (by spend) that were assessed, 66% achieved an acceptable score of more than 45."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125",
+            "astrazeneca-sustainability-2023-115",
+            "astrazeneca-sustainability-2023-107",
+            "astrazeneca-sustainability-2023-118",
+            "astrazeneca-sustainability-2023-65",
+            "astrazeneca-sustainability-2023-9"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the reduction of GHG emissions, providing specific targets and progress updates. However, it lacks detail on the strategies and initiatives implemented to achieve the targets. The importance of the disclosure is indicated through alignment with business goals, stakeholder interests, and strategic initiatives, although further explanation on the significance would enhance materiality.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-125",
+                "title": "Progress",
+                "text": "Reduce absolute Scope 1 and 2 GHG emissions by 98% by 2026, from a 2015 base year.Reduce absolute Scope 3 GHG emissions by 50% by 2030 and 90% by 2045, from a 2019 base year.Reduced Scope 1 and 2 GHG emissions by 67.6% since 2015, a reduction of 420 kilotonnes CO e.2Status: On planTotal Scope 3 increased by 18.6% from a 2019 baseline and Scope 3 intensity reduced by 24%.Significant increase in use of primary data and suppliers setting science-based targets (SBTs) will support future absolute emissions reductions towards 2030 target.- Status: On planscale for our suppliers, with the programme's first PPA buyers' cohort to purchase 2 TWh renewable electricity announced in November 2022.To date, 286 AstraZeneca suppliers have registered with the programme.In 2023, a partnership was announced between Energize and the Pharmaceutical Supply Chain Initiative (PSCI) to accelerate the adoption of renewable energy across the pharmaceutical sector supply chain to support the transition to net zero.We are tackling 20% of our Scope 3 footprint through our commitment to developing a nextgeneration pressurised metered-dose inhaler (pMDI) using the propellant HFO-1234ze(E), which has a near-zero Global Warming Potential (GWP) - see details below in Product sustainability key initiatives.We are working to build transparent supply chains by asking our partners to assess and disclose their GHG emissions to the CDP Supply Chain Programme, with 708 suppliers (59% of in-scope spend).See data annex for full metricsMaintain 100% of active employees trained on the Code of Ethics.100% of active employees trained on the Code of Ethics in 2023.Improve the AstraZeneca global biennial human rights survey results and use Fair Wage Network data to more robustly assess our performance against local living wage data.- Status: On planThe biennial human rights survey has been completed in 2022 and action plans are in progress.The analysis of Fair Wage Network data has enabled us to ensure we continue to pay a fair living wage globally.Status: On planambition is to achieve 100% ethical spend, ensuring we only work with suppliers that share our Values.Our approach fosters our suppliers' progress on sustainability, enables us to innovate together on challenges and accelerates supplier diversity.To achieve our goal, in 2023 we continued our partnership with EcoVadis to assess our suppliers' environmental, ethical, and social performance; of the 70% of our suppliers (by spend) that were assessed, 66% achieved an acceptable score of more than 45."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-115",
+                "title": "Scope 3 emissions, strategic approach",
+                "text": "For more detail, see AmbitionZero Carbon infographic.packaging, distribution, patient use and disposal.Pharmaceutical products have a long development cycle, which makes it critical to design in and embed climate considerations at an early stage.To achieve our goals, we must also tackle emissions from our existing commercial portfolio, which creates challenges with heavily regulated production processes and materials.To develop an effective response, we need to increase a shared understanding with our suppliers, investing time to help align with our expectations across our supply chain.By enabling suppliers to reduce their GHG emissions, we can reduce our own Scope 3 emissions and achieve our net-zero targets.Other challenges include difficulties in accessing renewable sources of heat, exacerbated by the energy crisis and the relative immaturity of commercial-scale clean heat solutions.The global transition to BEVs is being impeded by a lack of vehicles and charging infrastructure in some markets, although the supply of vehicles has improved and we are on plan to transition by the end of 2025 where technically feasible."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-107",
+                "title": "Integration with our strategy and business model",
+                "text": "We manage our Environmental protection material focus areas in an interconnected way.Sustainable product design, sourcing and manufacturing aim to achieve lower natural resource use, reduced chemical and water demand, and generate less waste and pollution, as well as a lower GHG emissions footprint.We follow the science to lower the economic and environmental burden of healthcare, while improving health outcomes and reducing our exposure to environmental risks.To achieve this, we are accelerating the delivery of net-zero healthcare, proactively managing our environmental impact across allactivities, investing in nature and biodiversity, and assessing and managing both risks and opportunities.At AstraZeneca, we are demonstrating that this can be achieved alongside business growth, but there is more to do.By investing in new ways of working and through innovative collaborations, we can maximise the efficiency of how we use natural resources to further reduce our footprint."
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-118",
+                "title": "Energy efficiency and renewable energy",
+                "text": "In 2023, we invested $33.7 million in energy efficiency and on-site renewable energy through the NREF , together with other central capital investments, to progress towards our targets.We have achieved a 17.5% absolute reduction in total energy consumption from our 2015 baseline and we are committed to using 100% renewable energy sources to meet all our needs by the end of 2025.As part of our renewable energy strategy we investigated how to maximise the positive impact of our renewable energy procurement and identified three focus areas for development to align with our ambition to lead in sustainability:- \u00b7 Additionality - investments and energy purchase agreements that deliver on-site or new-to-grid renewable energy capacity.We are aiming for over half of our renewable energy globally to come from new sources- \u00b7 Geographic relevance - energy purchase agreements that deliver real world GHG emissions reductions by displacing fossil energy sources in the grid systems where we consume that energy- \u00b7 Temporal relevance - energy attribute certificates (EACs) that are tagged with the time and date of generation can improve the utilisation of renewable energy sources and deliver real world GHG emissions reductions.We are aiming to better understand, disclose and improve the alignment between when our energy is generated and consumed"
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-65",
+                "title": "Governance",
+                "text": "Overall responsibility for Access to healthcare is at Board-level, where progress is tracked against our Group People and Sustainability strategic priority, including our ESG goals.We incentivise select senior executives and in-country managers to perform on access initiatives with financial and nonfinancial rewards.Our CEO also has accessrelated incentives linked to the company's ESG performance.We publicly disclose outcomes of our access activities, including progress on our commitments, measurable goals, objectives and targets for improving health equity for patients in the countries where we operate.We collaborate on our Access to healthcare material focus areas on a cross-functional basis to deliver our strategy and measure progress.We also have a dedicated team within Global Corporate Affairs who oversee progress against targets and report on these to the Board Sustainability Committee, along with the development of our health equity strategy and expansion of our access programmes.We are playing our part to address health inequities and eliminate discrimination from the delivery of healthcare.As a company at the forefront of scientific and medical innovation, we are also harnessing the latest digital technologies to support improved access.This includes using the power of data and analytics for early diagnosis and expanding access to the latest medical research and training for healthcare professionals.We are committed to improving equitable access to healthcare for patients globally, including to our innovative product portfolio.Our executive-led Ambition Zero Carbon Governance Group is accountable for the delivery of Ambition Zero Carbon across all three of our Environmental protection focus areas.In 2023, this Governance Group included our CEO, CFO, and the EVP , Global Operations, IT &amp; Chief Sustainability Officer.Since 2021, delivery of Ambition Zero Carbon Scope 1 and 2 commitments has been included in our executive incentive arrangements for the Performance Share Plan (PSP), with a weighting of 10% of award.This measure reflects the importance of reducing our Scope 1 and 2 GHG emissions on the way to achieving our verified science-based target of a 98% reduction by 2026 from the 2015 baseline.GHG emissions are calculated in line with the World Resources Institute/World Business Council for Sustainable Development GHG Protocol methodology for accounting and reporting of our emissions footprint.The PSP is determined by the Board's Remuneration Committee and approved by the Annual General Meeting.As outlined in our Code of Ethics, we are committed to driving the highest ethical standards.As members of the International Federation of Pharmaceutical Manufacturers &amp; Associations (IFPMA), and the EFPIA, we adhere to their codes.We value speaking up as part of our ethical business culture.We want anyone who has a concern about our ethics or conduct to report it without delay.With our AZethics platform, we are making it easier for individuals to make a report using a simple, one-step intake form and the option to remain anonymous where permitted by local law.Internally, we also encourage a culture of transparent reporting of concerns to the relevant manager, Human Resources or Compliance functions.We are committed to investigating and responding to all concerns of alleged misconduct or breaches of law or policy that are raised to us.Our Code of Ethics and its supporting Standards are designed to help protect against unlawful discrimination on any"
+            },
+            {
+                "section_idx": "astrazeneca-sustainability-2023-9",
+                "title": "2023 recognition",
+                "text": "As a global business we have a responsibility to lead.We are committed to using our capabilities to help tackle some of society's greatest challenges.We must recognise the strong correlation between healthy people and a healthy planet the science is clear.The number of heat-related deaths could more than triple by 2050 without significant action, and we're witnessing a steep rise in heart and metabolic conditions, cancers and respiratory illnesses linked to environmental factors.The COP28 Declaration on Climate and Health was a milestone moment in recognising the urgent need to tackle the global climatehealth crisis in 2023.With the healthcare sector responsible for around five per cent of global emissions, we must significantly reduce our environmental footprint.At AstraZeneca, we're driving deep decarbonisation across our value chain through our flagship Ambition Zero Carbon strategy.We're investing $1 billion to reduce emissions from the lab to the patient and are integrating more circular approaches into the discovery, development and delivery of medicines with the latest digital technologies and innovation.We're also restoring nature and supporting biodiversity through our AZ Forest programme, which expanded in 2023 to a $400 million initiative to plant and maintain 200 million trees by 2030.Learning from scientific and ecological experts and local communities is central to our approach, with 19.9 million trees planted to date.We embed this collaboration mindset across all of our sustainability efforts, recognising that when we come together, we can transform the delivery of healthcare to become more resilient, equitable and net zero.We want people to live their healthiest lives, wherever they live.The Sustainable Markets Initiative Health Systems Task Force is a public-private partnership we're proud to convene which focuses on accelerating the transition to net zero health systems.In 2023, we launched joint environmental targets for suppliers, saw the establishment of a China Health Working Group, and recently concluded a multi-party agreement to access renewable power in China.The Partnership for Health System Sustainability and Resilience is a further example of our commitment.Together with partners, we're delivering evidence-based recommendations which are leading to policyRating of AA in the MSCI ESG Ratings assessmentForbes 2023 World's Top Companies for WomenMember of"
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-1",
+        "disclosure_code": "GRI 306-1",
+        "disclosure_title": "Waste generation and significant waste-related impacts",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph addresses the waste generation and waste-related impacts disclosure reasonably well, covering the company's efforts to minimize waste generation and maximize recycling. However, it lacks specific examples or metrics to monitor progress. The importance of waste management to the business and stakeholders is indicated, aligning with stakeholder interest and environmental impact. The company's commitment to assess and minimize environmental impacts from the supply chain demonstrates relevance and the alignment with stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-144",
+                "title": "Our circular economy approach",
+                "text": "Incorporate the principles of the circular economy into the design of all our processes and products, from initial research and development through to productionDevelop suitable metrics to monitor our progress towards a more circular economySeek to minimise the amount of materials required and waste generated during manufacture and use of our productsMaximise proportion of waste recycled and aim to eliminate waste to landfillIncrease reused or recycled content of the materials we use (both directly, and in our supply chain)Where possible, regenerate nature and use renewable natural resources instead of non-renewable onesTo do this, we are leveraging our experience with lean manufacturing, which includes tools to enhance efficiency and eliminate waste, and embedding recognised best practices from partners such as My Green Lab into our business as usual.These efforts empower employees across our global network to identify and implement ideas that contribute to our environmental targets.Our key targets aim to decouple water use and waste generation from business growth, supported by efficiency projects, partnership, and engagement with suppliers, and designing out waste and pollution in support of water security and minimised environmental impact where we operate.Moving beyond efficiency within our direct operations, we are working in collaboration with key stakeholders, including our ongoing collaboration with the World Wide Fund for Nature (WWF) Sweden, to make positive contributions to nature and local communities near our sites while mitigating risks from a changing climate.We are also working to embed emerging best practice into our own operations and across our supply chain, for example using tools and guidance that Science Based Targets for Nature (SBTN) is developing, to set long-term, science-led water and biodiversity targets that are informed by local context by 2025.Recognising that our supply chains have the potential to impact biodiversity, we have committed to developing a framework to systematically assess biodiversity risks and dependencies across our value chain during 2024.We will build on this knowledge to ensure all agricultural, forestry and marinederived materials used in our products and research activities are sustainably sourced by 2028.We are also committed to demonstrating key forest risk commodities are free from deforestation and ecosystem conversion by 2025.More details can be found in our position statements on Water stewardship and Biodiversity.We are also furthering our commitment to assess and minimise environmental impacts from our supply chain.While making progress on our existing responsible sourcing targets to create action plans for identified key raw materials of natural origin, we are building a risk-based approach to assess additional new and existing materials' impacts and dependencies on nature.This is helping prepare us for future reporting to the Taskforce on Nature-related Financial Disclosures (TNFD) framework, where we have announced we will be an early adopter.More details of our approach can be found in our Raw Materials Responsible Sourcing Framework."
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-2",
+        "disclosure_code": "GRI 306-2",
+        "disclosure_title": "Management of significant waste related impacts",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph addresses waste management efforts, including waste treatment methods and waste generation reduction. It provides detailed information about the company's efforts to minimize waste and maximize recycling, as well as the integration of circular economy principles. However, it could be more explicit in providing specific examples of waste treatment methods and efforts to reduce waste generation. The importance of waste management to stakeholders and the business is clearly explained, aligning with sustainability goals, supply chain management, and stakeholder interests.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-144",
+                "title": "Our circular economy approach",
+                "text": "Incorporate the principles of the circular economy into the design of all our processes and products, from initial research and development through to productionDevelop suitable metrics to monitor our progress towards a more circular economySeek to minimise the amount of materials required and waste generated during manufacture and use of our productsMaximise proportion of waste recycled and aim to eliminate waste to landfillIncrease reused or recycled content of the materials we use (both directly, and in our supply chain)Where possible, regenerate nature and use renewable natural resources instead of non-renewable onesTo do this, we are leveraging our experience with lean manufacturing, which includes tools to enhance efficiency and eliminate waste, and embedding recognised best practices from partners such as My Green Lab into our business as usual.These efforts empower employees across our global network to identify and implement ideas that contribute to our environmental targets.Our key targets aim to decouple water use and waste generation from business growth, supported by efficiency projects, partnership, and engagement with suppliers, and designing out waste and pollution in support of water security and minimised environmental impact where we operate.Moving beyond efficiency within our direct operations, we are working in collaboration with key stakeholders, including our ongoing collaboration with the World Wide Fund for Nature (WWF) Sweden, to make positive contributions to nature and local communities near our sites while mitigating risks from a changing climate.We are also working to embed emerging best practice into our own operations and across our supply chain, for example using tools and guidance that Science Based Targets for Nature (SBTN) is developing, to set long-term, science-led water and biodiversity targets that are informed by local context by 2025.Recognising that our supply chains have the potential to impact biodiversity, we have committed to developing a framework to systematically assess biodiversity risks and dependencies across our value chain during 2024.We will build on this knowledge to ensure all agricultural, forestry and marinederived materials used in our products and research activities are sustainably sourced by 2028.We are also committed to demonstrating key forest risk commodities are free from deforestation and ecosystem conversion by 2025.More details can be found in our position statements on Water stewardship and Biodiversity.We are also furthering our commitment to assess and minimise environmental impacts from our supply chain.While making progress on our existing responsible sourcing targets to create action plans for identified key raw materials of natural origin, we are building a risk-based approach to assess additional new and existing materials' impacts and dependencies on nature.This is helping prepare us for future reporting to the Taskforce on Nature-related Financial Disclosures (TNFD) framework, where we have announced we will be an early adopter.More details of our approach can be found in our Raw Materials Responsible Sourcing Framework."
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-3",
+        "disclosure_code": "GRI 306-3",
+        "disclosure_title": "Waste generated",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The paragraph provides a reasonable amount of information about the company's efforts to minimize waste generation and increase recycling. However, it lacks specific details about the total amount of waste generated by the company, which is the key component of the GRI disclosure. The materiality is scored high as the paragraph demonstrates the importance of waste generation and management to the company's sustainability strategy, including commitments, collaborations, and future targets.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-144",
+                "title": "Our circular economy approach",
+                "text": "Incorporate the principles of the circular economy into the design of all our processes and products, from initial research and development through to productionDevelop suitable metrics to monitor our progress towards a more circular economySeek to minimise the amount of materials required and waste generated during manufacture and use of our productsMaximise proportion of waste recycled and aim to eliminate waste to landfillIncrease reused or recycled content of the materials we use (both directly, and in our supply chain)Where possible, regenerate nature and use renewable natural resources instead of non-renewable onesTo do this, we are leveraging our experience with lean manufacturing, which includes tools to enhance efficiency and eliminate waste, and embedding recognised best practices from partners such as My Green Lab into our business as usual.These efforts empower employees across our global network to identify and implement ideas that contribute to our environmental targets.Our key targets aim to decouple water use and waste generation from business growth, supported by efficiency projects, partnership, and engagement with suppliers, and designing out waste and pollution in support of water security and minimised environmental impact where we operate.Moving beyond efficiency within our direct operations, we are working in collaboration with key stakeholders, including our ongoing collaboration with the World Wide Fund for Nature (WWF) Sweden, to make positive contributions to nature and local communities near our sites while mitigating risks from a changing climate.We are also working to embed emerging best practice into our own operations and across our supply chain, for example using tools and guidance that Science Based Targets for Nature (SBTN) is developing, to set long-term, science-led water and biodiversity targets that are informed by local context by 2025.Recognising that our supply chains have the potential to impact biodiversity, we have committed to developing a framework to systematically assess biodiversity risks and dependencies across our value chain during 2024.We will build on this knowledge to ensure all agricultural, forestry and marinederived materials used in our products and research activities are sustainably sourced by 2028.We are also committed to demonstrating key forest risk commodities are free from deforestation and ecosystem conversion by 2025.More details can be found in our position statements on Water stewardship and Biodiversity.We are also furthering our commitment to assess and minimise environmental impacts from our supply chain.While making progress on our existing responsible sourcing targets to create action plans for identified key raw materials of natural origin, we are building a risk-based approach to assess additional new and existing materials' impacts and dependencies on nature.This is helping prepare us for future reporting to the Taskforce on Nature-related Financial Disclosures (TNFD) framework, where we have announced we will be an early adopter.More details of our approach can be found in our Raw Materials Responsible Sourcing Framework."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well addresses the actions taken to assess negative environmental impacts in the supply chain and the commitment to sustainability. It covers most key elements but lacks specific examples or detail, such as actual metrics and results. The paragraph demonstrates the importance of the topic to the business and stakeholders, aligning with sustainability strategy, risk management, and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-144",
+                "title": "Our circular economy approach",
+                "text": "Incorporate the principles of the circular economy into the design of all our processes and products, from initial research and development through to productionDevelop suitable metrics to monitor our progress towards a more circular economySeek to minimise the amount of materials required and waste generated during manufacture and use of our productsMaximise proportion of waste recycled and aim to eliminate waste to landfillIncrease reused or recycled content of the materials we use (both directly, and in our supply chain)Where possible, regenerate nature and use renewable natural resources instead of non-renewable onesTo do this, we are leveraging our experience with lean manufacturing, which includes tools to enhance efficiency and eliminate waste, and embedding recognised best practices from partners such as My Green Lab into our business as usual.These efforts empower employees across our global network to identify and implement ideas that contribute to our environmental targets.Our key targets aim to decouple water use and waste generation from business growth, supported by efficiency projects, partnership, and engagement with suppliers, and designing out waste and pollution in support of water security and minimised environmental impact where we operate.Moving beyond efficiency within our direct operations, we are working in collaboration with key stakeholders, including our ongoing collaboration with the World Wide Fund for Nature (WWF) Sweden, to make positive contributions to nature and local communities near our sites while mitigating risks from a changing climate.We are also working to embed emerging best practice into our own operations and across our supply chain, for example using tools and guidance that Science Based Targets for Nature (SBTN) is developing, to set long-term, science-led water and biodiversity targets that are informed by local context by 2025.Recognising that our supply chains have the potential to impact biodiversity, we have committed to developing a framework to systematically assess biodiversity risks and dependencies across our value chain during 2024.We will build on this knowledge to ensure all agricultural, forestry and marinederived materials used in our products and research activities are sustainably sourced by 2028.We are also committed to demonstrating key forest risk commodities are free from deforestation and ecosystem conversion by 2025.More details can be found in our position statements on Water stewardship and Biodiversity.We are also furthering our commitment to assess and minimise environmental impacts from our supply chain.While making progress on our existing responsible sourcing targets to create action plans for identified key raw materials of natural origin, we are building a risk-based approach to assess additional new and existing materials' impacts and dependencies on nature.This is helping prepare us for future reporting to the Taskforce on Nature-related Financial Disclosures (TNFD) framework, where we have announced we will be an early adopter.More details of our approach can be found in our Raw Materials Responsible Sourcing Framework."
+            }
+        ]
+    },
+    {
+        "topic": "gri_403",
+        "topic_title": "Occupational Health and Safety",
+        "disclosure": "gri_403-2",
+        "disclosure_code": "GRI 403-2",
+        "disclosure_title": "Hazard identification, risk assessment, and incident investigation",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-198"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing detailed information about the processes used to identify work-related hazards and assess risks. It outlines the Serious Injury and Fatality Prevention and Mitigation Programme, the evaluation of high-risk activities, and the implementation of a three-year plan to address high-risk areas. However, it lacks specific examples of hazard identification and incident investigation. The importance of the disclosure is indicated by demonstrating the company's alignment with stakeholder concerns, the significance of process safety management, and the integration of hazardous activity focus into existing ways of working.",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-198",
+                "title": "Preventing serious injury and fatality at work",
+                "text": "We launched a Serious Injury and Fatality Prevention and Mitigation Programme in 2021, led by our Global SHE team and guided by a senior-level steering committee.Process and life safety subject matter experts evaluate high-risk activities with the potential to result in a serious injury or fatality and prioritise these against internal audit findings and past events.In 2023 we implemented the final year of our three-year plan to address 12 high-risk areas, focusing on process safety management, explosive atmospheres and instrumented protective systems.Besides reviewing and uplifting existing standards and materials, followed by a gap assessment at site-level, we have now also included questions for leaders to ask during routine workplace interactions, to provide process confirmation.This involves leaders watching the process and engaging with those who do the work to learn if there are further improvement opportunities.The successful approach to focus on hazardous activities is now being built into existing ways of working, ensuring sustainable implementation and continuous improvement."
+            }
+        ]
+    },
+    {
+        "topic": "gri_405",
+        "topic_title": "Diversity and Equal Opportunity",
+        "disclosure": "gri_405-1",
+        "disclosure_code": "GRI 405-1",
+        "disclosure_title": "Diversity of governance bodies and employees",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-180"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph provides a general commitment to creating an inclusive working environment and mentions efforts to extend inclusion and diversity priorities to the value chain. However, it lacks specific details about the diversity of governance bodies and employees in terms of age, gender, and minority representation. While it indicates the importance of diversity, it does not provide explicit and detailed information about the current state of diversity within the company's workforce and governance bodies. The materiality score is higher because it demonstrates relevance to the business and stakeholders, aligning with the company's commitment to creating an inclusive environment",
+        "paragraphs": [
+            {
+                "section_idx": "astrazeneca-sustainability-2023-180",
+                "title": "Scope of this focus area",
+                "text": "To create a working environment where every employee has a sense of belonging and feels valued for the contribution they make, regardless of age, sex, disability, ethnicity, gender identity or re-assignment, nationality, pregnancy, race, religion, sexual orientation, country of origin or other forms of diversity.This includes equitable reward and opportunities for development and advancement.Additionally, our Inclusion and Diversity (I&amp;D) priorities extend to AstraZeneca's value chain through supplier diversity efforts that enhance our socio-economic impact in local communities."
+            }
+        ]
+    }
+]

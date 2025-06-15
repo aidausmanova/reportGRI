@@ -1,0 +1,562 @@
+[
+    {
+        "topic": "gri_2-organization",
+        "topic_title": "General Disclosures: Company Profile",
+        "disclosure": "gri_2-2",
+        "disclosure_code": "GRI 2-2",
+        "disclosure_title": "Entities included in company's sustainability reporting",
+        "section_ids": [
+            "boeing-sustainability-2023-5",
+            "boeing-sustainability-2023-0",
+            "boeing-sustainability-2023-7",
+            "boeing-sustainability-2023-4"
+        ],
+        "completeness": 4,
+        "materiality": 6,
+        "comment": " The paragraph provides a general overview of the sustainability activities of the company and mentions collaboration with various stakeholders and sustainability goals. However, it lacks specific information about the entities included in the sustainability reporting, such as subsidiaries, joint ventures, or other relevant parties. The importance of this disclosure to stakeholders and the business is indicated, but the specific relevance to the company's strategy, risk, or stakeholder concerns is not fully demonstrated.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-5",
+                "title": "Reporting Approach and Alignment",
+                "text": "To address the diverse interests of our stakeholders , we have provided a detailed overview of our sustainability activities and data in this report .\nWe are providing indexes with alignment to the Global Reporting Initiative ( GRI ) , Sustainability Accounting Standards Board ( SASB ) , Task Force on Climate-related Financial Disclosures ( TCFD ) and the United Nations Sustainable To supplement this report , we publish additional information at boeing comlsustainability ."
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-0",
+                "title": "President and CEO Message",
+                "text": "2023 Boeing Sustainability Report Alongside our strong commitment to safety , quality , and integrity , sustainability is tightly woven into the fabric of our values , our culture and our aerospace industry . Aviation is integral to our modern world , touching many sectors of the global economy and enabling personal human connections .\nThat 's why we title our report `` Sustainable Aerospace Together .\nto play to ensure we make the world better for future generations In this report , you 'll see examples of our collective efforts and partnerships to advance environmental stewardship , human development and inclusion underpinned by transparency at every level as we strive to make aerospace more sustainable , together Collaboration with global industry partners , the energy sector , governments , nongovernmental organizations , higher education institutions and other stakeholders to advance sustainable solutions is more necessary than ever .\nTo increase education around the commercial aviation industry 's carbon footprint , and its ambition to reach net-zero carbon emissions by 2050 , Boeing created an innovative visual data modeling tool known as Cascade , which you will learn more about in this report .\nCascade models the climate impact of the commercial aviation industry and explores paths to decarbonize and reach net zero by 2050 . Within our manufacturing operations , it is not just what we build , but how we build our products .\nWe increasingly look at every stage of the product life reduce our environmental impact by investing in conservation and procuring more renewable electricity : cycle We also continue our focus on providing transparent , inclusive workplace culture in which teammates ' voices are heard and managers are empowered to make meaningful change when necessary .\nOur latest progress and efforts in 2022 are seen within our Global Equity , Diversity & Inclusion report , including an increase in women 's representation in our global workforce and raciallethnic minority representation in the U.S. workforce and connecting incentive compensation to inclusion . We routinely encourage use of our Seek , Speak & Listen habits in internal interactions .\nindicate that a majority of our teammates are comfortable discussing concerns with managers and feel comfortable telling others at work when they have made an error . Our goal is to provide a safe environment so that each employee 's voice is heard .\nBoeing , we support science , technology , engineering and math ( STEM ) education initiatives , assist military members , veterans and their families , promote environmental stewardship , advance racial equity , and provide for communities in need including disaster recovery and relief .\nWe continue to prioritize safety , quality , integrity and sustainability every step of the way : Trust is earned one airplane and one interaction at a time . Our leadership team also works closely with the Boeing Board of Directors to help ensure industry standards and ethical practices are followed .\nOur Board and specifically the Governance & Public Policy Committee provides oversight and policies , practices and strategy : We are in the era of more sustainable aerospace , and together , we look forward to achieving it David L. Calhoun , President and CEO Boeing"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-7",
+                "title": "Corporate and Sustainability Governance",
+                "text": "The Board of Directors has extensive oversight of strategy development , company culture , political and charitable contributions , corporate sustainability and key strategic operational and compliance risks .\nPlease see our corporate Sustainability is rooted in Boeing 's values The Board and specifically the Governance and Public Policy ( GPP ) Committee , oversees a variety of sustainability topics and Boeing 's Chief Sustainability Officer ( CSO ) , Chris Raymond , is an Executive Council member reporting to Boeing 's CEO .\nAs CSO , Raymond reports the progress of Boeing 's sustainability objectives and stakeholder-oriented reports regularly to the GPP Committee and the full Board . The Board reviews and provides input on the sustainability report ."
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-4",
+                "title": "Embedding Sustainability at Boeing",
+                "text": "We continue to embed sustainability practices across our business , learning and evolving to meet stakeholder expectations .\nWe have organized our sustainability efforts around four Operations and Communities Our sustainability priorities and enterprise initiatives are managed through these pillars , with and metrics monitored by company leaders including our Global Sustainability Council ( See Page 13 ) Our efforts reflect the shared value we create with our stakeholders .\nYou will see our sustainability priorities , listed below , emphasized in this report . Our collaborative relationships inform these priorities and our sustainability goals , driving long-term value for our stakeholders .\nkey key goals key - Global Aerospace Safety - Employee Safety and Well-Being - Climate Action - Environmentally Responsible Operations - Global Equity , Diversity & Inclusion - Ethical and Compliant Business - Data Privacy and Information Security"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-ethics",
+        "topic_title": "General Disclosures: Ethics and Integrity",
+        "disclosure": "gri_2-23",
+        "disclosure_code": "GRI 2-23",
+        "disclosure_title": "Policy commitments",
+        "section_ids": [
+            "boeing-sustainability-2023-15",
+            "boeing-sustainability-2023-62"
+        ],
+        "completeness": 5,
+        "materiality": 6,
+        "comment": " The paragraph partially addresses the GRI disclosure by mentioning the company's commitment to responsible business practices, policies, and practices to enforce a code of conduct. However, it lacks specific details about the policies and practices, as well as the Code of Basic Working, and human rights approach. It also briefly mentions the Supplier Code of Conduct without providing explicit details. The paragraph indicates some relevance to stakeholders and business impact by discussing responsible supply chain practices, alignment with OECD's Due Diligence Guidance, and co-founding an industry effort for ESG engagement. However",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-15",
+                "title": "Commitments and Actions on Human Rights",
+                "text": "Boeing is committed to responsible business practices and promoting positive change while simultaneously creating value for our customers , shareholders and other stakeholders .\nIn recognition of this commitment , the company has developed policies and practices designed to enforce our Code of Basic Working Learn more about our approach to human rights Through our Supplier Code of Conduct , we establish foundational expectations of prospective and active suppliers , including adherence to human rights standards"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-62",
+                "title": "Responsible Supply Chain",
+                "text": "Responsible supply chain practices are key to advancing industry sustainability business processes and supplied goods , addressing regulations , and creating positive environmental and social impact Boeing is driving a holistic approach to responsible supply chain practices that align with the Organisation for Economic Co-operation and Development 's Due Diligence Guidance for Responsible Business Conduct In 2021 , we co-founded an industry effort through the International Aerospace Environmental Group ( IAEG ) to establish voluntary sectoral framework for ESG engagement , including assessment and awareness , throughout the aerospace manufacturing industry .\nEthical , responsible and sustainable business conduct is at the core of how extend to our suppliers . The Boeing Supplier Code of Conduct , based on the International Forum on Business Ethical Conduct for the Aerospace and Defense Industry 's model code , provides suppliers with a set of responsible business conduct expectations consistent with our policies , principles and sustainability efforts"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-ethics",
+        "topic_title": "General Disclosures: Ethics and Integrity",
+        "disclosure": "gri_2-24",
+        "disclosure_code": "GRI 2-24",
+        "disclosure_title": "Embedding policy commitments",
+        "section_ids": [
+            "boeing-sustainability-2023-4",
+            "boeing-sustainability-2023-62",
+            "boeing-sustainability-2023-15"
+        ],
+        "completeness": 6,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the GRI disclosure by mentioning the company's sustainability efforts and priorities, as well as the establishment of policies and practices to enforce the Code of Basic Working. However, it lacks explicit details on how these policy commitments are embedded throughout activities and business relationships, such as specific examples of implementation or integration into supply chain management. The mention of the Global Sustainability Council and the Supplier Code of Conduct provides some insight into the governance and implementation aspects, but more specific information would enhance the completeness. The materiality score is moderately high as the",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-4",
+                "title": "Embedding Sustainability at Boeing",
+                "text": "We continue to embed sustainability practices across our business , learning and evolving to meet stakeholder expectations .\nWe have organized our sustainability efforts around four Operations and Communities Our sustainability priorities and enterprise initiatives are managed through these pillars , with and metrics monitored by company leaders including our Global Sustainability Council ( See Page 13 ) Our efforts reflect the shared value we create with our stakeholders .\nYou will see our sustainability priorities , listed below , emphasized in this report . Our collaborative relationships inform these priorities and our sustainability goals , driving long-term value for our stakeholders .\nkey key goals key - Global Aerospace Safety - Employee Safety and Well-Being - Climate Action - Environmentally Responsible Operations - Global Equity , Diversity & Inclusion - Ethical and Compliant Business - Data Privacy and Information Security"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-62",
+                "title": "Responsible Supply Chain",
+                "text": "Responsible supply chain practices are key to advancing industry sustainability business processes and supplied goods , addressing regulations , and creating positive environmental and social impact Boeing is driving a holistic approach to responsible supply chain practices that align with the Organisation for Economic Co-operation and Development 's Due Diligence Guidance for Responsible Business Conduct In 2021 , we co-founded an industry effort through the International Aerospace Environmental Group ( IAEG ) to establish voluntary sectoral framework for ESG engagement , including assessment and awareness , throughout the aerospace manufacturing industry .\nEthical , responsible and sustainable business conduct is at the core of how extend to our suppliers . The Boeing Supplier Code of Conduct , based on the International Forum on Business Ethical Conduct for the Aerospace and Defense Industry 's model code , provides suppliers with a set of responsible business conduct expectations consistent with our policies , principles and sustainability efforts"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-15",
+                "title": "Commitments and Actions on Human Rights",
+                "text": "Boeing is committed to responsible business practices and promoting positive change while simultaneously creating value for our customers , shareholders and other stakeholders .\nIn recognition of this commitment , the company has developed policies and practices designed to enforce our Code of Basic Working Learn more about our approach to human rights Through our Supplier Code of Conduct , we establish foundational expectations of prospective and active suppliers , including adherence to human rights standards"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-29",
+        "disclosure_code": "GRI 2-29",
+        "disclosure_title": "Approach to stakeholder engagement",
+        "section_ids": [
+            "boeing-sustainability-2023-3"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the GRI disclosure by providing information on how Boeing identifies and prioritizes relevant stakeholders across its value chain. It also outlines the various channels through which the company engages with stakeholders and how this informs their decision-making. However, the disclosure could be more explicit in providing specific examples of how stakeholder needs are considered in decision-making processes. The materiality is high as it demonstrates the relevance of stakeholder engagement to the business and stakeholders, aligning with the company's mission and strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-3",
+                "title": "Stakeholder-Driven Transparency",
+                "text": "Boeing is committed to transparency . Boeing considers stakeholders \u2019 interests to identify and prioritize the most relevant issues and to assess the most significant challenges and risks facing the company .\nThrough our annual disclosure and reporting cycle , we compile and share a broad set of data , information and operating examples that are relevant to our stakeholders , including our employees , customers , industry partners , investors , regulatory authorities , communities and others .\nThese diverse groups of stakeholders have been identified by Boeing as key affected by Boeing 's mission to protect , connect and explore frameworks , Boeing reports each year on our financial performance and company priorities , our employee demographics and progress toward achieving equity , diversity and inclusion goals , our sustainability performance , our community investments and advocacy , and our industry-leading aerospace market outlooks Throughout 2022 , we maintained a comprehensive engagement strategy that focused on engaging with stakeholders through proactive ongoing dialogue , surveys , industry forums and events , and monitoring external data , some of which is discussed throughout this report .\nThis dialogue and collaboration informs our approach , goals and actions to drive sustainable , long-term value for our stakeholders . We look forward to continuing to evolve and refine our stakeholder engagement strategy throughout key"
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-4",
+        "disclosure_code": "GRI 302-4",
+        "disclosure_title": "Reduction of energy consumption",
+        "section_ids": [
+            "boeing-sustainability-2023-50",
+            "boeing-sustainability-2023-52",
+            "boeing-sustainability-2023-49",
+            "boeing-sustainability-2023-51",
+            "boeing-sustainability-2023-57"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph provides reasonable detail about the initiatives taken by the company to reduce energy consumption, including specific progress towards reduction targets and conservation initiatives. However, it lacks specific examples or details of energy reduction projects. The materiality is high as the disclosure demonstrates the importance of energy reduction in achieving GHG reduction targets and aligns with stakeholder concerns and environmental priorities.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-50",
+                "title": "Operational Targets Progress",
+                "text": "Boeing invests in sustainable operations to reduce the impact of our manufacturing sites and is focused on conserving resources .\nWe prioritize reducing emissions , energy , water and waste throughout our global operations and have set 2025 waypoints toward 2030 goals to share our progress and remain accountable as we increase production : Boeing 's sustainable operations strategy is managed within the Global Enterprise Sustainability organization , in close partnership with stakeholders across the enterprise .\nThrough our Sustainable Operations subcouncil we track performance across the enterprise and at the site level to assess our progress identify challenges and opportunities , and share best practices . We| Performance Area 1 | 2025 Targets vs. 2017 2 | 2022 Progress Toward 2025 Targets and Drivers | 2030 Targets 3 | - Category : Greenhouse Gas Emissions .\n2025 target : Reduce emissions by 25 % . Progress : 31 % Reduction Procurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments - Category : Energy . 2025 target : Reduce energy consumption ( natural gas , other fuels and electricity ) by 10 % .\nProgress : 11 % Reduction Conservation initiatives , infrastructure investments , remote working conditions and reduced production activity . - Category : Water . 2025 target : Reduce water withdrawal by 20 % . Progress : 19 % Reduction Increased water intake efficiencies and low production activity . - Category : Solid Waste .\n2025 target : Reduce solid waste to landfill by 20 % . Progress : 40 % Reduction Conservation initiatives , vendor management and remote working conditions . - Category : Hazardous Waste . 2025 target : Reduce hazardous waste by 5 % . Progress : 9 % Reduction Projects to reduce unused and expired materials , and partnerships to reduce waste generation .\n2030 targets : - Category : Greenhouse Gas Emissions . 2030 target : Net-zero emissions ; 55 % GHG reduction from 2017 ; 100 % renewable electricity . - Category : Energy . 2030 target : 10 % energy reduction from 2025 . - Category : Water . 2030 target : 5 % reduction from 2025 . - Category : Solid Waste .\n2030 target : 30 % reduction in solid waste produced from 2025 ; Over 90 % diversion from landfill or incineration ; Zero solid waste to landfill certification where applicable at major sites . - Category : Hazardous Waste . 2030 target : 5 % hazardous waste reduction from 2025 ."
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-52",
+                "title": "Boeing facilities prioritize conservation, energy efficiency and renewable energy",
+                "text": "As energy consumption gives rise to GHG emissions , conservation and energy reduction measures help achieve both energy and GHG reductions Germany : Boeing 's new distribution center in Hamburg meets high sustainability standards and will be seeking Gold certification from the German Sustainable Building Council .\nTo minimize the environmental footprint , the building is equipped with a heat pump and photovoltaic system will be installed on the roof in the later half of 2023 .\nUS : - Mesa , Arizona , recently completed construction of a new composites manufacturing facility : A quarter of the between Boeing and the Salt River Project brings the company closer to achieving its 2030 goal of 100 % renewable electricity : - Frederickson , Washington , and El Segundo , California , facilities is driving an annual recurring savings of 25.3 million kilowatt-hours , which is equivalent to powering homes per year : India : Boeing 's new engineering and technology campus in Bengaluru leverage multiple design elements , including efficient ventilation systems , LED lighting , rainwater recovery and solar power generation : .\nwill Boeing expanded its strong presence in Europe with a new state-of-the art distribution warehouse near Hamburg , Germany . ( Boeing photo ) It comes down to this : Boeing will continue to invest in conservation and renewable energy projects to advance the company 's operational environmental goals ."
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-49",
+                "title": "Sustainable Operations",
+                "text": "Boeing appreciates sustainable aerospace starts inside our four walls . We are focused on continuous improvements elements including greenhouse gas emissions ( Scope 1 and Scope 2 ) , energy usage , water and waste management energy procurement , targeted infrastructure and equipment investments , efficiency standards and conservation initiatives that include deployment of best practices and employee engagement strategies .\nCore to this strategy is the ongoing engagement of our employees each year through education and initiatives focused on ways in which they can reduce environmental strategy is guided by a comprehensive review and assessment of the most challenges and risks facing the company , and our environmental priorities are set with internal and external stakeholders .\nThe analysis includes direct input and perspectives on industry best practices and community requirements from diverse stakeholders , such as customers , environment-focused nongovernmental organizations ( NGO ) and the company 's global leadership . The information helps Boeing identify and update our understanding of current and emerging sustainability issues that are critical to the company and our stakeholders .\nIt also informs our next-generation key Since 2020 , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissionsContents"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-57",
+                "title": "Reducing water consumption",
+                "text": "Boeing sets rigorous water use reduction targets at our manufacturing sites to preserve this natural resource for the environment and our communities . Boeing 's water is sourced from local public utilities ( surface , ground and reclaimed water ) and company generation ( on-site well , on-site reclamation and rain capture ) .\nThis sourced water supports manufacturing , sanitation , drinking water , cooling and irrigation across the company : The majority of our water is from public water supply systems , and most consumption measurement is from water system discharged to public sanitary sewer systems .\nIn some cases , Boeing pre-treats wastewater before discharging it to public sanitary sewer systems , in compliance with regulatory requirements . Boeing does not set voluntary effluent discharge standards beyond those set by regulation . Boeing specialists work to identify efficiencies , best practices and new technologies to reduce water use and identify alternatives .\nWe monitor irregularities that may require action and created a Conservation Best Practice program to minimize water use , applying many water management techniques endorsed by the U.S. Environmental Protection Agency . In 2022 , we achieved a 19 % reduction compared to consumption in 2017 .\nWater consumption was 7 % lower than anticipated with sites implementing conservation initiatives to increase water intake efficiencies and with production activity remaining low . Building off the reductions seen by 2025 , Boeing will transition to an absolute reduction goal to focus on the most waterintensive processes across the company ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-5",
+        "disclosure_code": "GRI 302-5",
+        "disclosure_title": "Reductions in energy requirements of products and services",
+        "section_ids": [
+            "boeing-sustainability-2023-33"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": "The paragraph only vaguely mentions the potential use of renewable energy to reduce the carbon intensity of the company's products. It lacks specific details on the current energy requirements of the products, any reduction targets, or strategies being implemented to achieve reductions.The paragraph briefly mentions the importance of renewable energy in reducing carbon intensity, but it does not clearly demonstrate why this topic is important to the business and stakeholders. It lacks context, alignment with strategy, or explanation of significance. The paragraph only vaguely mentions the",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-33",
+                "title": "Renewable Energy",
+                "text": "Renewable energy can help reduce carbon emissions inside our operations and from our products and services .\nFor our products , renewable energy can help reduce the carbon intensity of an energy powering our products , such as Sustainable Aviation Fuel batteries Boeing believes SAF is a necessary lever to decarbonize aviation : However , it will take a `` SAF and '' approach and not a `` SAF approach to support the commercial aviation industry 's ambition for net zero by 2050 .\nAs part of the `` SAF and '' approach , Boeing continues to advance the energy carriers and their safe use on aircraft Or ''"
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-3",
+        "disclosure_code": "GRI 303-3",
+        "disclosure_title": "Water withdrawal",
+        "section_ids": [
+            "boeing-sustainability-2023-78"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the GRI disclosure on water withdrawal by providing specific quantitative data for total water withdrawal and the percentage from water-stressed areas for the years 2020, 2021, and 2022. However, it lacks additional context such as the sources of water, efforts to reduce water withdrawal, or any associated risks or opportunities. The materiality score is relatively high as the information provided aligns with stakeholder interest and demonstrates the company's awareness of water stress issues.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-78",
+                "title": "Performance metrics: Water consumption",
+                "text": "Total water withdrawal : - In 2022 1,203,715 Kilogallons - In 2022 4,556 Megaliters - In 2022 10 % Total water withdrawal from waterstressed areas - In 2021 1,095,816 Kilogallons - In 2021 4,148 Megaliters - In 2021 10 % Total water withdrawal from waterstressed areas - In 2020 1,148,894 Kilogallons - In 2020 4,350 Megaliters - In 2020 10 % Total water withdrawal from waterstressed areas"
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-4",
+        "disclosure_code": "GRI 303-4",
+        "disclosure_title": "Water discharge",
+        "section_ids": [
+            "boeing-sustainability-2023-78"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the GRI disclosure on water discharge by providing the total water withdrawal data for the last three years. However, it lacks specific information on the total water discharge to all areas, such as discharge volumes, locations, and any relevant initiatives to manage or reduce water discharge. The relevance to stakeholders and business is somewhat clear, as it includes information on water withdrawal from water-stressed areas and trends over time, indicating some alignment with stakeholder interest and business impact.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-78",
+                "title": "Performance metrics: Water consumption",
+                "text": "Total water withdrawal : - In 2022 1,203,715 Kilogallons - In 2022 4,556 Megaliters - In 2022 10 % Total water withdrawal from waterstressed areas - In 2021 1,095,816 Kilogallons - In 2021 4,148 Megaliters - In 2021 10 % Total water withdrawal from waterstressed areas - In 2020 1,148,894 Kilogallons - In 2020 4,350 Megaliters - In 2020 10 % Total water withdrawal from waterstressed areas"
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-5",
+        "disclosure_code": "GRI 303-5",
+        "disclosure_title": "Water consumption",
+        "section_ids": [
+            "boeing-sustainability-2023-78",
+            "boeing-sustainability-2023-57"
+        ],
+        "completeness": 6,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the water consumption GRI indicator by providing specific data on total water withdrawal over multiple years and the percentage of water withdrawn from water-stressed areas. However, it lacks detail on specific water management practices, such as recycling or reuse initiatives, and the impact of water consumption on the environment and local communities. The explanation of how sourced water supports various company activities is helpful, but more specific examples of conservation initiatives or water management techniques would enhance the completeness. The materiality is relatively high as the company demonstrates some relevance by mentioning the percentage of",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-78",
+                "title": "Performance metrics: Water consumption",
+                "text": "Total water withdrawal : - In 2022 1,203,715 Kilogallons - In 2022 4,556 Megaliters - In 2022 10 % Total water withdrawal from waterstressed areas - In 2021 1,095,816 Kilogallons - In 2021 4,148 Megaliters - In 2021 10 % Total water withdrawal from waterstressed areas - In 2020 1,148,894 Kilogallons - In 2020 4,350 Megaliters - In 2020 10 % Total water withdrawal from waterstressed areas"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-57",
+                "title": "Reducing water consumption",
+                "text": "Boeing sets rigorous water use reduction targets at our manufacturing sites to preserve this natural resource for the environment and our communities . Boeing 's water is sourced from local public utilities ( surface , ground and reclaimed water ) and company generation ( on-site well , on-site reclamation and rain capture ) .\nThis sourced water supports manufacturing , sanitation , drinking water , cooling and irrigation across the company : The majority of our water is from public water supply systems , and most consumption measurement is from water system discharged to public sanitary sewer systems .\nIn some cases , Boeing pre-treats wastewater before discharging it to public sanitary sewer systems , in compliance with regulatory requirements . Boeing does not set voluntary effluent discharge standards beyond those set by regulation . Boeing specialists work to identify efficiencies , best practices and new technologies to reduce water use and identify alternatives .\nWe monitor irregularities that may require action and created a Conservation Best Practice program to minimize water use , applying many water management techniques endorsed by the U.S. Environmental Protection Agency . In 2022 , we achieved a 19 % reduction compared to consumption in 2017 .\nWater consumption was 7 % lower than anticipated with sites implementing conservation initiatives to increase water intake efficiencies and with production activity remaining low . Building off the reductions seen by 2025 , Boeing will transition to an absolute reduction goal to focus on the most waterintensive processes across the company ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_304",
+        "topic_title": "Biodiversity",
+        "disclosure": "gri_304-3",
+        "disclosure_code": "GRI 304-3",
+        "disclosure_title": "Habitats protected or restored",
+        "section_ids": [
+            "boeing-sustainability-2023-58"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing detailed information on the habitats owned by Boeing, the active management and certification by the Wildlife Habitat Council. The specific awards received by Boeing for habitat monitoring and conservation demonstrate a clear commitment to the protection and restoration of habitats. However, the paragraph could be more explicit in providing specific examples of species populations existing in or adjacent to their locations. The significance of the disclosure is demonstrated through the explicit commitment to environmental stewardship and the recognition received from the Wildlife Habitat Council, aligning with stakeholder interest and environmental impact.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-58",
+                "title": "Biodiversity and Environmental Compliance",
+                "text": "Boeing owns thousands of acres of habitat across five locations that are being protected or restored Each habitat is actively managed and maintained by site employees , nonprofit organizations or contract biologists For some locations , additional agreements and monitoring are in place to ensure all legal , contractual and certification requirements are met .\nEach habitat is certified by the Wildlife Habitat Council ( WHC ) , with three certified at the Gold level .\nThe WHC 's certification program is the only voluntary sustainability standard designed for broad-based biodiversity enhancement and conservation education activities on corporate landholdings.- Avian Project Award : Awarded to Boeing for monitoring targeted species and food sources and being managed by adapting to the - Grasslands Project Award : Awarded to Boeing for monitoring of vegetation , wildlife use of vegetation , wildlife use and evaluation to create next steps for the project - Pollinator Project Award : Awarded to Boeing for monitoring targeted species and food sources yearly , and recognizes a policy integrated into overall site operations to minimize , eliminate or apply responsible use practices of pesticides and herbicides ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "boeing-sustainability-2023-51",
+            "boeing-sustainability-2023-49",
+            "boeing-sustainability-2023-77"
+        ],
+        "completeness": 3,
+        "materiality": 5,
+        "comment": " The completeness score is low because the paragraph does not explicitly provide information on the direct greenhouse gas (GHG) emissions (Scope 1) produced by the company in CO2e. While it does discuss the company's efforts to achieve net-zero carbon emissions and energy reduction targets, it lacks specific details on the actual direct GHG emissions.The materiality score is moderate as the paragraph mentions the importance of addressing greenhouse gas emissions and energy usage, but it lacks a clear connection to the company's strategy, risks, or stakeholder concerns. It",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-49",
+                "title": "Sustainable Operations",
+                "text": "Boeing appreciates sustainable aerospace starts inside our four walls . We are focused on continuous improvements elements including greenhouse gas emissions ( Scope 1 and Scope 2 ) , energy usage , water and waste management energy procurement , targeted infrastructure and equipment investments , efficiency standards and conservation initiatives that include deployment of best practices and employee engagement strategies .\nCore to this strategy is the ongoing engagement of our employees each year through education and initiatives focused on ways in which they can reduce environmental strategy is guided by a comprehensive review and assessment of the most challenges and risks facing the company , and our environmental priorities are set with internal and external stakeholders .\nThe analysis includes direct input and perspectives on industry best practices and community requirements from diverse stakeholders , such as customers , environment-focused nongovernmental organizations ( NGO ) and the company 's global leadership . The information helps Boeing identify and update our understanding of current and emerging sustainability issues that are critical to the company and our stakeholders .\nIt also informs our next-generation key Since 2020 , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissionsContents"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-77",
+                "title": "Performance metrics: Emissions",
+                "text": "Scope 1 GHG - In 2022 708,000 Tons CO2e - In 2022 642,000 Metric tons CO2e - In 2021 675,000 Tons CO2e - In 2021 612,000 Metric tons CO2e - In 2020 611,000 Tons CO2e - In 2020 554,000 Metric tons CO2e Total Scope 2 GHG : - In 2022 1,301,000 Tons CO2e - In 2022 1,180,000 Metric tons CO2e - In 2021 1,323,000 Tons CO2e - In 2021 1,200,000 Metric tons CO2e - In 2020 1,420,000 Tons CO2e - In 2020 1,288,000 Metric tons CO2e Total Scope 3 GHG : - In 2022 424,205,000 Tons CO2e - In 2022 385,186,000 Metric tons CO2e - In 2021 330,097,000 Tons CO2e - In 2021 300,088,000 Metric tons CO2e - In 2020 268,101,000 Tons CO2e - In 2020 243,092,000 Metric tons CO2e Total calculated GHG excluding sold products - In 2022 1,355,000 Tons CO2e - In 2022 1,229,000 Metric tons CO2e - In 2021 1,264,000 Tons CO2e - In 2021 1,147,000 Metric tons CO2e - In 2020 1,292,000 Tons CO2e - In 2020 1,172,000 Metric tons CO2e"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "boeing-sustainability-2023-51",
+            "boeing-sustainability-2023-49",
+            "boeing-sustainability-2023-77"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The paragraph provides some information about the company's approach and actions related to greenhouse gas emissions, including some data on energy reduction. However, it lacks specific details about indirect greenhouse gas (Scope 2) emissions in CO2e. The company does demonstrate the relevance of the disclosure by highlighting its achievement of net-zero GHG emissions and its ongoing engagement with stakeholders and employees to address environmental challenges and risks.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-49",
+                "title": "Sustainable Operations",
+                "text": "Boeing appreciates sustainable aerospace starts inside our four walls . We are focused on continuous improvements elements including greenhouse gas emissions ( Scope 1 and Scope 2 ) , energy usage , water and waste management energy procurement , targeted infrastructure and equipment investments , efficiency standards and conservation initiatives that include deployment of best practices and employee engagement strategies .\nCore to this strategy is the ongoing engagement of our employees each year through education and initiatives focused on ways in which they can reduce environmental strategy is guided by a comprehensive review and assessment of the most challenges and risks facing the company , and our environmental priorities are set with internal and external stakeholders .\nThe analysis includes direct input and perspectives on industry best practices and community requirements from diverse stakeholders , such as customers , environment-focused nongovernmental organizations ( NGO ) and the company 's global leadership . The information helps Boeing identify and update our understanding of current and emerging sustainability issues that are critical to the company and our stakeholders .\nIt also informs our next-generation key Since 2020 , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissionsContents"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-77",
+                "title": "Performance metrics: Emissions",
+                "text": "Scope 1 GHG - In 2022 708,000 Tons CO2e - In 2022 642,000 Metric tons CO2e - In 2021 675,000 Tons CO2e - In 2021 612,000 Metric tons CO2e - In 2020 611,000 Tons CO2e - In 2020 554,000 Metric tons CO2e Total Scope 2 GHG : - In 2022 1,301,000 Tons CO2e - In 2022 1,180,000 Metric tons CO2e - In 2021 1,323,000 Tons CO2e - In 2021 1,200,000 Metric tons CO2e - In 2020 1,420,000 Tons CO2e - In 2020 1,288,000 Metric tons CO2e Total Scope 3 GHG : - In 2022 424,205,000 Tons CO2e - In 2022 385,186,000 Metric tons CO2e - In 2021 330,097,000 Tons CO2e - In 2021 300,088,000 Metric tons CO2e - In 2020 268,101,000 Tons CO2e - In 2020 243,092,000 Metric tons CO2e Total calculated GHG excluding sold products - In 2022 1,355,000 Tons CO2e - In 2022 1,229,000 Metric tons CO2e - In 2021 1,264,000 Tons CO2e - In 2021 1,147,000 Metric tons CO2e - In 2020 1,292,000 Tons CO2e - In 2020 1,172,000 Metric tons CO2e"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "boeing-sustainability-2023-51",
+            "boeing-sustainability-2023-77",
+            "boeing-sustainability-2023-49"
+        ],
+        "completeness": 5,
+        "materiality": 6,
+        "comment": " The disclosure partially addresses the Scope 3 greenhouse gas emissions, mentioning the actions taken to achieve net-zero emissions and energy reduction targets. However, it lacks specific details on the Scope 3 emissions sources and how they are being managed. The materiality is scored moderately as the disclosure indicates some relevance to stakeholders and the business, but it lacks a clear explanation of the significance of Scope 3 emissions and how they align with strategy, risk, or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-77",
+                "title": "Performance metrics: Emissions",
+                "text": "Scope 1 GHG - In 2022 708,000 Tons CO2e - In 2022 642,000 Metric tons CO2e - In 2021 675,000 Tons CO2e - In 2021 612,000 Metric tons CO2e - In 2020 611,000 Tons CO2e - In 2020 554,000 Metric tons CO2e Total Scope 2 GHG : - In 2022 1,301,000 Tons CO2e - In 2022 1,180,000 Metric tons CO2e - In 2021 1,323,000 Tons CO2e - In 2021 1,200,000 Metric tons CO2e - In 2020 1,420,000 Tons CO2e - In 2020 1,288,000 Metric tons CO2e Total Scope 3 GHG : - In 2022 424,205,000 Tons CO2e - In 2022 385,186,000 Metric tons CO2e - In 2021 330,097,000 Tons CO2e - In 2021 300,088,000 Metric tons CO2e - In 2020 268,101,000 Tons CO2e - In 2020 243,092,000 Metric tons CO2e Total calculated GHG excluding sold products - In 2022 1,355,000 Tons CO2e - In 2022 1,229,000 Metric tons CO2e - In 2021 1,264,000 Tons CO2e - In 2021 1,147,000 Metric tons CO2e - In 2020 1,292,000 Tons CO2e - In 2020 1,172,000 Metric tons CO2e"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-49",
+                "title": "Sustainable Operations",
+                "text": "Boeing appreciates sustainable aerospace starts inside our four walls . We are focused on continuous improvements elements including greenhouse gas emissions ( Scope 1 and Scope 2 ) , energy usage , water and waste management energy procurement , targeted infrastructure and equipment investments , efficiency standards and conservation initiatives that include deployment of best practices and employee engagement strategies .\nCore to this strategy is the ongoing engagement of our employees each year through education and initiatives focused on ways in which they can reduce environmental strategy is guided by a comprehensive review and assessment of the most challenges and risks facing the company , and our environmental priorities are set with internal and external stakeholders .\nThe analysis includes direct input and perspectives on industry best practices and community requirements from diverse stakeholders , such as customers , environment-focused nongovernmental organizations ( NGO ) and the company 's global leadership . The information helps Boeing identify and update our understanding of current and emerging sustainability issues that are critical to the company and our stakeholders .\nIt also informs our next-generation key Since 2020 , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissionsContents"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-4",
+        "disclosure_code": "GRI 305-4",
+        "disclosure_title": "GHG emissions intensity",
+        "section_ids": [
+            "boeing-sustainability-2023-51"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing specific information on the company's GHG emissions intensity, including the achievement of net-zero carbon emissions and energy reduction targets. However, it lacks specific details on the GHG emissions intensity ratio and the methods used to calculate it. The importance of the disclosure is demonstrated by showing alignment with the company's strategy, sustainability goals, and stakeholder concerns, such as climate change and the Paris Agreement.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "boeing-sustainability-2023-51",
+            "boeing-sustainability-2023-50",
+            "boeing-sustainability-2023-49",
+            "boeing-sustainability-2023-52"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The paragraph provides reasonable details about the company's efforts to reduce GHG emissions, including achieving net-zero carbon emissions at manufacturing and other work sites, energy reduction targets, and progress on water and waste reduction. It also mentions the company's strategy, employee engagement, and stakeholder involvement. However, it lacks specific examples of conservation and renewable energy projects and could provide more detailed information on the company's overall GHG reduction strategy. The materiality score is high as the disclosure clearly demonstrates the importance of GHG emission reduction to the business and stakeholders, align",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-51",
+                "title": "Addressing Climate Change",
+                "text": "We consider climate change to be an urgent issue . We support the goals of the Paris Agreement and encourage our value chain partners to do the same .\nBoeing achieved net zero carbon emissions at manufacturing and other work sites and in business travel in 2022 for the third consecutive year , by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissions .\nBoeing strives to reduce operational GHG emissions , both during times of growth and during times of challenge . Our strategy for Scope 1 and Scope 2 emissions , which we detail in the following potential scenario , in support of the global climate goals .\nTo achieve our goals related to the climate and to GHG , we actively monitor emissions , fuel use and energy efficiency : We have set 2030 targets for performance in each of these areas that aim to reduce absolute emissions , maintain net zero emissions for Scope 1 and Scope 2 , and increase our adoption of renewable energy sources .\nAs part of Boeing 's business continuity program , we also monitor the length and severity of business interruptions The scope of monitoring includes damaging weather , natural disasters , pandemics and resiliency in light of a changing climate Enterprise GHG emissions from operations are calculated after the conclusion of the reporting year .\nHowever , the emissions from natural gas and electricity usage at Core Metric Sites are calculated and monitored on a monthly basis through the use of utility bills and are continuously validated and updated throughout the reporting year .\nThe emissions factors for these energy sources are validated at least annually and updated when appropriate following guidance from the World Resources Institute GHG Protocol .\nThe energy data and emissions factors are verified as part of a third-party limited assurance process For the third year in a row , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by implementing high-impact conservation investments , emphasizing and incentivizing conservation practices by employees , and increasing renewable electricity use while securing carefully selected , third-party-verified offsets for the remaining GHG emissions . In 2022:- 2025 GHG Target Progress : Boeing had a 31 % reduction in GHG emissions compared to 2017 . GHG emissions were 8 % lower than anticipated for the year .\nProcurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments contributed to reduction in emissions from infrastructure improvements and the contracting of renewable energy allow us to build on emissions reductions each year .\n- 2025 Energy Reduction Target Progress : Boeing had a 11 % reduction in energy consumed compared to 2017 Energy consumption was 6 % lower than anticipated for the year due to the impact of conservation initiatives , infrastructure investments , remote work and reduced production activity :"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-50",
+                "title": "Operational Targets Progress",
+                "text": "Boeing invests in sustainable operations to reduce the impact of our manufacturing sites and is focused on conserving resources .\nWe prioritize reducing emissions , energy , water and waste throughout our global operations and have set 2025 waypoints toward 2030 goals to share our progress and remain accountable as we increase production : Boeing 's sustainable operations strategy is managed within the Global Enterprise Sustainability organization , in close partnership with stakeholders across the enterprise .\nThrough our Sustainable Operations subcouncil we track performance across the enterprise and at the site level to assess our progress identify challenges and opportunities , and share best practices . We| Performance Area 1 | 2025 Targets vs. 2017 2 | 2022 Progress Toward 2025 Targets and Drivers | 2030 Targets 3 | - Category : Greenhouse Gas Emissions .\n2025 target : Reduce emissions by 25 % . Progress : 31 % Reduction Procurement of renewable energy and renewable energy credits , low commercial production activity and infrastructure investments - Category : Energy . 2025 target : Reduce energy consumption ( natural gas , other fuels and electricity ) by 10 % .\nProgress : 11 % Reduction Conservation initiatives , infrastructure investments , remote working conditions and reduced production activity . - Category : Water . 2025 target : Reduce water withdrawal by 20 % . Progress : 19 % Reduction Increased water intake efficiencies and low production activity . - Category : Solid Waste .\n2025 target : Reduce solid waste to landfill by 20 % . Progress : 40 % Reduction Conservation initiatives , vendor management and remote working conditions . - Category : Hazardous Waste . 2025 target : Reduce hazardous waste by 5 % . Progress : 9 % Reduction Projects to reduce unused and expired materials , and partnerships to reduce waste generation .\n2030 targets : - Category : Greenhouse Gas Emissions . 2030 target : Net-zero emissions ; 55 % GHG reduction from 2017 ; 100 % renewable electricity . - Category : Energy . 2030 target : 10 % energy reduction from 2025 . - Category : Water . 2030 target : 5 % reduction from 2025 . - Category : Solid Waste .\n2030 target : 30 % reduction in solid waste produced from 2025 ; Over 90 % diversion from landfill or incineration ; Zero solid waste to landfill certification where applicable at major sites . - Category : Hazardous Waste . 2030 target : 5 % hazardous waste reduction from 2025 ."
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-49",
+                "title": "Sustainable Operations",
+                "text": "Boeing appreciates sustainable aerospace starts inside our four walls . We are focused on continuous improvements elements including greenhouse gas emissions ( Scope 1 and Scope 2 ) , energy usage , water and waste management energy procurement , targeted infrastructure and equipment investments , efficiency standards and conservation initiatives that include deployment of best practices and employee engagement strategies .\nCore to this strategy is the ongoing engagement of our employees each year through education and initiatives focused on ways in which they can reduce environmental strategy is guided by a comprehensive review and assessment of the most challenges and risks facing the company , and our environmental priorities are set with internal and external stakeholders .\nThe analysis includes direct input and perspectives on industry best practices and community requirements from diverse stakeholders , such as customers , environment-focused nongovernmental organizations ( NGO ) and the company 's global leadership . The information helps Boeing identify and update our understanding of current and emerging sustainability issues that are critical to the company and our stakeholders .\nIt also informs our next-generation key Since 2020 , Boeing has achieved net-zero GHG emissions at manufacturing and work sites by expanding conservation and renewable energy use while securing carefully selected , third-party-verified offsets for the remaining greenhouse gas ( GHG ) emissionsContents"
+            },
+            {
+                "section_idx": "boeing-sustainability-2023-52",
+                "title": "Boeing facilities prioritize conservation, energy efficiency and renewable energy",
+                "text": "As energy consumption gives rise to GHG emissions , conservation and energy reduction measures help achieve both energy and GHG reductions Germany : Boeing 's new distribution center in Hamburg meets high sustainability standards and will be seeking Gold certification from the German Sustainable Building Council .\nTo minimize the environmental footprint , the building is equipped with a heat pump and photovoltaic system will be installed on the roof in the later half of 2023 .\nUS : - Mesa , Arizona , recently completed construction of a new composites manufacturing facility : A quarter of the between Boeing and the Salt River Project brings the company closer to achieving its 2030 goal of 100 % renewable electricity : - Frederickson , Washington , and El Segundo , California , facilities is driving an annual recurring savings of 25.3 million kilowatt-hours , which is equivalent to powering homes per year : India : Boeing 's new engineering and technology campus in Bengaluru leverage multiple design elements , including efficient ventilation systems , LED lighting , rainwater recovery and solar power generation : .\nwill Boeing expanded its strong presence in Europe with a new state-of-the art distribution warehouse near Hamburg , Germany . ( Boeing photo ) It comes down to this : Boeing will continue to invest in conservation and renewable energy projects to advance the company 's operational environmental goals ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-2",
+        "disclosure_code": "GRI 306-2",
+        "disclosure_title": "Management of significant waste related impacts",
+        "section_ids": [
+            "boeing-sustainability-2023-56"
+        ],
+        "completeness": 3,
+        "materiality": 2,
+        "comment": " The paragraph partially addresses the disclosure by mentioning a reduction in hazardous waste and the challenges faced. However, it lacks specific information on waste treatment methods and efforts to reduce waste generation. The connection to stakeholder concerns or business impact is not clearly demonstrated, resulting in a low materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-56",
+                "title": "Progress toward 2025 Hazardous and Nonhazardous Waste Goals",
+                "text": "- Solid Waste 40 % reduction compared to 2017 The continued trend of increased remote working conditions influences the overall reduction in solid waste . Conservation initiatives and vendor management continue to be opportunities to drive further reductions - Hazardous Waste 9 % reduction compared to 2017 . Hazardous waste was 1 % higher than anticipated during the year .\nBenefits from implementing conservation initiatives were outweighed by events across the enterprise , increase in hazardous waste disposal from a water treatment system key"
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-3",
+        "disclosure_code": "GRI 306-3",
+        "disclosure_title": "Waste generated",
+        "section_ids": [
+            "boeing-sustainability-2023-79"
+        ],
+        "completeness": 9,
+        "materiality": 8,
+        "comment": " The disclosure provides explicit and detailed information about the total amount of hazardous and nonhazardous waste generated by the company for the years 2021, 2022, and 2023. It includes specific metrics for each type of waste, demonstrating a comprehensive approach to addressing the disclosure. The materiality score is high as it provides clear data on the waste generated, which is important for stakeholders, environmental impact assessments, and the company's sustainability strategy. However, to further enhance materiality, the paragraph could include information on how the company manages",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-79",
+                "title": "Performance metrics: Waste",
+                "text": "Total hazardous waste generated : - In 2022 7,276 Metric tons - In 2021 6,122 Metric tons - In 2023 5,674 Metric tons Total nonhazardous waste generated : - In 2022 7,765 Metric tons - In 2021 11,981 Metric tons - In 2023 6,943 Metric tons Total waste generated : - In 2022 80,090 Metric tons - In 2021 63,217 Metric tons - In 2023 53,934 Metric tons"
+            }
+        ]
+    },
+    {
+        "topic": "gri_307",
+        "topic_title": "Environmental Compliance",
+        "disclosure": "gri_307-1",
+        "disclosure_code": "GRI 307-1",
+        "disclosure_title": "Environmental Fines",
+        "section_ids": [
+            "boeing-sustainability-2023-61"
+        ],
+        "completeness": 3,
+        "materiality": 2,
+        "comment": " The paragraph partially addresses the disclosure by mentioning noncompliance with environmental laws and regulations and providing some specific details about the environmental issues faced. However, it lacks explicit information about the monetary value of significant fines incurred by the company, which is a key component of the disclosure. The paragraph also does not clearly demonstrate the importance of this topic to the business and stakeholders, and it lacks context or explanation of significance. Therefore, the materiality score is low.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-61",
+                "title": "Environmental Compliance is Good for Business, People and the Planet",
+                "text": "A fundamental element of Boeing 's environmental policy is to maintain regulatory compliance . When noncompliance is identified in our environmental management systems , Boeing actions and shares process improvements to build the learning into the organization : . Boeing paid one significant environmental penalty in 2022 , where `` significant '' is determined by a fine greater than $ 10,000 .\nAt the end of 2021 , stormwater samples collected permit limits for copper , chronic toxicity , manganese , dioxin ( TCDD ) , and biochemical oxygen demand ( BOD ) at The site experienced high-intensity rain events in the fourth quarter of 2021 that resulted in higher-than-normal rates of erosion from the site , the excess levels are believed to be attributable to natural sources such as increased erosion of natural soils , decaying vegetation or waterfowl waste and nonindustrial sources such as road runoff and soils adjacent to telephonelutility poles .\nExcess copper and chronic toxicity were not attributed to an identifiable source and were episodic iron , On July 26 , 2022 , a significant rainfall event in the St. Louis region caused flooding that impacted the St. Louis site Industrial Wastewater Treatment Plant ( IWTP ) .\nFloodwaters overtopped the IWTP , resulting in a release of untreated 100 gallons of diesel fuel from ruptured above-ground Department of Natural Resources , the National Response Center , and the St. Louis Metropolitan Sewer District , and appropriate response actions were completed after the flooding subsided ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "boeing-sustainability-2023-62"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the company's efforts to drive responsible supply chain practices and its involvement in establishing a voluntary sectoral framework for ESG engagement. However, it lacks specific details on how suppliers are assessed for environmental impacts and the actions taken to address negative environmental impacts in the supply chain. The materiality is low as it fails to clearly demonstrate the importance of this topic to the business and stakeholders. It mentions the efforts but does not provide a clear connection to the business impact or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-62",
+                "title": "Responsible Supply Chain",
+                "text": "Responsible supply chain practices are key to advancing industry sustainability business processes and supplied goods , addressing regulations , and creating positive environmental and social impact Boeing is driving a holistic approach to responsible supply chain practices that align with the Organisation for Economic Co-operation and Development 's Due Diligence Guidance for Responsible Business Conduct In 2021 , we co-founded an industry effort through the International Aerospace Environmental Group ( IAEG ) to establish voluntary sectoral framework for ESG engagement , including assessment and awareness , throughout the aerospace manufacturing industry .\nEthical , responsible and sustainable business conduct is at the core of how extend to our suppliers . The Boeing Supplier Code of Conduct , based on the International Forum on Business Ethical Conduct for the Aerospace and Defense Industry 's model code , provides suppliers with a set of responsible business conduct expectations consistent with our policies , principles and sustainability efforts"
+            }
+        ]
+    },
+    {
+        "topic": "gri_403",
+        "topic_title": "Occupational Health and Safety",
+        "disclosure": "gri_403-1",
+        "disclosure_code": "GRI 403-1",
+        "disclosure_title": "Occupational health and safety management systems",
+        "section_ids": [
+            "boeing-sustainability-2023-17"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph reasonably well addresses the disclosure by mentioning the implementation of an occupational health and safety management system modeled after ISO 45001. However, it lacks specific examples or detailed information about the system in place. The statement indicates the importance of safety to the business and stakeholders, aligning with the goal of zero workplace injuries, but it could provide more context or explanation of the significance to further demonstrate materiality.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-17",
+                "title": "Workplace Safety",
+                "text": "Boeing knows that operating to keep ourselves and our teammates safe in the workplace is everyone 's responsibility : Safety is central to those we care about and our communities . The Safety Guiding Principles provide a framework to achieve the goal of zero workplace injuries so every person who works Boeing site leaves as safe and healthy as when they arrived .\nBoeing 's workplace safety One Day at to worker safety , striving for a goal of zero injuries , which is underpinned by the belief that every injury is preventable . Our occupational health and safety management system is modeled after the International Organization for Standardization ( ISO ) 45001 .\nAs of 2022 , four sites are certified to ISO 45001 with multiple sites conforming to ISO 45001 in support of our business objectives"
+            }
+        ]
+    },
+    {
+        "topic": "gri_405",
+        "topic_title": "Diversity and Equal Opportunity",
+        "disclosure": "gri_405-1",
+        "disclosure_code": "GRI 405-1",
+        "disclosure_title": "Diversity of governance bodies and employees",
+        "section_ids": [
+            "boeing-sustainability-2023-22"
+        ],
+        "completeness": 1,
+        "materiality": 1,
+        "comment": " The paragraph briefly mentions the release of diversity data and the formation of the Equity & Inclusion Council, but it lacks explicit and detailed information on the diversity of governance bodies and employees in terms of age, gender, and minority representation. It also does not demonstrate why this topic is important to the business and stakeholders, providing minimal connection to business or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-22",
+                "title": "Global Equity, Diversity & Inclusion Report reflects Boeing's journey",
+                "text": "Boeing recently released its third annual Global Equity , demographics data , progress toward the company 's six 2025 aspirations , and stories from across the enterprise and around the world about policies , teams and individuals who are making a difference : The report is an invitation to all prospective and current employees , suppliers , customers and community partners to join us on our journey toward becoming a more equitable and inclusive company .\nBoeing has roughly 156,000 employees representing 47 nationalities in 65 countries . In 2022 we hired more than 23,000 new teammates , resulting in an increase in female representation across virtually all job levels production directors and executives and increased racial and ethnic representation in the U.S. at junior and senior levels .\nWe also saw increased rates of participation in our self-identification process , which encourages employees to confidentially share veteran status. Key Highlights Included: In 2022 , Boeing tied inclusive processes to its incentive compensation : 92 % of candidate interview slates in 2022 for manager or director-level roles included at least one woman globally , or at least one woman or raciallethnic minority in relevant accountability has an affect on incentivizing the right behaviors that naturally lead to more diverse outcomes hiringAs we look forward to 2023 and beyond , we are energized by the progress we 've made and are committed to continuing the hard work because it is necessary not just for our business success but also for the sustainability of aerospace and our communities .\nWe reformed our Racial Equity Steering Team ( newly named Equity & Inclusion Council ) to include Executive Council champions and representatives from each of our nine Business Resource Groups , which increased transparency and access to senior leadership . We also made progress on our six report against . We foster a diverse , collaborative and inclusive environment that empowers employees to do their best . Equal pay for equal work is a foundational element of our approach .\nWe hold ourselves accountable to equal pay for equal work by conducting regular compensation reviews to ensure that employees are compensated equitably throughout their careers independent of race , gender or ethnicity : Its the right thing to do and makes us a better , more inclusive and higher-performing company : We 're committed to continuing and expanding our analysis globally and doing the work to ensure pay equity at the time of hire and throughout every employee 's career ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_413",
+        "topic_title": "Local Communities",
+        "disclosure": "gri_413-1",
+        "disclosure_code": "GRI 413-1",
+        "disclosure_title": "Operations with local community engagement",
+        "section_ids": [
+            "boeing-sustainability-2023-72"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": " The disclosure provides some information about the company's local community engagement, impact assessments, and development programs, but it lacks explicit details and examples. It includes vague statements and lacks clarity or depth, leading to a low completeness score. The paragraph does mention the company's efforts to engage with local communities and support various programs, but it fails to clearly demonstrate why this topic is important to the business and stakeholders. It does not provide a clear connection to business strategy, risks, or stakeholder concerns, resulting in a low materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "boeing-sustainability-2023-72",
+                "title": "Our Homes",
+                "text": "Boeing supports environmental sustainability in communities around the globe. Why it matters : Boeing is working to build better , more equitable communities through corporate investments , employee engagement programs and advocacy efforts , which include support to protect the environment around the world .\nBoeing contributed $ 5 million in support of environmental programs in 2022 Americas - Project Green Drone , an educational program dedicated to strengthening the STEM pipeline in the Phoenix area .\nTogether with the Ecoculture Team at Northern Arizona University and other local partners , the National Forest Foundation engages more than 500 local middle and high school students in STEM-focused activities to address real-world environmental projects , including a watershed diversifying the pipeline for conservation talent while working on protecting fresh water supplies and using innovative technology to preserve public lands .\n- Mexico and Panama : Boeing is supporting the Pan eight countries , working with teachers , and primary and university or university students to find solutions to works with partners to develop a curriculum about alternative energy , waste management , natural resourcesBoeing supports the Korea Green Foundation in a program teaching children about healthy food and how and where it comes from in a local Asia - Korea : Boeing supports the Climate Science Class program , which is part of Korea Green Foundation , benefiting 550 young leaders .\nThe goal of the program is to foster next-generation green leaders who will solve climate change problems , including biodiversity loss and forest environmental issues and technology solutions . Climate and is a suitable subject for implementing the purpose of modeling-based learning , which constitutes an explanatory framework based on a variety of data .\nEurope - Italy : `` School Cleaning Day '' is an environmental education program organized by ScuolAttiva Onlus with support from Boeing that works to encourage Italian students and teachers to adopt ecological models of behavior and awareness of sustainable development and environmental through sixth grade with early access to learning about sustainability and developing a sense of responsibility : By discovering the best practices of environmental protection around the world , students understand the impact of their Middle East and Northern Africa - T\u00fcrkiye : With Boeing 's support , the Istanbul Technical University Foundation 's Enhanced Training Content program within the Aviation Sustainability Alliance T\u00fcrkiye raises awareness about and supports the creation of sustainability developments in aviation through three signature programs .\nThe training program , tailored for specific audiences , provides educational content to students , teachers and aviation professionals , the Hackathon encourages students to think creatively about how to help lessen the environmental impact of aviation , and the Innovation Conference brings together students , academics , industry experts and others to explore"
+            }
+        ]
+    }
+]

@@ -243,7 +243,7 @@ def get_chart_data_new(
     if not report_names:
         raise HTTPException(status_code=400, detail="No reported selected.")
 
-    base_path = os.path.join(DATA_FOLDER, "existing_reports")
+    base_path = os.path.join(DATA_FOLDER, f"reports/{report_name}")
 
     response_data = {}
     all_rows = []
@@ -252,7 +252,7 @@ def get_chart_data_new(
     scatter_chart_data = defaultdict(list)
 
     for report_name in report_names:
-        json_filename = f"{report_name}.json"
+        json_filename = f"{report_name}_final.json"
         json_path = os.path.join(base_path, json_filename)
 
         if not os.path.exists(json_path):
@@ -266,15 +266,21 @@ def get_chart_data_new(
                 disclosure = item.get("disclosure")
                 section_count = len(item.get("section_ids", []))
                 bar_chart_data[report_name][disclosure] = section_count
-                standard = disclosure.split("-")[0]
+                standard = item.get("topic")
+                standard_title = item.get("topic_title")
+                # standard = disclosure.split("-")[0]
+
                 if standard in reported_disclosure_topics.keys():
                     reported_disclosure_topics[standard] += 1
                 else:
                     reported_disclosure_topics[standard] = 1
+                    
                 completeness = item.get("completeness", 0)
                 materiality = item.get("materiality", 0)
                 comment = item.get("comment", "")
-                disclosure_title = gri_disclosure_titles[disclosure]
+                disclosure_title = item.get("disclosure_title")
+                # disclosure_title = gri_disclosure_titles[disclosure]
+                
                 disclosure_esg = None
                 if "gri_2" in disclosure:
                     disclosure_esg = "g"

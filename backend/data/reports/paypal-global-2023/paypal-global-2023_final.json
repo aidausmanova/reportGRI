@@ -1,0 +1,452 @@
+[
+    {
+        "topic": "gri_2-organization",
+        "topic_title": "General Disclosures: Company Profile",
+        "disclosure": "gri_2-2",
+        "disclosure_code": "GRI 2-2",
+        "disclosure_title": "Entities included in company's sustainability reporting",
+        "section_ids": [
+            "paypal-global-2023-82"
+        ],
+        "completeness": 1,
+        "materiality": 2,
+        "comment": " The paragraph only briefly mentions that the sustainability report includes a table illustrating contributions to SDGs and a summary of climate-related disclosures aligned to TCFD recommendations. It lacks explicit and detailed information about the entities included in the sustainability reporting, such as subsidiaries, joint ventures, and other entities. The materiality is low as it does not provide a clear explanation of why the inclusion of entities in sustainability reporting is important to the business and stakeholders.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-82",
+                "title": "ESG Framework Alignment",
+                "text": "We annually report on the Company 's activities to advance the U.N .\nSustainable Development Goals ( SDGs ) and include a table illustrating the contributions we 've made to the seven Global Goals most relevant to our business Additionally , we have included a summary of climate-related disclosures aligned to the Task Force on Climate-Related Financial Disclosures ( TCFD ) recommendations , which provides an enhanced discussion of our governance , strategy , risk management , and digital nature of our business , PayPal 's GHG emissions footprint is relatively small .\nNevertheless , we aim to be pertaining to our business . key Our reporting is aligned to the Global Reporting Initiative ( GRI ) standards , the IFRS Foundation 's SASB standards , the U.N . Global Compact ( UNGC ) Ten Principles and the Stakeholder Capitalism Metrics ( SCM ) framework .\nWe conducted a preliminary review of our economic activities in the context of the EU Taxonomy '' a and found that All references apply to PayPal 's global operations for the year ended December 31 , 2022 , unless otherwise noted ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-governance",
+        "topic_title": "General Disclosures: Governance Structure and Composition",
+        "disclosure": "gri_2-14",
+        "disclosure_code": "GRI 2-14",
+        "disclosure_title": "Role of the highest governance body in sustainability reporting",
+        "section_ids": [
+            "paypal-global-2023-85"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing information about the delegation of responsibility for managing impacts on the economy, environment, and people, including the involvement of the Corporate Governance and Nominating Committee and management. However, it lacks specific examples or details about the strategies and actions taken. The materiality is high as it demonstrates the relevance of ESG matters to the company's governance structure and oversight, and aligns with stakeholder interest and business impact.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-85",
+                "title": "TCFD Governance",
+                "text": "Overview of PayPal 's governance structure and oversight of climate-related risks and opportunities - The Corporate Governance and Nominating Committee of PayPal 's Board oversees ESG matters generally , including environmental sustainability management , with responsibilities such as reviewing progress in developing and implementing strategies for managing environmental topics - Management and designated internal leaders provide regular updates to the Board and relevant committees on climate- and ESG-related topics ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-ethics",
+        "topic_title": "General Disclosures: Ethics and Integrity",
+        "disclosure": "gri_2-23",
+        "disclosure_code": "GRI 2-23",
+        "disclosure_title": "Policy commitments",
+        "section_ids": [
+            "paypal-global-2023-12",
+            "paypal-global-2023-30",
+            "paypal-global-2023-32"
+        ],
+        "completeness": 5,
+        "materiality": 6,
+        "comment": " The disclosure reasonably addresses the company's policy commitments for responsible business conduct by mentioning various policies and standards in place, such as risk management, data protection, supply chain management, and advocacy for customer, employee, and community interests. However, it lacks specific examples or details regarding the implementation of these policies and standards, and how they are integrated into the company's operations. The mention of the Chief Risk and Compliance Officer providing updates and the requirement for employees and contractors to complete various certifications adds some depth, but more explicit information would enhance completeness. In",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-12",
+                "title": "Responsible Business Practices",
+                "text": "Safeguarding customer trust and operating in a consistent and ethical manner are vital to achieving the Company 's long-term business strategy .\nThese efforts are underpinned by our approach to risk management and oversight , including policies and standards to protect our customers and platform Across our enterprise , we are committed to the goal of responsibly managing our infrastructure , protecting customer data , efficiently managing our supply chain and advocating for policies that promote the interests of our customers , employees and communities ."
+            },
+            {
+                "section_idx": "paypal-global-2023-30",
+                "title": "Upholding Business Ethics",
+                "text": "Our Code of Business Conduct & Ethics ( Code of Conduct ) , available in 14 languages , provides guidance for our employees , directors and everyone working for PayPal and its subsidiaries on ethical and responsible annually to reflect our latest programs , policies and expectations .\nOur most recent update incorporated our Leadership Principles new Our Speak Up culture is espoused by our leadership and actively promoted by the Ombuds/Ethics team through outreach and awareness sessions . Our Chief Risk and Compliance Officer provides periodic updates to the ARC Committee on significant program metrics and investigations .\nWe require every employee and contractor to complete our annual Code of Conduct , anti-money laundering , information corruption , safety and security and sexual harassment certify that they understand and will comply with the Code of Conduct .\nBeyond our Code of Conduct , we require all employees , third parties and other stakeholders such as contingent workers to abide by our enterprise policies , including our Conflict of Interest , Ethics Reporting and Whistleblower and Anti-Bribery and Corruption policies ."
+            },
+            {
+                "section_idx": "paypal-global-2023-32",
+                "title": "Committing to Political Transparency",
+                "text": "PayPal 's commitment to pursuing transparent disclosure and strong governance extends to our lobbying and political transparency policies and put forth by the Center for Political Accountability in their Zicklin Index and in 2022 , we maintained our The Governance Committee oversees our political contributions , lobbying expenditures and interactions the Company 's business objectives and public policy priorities , at least annually the committee reviews and discusses with management our political activities and expenditures , including those of the PayPal Political Action Committee , as well as Company related guidelines and policies : To find out more transparency practices , please visit our Government Relations website"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-ethics",
+        "topic_title": "General Disclosures: Ethics and Integrity",
+        "disclosure": "gri_2-24",
+        "disclosure_code": "GRI 2-24",
+        "disclosure_title": "Embedding policy commitments",
+        "section_ids": [
+            "paypal-global-2023-12"
+        ],
+        "completeness": 3,
+        "materiality": 6,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the company's commitment to responsible business conduct and embedding policy commitments throughout its activities and business relationships. However, it lacks specific details or examples of how these policy commitments are actually embedded in the company's operations. The statement could benefit from more explicit information about the mechanisms and processes used to embed policy commitments. In terms of materiality, the paragraph indicates relevance by highlighting the importance of safeguarding customer trust and ethical operations to the company's long-term business strategy. It aligns with stakeholder interests and business",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-12",
+                "title": "Responsible Business Practices",
+                "text": "Safeguarding customer trust and operating in a consistent and ethical manner are vital to achieving the Company 's long-term business strategy .\nThese efforts are underpinned by our approach to risk management and oversight , including policies and standards to protect our customers and platform Across our enterprise , we are committed to the goal of responsibly managing our infrastructure , protecting customer data , efficiently managing our supply chain and advocating for policies that promote the interests of our customers , employees and communities ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-22",
+        "disclosure_code": "GRI 2-22",
+        "disclosure_title": "Statement on sustainable development strategy and climate goals",
+        "section_ids": [
+            "paypal-global-2023-84",
+            "paypal-global-2023-82"
+        ],
+        "completeness": 5,
+        "materiality": 4,
+        "comment": " The paragraph vaguely addresses the GRI disclosure by mentioning sustainable development goals and climate-related disclosures, but lacks explicit and detailed information about the company's sustainable development strategy and climate goals. It covers some key elements, such as donations and support for small- and medium-sized businesses, but lacks specific examples or detail. The relevance of the disclosure to the business and stakeholders is not clearly demonstrated, and the connection to business strategy, risks, or stakeholder concerns is minimal. Therefore, it receives a low materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-84",
+                "title": "Supporting the U.N. Sustainable Development Goals",
+                "text": "The United Nations ( U.N. ) Sustainable Development Goals ( SDGs ) are a set of 17 global goals and 169 targets that aim to achieve a better and more sustainable future for all . Across PayPal , we seek opportunities to align our business activities and priority impact areas with these goals .\nWe annually assess our net contributions to the SDGs based on the degree of potential influence and a mapping to our core business and ESG activities and outcomes to the SDGs ' underlying targets .\nWe found that PayPal makes a direct , positive contribution to 11 of the 17 goals , with contribution to the Ten Principles , which encourage adoption of sustainable and socially responsible policies aligned with the - Goal 1 : No poverty .\nTarget 1.4 : Ensure that all men and women , in particular the poor and the vulnerable , have equal rights to economic resources . Relevance : Our mission to democratize financial services is foundational to our business strategy , as we seek to enable greater economic access to populations globally .\nProgress : Enabled over $ 20B in donations , helping support nearly 1.4M nonprofits and causes through the PayPal Giving Platform ; Facilitated over $ 620M in aid for extraordinary events globally , including the humanitarian crisis in Ukraine , flooding in Pakistan and Hurricane Ian in the U.S. 115 - GOAL 5 : Gender Equality .\nTarget 5.1 End all forms of discrimination against all women and girls everywhere ; Target 5.5 : Ensure women 's full and effective participation and equal opportunities for leadership at all levels of decision-making .\nRelevance : PayPal 's products and services help provide access to the digital economy for women , and we continue to advocate for equal representation and benefits for women in the workforce .\nProgress : Increased female representation across technical , professional and leadership roles year over year since 2020 , $ ^ { 116 } $ with 44 % overall gender diversity in 2022 ; Provided over 11,000 hours of mentorship and capacity building in support of women and girls globally as the private sector lead for the U.N. Women 's Generation Equality Forum 's Economic Justice and Rights Action Coalition ; Supported the Pregnant Workers Fairness Act to require additional accommodations and protections for pregnant workers in the U.S. - GOAL 8 : Decent Work and Economic Growth .\nTarget 8.5 : Achieve full and productive employment and decent work for all women and men , and equal pay for work of equal value ; Target 8.10 : Strengthen the capacity of domestic financial institutions to encourage and expand access to banking , insurance and financial services for all .\nRelevance : We develop products and enact initiatives to help improve the financial wellness of our customers and employees around the world . Progress : Achieved 100 % global gender , U.S. ethnic and intersectional pay equity .\nIntroduced enhanced products and partnerships to provide simple , secure and affordable money management tools to our 400M active consumer accounts ; Introduced enhanced products and partnerships to provide simple , secure and affordable money management tools to our 400M active consumer accounts ; Renewed $ 90M in deposits to two Black-owned banks and Community Development Financial Institutions through our Economic Opportunity Fund .\n- GOAL 9 : Industry , Innovation and Infrastructure . Target 9.3 : Increase the access of small-scale industrial and other enterprises , in particular in developing countries , to financial services and their integration into value chains and markets.Relevance : We support small- and medium-sized businesses ( SMBs ) globally through access to capital and tools to drive business growth .\nProgress : Facilitated over $ 25B in capital to SMBs through more than 1.2M loans since 2013 . 117 Continued to help SMBs globally access payments solutions and financial services , such as through our Venmo business profiles and grant program and investments in Paymob in Egypt and Xepelin in Chile . - GOAL 10 : Reduced Inequality .\nTarget 10.2 : Empower and promote the social , economic and political inclusion of all ; Target 10.C : Reduce to less than 3 % the transaction costs of migrant remittances and eliminate remittance corridors with costs higher than 5 % . Relevance : Through investments and product enhancements , we are driving greater equity for underserved individuals and minority-owned businesses .\nProgress : Exceeded our goal of at least 20 % PayPal-defined estimated net disposable income for our hourly and entry-level employees globally ; Our investments in 19 minority-led venture capital funds , helped deploy nearly $ 300M in capital to 250+ portfolio companies and advanced a more diverse venture capital ecosystem .\nMaintained average international remittance costs below 3 % ( 2.9 % in 2022 ) . - GOAL 13 : Climate Action .\nTarget 13.1 : Strengthen resilience and adaptive capacity to climate- related hazards and natural disasters in all countries ; Target 13.3 : Improve education , awareness-raising and human and nstitutional capacity on climate change mitigation , adaptation , impact reduction and early warning . Relevance : We engage with partners across our value chain to reduce our climate impact and build climate resilience .\nProgress : Joined the Climate Innovation for Adaptation & Resilience ( CIFAR ) Alliance ; Engaged with our top 250 suppliers , by spend , to set science-based targets . - GOAL 17 : Partnerships for the Goals .\nTarget 17.3 : Mobilize additional financial resources for developing countries from multiple sources ; Target 17.17 : Encourage and promote effective public , public-private and civil society partnerships . Relevance : We pursue partnerships that can amplify our capabilities and global reach to advance our business and support an inclusive economy .\nProgress : Continued to enhance our services to enable customers in additional markets to make low-cost international money transfers ; Maintained multisector partnerships to support underserved communities and protect our customers and communities . |"
+            },
+            {
+                "section_idx": "paypal-global-2023-82",
+                "title": "ESG Framework Alignment",
+                "text": "We annually report on the Company 's activities to advance the U.N .\nSustainable Development Goals ( SDGs ) and include a table illustrating the contributions we 've made to the seven Global Goals most relevant to our business Additionally , we have included a summary of climate-related disclosures aligned to the Task Force on Climate-Related Financial Disclosures ( TCFD ) recommendations , which provides an enhanced discussion of our governance , strategy , risk management , and digital nature of our business , PayPal 's GHG emissions footprint is relatively small .\nNevertheless , we aim to be pertaining to our business . key Our reporting is aligned to the Global Reporting Initiative ( GRI ) standards , the IFRS Foundation 's SASB standards , the U.N . Global Compact ( UNGC ) Ten Principles and the Stakeholder Capitalism Metrics ( SCM ) framework .\nWe conducted a preliminary review of our economic activities in the context of the EU Taxonomy '' a and found that All references apply to PayPal 's global operations for the year ended December 31 , 2022 , unless otherwise noted ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-29",
+        "disclosure_code": "GRI 2-29",
+        "disclosure_title": "Approach to stakeholder engagement",
+        "section_ids": [
+            "paypal-global-2023-4"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": " The paragraph only vaguely mentions the company's approach to stakeholder engagement without providing specific details about the process for identifying relevant stakeholders or how their needs are considered in decision-making. The lack of explicit information and examples results in a low completeness score. The paragraph also fails to clearly demonstrate the importance of stakeholder engagement to the business and stakeholders, resulting in a low materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-4",
+                "title": "Engaging Our Stakeholders",
+                "text": "An essential aspect of effectively managing our key ESG topics , as well as informing our significance assessment , is our strategic approach to stakeholder engagement . We value the regular input we receive from our global workforce , customers , investors , regulators , partners , suppliers and other stakeholders in seeking to continuously refine our ESG program .\nIn late 2022 , we completed our second investor-focused perception study to understand how investors view PayPal 's ESG strategy , investment case and communication efforts We observed notable improvements since our inaugural study in 2019 . The feedback helped inform our latest ESG significance assessment and reinforced the importance of aligning our financial and non-financial disclosures ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_201",
+        "topic_title": "Economic Performance",
+        "disclosure": "gri_201-2",
+        "disclosure_code": "GRI 201-2",
+        "disclosure_title": "Financial implications and other risks and opportunities due to climate change",
+        "section_ids": [
+            "paypal-global-2023-86"
+        ],
+        "completeness": 7,
+        "materiality": 7,
+        "comment": " The paragraph reasonably addresses the disclosure by discussing the actual and potential impacts of climate-related risks and opportunities on PayPal's business, strategy, and financial planning. It mentions considering both transitional and physical risks over different time frames and initiating a climate risk assessment and scenario analysis. The disclosure lacks specific examples or details of the risks and opportunities considered, which would improve completeness. However, it demonstrates the relevance of climate-related risks and opportunities to PayPal's business and its proactive approach to understanding and addressing these issues, thus showing alignment with stakeholder interest and business impact, although",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-86",
+                "title": "TCFD Strategy",
+                "text": "Discussion of the actual and potential impacts of climate-related risks and opportunities on PayPal 's business , strategy and financial planning - PayPal considers both transitional and physical risks in the short term ( zero to three years ) , medium term ( three to five years ) and long term ( five to 10 years ) - The Company recognizes the potential physical and transition risks for its operations and supply chain , even as the overall risk to our business from climate change is likely low .\n- As part of PayPal's mission to democratize financial services , we are exploring opportunities for our digital payments technology to support an equitable transition to a global net-zero economy . - We began a climate risk assessment and scenario analysis using three scenarios to further understand potential short- , medium- and long-term climate risks and opportunities for PayPal ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-4",
+        "disclosure_code": "GRI 302-4",
+        "disclosure_title": "Reduction of energy consumption",
+        "section_ids": [
+            "paypal-global-2023-64",
+            "paypal-global-2023-88"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph partially addresses the GRI disclosure by providing some details about the initiatives made by the company to reduce energy consumption, such as maintaining 100% renewable energy sourcing for data centers and setting science-based emissions reduction targets. However, it lacks specific examples of energy reduction initiatives implemented and quantitative data on the actual reduction of energy consumption. The disclosure demonstrates the importance of energy reduction to the business and stakeholders by highlighting the establishment of science-based emissions reduction targets, which aligns with stakeholder concerns and demonstrates a clear strategy towards reducing environmental impact.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-64",
+                "title": "2022 Energy & Operational Emissions Trends",
+                "text": "Our global energy use remained relatively flat ( +1 % from 2021 ) as data center power use remained steady and office energy use increased moderately through 2022 as a result of post-pandemic workplace repopulation energy use and maintained 100 % renewable energy sourcing for our data centers .\nThis expanded approach to renewable energy procurement helped to further reduce our operational GHG emissions ( Scope 1and 2 ) by 26 % from 2021 , even with our generally stable 2022 energy use . We are currently on track to meet our SBT for reducing emissions down 80 % relative to our 2019 base year .\n95,96 We continue to pursue cost-effective emissions reduction opportunities across our direct operations relatively small GHG emissions footprint compared to other companies"
+            },
+            {
+                "section_idx": "paypal-global-2023-88",
+                "title": "TCFD Metrics & Targets",
+                "text": "Disclosure of the metrics and targets PayPal uses to assess and manage relevant climate-related risks and opportunities - PayPal discloses climate-related metrics related to total energy consumed , percentage renewable energy and Scope 1 , 2 and 3 greenhouse gas ( GHG ) emissions .\n- In 2021 , we established science-based emissions- reduction targets informed by stakeholder consultation and validated by the Science Based Targets initiative ( SBTi ) to demonstrate progress \u2013 Reduce absolute operational GHG emissions by 25 % by 2025 ( from a 2019 base year ) \u2013 Engage 75 % of our suppliers , by spend , to set science-based targets by 2025 \u2013 Source 100 % of our data center energy use with renewable energy sources by 2023 ( achieved in 2021 )"
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-5",
+        "disclosure_code": "GRI 303-5",
+        "disclosure_title": "Water consumption",
+        "section_ids": [
+            "paypal-global-2023-78"
+        ],
+        "completeness": 5,
+        "materiality": 6,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the low volumes of water consumed and the focus on water efficiency at office locations. However, it lacks specific information about the actual volume of water consumed and any water conservation measures implemented. The materiality score is higher as the paragraph demonstrates some relevance to the business by highlighting the company's efforts to support local water conservation and manage water as a finite resource.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-78",
+                "title": "Managing Our Water Use",
+                "text": "Given the digital nature of our business , we consume relatively low volumes of water on a revenue intensity and per-employee basis . 1 We maintain water efficiency across our fully managed office locations globally and consider additional opportunities to support local water conservation efforts and appropriately manage this finite resource .\nAs employees began to return to the office in 2022 , we saw a 2 % increase in water use across our facilities compared to 2021 .\nSaving Water at Our U.S. Headquarters: With leadership estate team , we 've invested in intelligent flow-control and monitoring technologies across our water systems . Campus irrigation systems use reclaimed water , helping to conserve Santa Clara Valley 's scarce drinking water resources .\nWe 've transitioned significant parts of our campus to native and no-water landscaping , resulting in estimated reclaimed water-consumption reduction of approximately 2.5 million gallons annually `` 2"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "paypal-global-2023-69",
+            "paypal-global-2023-72",
+            "paypal-global-2023-70",
+            "paypal-global-2023-71",
+            "paypal-global-2023-88",
+            "paypal-global-2023-64"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph reasonably addresses the disclosure by providing specific information about the company's science-based emissions reduction targets and progress towards achieving them. However, it lacks explicit data on direct greenhouse gas emissions (Scope 1) in CO2e, such as absolute emission levels or trends. The paragraph also mentions the company's global energy use and renewable energy sourcing, which are relevant but not directly related to the specific disclosure. Therefore, the completeness score is moderate. The materiality score is relatively high as the paragraph demonstrates the importance of greenhouse gas emissions reduction targets and",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-69",
+                "title": "Scope 1 GHG Emissions",
+                "text": "- In 2019 6.5 Thousands MT CO2e - In 2020 3.0 Thousands MT CO2e - In 2021 2.6 Thousands MT CO2e - In 2022 3.9 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-72",
+                "title": "Scope 1 and 2 GHG Emissions",
+                "text": "- In 2019 53.1 Thousands MT CO2e - In 2020 25.1 Thousands MT CO2e - In 2021 14.3 Thousands MT CO2e - In 2022 10.6 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-70",
+                "title": "Scope 2 GHG Emissions",
+                "text": "- In 2019 46.6 Thousands MT CO2e - In 2020 22.1 Thousands MT CO2e - In 2021 11.7 Thousands MT CO2e - In 2022 6.7 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-71",
+                "title": "Scope 3 GHG Emissions",
+                "text": "- In 2021 522 Thousands MT CO2e - In 2022 507 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-88",
+                "title": "TCFD Metrics & Targets",
+                "text": "Disclosure of the metrics and targets PayPal uses to assess and manage relevant climate-related risks and opportunities - PayPal discloses climate-related metrics related to total energy consumed , percentage renewable energy and Scope 1 , 2 and 3 greenhouse gas ( GHG ) emissions .\n- In 2021 , we established science-based emissions- reduction targets informed by stakeholder consultation and validated by the Science Based Targets initiative ( SBTi ) to demonstrate progress \u2013 Reduce absolute operational GHG emissions by 25 % by 2025 ( from a 2019 base year ) \u2013 Engage 75 % of our suppliers , by spend , to set science-based targets by 2025 \u2013 Source 100 % of our data center energy use with renewable energy sources by 2023 ( achieved in 2021 )"
+            },
+            {
+                "section_idx": "paypal-global-2023-64",
+                "title": "2022 Energy & Operational Emissions Trends",
+                "text": "Our global energy use remained relatively flat ( +1 % from 2021 ) as data center power use remained steady and office energy use increased moderately through 2022 as a result of post-pandemic workplace repopulation energy use and maintained 100 % renewable energy sourcing for our data centers .\nThis expanded approach to renewable energy procurement helped to further reduce our operational GHG emissions ( Scope 1and 2 ) by 26 % from 2021 , even with our generally stable 2022 energy use . We are currently on track to meet our SBT for reducing emissions down 80 % relative to our 2019 base year .\n95,96 We continue to pursue cost-effective emissions reduction opportunities across our direct operations relatively small GHG emissions footprint compared to other companies"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "paypal-global-2023-70",
+            "paypal-global-2023-72",
+            "paypal-global-2023-71",
+            "paypal-global-2023-69",
+            "paypal-global-2023-74",
+            "paypal-global-2023-88",
+            "paypal-global-2023-64"
+        ],
+        "completeness": 3,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure by providing some information about indirect (Scope 3) emissions, including the majority of emissions coming from the supply chain and the company's efforts to engage with vendors for emissions reduction. However, it lacks explicit and detailed information about the Scope 2 greenhouse gas emissions, such as the actual emission levels or how they are measured. The materiality score is relatively high as it demonstrates relevance to the business and stakeholders through the establishment of science-based emissions-reduction targets and the focus on supply chain emissions reduction.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-70",
+                "title": "Scope 2 GHG Emissions",
+                "text": "- In 2019 46.6 Thousands MT CO2e - In 2020 22.1 Thousands MT CO2e - In 2021 11.7 Thousands MT CO2e - In 2022 6.7 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-72",
+                "title": "Scope 1 and 2 GHG Emissions",
+                "text": "- In 2019 53.1 Thousands MT CO2e - In 2020 25.1 Thousands MT CO2e - In 2021 14.3 Thousands MT CO2e - In 2022 10.6 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-71",
+                "title": "Scope 3 GHG Emissions",
+                "text": "- In 2021 522 Thousands MT CO2e - In 2022 507 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-69",
+                "title": "Scope 1 GHG Emissions",
+                "text": "- In 2019 6.5 Thousands MT CO2e - In 2020 3.0 Thousands MT CO2e - In 2021 2.6 Thousands MT CO2e - In 2022 3.9 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-74",
+                "title": "Managing Emissions Across Our Supply Chain",
+                "text": "As part of our commitment to continuous improvement , we 've taken steps to share a preliminary estimate of our indirect ( Scope 3 ) emissions from relevant 2022 value 104 chain activities please see Appendix to learn more The majority of our value chain emissions come from our supply chain , with vendor activities representing an estimated 95 % of our Scope 3 footprint in 2022 .\nThis estimate helps to illustrate the importance of our efforts to engage 75 % of our suppliers , by spend , to set SBTs by 2025 , a goal that we hope to primarily achieve by continue to educate our employees on sustainable business travel options and eco-friendly practices for remote working and commuting .\nTo help meet our supply chain-focused SBT , were partnering with CDP to provide information and resources to help our largest vendors , by spend , committed to set an SBT ( up from 30 % in 2021 ) .105 We acknowledge that there are current limitations in our ability to influence GHG emissions outside of PayPal 's direct control .\nWe continue to engage with vendors , industry peers , GHG accounting standard-setters and environmental non-governmental organizations to learn more about best practices in sustainable supply chain management and will use these findings to continue working toward our goal ."
+            },
+            {
+                "section_idx": "paypal-global-2023-88",
+                "title": "TCFD Metrics & Targets",
+                "text": "Disclosure of the metrics and targets PayPal uses to assess and manage relevant climate-related risks and opportunities - PayPal discloses climate-related metrics related to total energy consumed , percentage renewable energy and Scope 1 , 2 and 3 greenhouse gas ( GHG ) emissions .\n- In 2021 , we established science-based emissions- reduction targets informed by stakeholder consultation and validated by the Science Based Targets initiative ( SBTi ) to demonstrate progress \u2013 Reduce absolute operational GHG emissions by 25 % by 2025 ( from a 2019 base year ) \u2013 Engage 75 % of our suppliers , by spend , to set science-based targets by 2025 \u2013 Source 100 % of our data center energy use with renewable energy sources by 2023 ( achieved in 2021 )"
+            },
+            {
+                "section_idx": "paypal-global-2023-64",
+                "title": "2022 Energy & Operational Emissions Trends",
+                "text": "Our global energy use remained relatively flat ( +1 % from 2021 ) as data center power use remained steady and office energy use increased moderately through 2022 as a result of post-pandemic workplace repopulation energy use and maintained 100 % renewable energy sourcing for our data centers .\nThis expanded approach to renewable energy procurement helped to further reduce our operational GHG emissions ( Scope 1and 2 ) by 26 % from 2021 , even with our generally stable 2022 energy use . We are currently on track to meet our SBT for reducing emissions down 80 % relative to our 2019 base year .\n95,96 We continue to pursue cost-effective emissions reduction opportunities across our direct operations relatively small GHG emissions footprint compared to other companies"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "paypal-global-2023-71",
+            "paypal-global-2023-74",
+            "paypal-global-2023-72",
+            "paypal-global-2023-70",
+            "paypal-global-2023-69",
+            "paypal-global-2023-88"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The disclosure partially addresses the Scope 3 greenhouse gas emissions by providing some details on the emissions from value chain activities. However, it lacks specific examples or detailed information, such as the breakdown of emissions by category. The disclosure indicates relevance by mentioning the partnership with CDP, setting science-based emissions-reduction targets, and engaging with suppliers to set science-based targets, but it could further explain the significance of these actions in the context of business strategy, risk, or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-71",
+                "title": "Scope 3 GHG Emissions",
+                "text": "- In 2021 522 Thousands MT CO2e - In 2022 507 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-74",
+                "title": "Managing Emissions Across Our Supply Chain",
+                "text": "As part of our commitment to continuous improvement , we 've taken steps to share a preliminary estimate of our indirect ( Scope 3 ) emissions from relevant 2022 value 104 chain activities please see Appendix to learn more The majority of our value chain emissions come from our supply chain , with vendor activities representing an estimated 95 % of our Scope 3 footprint in 2022 .\nThis estimate helps to illustrate the importance of our efforts to engage 75 % of our suppliers , by spend , to set SBTs by 2025 , a goal that we hope to primarily achieve by continue to educate our employees on sustainable business travel options and eco-friendly practices for remote working and commuting .\nTo help meet our supply chain-focused SBT , were partnering with CDP to provide information and resources to help our largest vendors , by spend , committed to set an SBT ( up from 30 % in 2021 ) .105 We acknowledge that there are current limitations in our ability to influence GHG emissions outside of PayPal 's direct control .\nWe continue to engage with vendors , industry peers , GHG accounting standard-setters and environmental non-governmental organizations to learn more about best practices in sustainable supply chain management and will use these findings to continue working toward our goal ."
+            },
+            {
+                "section_idx": "paypal-global-2023-72",
+                "title": "Scope 1 and 2 GHG Emissions",
+                "text": "- In 2019 53.1 Thousands MT CO2e - In 2020 25.1 Thousands MT CO2e - In 2021 14.3 Thousands MT CO2e - In 2022 10.6 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-70",
+                "title": "Scope 2 GHG Emissions",
+                "text": "- In 2019 46.6 Thousands MT CO2e - In 2020 22.1 Thousands MT CO2e - In 2021 11.7 Thousands MT CO2e - In 2022 6.7 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-69",
+                "title": "Scope 1 GHG Emissions",
+                "text": "- In 2019 6.5 Thousands MT CO2e - In 2020 3.0 Thousands MT CO2e - In 2021 2.6 Thousands MT CO2e - In 2022 3.9 Thousands MT CO2e"
+            },
+            {
+                "section_idx": "paypal-global-2023-88",
+                "title": "TCFD Metrics & Targets",
+                "text": "Disclosure of the metrics and targets PayPal uses to assess and manage relevant climate-related risks and opportunities - PayPal discloses climate-related metrics related to total energy consumed , percentage renewable energy and Scope 1 , 2 and 3 greenhouse gas ( GHG ) emissions .\n- In 2021 , we established science-based emissions- reduction targets informed by stakeholder consultation and validated by the Science Based Targets initiative ( SBTi ) to demonstrate progress \u2013 Reduce absolute operational GHG emissions by 25 % by 2025 ( from a 2019 base year ) \u2013 Engage 75 % of our suppliers , by spend , to set science-based targets by 2025 \u2013 Source 100 % of our data center energy use with renewable energy sources by 2023 ( achieved in 2021 )"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "paypal-global-2023-62",
+            "paypal-global-2023-64",
+            "paypal-global-2023-63",
+            "paypal-global-2023-88",
+            "paypal-global-2023-60",
+            "paypal-global-2023-61"
+        ],
+        "completeness": 9,
+        "materiality": 9,
+        "comment": " The disclosure provides explicit information about the company's emission reduction efforts, including details about energy use, renewable energy sourcing, long-term and medium-term GHG emissions reduction targets, and stakeholder consultation. The company also discusses its environmental sustainability policy, ISO 14001-aligned environmental management system, climate risk assessment, and efforts to support underserved communities and relief efforts. The disclosure demonstrates a clear commitment to addressing GHG emissions and aligns with stakeholder concerns, business impact, and sustainability strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-62",
+                "title": "2022 Progress on Our Science-Based 89 Climate Goalss",
+                "text": "- Goal : Reduce absolute operational GHG emissions 88 by 25 % by 2025 ( from a 2019 base year ) . 2022 Progress : 80 % operational emissions reduction - Goal : Engage 75 % of our suppliers , by spend , to set science-based targets ( SBTs ) by 2025 .\n2022 Progress : Approximately 39 % of suppliers , by spend , have or committed to a SBT - Goal : Achieve 100 % renewable energy for global data center operations by 2023 . 2022 Progress : Maintained 100 % of our global data center energy use with renewable generation sources"
+            },
+            {
+                "section_idx": "paypal-global-2023-64",
+                "title": "2022 Energy & Operational Emissions Trends",
+                "text": "Our global energy use remained relatively flat ( +1 % from 2021 ) as data center power use remained steady and office energy use increased moderately through 2022 as a result of post-pandemic workplace repopulation energy use and maintained 100 % renewable energy sourcing for our data centers .\nThis expanded approach to renewable energy procurement helped to further reduce our operational GHG emissions ( Scope 1and 2 ) by 26 % from 2021 , even with our generally stable 2022 energy use . We are currently on track to meet our SBT for reducing emissions down 80 % relative to our 2019 base year .\n95,96 We continue to pursue cost-effective emissions reduction opportunities across our direct operations relatively small GHG emissions footprint compared to other companies"
+            },
+            {
+                "section_idx": "paypal-global-2023-63",
+                "title": "Mitigating Our Climate-Related Risks",
+                "text": "We 've established a long-term goal of achieving netzero GHG emissions across our value chain by 2040 , as well as medium-term science-based GHG emissions reduction targets as validated by the Science-Based We're also exploring ways to help disadvantaged communities capture opportunities and adapt their lives to changing global climate conditions through partnerships and digital finance tools and services ."
+            },
+            {
+                "section_idx": "paypal-global-2023-88",
+                "title": "TCFD Metrics & Targets",
+                "text": "Disclosure of the metrics and targets PayPal uses to assess and manage relevant climate-related risks and opportunities - PayPal discloses climate-related metrics related to total energy consumed , percentage renewable energy and Scope 1 , 2 and 3 greenhouse gas ( GHG ) emissions .\n- In 2021 , we established science-based emissions- reduction targets informed by stakeholder consultation and validated by the Science Based Targets initiative ( SBTi ) to demonstrate progress \u2013 Reduce absolute operational GHG emissions by 25 % by 2025 ( from a 2019 base year ) \u2013 Engage 75 % of our suppliers , by spend , to set science-based targets by 2025 \u2013 Source 100 % of our data center energy use with renewable energy sources by 2023 ( achieved in 2021 )"
+            },
+            {
+                "section_idx": "paypal-global-2023-60",
+                "title": "Environmental sustainability",
+                "text": "At PayPal , work to mitigate our environmental footprint and advance sustainable practices in the communities where we footprint compared to other companies we Our Environmental Sustainability Policy and ISO 14001-aligned environmental management system help to guide our environmental sustainability strategy : This includes our science-based approach to mitigating greenhouse gas ( GHG ) emissions , efficiently managing our natural resources , exploring environmental innovations across our products and services and engaging our employees in sustainability .\nPayPal is well positioned to help catalyze digital financial innovations to promote greater resilience among underserved communities , support relief efforts to those impacted by climate change and reduce our impact on the environment ."
+            },
+            {
+                "section_idx": "paypal-global-2023-61",
+                "title": "2022 Summary Highlights: Environmental sustainability",
+                "text": "- 26 % reduction in direct emissions compared to 2021 . - Undertook a climate risk assessment and scenario analysis as part of enhancements to risk management practices and TCFD disclosure . - Resilience ( CIFAR ) Alliance as a founding member to support responsible innovation in digital finance for climate adaptation and resilience .\n- Enabled customers to donate more than $ 1 million in natural disaster relief to impacted communities ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "paypal-global-2023-31"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the actions taken to engage with suppliers on ESG considerations and support supplier diversity. However, it lacks specific details on how suppliers are assessed for environmental impacts. The mention of the Code of Conduct and human rights impact assessment is not directly related to the disclosure. The materiality is scored low as it fails to clearly demonstrate the importance of addressing negative environmental impacts in the supply chain and how it aligns with the company's strategy or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-31",
+                "title": "Respecting Human Rights",
+                "text": "Our Code of Conduct outlines our commitment to managing potential human rights risks and opportunities across the Company , which is informed by our initial human rights impact assessment completed in 2021 .\nAdditionally , our Joint U K.and Australia Modern Slavery Statement highlights the steps we have taken to mitigate and prevent modern slavery and human trafficking practices across our Company and value chain In 2022 , we continued to build awareness of ESG considerations with internal stakeholders across the vendor lifecycle We also conducted one-on one engagements with high-impact suppliers on climate change and continued our efforts to support supplier diversity : Read more about how we engage Employees & Culture and Environmental Sustainability , respectively ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_415",
+        "topic_title": "Public Policy",
+        "disclosure": "gri_415-1",
+        "disclosure_code": "GRI 415-1",
+        "disclosure_title": "Political contributions",
+        "section_ids": [
+            "paypal-global-2023-32"
+        ],
+        "completeness": 5,
+        "materiality": 5,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the oversight of political contributions, lobbying expenditures, and interactions with consideration of business objectives and public policy priorities. However, it lacks specific details on the actual contributions, lobbying efforts, and their alignment with the company's strategy. The materiality score is also moderate as it indicates some relevance to stakeholders and the business but lacks a full explanation of significance or alignment with strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "paypal-global-2023-32",
+                "title": "Committing to Political Transparency",
+                "text": "PayPal 's commitment to pursuing transparent disclosure and strong governance extends to our lobbying and political transparency policies and put forth by the Center for Political Accountability in their Zicklin Index and in 2022 , we maintained our The Governance Committee oversees our political contributions , lobbying expenditures and interactions the Company 's business objectives and public policy priorities , at least annually the committee reviews and discusses with management our political activities and expenditures , including those of the PayPal Political Action Committee , as well as Company related guidelines and policies : To find out more transparency practices , please visit our Government Relations website"
+            }
+        ]
+    }
+]

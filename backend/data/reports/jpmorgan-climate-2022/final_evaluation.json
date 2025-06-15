@@ -1,0 +1,169 @@
+[
+    {
+        "disclosure": "gri_2-2",
+        "section_ids": [
+            "jpmorgan-climate-2022-38",
+            "jpmorgan-climate-2022-37"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the entities responsible for overseeing the reporting of ESG-related commitments and operational sustainability targets. However, it lacks specific details such as a comprehensive list of all entities included in the sustainability reporting, which reduces the completeness score. The materiality score is low as it fails to demonstrate the importance of disclosing all entities involved in sustainability reporting to stakeholders or the business."
+    },
+    {
+        "disclosure": "gri_2-23",
+        "section_ids": [
+            "jpmorgan-climate-2022-87"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph provides detailed information about the company's policy commitments for responsible business conduct, including engagement with policymakers on various issues, support for climate and energy-related public policy, participation in trade associations and industry initiatives, and examples of recent climate-related engagements. It covers most key elements but may lack specific examples or detail in some areas. The disclosure demonstrates the importance of policy commitments to the business and stakeholders, aligning with the company's sustainability objectives, risk management, and stakeholder interests."
+    },
+    {
+        "disclosure": "gri_2-24",
+        "section_ids": [
+            "jpmorgan-climate-2022-87"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph provides a reasonable level of detail on how the company embeds policy commitments throughout its activities and relationships, including specific examples of engagements and initiatives. However, it could benefit from more explicit information on the specific policies and commitments being embedded. The paragraph demonstrates the importance of policy commitments to the business, stakeholders, and sustainability, aligning with stakeholder interests and business impact. However, it could provide more context on the strategic significance of these engagements and initiatives."
+    },
+    {
+        "disclosure": "gri_2-22",
+        "section_ids": [
+            "jpmorgan-climate-2022-158"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the GRI disclosure by outlining the company's sustainable development strategy and climate goals, including specific actions and targets. The paragraph covers most key elements but lacks specific examples or detail in certain areas, such as the governance structures and processes for data disclosure. The relevance of the disclosure is indicated by the company's commitment to aligning with the Paris Agreement, setting portfolio-level targets, and focusing on climate-related risks. However, it could benefit from providing more context on how these actions align with stakeholder interests, business impact, and"
+    },
+    {
+        "disclosure": "gri_2-25",
+        "section_ids": [
+            "jpmorgan-climate-2022-116"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing explicit information about the company's processes to remediate negative impacts related to climate change adaptation. It covers key elements such as integrating climate risk drivers into operational risk framework, conducting simulation exercises, and integrating climate scenarios into risk frameworks. The company also demonstrates the relevance of the topic by explaining its potential impact on operational risks, physical hazards, and the need for adaptation in locations experiencing consistent high temperatures. However, more specific examples of remediation strategies and their outcomes would further enhance completeness. The relevance to stakeholders and the"
+    },
+    {
+        "disclosure": "gri_201-2",
+        "section_ids": [
+            "jpmorgan-climate-2022-120",
+            "jpmorgan-climate-2022-121",
+            "jpmorgan-climate-2022-54",
+            "jpmorgan-climate-2022-91",
+            "jpmorgan-climate-2022-118",
+            "jpmorgan-climate-2022-100",
+            "jpmorgan-climate-2022-89",
+            "jpmorgan-climate-2022-112"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well covers most key elements of the GRI disclosure on financial implications and other risks and opportunities due to climate change. It provides explicit information about the firm's climate risk framework, stress testing, sovereign risk exposure, sustainable investment strategies, and detailed analysis of credit and investment risk. The disclosure demonstrates the importance of climate risk to the business and stakeholders, aligning with the company's strategy, risk management processes, and stakeholder interests."
+    },
+    {
+        "disclosure": "gri_302-4",
+        "section_ids": [
+            "jpmorgan-climate-2022-80",
+            "jpmorgan-climate-2022-10",
+            "jpmorgan-climate-2022-79"
+        ],
+        "completeness": 3,
+        "materiality": 7,
+        "comment": " The paragraph provides some information about the company's initiatives to reduce energy consumption, including a new target to reduce emissions by 40% by 2030 and some specific actions taken to achieve this target. However, it lacks specific details on the initiatives implemented, the results achieved, and the overall strategy for energy consumption reduction. The importance of the disclosure is demonstrated by the company's commitment to carbon-neutral operations, setting targets for emissions reduction, and specific actions taken to achieve these targets."
+    },
+    {
+        "disclosure": "gri_305-1",
+        "section_ids": [
+            "jpmorgan-climate-2022-140",
+            "jpmorgan-climate-2022-75",
+            "jpmorgan-climate-2022-153",
+            "jpmorgan-climate-2022-79",
+            "jpmorgan-climate-2022-143",
+            "jpmorgan-climate-2022-154",
+            "jpmorgan-climate-2022-74",
+            "jpmorgan-climate-2022-158"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably addresses the direct greenhouse gas (GHG) emissions (Scope 1) by providing detailed information about the company's efforts to measure and reduce emissions. The company discusses its targets and strategies, such as using renewable energy, data center efficiency, and reducing operational emissions. The materiality is demonstrated through the company's commitment to carbon neutrality, setting reduction targets, and disclosing progress, aligning with stakeholder interest and business impact."
+    },
+    {
+        "disclosure": "gri_305-2",
+        "section_ids": [
+            "jpmorgan-climate-2022-140",
+            "jpmorgan-climate-2022-75",
+            "jpmorgan-climate-2022-153",
+            "jpmorgan-climate-2022-79",
+            "jpmorgan-climate-2022-143",
+            "jpmorgan-climate-2022-154",
+            "jpmorgan-climate-2022-74",
+            "jpmorgan-climate-2022-158"
+        ],
+        "completeness": 2,
+        "materiality": 8,
+        "comment": " The paragraph provides some information on the company's approach and targets for addressing indirect greenhouse gas emissions (Scope 2) but lacks specific details and explicit information. It partially addresses the disclosure by mentioning some strategies and targets. The materiality is high as the company demonstrates the importance of addressing indirect greenhouse gas emissions to its business strategy, risk management, and stakeholder concerns, and aligns with its commitment to carbon neutrality and net-zero emissions."
+    },
+    {
+        "disclosure": "gri_305-3",
+        "section_ids": [
+            "jpmorgan-climate-2022-140",
+            "jpmorgan-climate-2022-75",
+            "jpmorgan-climate-2022-153",
+            "jpmorgan-climate-2022-79",
+            "jpmorgan-climate-2022-143",
+            "jpmorgan-climate-2022-154",
+            "jpmorgan-climate-2022-74",
+            "jpmorgan-climate-2022-158"
+        ],
+        "completeness": 2,
+        "materiality": 8,
+        "comment": " The disclosure partially addresses the GRI disclosure on indirect greenhouse gas emissions (Scope 3) by providing some information on the company's efforts to manage and reduce its indirect emissions. However, it lacks specific details such as the quantification of Scope 3 emissions and specific initiatives to address them. The materiality score is higher as the company demonstrates the importance of managing indirect emissions to align with the transition to a low-carbon economy, meeting sustainability targets, and supporting clients across sectors."
+    },
+    {
+        "disclosure": "gri_305-4",
+        "section_ids": [
+            "jpmorgan-climate-2022-140",
+            "jpmorgan-climate-2022-115",
+            "jpmorgan-climate-2022-149",
+            "jpmorgan-climate-2022-153"
+        ],
+        "completeness": 5,
+        "materiality": 8,
+        "comment": " The paragraph addresses the GHG emissions intensity disclosure reasonably well, providing information on the specific scopes covered and the methodologies used to evaluate emissions in different industries. However, it lacks specific examples or details on actual GHG emissions intensity ratios. The paragraph demonstrates the importance of the disclosure to the business and stakeholders by explaining the relevance of evaluating emissions in different sectors, the challenges faced in obtaining timely data, and the efforts to mitigate data gaps and improve data quality. This indicates alignment with stakeholder interest and the business impact."
+    },
+    {
+        "disclosure": "gri_305-5",
+        "section_ids": [
+            "jpmorgan-climate-2022-66",
+            "jpmorgan-climate-2022-140",
+            "jpmorgan-climate-2022-10",
+            "jpmorgan-climate-2022-153",
+            "jpmorgan-climate-2022-80",
+            "jpmorgan-climate-2022-37",
+            "jpmorgan-climate-2022-79",
+            "jpmorgan-climate-2022-65",
+            "jpmorgan-climate-2022-141",
+            "jpmorgan-climate-2022-74",
+            "jpmorgan-climate-2022-133",
+            "jpmorgan-climate-2022-38",
+            "jpmorgan-climate-2022-55",
+            "jpmorgan-climate-2022-57",
+            "jpmorgan-climate-2022-158"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well covers the company's emission reduction efforts and provides explicit information about their targets, sectors, and methodology. However, some specific examples and details are lacking. The disclosure demonstrates the clear importance of emission reduction to the business and stakeholders, aligning with global climate goals, financial sector best practices, and the company's commitment to carbon-neutral operations."
+    },
+    {
+        "disclosure": "gri_308-2",
+        "section_ids": [
+            "jpmorgan-climate-2022-119",
+            "jpmorgan-climate-2022-83",
+            "jpmorgan-climate-2022-40"
+        ],
+        "completeness": 7,
+        "materiality": 9,
+        "comment": " The paragraph provides a reasonable level of detail about the actions taken to address negative environmental impacts in the supply chain, including a specific example. However, it lacks explicit information about the assessment of suppliers for environmental impacts. The importance of the disclosure is clearly demonstrated by connecting it to the firm's reputation risk and the efforts taken to work with suppliers to operate more sustainably."
+    }
+]

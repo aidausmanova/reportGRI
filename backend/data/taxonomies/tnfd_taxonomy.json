@@ -1,0 +1,124 @@
+[
+    {
+        "idx": "tnfd_g",
+        "code": "TNFD Governance",
+        "category": "",
+        "title": "Governance",
+        "topics": ["data privacy", "cybersecurity", "personal information protection"],
+        "description": "Disclose the organisation's governance of nature-related dependencies, impacts, risks and opportunities",
+        "disclosure_codes": ["tnfd_g-a", "tnfd_g-b", "tnfd_g-c"],
+        "disclosures": [
+            {
+                "idx": "tnfd_g-a",
+                "code": "TNFD Governance A",
+                "title": "Describe the board's oversight of nature-related dependencies, impacts, risks and opportunities",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_g-b",
+                "code": "TNFD Governance B",
+                "title": "Describe management's role in assessing and managing nature-related dependencies, impacts, risks and opportunities",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_g-c",
+                "code": "TNFD Governance C",
+                "title": "Describe the organisation's human rights policies and engagement activities, and oversight by the board and management, with respect to Indigenous Peoples, Local Communities, affected and other stakeholders, in the organisation's assessment of, and response to, nature-related dependencies, impacts, risks and opportunities",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "idx": "tnfd_s",
+        "code": "TNFD Strategy",
+        "category": "",
+        "title": "Strategy",
+        "topics": ["data privacy", "cybersecurity", "personal information protection"],
+        "description": "Disclose the effects of nature-related dependencies, impacts, risks and opportunities on the organisation’s business model, strategy and financial planning where such information is material",
+        "disclosure_codes": ["tnfd_s-a", "tnfd_s-b", "tnfd_s-c", "tnfd_s-d"],
+        "disclosures": [
+            {
+                "idx": "tnfd_s-a",
+                "code": "TNFD Strategy A",
+                "title": "Describe the nature-related dependencies, impacts, risks and opportunities the organisation has identified over the short, medium and long term",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_s-b",
+                "code": "TNFD Strategy B",
+                "title": "Describe the effect nature-related dependencies, impacts, risks and opportunities have had on the organisation's business model, value chain, strategy and financial planning, as well as any transition plans or analysis in place",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_s-c",
+                "code": "TNFD Strategy C",
+                "title": "Describe the resilience of the organisation's strategy to nature-related risks and opportunities, taking into consideration different scenarios",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_s-d",
+                "code": "TNFD Strategy D",
+                "title": "Disclose the locations of assets and/or activities in the organisation's direct operations and, where possible, upstream and downstream value chain(s) that meet the criteria for priority locations",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "idx": "tnfd_r",
+        "code": "TNFD Risks",
+        "category": "",
+        "title": "Risk and impact management",
+        "topics": ["data privacy", "cybersecurity", "personal information protection"],
+        "description": "Describe the process used by the organisation to identify, assess, prioritise and monitor nature-related dependencies, impacts, risk and opportunities",
+        "disclosure_codes": ["tnfd_r-a", "tnfd_r-b", "tnfd_r-c"],
+        "disclosures": [
+            {
+                "idx": "tnfd_r-a",
+                "code": "TNFD Risks A",
+                "title": "Describe the organisation's processes for identifying, assessing and prioritising nature-related dependencies, impacts, risks and opportunities in its direct operations and downstream value chain",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_r-b",
+                "code": "TNFD Risks B",
+                "title": "Describe the organisation's processes for monitoring nature-related dependencies, impacts, risks and opportunities",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_r-c",
+                "code": "TNFD Risks C",
+                "title": "Describe how processes for identifying, assessing, prioritising and monitoring nature-related risks are integrated into and inform the organisation’s overall risk management processes",
+                "description": ""
+            }
+        ]
+    },
+    {
+        "idx": "tnfd_m",
+        "code": "TNFD Metrics",
+        "category": "",
+        "title": "Metrics and targets",
+        "topics": ["data privacy", "cybersecurity", "personal information protection"],
+        "description": "Disclose the metrics and targets used to assess and manage material nature-related dependencies, impacts, risks and opportunities",
+        "disclosure_codes": ["tnfd_m-a", "tnfd_m-b", "tnfd_m-c"],
+        "disclosures": [
+            {
+                "idx": "tnfd_m-a",
+                "code": "TNFD Metrics A",
+                "title": "Disclose the metrics used by the organisation to assess and manage material nature-related risks and opportunities in line with its strategy and risk management process",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_m-b",
+                "code": "TNFD Metrics B",
+                "title": "Disclose the metrics used by the organisation to assess and manage dependencies and impacts on nature",
+                "description": ""
+            },
+            {
+                "idx": "tnfd_m-c",
+                "code": "TNFD Metrics C",
+                "title": "Describe the targets and goals used by the organisation to manage nature-related dependencies, impacts, risks and opportunities and its performance against these",
+                "description": ""
+            }
+        ]
+    }
+]

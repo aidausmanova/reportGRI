@@ -1,0 +1,130 @@
+[
+    {
+        "disclosure": "gri_2-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-40",
+            "astrazeneca-sustainability-2023-47",
+            "astrazeneca-sustainability-2023-7",
+            "astrazeneca-sustainability-2023-199"
+        ],
+        "response": "\"completeness\": 3,\n\"materiality\": 5,\n\"comment\": \"The paragraph briefly mentions the establishment of a Sustainability Steering Committee and its responsibilities, but it lacks explicit information on which entities are included in the sustainability reporting, such as subsidiaries, joint ventures, etc. The paragraph also mentions the reporting of sustainability activities but doesn't provide specific details on the entities covered. The materiality is scored as 5 since the paragraph indicates some relevance to the business but lacks full context or explanation of significance.\""
+    },
+    {
+        "disclosure": "gri_2-14",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-40"
+        ],
+        "response": "\"completeness\": 8,\n\"materiality\": 9,\n\"comment\": The paragraph reasonably well addresses the disclosure by detailing the establishment of a dedicated Sustainability Steering Committee responsible for managing sustainability impacts, risks, and opportunities. It outlines the specific responsibilities of the committee and the senior leaders involved. However, it lacks specific examples or details of how the committee operates. The importance of the disclosure is clearly demonstrated by explaining the role of the highest governance body in managing sustainability impacts and risks, aligning with stakeholder interests and business impact. The reference to further governance information in the Annual Report shows a clear effort to provide comprehensive details."
+    },
+    {
+        "disclosure": "gri_2-22",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-65"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The disclosure reasonably well addresses the sustainable development strategy and climate goals. It covers key elements such as governance, incentives, collaboration, and specific initiatives related to access to healthcare and carbon reduction. However, it lacks specific examples and detailed information. The relevance of the disclosure is well demonstrated, aligning with stakeholder interest and business impact, including the importance of reducing GHG emissions and adherence to ethical standards.\""
+    },
+    {
+        "disclosure": "gri_201-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-109"
+        ],
+        "response": "\"completeness\": 8,\n\"materiality\": 9,\n\"comment\": The paragraph reasonably well addresses the disclosure by providing explicit information about the application of the TCFD framework, the scope of business operations, the risk-based approach, and the measures in place. However, it lacks specific examples or details about the financial implications and potential changes in operations, revenue, or expenditure due to climate change. The mention of the TCFD Report on the company's website provides additional information. The disclosure demonstrates materiality by clearly showing alignment with the TCFD framework, risk management processes, and the identification of climate-related risks as"
+    },
+    {
+        "disclosure": "gri_301-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "response": "\"completeness\": 3,\n\"materiality\": 8,\n\"comment\": \"The paragraph provides a comprehensive overview of the company's commitment to sustainability and circular economy principles, but it lacks specific details on the quantities and proportions of recycled input materials used. The mention of developing suitable metrics and targets demonstrates the materiality of the topic to the business and stakeholders.\""
+    },
+    {
+        "disclosure": "gri_304-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-43"
+        ],
+        "response": "\"completeness\": 1,\n\"materiality\": 1,\n\"comment\": The paragraph makes vague references to sustainability and biodiversity, but it lacks explicit and detailed information about the company's impact on biodiversity and a management plan. It also does not demonstrate why biodiversity is important to the business and stakeholders, and it lacks specific examples or explanation of significance. Therefore, it only partially addresses the disclosure and the relevance to the company and stakeholders is not clear."
+    },
+    {
+        "disclosure": "gri_305-1",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "response": "\"completeness\": 5,\n\"materiality\": 8,\n\"comment\": \"The disclosure reasonably well addresses the reduction targets and progress on Scope 1, 2, and 3 emissions, but lacks specific details and absolute emissions data. The connection to stakeholder interest and business impact is indicated through the progress on reduction targets, partnerships for renewable energy adoption, and supplier sustainability assessments, demonstrating alignment with stakeholder concerns and sustainability strategy.\""
+    },
+    {
+        "disclosure": "gri_305-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The disclosure reasonably addresses the Scope 2 GHG emissions reduction targets and progress, including absolute and intensity reduction figures. It also provides information on the use of primary data and suppliers setting science-based targets. However, it lacks specific details on the current absolute emissions of Scope 2 GHG and the method used for the reduction. The mention of the partnership with the Pharmaceutical Supply Chain Initiative and the commitment to developing a next-generation pressurised metered-dose inhaler using a low GWP propellant is relevant to stakeholders and the business, demonstrating"
+    },
+    {
+        "disclosure": "gri_305-3",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125",
+            "astrazeneca-sustainability-2023-115"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The paragraph provides detailed information about the company's targets and actions to reduce Scope 1, 2, and 3 greenhouse gas emissions, including specific percentage reduction goals and progress updates. However, it lacks specific examples or details about the initiatives implemented to achieve these targets. The materiality is rated high as it clearly demonstrates the importance of reducing greenhouse gas emissions and the impact on the company's sustainability strategy and stakeholder concerns.\""
+    },
+    {
+        "disclosure": "gri_305-4",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125"
+        ],
+        "response": "\"completeness\": 5,\n\"materiality\": 8,\n\"comment\": \"The disclosure reasonably addresses the reduction targets for both scopes 1 and 2 GHG emissions, and provides some details on the reduction achieved. However, it lacks specific examples of initiatives undertaken to achieve the targets. The paragraph also mentions the increase in Scope 3 emissions and reduction in intensity but lacks specific details on the actions taken to address this. The disclosure indicates progress in using primary data and suppliers setting science-based targets, which demonstrates some relevance and alignment with stakeholder interest. The mention of the partnership to accelerate the adoption of renewable energy across the"
+    },
+    {
+        "disclosure": "gri_305-5",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-125",
+            "astrazeneca-sustainability-2023-115",
+            "astrazeneca-sustainability-2023-107",
+            "astrazeneca-sustainability-2023-118",
+            "astrazeneca-sustainability-2023-65",
+            "astrazeneca-sustainability-2023-9"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The disclosure reasonably well addresses the reduction of GHG emissions, providing specific targets and progress updates. However, it lacks detail on the strategies and initiatives implemented to achieve the targets. The importance of the disclosure is indicated through alignment with business goals, stakeholder interests, and strategic initiatives, although further explanation on the significance would enhance materiality.\""
+    },
+    {
+        "disclosure": "gri_306-1",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The paragraph addresses the waste generation and waste-related impacts disclosure reasonably well, covering the company's efforts to minimize waste generation and maximize recycling. However, it lacks specific examples or metrics to monitor progress. The importance of waste management to the business and stakeholders is indicated, aligning with stakeholder interest and environmental impact. The company's commitment to assess and minimize environmental impacts from the supply chain demonstrates relevance and the alignment with stakeholder concerns.\""
+    },
+    {
+        "disclosure": "gri_306-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": \"The paragraph addresses waste management efforts, including waste treatment methods and waste generation reduction. It provides detailed information about the company's efforts to minimize waste and maximize recycling, as well as the integration of circular economy principles. However, it could be more explicit in providing specific examples of waste treatment methods and efforts to reduce waste generation. The importance of waste management to stakeholders and the business is clearly explained, aligning with sustainability goals, supply chain management, and stakeholder interests.\""
+    },
+    {
+        "disclosure": "gri_306-3",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "response": "\"completeness\": 5,\n\"materiality\": 8,\n\"comment\": \"The paragraph provides a reasonable amount of information about the company's efforts to minimize waste generation and increase recycling. However, it lacks specific details about the total amount of waste generated by the company, which is the key component of the GRI disclosure. The materiality is scored high as the paragraph demonstrates the importance of waste generation and management to the company's sustainability strategy, including commitments, collaborations, and future targets.\""
+    },
+    {
+        "disclosure": "gri_308-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-144"
+        ],
+        "response": "\"completeness\": 8,\n\"materiality\": 9,\n\"comment\": \"The disclosure reasonably well addresses the actions taken to assess negative environmental impacts in the supply chain and the commitment to sustainability. It covers most key elements but lacks specific examples or detail, such as actual metrics and results. The paragraph demonstrates the importance of the topic to the business and stakeholders, aligning with sustainability strategy, risk management, and stakeholder concerns.\""
+    },
+    {
+        "disclosure": "gri_403-2",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-198"
+        ],
+        "response": "\"completeness\": 7,\n\"materiality\": 8,\n\"comment\": The paragraph reasonably well addresses the disclosure by providing detailed information about the processes used to identify work-related hazards and assess risks. It outlines the Serious Injury and Fatality Prevention and Mitigation Programme, the evaluation of high-risk activities, and the implementation of a three-year plan to address high-risk areas. However, it lacks specific examples of hazard identification and incident investigation. The importance of the disclosure is indicated by demonstrating the company's alignment with stakeholder concerns, the significance of process safety management, and the integration of hazardous activity focus into existing ways of working."
+    },
+    {
+        "disclosure": "gri_405-1",
+        "section_ids": [
+            "astrazeneca-sustainability-2023-180"
+        ],
+        "response": "\"completeness\": 5,\n\"materiality\": 7,\n\"comment\": The paragraph provides a general commitment to creating an inclusive working environment and mentions efforts to extend inclusion and diversity priorities to the value chain. However, it lacks specific details about the diversity of governance bodies and employees in terms of age, gender, and minority representation. While it indicates the importance of diversity, it does not provide explicit and detailed information about the current state of diversity within the company's workforce and governance bodies. The materiality score is higher because it demonstrates relevance to the business and stakeholders, aligning with the company's commitment to creating an inclusive environment"
+    }
+]

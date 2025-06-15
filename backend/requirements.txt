@@ -1,5 +1,17 @@
+pandas
+numpy==2.2.1
+nltk==3.9.1
+docling==2.22.0
+markdown==3.7
+spacy
+matplotlib
+seaborn
+transformers==4.45.2
+sentence_transformers
+# sklearn
+scikit-learn
+langchain-community
+langchain-openai
 fastapi==0.115.12
 uvicorn==0.22.0
-pandas==2.2.3
 python-multipart==0.0.20
-docling==2.36.1

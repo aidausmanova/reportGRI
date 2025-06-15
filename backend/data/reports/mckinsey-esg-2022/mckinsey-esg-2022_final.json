@@ -1,0 +1,494 @@
+[
+    {
+        "topic": "gri_2-organization",
+        "topic_title": "General Disclosures: Company Profile",
+        "disclosure": "gri_2-2",
+        "disclosure_code": "GRI 2-2",
+        "disclosure_title": "Entities included in company's sustainability reporting",
+        "section_ids": [
+            "mckinsey-esg-2022-101"
+        ],
+        "completeness": 1,
+        "materiality": 1,
+        "comment": " The paragraph does not fully address the GRI disclosure as it does not explicitly provide an overview of the entities included in the company's sustainability reporting. The mention of the ESG report, WEF IBC's Stakeholder Capitalism metrics, and the UN Global Compact is vague and lacks specific details about the entities included. Additionally, the paragraph does not clearly demonstrate the importance of disclosing entities included in the sustainability reporting to the business or stakeholders. There is minimal connection to the business or stakeholders, and no explanation of the significance of this disclosure.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-101",
+                "title": "Report scope",
+                "text": "( ESG ) Report ( `` the Report '' ) is our annual report detailing our commitments , programs , and performance on ESG priorities . All information reflects McKinsey & Company 's worldwide operations , covering the period from 1 January 2022t0 31 December 2022 , unless otherwise noted .\nThe Report has been prepared in accordance with the Global Reporting Initiative ( GRI ) Standards for this reporting period .\nIt also includes our disclosure against World Economic Forum International Business Council 's ( WEF IBC ) Stakeholder Capitalism metrics , and serves as our fifth Communication on Progress ( CoP ) to the UN Global Compact alongside-for the first time this year the CoP of the Task Force on Climate-related Financial Disclosures ( TCFD ) Disclaimer : The analyses and conclusions contained in this report refer to the period of the calendar 2022and to information data available to McKinsey do not purport to contain or incorporate all the information .\nAlthough its content reflects McKinsey 's current expectations regarding future events the analyses and conclusions contained in this report are based on various assumptions , being based upon factors and events subject to uncertainty .\nStatements of expectation , forecasts , and projections relate to such future events and are based on assumptions that may not remain valid for the whole of the relevant period . Future results could be materially different from any forecast contained in the analyses . The analyses contained herein were undertaken by McKinsey as of the dates noted herein .\nMcKinsey undertakes no obligation to revise or update any such analyses or any forward-looking statements . and and Our GHG emissions inventory and renewable energy use data as well as select social responsibility contributions data were independently verified by Grant Thornton at a limited assurance level . See Grant Thornton 's Report of Independent Public Accountants on page 101 ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-governance",
+        "topic_title": "General Disclosures: Governance Structure and Composition",
+        "disclosure": "gri_2-14",
+        "disclosure_code": "GRI 2-14",
+        "disclosure_title": "Role of the highest governance body in sustainability reporting",
+        "section_ids": [
+            "mckinsey-esg-2022-109"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the GRI disclosure by providing explicit details on how the highest governance body delegates responsibility for managing impacts on the economy, environment, and people. It includes information on the specific committee responsible, the senior partner in charge of sustainability strategy, and the day-to-day responsibility for addressing climate change. The paragraph demonstrates the importance of the topic by showing clear alignment with the company's governance structure and strategy, indicating a strong material connection.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-109",
+                "title": "TCDF Governance",
+                "text": "Describe the board 's oversight of climate-related risks and opportunities ( C1.1a , C1.1b ) : The Risk , Audit , and Governance Committee ( RAGC ) , a sub-committee of McKinsey 's Shareholders ' Council ( our senior governing body , akin to a board ) , provides strategic direction , oversight , and accountability for climate-related issues within the organization .\nThe RAGC ( or a subset of its representatives such as the chief financial officer ) is responsible for creating the framework and supporting policies that are necessary to address climate-related issues .\nThis includes reviewing and guiding the strategy and annual budgets , setting performance objectives , monitoring and overseeing progress against climate-related goals and targets , reviewing material climate-related risks , and approving global policies relating to social responsibility .\nFurthermore , our air-travel emissions footprint is reviewed quarterly by the Acceleration Team ( AT ) for progress against our science-based targets ( SBTs ) , and the AT discusses actions needed and decisions required from the RAGC .\nThe AT is our global leadership body composed of the managing partner and firm leaders representing regions , industries , client capabilities , finance , people , and risk functions .\nThe ESG Council , represented by senior firm function and client service leaders , oversees our ESG agenda , including environmental sustainability topics , by defining our priorities , setting our direction , and monitoring progress .\nA member of the ESG Council sits on the Shareholders \u2019 Council , and the leader of the Council ( senior partner of ESG/Social Responsibility ) reports directly and frequently into the RAGC . Describe management \u2019 s role in assessing and managing climate-related risks and opportunities ( C1.2b .\n) : Our chief financial officer , who is a member of both the RAGC and the AT , has standing quarterly meetings with the Environmental Sustainability Team , the global senior partner leader of our client-facing sustainability growth platform , and the senior partner of ESG/Social Responsibility to review progress against our targets as well as discuss , review , and decide on topics such as carbon budgets , carbon prices , sustainable aviation fuels , and carbon removals .\nThe global leader of McKinsey Sustainability and the North America Sustainability leader ( senior partners ) are responsible for McKinsey Sustainability : our client-service platform with the goal of helping all industry sectors transform to get to net zero by 2050 and to cut carbon emissions by half by 2030 .\nThe senior partner of ESG/Social Responsibility is responsible for the design and implementation of McKinsey \u2019 s sustainability strategy . They are supported by the leader of Global Social Responsibility , as well as the director of Environmental Sustainability who has overall day-to-day responsibility for addressing climate change and sustainability more broadly within the firm .\nWithin each of our offices , the local managing partner ( senior partner level ) has responsibility for the impact of climate change on the office \u2019 s operations . Furthermore , each region has an SBT regional leader ( senior partner level ) who is accountable for achieving our 2025 near-term SBTs .\nThe director of Environmental Sustainability convenes the SBT regional leaders on a quarterly basis to review progress and discuss best practices , roadblocks , and actions planned . The results of the quarterly meeting are reported out to the AT ( see above ) ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-ethics",
+        "topic_title": "General Disclosures: Ethics and Integrity",
+        "disclosure": "gri_2-23",
+        "disclosure_code": "GRI 2-23",
+        "disclosure_title": "Policy commitments",
+        "section_ids": [
+            "mckinsey-esg-2022-90",
+            "mckinsey-esg-2022-79"
+        ],
+        "completeness": 3,
+        "materiality": 6,
+        "comment": " The paragraph partially addresses the GRI disclosure by mentioning the company's policy commitments for responsible business conduct, but lacks explicit and detailed information regarding the core elements of the policies and specific examples of how they are implemented. The reference to the Supplier Code of Conduct is a positive indication, but the disclosure lacks depth and clarity.The paragraph indicates some relevance by highlighting the company's commitment to responsible conduct, anti-corruption laws, and the Supplier Code of Conduct. However, it lacks full context or explanation of the significance of these commitments to the business and stakeholders",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-90",
+                "title": "Supplier standards and values",
+                "text": "Buying Policy outlines our ambition to deliver positive social and disposal of products and services , and through how we work with our suppliers to improve the social and environmental impact of the goods and services they offer .\nSince we strive to partner with suppliers that share our values and commitment to responsible conduct , we ask suppliers to agree to our Supplier Code of Conduct . 32 This code sets the standards and values we expect of all our suppliers and is embedded in our standard contract template . The code is available to download on"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-79",
+                "title": "Our Code of Professional Conduct and policies",
+                "text": "understand the core elements of our policies and how those elements are anchored in our values .\nWe expect all colleagues to comply with , other suppliers to act in a manner consistent with , our Code Our We do not offer , accept , solicit , or pay a bribe , in any form or of any value , to any person ~including to get business or secure any advantage in connection with our businessaska third party to do so on our behalf .\nOur firm is committed to compliance with the anti-corruption laws of all jurisdictions in which we operate , including the US Foreign Corrupt Practices Act and the UK Bribery Act . Our Code and Global Anti-Corruption Policy reflect our commitment and hold our members , and the third parties we engage , accountable for maintaining those standards . firm"
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-22",
+        "disclosure_code": "GRI 2-22",
+        "disclosure_title": "Statement on sustainable development strategy and climate goals",
+        "section_ids": [
+            "mckinsey-esg-2022-109"
+        ],
+        "completeness": 9,
+        "materiality": 8,
+        "comment": " The paragraph fully addresses the disclosure by providing detailed information about the board's oversight of climate-related risks and opportunities, including the specific committee responsible, the senior executives in charge, and the oversight structure at both global and local levels. The materiality score is high as it clearly demonstrates the importance of sustainable development and strategy to the business, with alignment to strategy, risk, and stakeholder concerns. However, it could further enhance materiality by explicitly connecting the oversight to the company's overall strategy and stakeholder interests.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-109",
+                "title": "TCDF Governance",
+                "text": "Describe the board 's oversight of climate-related risks and opportunities ( C1.1a , C1.1b ) : The Risk , Audit , and Governance Committee ( RAGC ) , a sub-committee of McKinsey 's Shareholders ' Council ( our senior governing body , akin to a board ) , provides strategic direction , oversight , and accountability for climate-related issues within the organization .\nThe RAGC ( or a subset of its representatives such as the chief financial officer ) is responsible for creating the framework and supporting policies that are necessary to address climate-related issues .\nThis includes reviewing and guiding the strategy and annual budgets , setting performance objectives , monitoring and overseeing progress against climate-related goals and targets , reviewing material climate-related risks , and approving global policies relating to social responsibility .\nFurthermore , our air-travel emissions footprint is reviewed quarterly by the Acceleration Team ( AT ) for progress against our science-based targets ( SBTs ) , and the AT discusses actions needed and decisions required from the RAGC .\nThe AT is our global leadership body composed of the managing partner and firm leaders representing regions , industries , client capabilities , finance , people , and risk functions .\nThe ESG Council , represented by senior firm function and client service leaders , oversees our ESG agenda , including environmental sustainability topics , by defining our priorities , setting our direction , and monitoring progress .\nA member of the ESG Council sits on the Shareholders \u2019 Council , and the leader of the Council ( senior partner of ESG/Social Responsibility ) reports directly and frequently into the RAGC . Describe management \u2019 s role in assessing and managing climate-related risks and opportunities ( C1.2b .\n) : Our chief financial officer , who is a member of both the RAGC and the AT , has standing quarterly meetings with the Environmental Sustainability Team , the global senior partner leader of our client-facing sustainability growth platform , and the senior partner of ESG/Social Responsibility to review progress against our targets as well as discuss , review , and decide on topics such as carbon budgets , carbon prices , sustainable aviation fuels , and carbon removals .\nThe global leader of McKinsey Sustainability and the North America Sustainability leader ( senior partners ) are responsible for McKinsey Sustainability : our client-service platform with the goal of helping all industry sectors transform to get to net zero by 2050 and to cut carbon emissions by half by 2030 .\nThe senior partner of ESG/Social Responsibility is responsible for the design and implementation of McKinsey \u2019 s sustainability strategy . They are supported by the leader of Global Social Responsibility , as well as the director of Environmental Sustainability who has overall day-to-day responsibility for addressing climate change and sustainability more broadly within the firm .\nWithin each of our offices , the local managing partner ( senior partner level ) has responsibility for the impact of climate change on the office \u2019 s operations . Furthermore , each region has an SBT regional leader ( senior partner level ) who is accountable for achieving our 2025 near-term SBTs .\nThe director of Environmental Sustainability convenes the SBT regional leaders on a quarterly basis to review progress and discuss best practices , roadblocks , and actions planned . The results of the quarterly meeting are reported out to the AT ( see above ) ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-29",
+        "disclosure_code": "GRI 2-29",
+        "disclosure_title": "Approach to stakeholder engagement",
+        "section_ids": [
+            "mckinsey-esg-2022-102"
+        ],
+        "completeness": 2,
+        "materiality": 3,
+        "comment": " The paragraph partially addresses the GRI disclosure by listing relevant stakeholders but lacks detail on the process for identifying them and how their needs are considered in decision-making. It does not provide explicit or detailed information, and the vague statements omit key components. The relevance of stakeholder engagement to the business and stakeholders is minimally demonstrated, with no clear explanation of the significance or alignment with strategy, risk, or stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-102",
+                "title": "Stakeholder engagement",
+                "text": "Our firm , and the decisions that we make , affect a range of external information from engaging these stakeholders to inform our firms strategys practicess and external reporting : - Clients - Colleagues - suppliers - Communities - Civil society"
+            }
+        ]
+    },
+    {
+        "topic": "gri_201",
+        "topic_title": "Economic Performance",
+        "disclosure": "gri_201-2",
+        "disclosure_code": "GRI 201-2",
+        "disclosure_title": "Financial implications and other risks and opportunities due to climate change",
+        "section_ids": [
+            "mckinsey-esg-2022-110",
+            "mckinsey-esg-2022-109"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably addresses the resilience of the organization's strategy and the oversight of climate-related risks and opportunities. It provides explicit information about the climate risk analysis tools, scenarios assessed, and the oversight structure. The description lacks specific examples and depth in certain areas, particularly in detailing the impacts of different climate-related scenarios on the organization's operations, revenue, and expenditure. However, it clearly demonstrates the importance of climate-related risks and opportunities to the business and stakeholders, aligning with the strategy, risk, and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-110",
+                "title": "TCDF Strategy",
+                "text": "a . Describe the climate-related risks and opportunities the organization has identified ( C2.1a , C2.3 , C2.3a , C2.4 , C2.4a ) : We consider climate-related risks and opportunities in the short ( 0-2 years ) , medium ( 2-5 years ) , and long ( 5+ years ) term as part of our business strategy .\nRisks In our climate-related risk assessments , we have considered current regulation , emerging regulation , legal , market , technological , and reputational risks , as well as acute and chronic physical risks .\nBased on input from McKinsey 's internal functions , sustainability practice experts , and others , we have not identified inherent climate-related risks with the potential to have a substantive financial or strategic impact on the firm .\nclimate-related risks and opportunities the organization has identified over the short , medium , and long term Risks : In our climate-related risk assessments , we have considered current regulation , emerging regulation , legal , market , technological , and reputational risks , as well as acute and chronic physical risks .\nBased on input from McKinsey 's internal functions , sustainability practice experts , and others , we have not identified inherent climate-related risks with the potential to have a substantive financial or strategic impact on the firm .\nPhysical risks : As a global firm that operates in 65+ countries , we have offices that are likely to be exposed to both acute and chronic physical risks in the near , medium , and long term .\nIn our analysis , we assessed the impact of physical risks , including riverine and coastal flooding , extreme heat , and hurricanes , aligned to different climate pathways ( 1.5 and 2 degrees Celsius ) . We used McKinsey Climate Resilience Analytics downscaled CMIP5 models , as well as data from the World Resources Institute ( WRI ) and WindRisk Tech .\nThe forecasted future impacts do not represent a substantive safety , financial , or strategic impact above the 4 % threshold on revenues .\nTransition risks : We have assessed current regulation , emerging regulation , legal , market , reputational , and technological risks across short , medium , and long-term horizons and different scenarios ( including the UN Principles for Responsible Investment 's ( UNPRI ) Inevitable Policy Response 's `` Required Policy Scenario '' ) where relevant .\nWe do not expect the cost of the transition risks to have a substantive financial or strategic impact on our business as they do not cross the materiality threshold of 4 % of overall revenues . b .\nDescribe the impact of climate-related risks and opportunities on the organization 's businesses , strategy , and financial planning strategy , and financial planning ( C2.3a , C2.4a , C3.2b , C3.3 , C3.4 ) : Products and services : In 2021 , we launched our new client service platform , \u201c McKinsey Sustainability , \u201d with the goal of helping all industry sectors transform to reach net zero by 2050 along with other sustainability goals and tailored to regional contexts .\nWe use our thought leadership , innovative tools and solutions , top talent , and a vibrant ecosystem of industry associations and knowledge platforms focused on innovating to net zero .\nOur plans focus on four key levers of decarbonization : helping clients drive a `` brown to green '' transition of the global economy 's installed base , building new green businesses and innovations , retiring and repurposing the highest carbon intensity assets , and scaling nature-based solutions .\nSupply chain and/or value chain : Climate-related risks and opportunities-including reputational ( for example , expectations of colleagues and clients ) , regulatory ( for example , carbon tax ) , and physical ( for example , risk to our buildings due to severe weather ) have influenced our strategy .\nThese risks and opportunities will continue to impact our supply chain strategy in the short , medium , and long term . Because indirect emissions from travel typically account for more than 80 % of our carbon footprint , 57 we have made engaging with our travel-related suppliers a priority . Learn more about our supplier engagement in 2022 .\nInvestment in research and development ( R & D ) : We believe that the climate crisis is a defining issue of our time , so in 2021 , we committed to investing $ 1 billion in our capabilities over the next five years to help our clients lead a wave of innovation and growth to safeguard our planet .\nWe work with leading institutions to develop distinctive thought leadership and convene partnerships that tackle problems that institutions can not tackle alone . Operations : As a global firm , we have set 2025 validated SBTs and committed to net-zero climate impact by 2030 .\nEach region has an SBT regional leader ( senior partner level ) who is accountable for achieving our 2025 near-term SBTs to ensure we meet our commitments . Revenue : Climate change is leading companies to manage risks and seize opportunities , driving increased demand for management consultancy and advisory services on sustainability .\nThis increased demand for our expertise has a positive impact on our client service and revenue . The impact is currently moderate and is expected to increase in line with the global transition to a low-carbon economy , although it has not been deemed to have a substantive financial or strategic impact on the firm . This is evaluated in short-term financial planning .\nWe are actively engaged with this challenge every day . In 2022 , 3,500+ colleagues partnered with 600+ clients on 1,600+ sustainability-related client engagements across nearly 60 countries . Assets : As an advisory firm , our `` assets '' are not physical locations or business units in the traditional sense , but our proprietary knowledge and our reputation .\nWe continue to make a substantial investment in research and knowledge building . This is factored into our financial planning , in developing an understanding of a wide range of sustainability and resource productivity topics with the investment in research and knowledge building .\nThis is factored into our financial planning , in developing an understanding of a wide range of sustainability and resource productivity topics with the aim of informing and progressing the debate with an independent fact base , tools and frameworks , and analysis of risks and opportunities .\nThe impact of these activities is low in comparison to the company-wide financial planning process and has not been deemed to have a substantive financial or strategic impact on the firm in the short term . Capital expenditure : We have committed to 2025 SBTs and net-zero climate impact by 2030 . We have also been carbon neutral since 2018 .\nTherefore , capital expenditures and investments in energy-efficient buildings are included in the financial planning process . Acquisitions and divestments : McKinsey acquired Sweden-based Material Economics , experts in sustainability and circularity in December 2021 . In March 2021 , McKinsey acquired Vivid Economics and Planetrics to help clients navigate climate change , bringing us significant additional analytical capabilities .\nc. Describe the resilience of the organization 's strategy , taking into consideration different climate-related taking into consideration scenarios , including a 2C or lower scenario ( C3.2 , C3.2a , C3.2b ) : McKinsey has developed a suite of climate risk analysis tools and capabilities that assisted in our climate scenario analysis : Climate Resilience Analytics is McKinsey 's core team of experts who analyze and generate insights from the quantitative impact of climate change for our clients .\nThe team works across nearly all sectors at McKinsey that are impacted by climate change , such as the public , energy , and financial sectors . being Vivid Economics is a strategic economics consultancy with broad sustainability and macroeconomics capabilities McKinsey acquired in 2021 .\nThe Planetrics team , part of McKinsey Sustainability , is a specialist in the design of climate-change risk and opportunity modeling at the level of regions , sectors , and assets .\nIn 2022 , a cross-functional team composed of McKinsey climate scientists , consultants , economists , leaders in the sustainability practice , and risk and finance professionals conducted climate-related scenario analysis to project the financial and strategic implications of evolving physical and transition impacts of our firm 's strategy and business model ( using 2021 data ) .\nOur choice of climate scenarios weighed alignment to temperature pathways and policy actions .\nThese scenarios were assessed across multiple timeframes to capture near- , medium- , and long-term impacts Parameters and assumptions used in our climate-related scenario analysis depending on temperature alignment of scenario included : - The 1.5 C scenario , which uses UNPRI 's Inevitable Policy Response 'Required Policy Scenario '' capping warming to 1.5 degrees Celsius over pre-industrial levels by 2100 .\nIt quantifies strong impacts transitional risks ( for example , carbon prices ) and innovation , and is included to reflect the net-zero pathway many governments and companies have publicly committed to . from - forceful policy in response to climate change and related implications for energy , vehicles , and carbon prices .\nResults of the climate-related scenario analysis : Cost of emissions change : Based on evolving carbon prices globally , carbon emissions likely to become increasingly expensive over time . Our scenario analysis included three point-in-time calculations in 2025 , 2030 , and 2050 . The main source of these emissions is business travel ( approximately 80 % of firm emissions in 2019 ) .\nAs part of our analysis , forecasted carbon prices from UNPRI 's `` Required Policy Scenario '' were weighted across geographies based on our emissions .\nAccording to UNPRI 's , 'Required Policy Scenario '' , carbon prices of $ 45-85 per ton and $ 87-175 per ton will be needed by 2030 and 2050 respectively : Carbon pricing from regulations are not likely to have a substantive financial or strategic impact on our business as we do not operate in an emissions-intensive industry and we have committed to reaching net zero by 2030 .\nPeople and physical assets most exposed : As a global firm that operates in 65+ countries , we have offices that are likely to be exposed to both acute and chronic physical risks in the near , colleagues are based in metropolitan areas that may be exposed to severe flooding globally and approximately 12.5K to hurricanes , especially in the Eastern US and Western Pacific .\nDespite these business- Effect on sectors we serve : We work with clients across sectors , sizes , and geographies . To assess the climate transition and physical impacts on the companies we serve , we conducted scenario analysis using Planetrics , our climate analytics suite .\nanalysis evaluated the impacts of decarbonization on the average valuations of companies in the sectors and regional industries that we serve The analysis included three scenarios : the Required Policy Response ( to limit warming to 1.5 degrees Celsius above pre-industrial levels by 2100 ) , the Forecasted Policy Response to limit and in helping grow new green industries help our clients identify opportunities and take bold action ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-109",
+                "title": "TCDF Governance",
+                "text": "Describe the board 's oversight of climate-related risks and opportunities ( C1.1a , C1.1b ) : The Risk , Audit , and Governance Committee ( RAGC ) , a sub-committee of McKinsey 's Shareholders ' Council ( our senior governing body , akin to a board ) , provides strategic direction , oversight , and accountability for climate-related issues within the organization .\nThe RAGC ( or a subset of its representatives such as the chief financial officer ) is responsible for creating the framework and supporting policies that are necessary to address climate-related issues .\nThis includes reviewing and guiding the strategy and annual budgets , setting performance objectives , monitoring and overseeing progress against climate-related goals and targets , reviewing material climate-related risks , and approving global policies relating to social responsibility .\nFurthermore , our air-travel emissions footprint is reviewed quarterly by the Acceleration Team ( AT ) for progress against our science-based targets ( SBTs ) , and the AT discusses actions needed and decisions required from the RAGC .\nThe AT is our global leadership body composed of the managing partner and firm leaders representing regions , industries , client capabilities , finance , people , and risk functions .\nThe ESG Council , represented by senior firm function and client service leaders , oversees our ESG agenda , including environmental sustainability topics , by defining our priorities , setting our direction , and monitoring progress .\nA member of the ESG Council sits on the Shareholders \u2019 Council , and the leader of the Council ( senior partner of ESG/Social Responsibility ) reports directly and frequently into the RAGC . Describe management \u2019 s role in assessing and managing climate-related risks and opportunities ( C1.2b .\n) : Our chief financial officer , who is a member of both the RAGC and the AT , has standing quarterly meetings with the Environmental Sustainability Team , the global senior partner leader of our client-facing sustainability growth platform , and the senior partner of ESG/Social Responsibility to review progress against our targets as well as discuss , review , and decide on topics such as carbon budgets , carbon prices , sustainable aviation fuels , and carbon removals .\nThe global leader of McKinsey Sustainability and the North America Sustainability leader ( senior partners ) are responsible for McKinsey Sustainability : our client-service platform with the goal of helping all industry sectors transform to get to net zero by 2050 and to cut carbon emissions by half by 2030 .\nThe senior partner of ESG/Social Responsibility is responsible for the design and implementation of McKinsey \u2019 s sustainability strategy . They are supported by the leader of Global Social Responsibility , as well as the director of Environmental Sustainability who has overall day-to-day responsibility for addressing climate change and sustainability more broadly within the firm .\nWithin each of our offices , the local managing partner ( senior partner level ) has responsibility for the impact of climate change on the office \u2019 s operations . Furthermore , each region has an SBT regional leader ( senior partner level ) who is accountable for achieving our 2025 near-term SBTs .\nThe director of Environmental Sustainability convenes the SBT regional leaders on a quarterly basis to review progress and discuss best practices , roadblocks , and actions planned . The results of the quarterly meeting are reported out to the AT ( see above ) ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_301",
+        "topic_title": "Materials",
+        "disclosure": "gri_301-3",
+        "disclosure_code": "GRI 301-3",
+        "disclosure_title": "Reclaimed products and their packaging materials",
+        "section_ids": [
+            "mckinsey-esg-2022-15"
+        ],
+        "completeness": 3,
+        "materiality": 4,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the efforts undertaken to optimize product packaging and secure greater access to recycled materials. However, it lacks specific details about the reclaimed products and their packaging materials sold by the company. The relevance of this disclosure to stakeholders and the business is not clearly demonstrated, impacting the materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-15",
+                "title": "ALDI SOUTH: Creating a retailer-led sustainable global packaging ecosystem",
+                "text": "To ensure that ALDI SOUTH could deliver on these goals , we helped them design a new organizational structure dedicated to sustainable packaging .\nThis also included a capability-building effort that ALDI SOUTH launched , upskilling employees , with a focus on product packaging optimization , packaging design , partner management , A leading European grocery retailer with a growing global footprint , the ALDI SOUTH Group uses a range of packaging materials , the majority of which are plastics McKinsey partnered with ALDI SOUTH to create a more sustainable packaging ecosystem , allowing the organization to secure greater access to recycled materials and meet the demands of their recycled packaging in surveys .\nTogether , we built a 360 view of the company 's plastic packaging footprint-across countries , polymers , and packaging formats . This information informed a value chain strategy that allowed ALDI SOUTH to see which aspects they should own and where to partner on their journey to more sustainable packaging .\nThis will unlock a measurable reduction on plastic packaging , including significant reduction of As sustainable packaging becomes an increasingly challenging topic for consumer goods companies and retailers alike , these 7,100 stores in 11 countries-capture opportunities , become a leader in this space , and create value for customers who want"
+            }
+        ]
+    },
+    {
+        "topic": "gri_302",
+        "topic_title": "Energy",
+        "disclosure": "gri_302-4",
+        "disclosure_code": "GRI 302-4",
+        "disclosure_title": "Reduction of energy consumption",
+        "section_ids": [
+            "mckinsey-esg-2022-8"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing a range of initiatives to reduce energy consumption, including partnering with other companies, implementing internal carbon fees, and establishing a global decarbonization hub. However, it lacks specific details on the energy reduction achieved from each initiative and the overall impact on energy consumption. The disclosure demonstrates relevance to the business and stakeholders by indicating the reduction in emissions and the engagement of colleagues in environmental initiatives. However, it could further explain the significance of these reductions in the context of the company's strategy, risks, and stakeholder",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-8",
+                "title": "Sustainability: Key highlights",
+                "text": "- Partnered with Alphabet , Meta , Shopify , and Stripe to found Frontier , a new $ + billion advance market commitmentto purchase permanent carbon removal before 2030 - Introduced a 'global internal carbon fee on all air travel to accelerate decarbonization and generate funding for carbon reduction efforts - Launched a Global Decarbonization Hubin Houston to accelerate the energy transition for our communities and clients , successfully delivering 30+ client engagements , including a roadmap to abate up to 50 mega-tons of carbon over 10 years for a major oil and gas company - Earned a on CDP 's Climate Change A List for our transparency and leadership spot - Engaged 1,200+colleagues across our 120 Green Teams to reduce our environmental footprint globally - 30 % reduction in absolute Scope 1 and Scope 2emissions in 2022 ( vs. 2019 baseline ) - 48 % reduction in Scope 3 emissions from travel per colleague in 2022 ( vs. 2019 baseline )"
+            }
+        ]
+    },
+    {
+        "topic": "gri_303",
+        "topic_title": "Water and Effluents",
+        "disclosure": "gri_303-3",
+        "disclosure_code": "GRI 303-3",
+        "disclosure_title": "Water withdrawal",
+        "section_ids": [
+            "mckinsey-esg-2022-22"
+        ],
+        "completeness": 1,
+        "materiality": 3,
+        "comment": " The disclosure only partially addresses the GRI disclosure on water withdrawal as it lacks specific information on the volume of water withdrawn. It also does not provide details on the locations or the methods used for measuring water withdrawals. The materiality is low as it briefly mentions the baseline water stress in some operating locations, but it does not demonstrate why water withdrawal is important to the business or stakeholders.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-22",
+                "title": "Water and waste",
+                "text": "Given the nature of our operations , our environmental footprint is not water intensive . Therefore , we do not measure our water withdrawals globally : In 2022 , 61of our 189 operating locations were in areas of high or extremely high baseline water stress . To date , 24 of these 61 locations have achieved green building certification .\nWe will continue to minimize our water consumption while contributing to structural solutions\u2014for example , by supporting the UN Water Resilience Coalition as a knowledge partner and adviser ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-1",
+        "disclosure_code": "GRI 305-1",
+        "disclosure_title": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+        "section_ids": [
+            "mckinsey-esg-2022-107",
+            "mckinsey-esg-2022-19",
+            "mckinsey-esg-2022-112",
+            "mckinsey-esg-2022-18"
+        ],
+        "completeness": 5,
+        "materiality": 6,
+        "comment": " The disclosure partially addresses the GRI disclosure by mentioning the organization's annual updates on climate-related metrics, including Scope 1 greenhouse gas emissions. However, it lacks specific details about the metrics used for assessing climate-related risks and opportunities, such as the methodology for calculating emissions, targets, or trends over time. The materiality is reasonably demonstrated by highlighting significant initiatives like the Southern Cardamom REDD+ Project in Cambodia and the multi-year offtake agreements with carbon removal providers, indicating relevance to the business strategy and stakeholder concerns. However, the",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-107",
+                "title": "GHG emissions Performance",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 ( market-based ) : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 2 ( location-based ) : - In 2019 23 thousand tCO2e - In 2020 17 thousand tCO2e - In 2021 17 thousand tCO2e - In 2022 19 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total emissions ( market-based ) : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-19",
+                "title": "Our progress in reducing GHG emissions (market-based)",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total GHG emissions : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-112",
+                "title": "TCDF Metrics and Targets",
+                "text": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process ( C4.2b , C9.1 ) : We provide annual updates on climate-related metrics , including Scope 1 , 2 , and 3 greenhouse gas ( GHG ) emissions , emissions intensity ( market-based GHG emissions per capita ) , and energy and electricity use , including renewable electricity use , in our annual Environmental , Social , and Governance ( ESG ) Report .\nFor a historical view on metrics and description of GHG accounting methodology , please see the Sustainability/Our actions section of this report . b .\nDisclose Scope 1 , Scope 2 , and , if appropriate , Scope 3 greenhouse gas ( GHG ) emissions , and the related risks ( C6.1 , C6.3 , C6.5 , C6.5a ) : Please see the Sustainability/Our actions section of this report for our GHG emissions reporting .\nc. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets ( C4.1b , C4.2 , C4.2a , C4.2b ) : We have committed to reducing our emissions to achieve net-zero climate impact by 2030 .\nAs a critical milestone on that journey , we have set science-based targets that have been validated by the Science Based Targets initiative ( SBTi ) in line with a 1.5-degree pathway .\nFrom a 2019 baseline , by 2025 , we aim to : - reduce our Scope 1 and 2 GHG emissions by 25 % , mainly through electrifying our fleet , transitioning to renewable electricity , and making our global office space more sustainable - reduce our Scope 3 GHG emissions from internal and client-related travel by 30 % per colleague , mostly through hybrid working models and sustainable aviation fuels In 2018 , we became the first global consultancy to join RE100 , a coalition of organizations committed to using 100 % renewable electricity .\nWe contract directly with local providers or purchase energy attribute certificates , such as renewable energy certificates , in line with RE100 \u2019 s technical criteria ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-18",
+                "title": "2022 progress toward net-zero impact",
+                "text": "- Target : 25 % absolute reduction in Scope 1 and 2 GHG emissions by 2025 ( vs. 2019 baseline ) . Progress : 30 % reduction vs. 2019 - Target : 30 % reduction in Scope 3 GHG emissions from internal and client-related business travel per colleague by 2025 ( vs. 2019 baseline ) .\nProgress : 48 % reduction vs. 2019 - Shifting to 50 % carbon removals by 2025 to reach 100 % by 2030 - The Delta Blue Carbon project in Pakistan has restored and protected 224,000+ hectares of mangroves , benefiting 10,400+ people .\n- The Southern Cardamom REDD+ Project in Cambodia has helped 16,000+ people build more sustainable livelihoods by protecting 442,000 hectares of forests home to 35 threatened species . - The CO2OL Tropical Mix reforestation project in Panama has planted 7.5 million trees and helped local residents benefit from increased employment , higher wages , and health and pension benefits .\n- Launched Frontier with Alphabet , Meta , Shopify , and Stripe , a new $ 1+ billion advance market commitment to purchase permanent carbon removal before 2030 - We signed multi-year offtake agreements with multiple carbon removal providers worth ~ $ 10 million for our own footprint as part of our commitment to scale the tech-based carbon removal market and compensate for our remaining emissions .\n- Continued to partner with the LEAF Coalition to scale jurisdictional carbon credits and with the Sustainable Aviation Buyers Alliance to scale the sustainable aviation fuel market We account for our GHG emissions on an annual basis and have them Gas Protocol and best measurement practices.13 In 2022 , our total GHG emissions decreased by 28 percent from 2019 due to adopting new ways of working and reducing our internal and client-related travel ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-2",
+        "disclosure_code": "GRI 305-2",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+        "section_ids": [
+            "mckinsey-esg-2022-107",
+            "mckinsey-esg-2022-112",
+            "mckinsey-esg-2022-19",
+            "mckinsey-esg-2022-18",
+            "mckinsey-esg-2022-26"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph partially addresses the disclosure by providing information on the organization's metrics for assessing climate-related risks and opportunities, including Scope 1, 2, and 3 greenhouse gas emissions. However, it lacks specific details on the exact metrics used. The paragraph demonstrates materiality by clearly showing the relevance of engaging with travel-related suppliers to address indirect emissions, and the company's commitment to reducing their carbon footprint through initiatives such as the CDP Supply Chain program.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-107",
+                "title": "GHG emissions Performance",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 ( market-based ) : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 2 ( location-based ) : - In 2019 23 thousand tCO2e - In 2020 17 thousand tCO2e - In 2021 17 thousand tCO2e - In 2022 19 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total emissions ( market-based ) : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-112",
+                "title": "TCDF Metrics and Targets",
+                "text": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process ( C4.2b , C9.1 ) : We provide annual updates on climate-related metrics , including Scope 1 , 2 , and 3 greenhouse gas ( GHG ) emissions , emissions intensity ( market-based GHG emissions per capita ) , and energy and electricity use , including renewable electricity use , in our annual Environmental , Social , and Governance ( ESG ) Report .\nFor a historical view on metrics and description of GHG accounting methodology , please see the Sustainability/Our actions section of this report . b .\nDisclose Scope 1 , Scope 2 , and , if appropriate , Scope 3 greenhouse gas ( GHG ) emissions , and the related risks ( C6.1 , C6.3 , C6.5 , C6.5a ) : Please see the Sustainability/Our actions section of this report for our GHG emissions reporting .\nc. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets ( C4.1b , C4.2 , C4.2a , C4.2b ) : We have committed to reducing our emissions to achieve net-zero climate impact by 2030 .\nAs a critical milestone on that journey , we have set science-based targets that have been validated by the Science Based Targets initiative ( SBTi ) in line with a 1.5-degree pathway .\nFrom a 2019 baseline , by 2025 , we aim to : - reduce our Scope 1 and 2 GHG emissions by 25 % , mainly through electrifying our fleet , transitioning to renewable electricity , and making our global office space more sustainable - reduce our Scope 3 GHG emissions from internal and client-related travel by 30 % per colleague , mostly through hybrid working models and sustainable aviation fuels In 2018 , we became the first global consultancy to join RE100 , a coalition of organizations committed to using 100 % renewable electricity .\nWe contract directly with local providers or purchase energy attribute certificates , such as renewable energy certificates , in line with RE100 \u2019 s technical criteria ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-19",
+                "title": "Our progress in reducing GHG emissions (market-based)",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total GHG emissions : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-18",
+                "title": "2022 progress toward net-zero impact",
+                "text": "- Target : 25 % absolute reduction in Scope 1 and 2 GHG emissions by 2025 ( vs. 2019 baseline ) . Progress : 30 % reduction vs. 2019 - Target : 30 % reduction in Scope 3 GHG emissions from internal and client-related business travel per colleague by 2025 ( vs. 2019 baseline ) .\nProgress : 48 % reduction vs. 2019 - Shifting to 50 % carbon removals by 2025 to reach 100 % by 2030 - The Delta Blue Carbon project in Pakistan has restored and protected 224,000+ hectares of mangroves , benefiting 10,400+ people .\n- The Southern Cardamom REDD+ Project in Cambodia has helped 16,000+ people build more sustainable livelihoods by protecting 442,000 hectares of forests home to 35 threatened species . - The CO2OL Tropical Mix reforestation project in Panama has planted 7.5 million trees and helped local residents benefit from increased employment , higher wages , and health and pension benefits .\n- Launched Frontier with Alphabet , Meta , Shopify , and Stripe , a new $ 1+ billion advance market commitment to purchase permanent carbon removal before 2030 - We signed multi-year offtake agreements with multiple carbon removal providers worth ~ $ 10 million for our own footprint as part of our commitment to scale the tech-based carbon removal market and compensate for our remaining emissions .\n- Continued to partner with the LEAF Coalition to scale jurisdictional carbon credits and with the Sustainable Aviation Buyers Alliance to scale the sustainable aviation fuel market We account for our GHG emissions on an annual basis and have them Gas Protocol and best measurement practices.13 In 2022 , our total GHG emissions decreased by 28 percent from 2019 due to adopting new ways of working and reducing our internal and client-related travel ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-26",
+                "title": "Reducing our supply chain emissions (Scope 3)",
+                "text": "We are committed to engaging with our suppliers to help them improve the social and environmental impact of the goods and services they offer .\nBecause indirect emissions from travel account for more than 90 percent of our carbon footprint , we have made engaging with our travel-related suppliers on sustainability In 2022 , we launched the CDP Supply Chain program with suppliers accounting for more than 80 percent of our Scope 3 business travel emissions .\nEngaging our suppliers through the CDP Supply Chain program will enable us to more easily identify risks and opportunities related to emissions reductions in our own supply chain and will support and encourage our suppliers to reduce their own emissions . We continue to discuss opportunities with our suppliers to provide our colleagues with more sustainable options .\nLearn more about driving supplier environmental sustainabilityE . We engage suppliers accounting"
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-3",
+        "disclosure_code": "GRI 305-3",
+        "disclosure_title": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+        "section_ids": [
+            "mckinsey-esg-2022-112",
+            "mckinsey-esg-2022-26",
+            "mckinsey-esg-2022-19",
+            "mckinsey-esg-2022-107",
+            "mckinsey-esg-2022-18"
+        ],
+        "completeness": 6,
+        "materiality": 8,
+        "comment": " The disclosure partially addresses the GRI indicator by providing information on indirect (Scope 3) greenhouse gas emissions, including a mention of the CDP Supply Chain program and engagements with suppliers. However, it lacks specific metrics used to assess climate-related risks and opportunities. The mention of the Southern Cardamom REDD+ Project, the advance market commitment, and offtake agreements demonstrate the materiality and relevance of the disclosure to the business and stakeholders, showcasing alignment with strategy and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-112",
+                "title": "TCDF Metrics and Targets",
+                "text": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process ( C4.2b , C9.1 ) : We provide annual updates on climate-related metrics , including Scope 1 , 2 , and 3 greenhouse gas ( GHG ) emissions , emissions intensity ( market-based GHG emissions per capita ) , and energy and electricity use , including renewable electricity use , in our annual Environmental , Social , and Governance ( ESG ) Report .\nFor a historical view on metrics and description of GHG accounting methodology , please see the Sustainability/Our actions section of this report . b .\nDisclose Scope 1 , Scope 2 , and , if appropriate , Scope 3 greenhouse gas ( GHG ) emissions , and the related risks ( C6.1 , C6.3 , C6.5 , C6.5a ) : Please see the Sustainability/Our actions section of this report for our GHG emissions reporting .\nc. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets ( C4.1b , C4.2 , C4.2a , C4.2b ) : We have committed to reducing our emissions to achieve net-zero climate impact by 2030 .\nAs a critical milestone on that journey , we have set science-based targets that have been validated by the Science Based Targets initiative ( SBTi ) in line with a 1.5-degree pathway .\nFrom a 2019 baseline , by 2025 , we aim to : - reduce our Scope 1 and 2 GHG emissions by 25 % , mainly through electrifying our fleet , transitioning to renewable electricity , and making our global office space more sustainable - reduce our Scope 3 GHG emissions from internal and client-related travel by 30 % per colleague , mostly through hybrid working models and sustainable aviation fuels In 2018 , we became the first global consultancy to join RE100 , a coalition of organizations committed to using 100 % renewable electricity .\nWe contract directly with local providers or purchase energy attribute certificates , such as renewable energy certificates , in line with RE100 \u2019 s technical criteria ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-26",
+                "title": "Reducing our supply chain emissions (Scope 3)",
+                "text": "We are committed to engaging with our suppliers to help them improve the social and environmental impact of the goods and services they offer .\nBecause indirect emissions from travel account for more than 90 percent of our carbon footprint , we have made engaging with our travel-related suppliers on sustainability In 2022 , we launched the CDP Supply Chain program with suppliers accounting for more than 80 percent of our Scope 3 business travel emissions .\nEngaging our suppliers through the CDP Supply Chain program will enable us to more easily identify risks and opportunities related to emissions reductions in our own supply chain and will support and encourage our suppliers to reduce their own emissions . We continue to discuss opportunities with our suppliers to provide our colleagues with more sustainable options .\nLearn more about driving supplier environmental sustainabilityE . We engage suppliers accounting"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-19",
+                "title": "Our progress in reducing GHG emissions (market-based)",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total GHG emissions : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-107",
+                "title": "GHG emissions Performance",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 ( market-based ) : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 2 ( location-based ) : - In 2019 23 thousand tCO2e - In 2020 17 thousand tCO2e - In 2021 17 thousand tCO2e - In 2022 19 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total emissions ( market-based ) : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-18",
+                "title": "2022 progress toward net-zero impact",
+                "text": "- Target : 25 % absolute reduction in Scope 1 and 2 GHG emissions by 2025 ( vs. 2019 baseline ) . Progress : 30 % reduction vs. 2019 - Target : 30 % reduction in Scope 3 GHG emissions from internal and client-related business travel per colleague by 2025 ( vs. 2019 baseline ) .\nProgress : 48 % reduction vs. 2019 - Shifting to 50 % carbon removals by 2025 to reach 100 % by 2030 - The Delta Blue Carbon project in Pakistan has restored and protected 224,000+ hectares of mangroves , benefiting 10,400+ people .\n- The Southern Cardamom REDD+ Project in Cambodia has helped 16,000+ people build more sustainable livelihoods by protecting 442,000 hectares of forests home to 35 threatened species . - The CO2OL Tropical Mix reforestation project in Panama has planted 7.5 million trees and helped local residents benefit from increased employment , higher wages , and health and pension benefits .\n- Launched Frontier with Alphabet , Meta , Shopify , and Stripe , a new $ 1+ billion advance market commitment to purchase permanent carbon removal before 2030 - We signed multi-year offtake agreements with multiple carbon removal providers worth ~ $ 10 million for our own footprint as part of our commitment to scale the tech-based carbon removal market and compensate for our remaining emissions .\n- Continued to partner with the LEAF Coalition to scale jurisdictional carbon credits and with the Sustainable Aviation Buyers Alliance to scale the sustainable aviation fuel market We account for our GHG emissions on an annual basis and have them Gas Protocol and best measurement practices.13 In 2022 , our total GHG emissions decreased by 28 percent from 2019 due to adopting new ways of working and reducing our internal and client-related travel ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-4",
+        "disclosure_code": "GRI 305-4",
+        "disclosure_title": "GHG emissions intensity",
+        "section_ids": [
+            "mckinsey-esg-2022-112"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the metrics used for assessing climate-related risks and opportunities, including GHG emissions intensity. However, it lacks specific details about the methodology for calculating emissions intensity or specific examples. The disclosure indicates relevance to the business and stakeholders by stating that the information is included in the annual ESG report, but it could further clarify the strategic importance and alignment with stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-112",
+                "title": "TCDF Metrics and Targets",
+                "text": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process ( C4.2b , C9.1 ) : We provide annual updates on climate-related metrics , including Scope 1 , 2 , and 3 greenhouse gas ( GHG ) emissions , emissions intensity ( market-based GHG emissions per capita ) , and energy and electricity use , including renewable electricity use , in our annual Environmental , Social , and Governance ( ESG ) Report .\nFor a historical view on metrics and description of GHG accounting methodology , please see the Sustainability/Our actions section of this report . b .\nDisclose Scope 1 , Scope 2 , and , if appropriate , Scope 3 greenhouse gas ( GHG ) emissions , and the related risks ( C6.1 , C6.3 , C6.5 , C6.5a ) : Please see the Sustainability/Our actions section of this report for our GHG emissions reporting .\nc. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets ( C4.1b , C4.2 , C4.2a , C4.2b ) : We have committed to reducing our emissions to achieve net-zero climate impact by 2030 .\nAs a critical milestone on that journey , we have set science-based targets that have been validated by the Science Based Targets initiative ( SBTi ) in line with a 1.5-degree pathway .\nFrom a 2019 baseline , by 2025 , we aim to : - reduce our Scope 1 and 2 GHG emissions by 25 % , mainly through electrifying our fleet , transitioning to renewable electricity , and making our global office space more sustainable - reduce our Scope 3 GHG emissions from internal and client-related travel by 30 % per colleague , mostly through hybrid working models and sustainable aviation fuels In 2018 , we became the first global consultancy to join RE100 , a coalition of organizations committed to using 100 % renewable electricity .\nWe contract directly with local providers or purchase energy attribute certificates , such as renewable energy certificates , in line with RE100 \u2019 s technical criteria ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "mckinsey-esg-2022-18",
+            "mckinsey-esg-2022-19",
+            "mckinsey-esg-2022-28",
+            "mckinsey-esg-2022-112",
+            "mckinsey-esg-2022-8",
+            "mckinsey-esg-2022-26",
+            "mckinsey-esg-2022-7"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The disclosure reasonably well covers the key elements related to the reduction of GHG emissions, including specific initiatives, partnerships, and emission reduction metrics. However, it lacks explicit details on the specific metrics used to assess climate-related risks and opportunities. The efforts to reduce GHG emissions are clearly important to the business and stakeholders, aligning with the company's strategy, risk management, and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-18",
+                "title": "2022 progress toward net-zero impact",
+                "text": "- Target : 25 % absolute reduction in Scope 1 and 2 GHG emissions by 2025 ( vs. 2019 baseline ) . Progress : 30 % reduction vs. 2019 - Target : 30 % reduction in Scope 3 GHG emissions from internal and client-related business travel per colleague by 2025 ( vs. 2019 baseline ) .\nProgress : 48 % reduction vs. 2019 - Shifting to 50 % carbon removals by 2025 to reach 100 % by 2030 - The Delta Blue Carbon project in Pakistan has restored and protected 224,000+ hectares of mangroves , benefiting 10,400+ people .\n- The Southern Cardamom REDD+ Project in Cambodia has helped 16,000+ people build more sustainable livelihoods by protecting 442,000 hectares of forests home to 35 threatened species . - The CO2OL Tropical Mix reforestation project in Panama has planted 7.5 million trees and helped local residents benefit from increased employment , higher wages , and health and pension benefits .\n- Launched Frontier with Alphabet , Meta , Shopify , and Stripe , a new $ 1+ billion advance market commitment to purchase permanent carbon removal before 2030 - We signed multi-year offtake agreements with multiple carbon removal providers worth ~ $ 10 million for our own footprint as part of our commitment to scale the tech-based carbon removal market and compensate for our remaining emissions .\n- Continued to partner with the LEAF Coalition to scale jurisdictional carbon credits and with the Sustainable Aviation Buyers Alliance to scale the sustainable aviation fuel market We account for our GHG emissions on an annual basis and have them Gas Protocol and best measurement practices.13 In 2022 , our total GHG emissions decreased by 28 percent from 2019 due to adopting new ways of working and reducing our internal and client-related travel ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-19",
+                "title": "Our progress in reducing GHG emissions (market-based)",
+                "text": "Scope 1 : - In 2019 15 thousand tCO2e - In 2020 12 thousand tCO2e - In 2021 12 thousand tCO2e - In 2022 10 thousand tCO2e Scope 2 : - In 2019 3 thousand tCO2e - In 2020 3 thousand tCO2e - In 2021 3 thousand tCO2e - In 2022 3 thousand tCO2e Scope 3 : - In 2019 725 thousand tCO2e - In 2020 208 thousand tCO2e - In 2021 169 thousand tCO2e - In 2022 519 thousand tCO2e Total GHG emissions : - In 2019 743 thousand tCO2e - In 2020 223 thousand tCO2e - In 2021 183 thousand tCO2e - In 2022 532 thousand tCO2e"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-28",
+                "title": "Innovating the next frontier of carbon removal technologies",
+                "text": "The primary drivers to meet the 1.5-degree pathway set by the Intergovernmental Panel on Climate Change are carbon emissions avoidance and emissions reductions .\nIncreasingly , however , atmospheric carbon removals are being identified as a crucial method McKinsey Sustainability has partnered with Alphabet , Meta , Shopify , and Stripe to found Frontier , a new more than $ 1 billion advance market commitment to purchase permanent carbon removal before 2030 .\nBy guaranteeing future demand , Frontier seeks to accelerate the development of permanent carbon removal technologies and expand their global supply and accessibility . In 2021 , McKinsey joined the Lowering Emissions by Accelerating largest ever public-private efforts to protect tropical forests through an innovative approach to large-scale financing .\nWe continue to be an active member both in shaping the emerging jurisdictional approach and through our purchasing commitments ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-112",
+                "title": "TCDF Metrics and Targets",
+                "text": "Disclose the metrics used by the organization to assess climate-related risks and opportunities in line with its strategy and risk management process ( C4.2b , C9.1 ) : We provide annual updates on climate-related metrics , including Scope 1 , 2 , and 3 greenhouse gas ( GHG ) emissions , emissions intensity ( market-based GHG emissions per capita ) , and energy and electricity use , including renewable electricity use , in our annual Environmental , Social , and Governance ( ESG ) Report .\nFor a historical view on metrics and description of GHG accounting methodology , please see the Sustainability/Our actions section of this report . b .\nDisclose Scope 1 , Scope 2 , and , if appropriate , Scope 3 greenhouse gas ( GHG ) emissions , and the related risks ( C6.1 , C6.3 , C6.5 , C6.5a ) : Please see the Sustainability/Our actions section of this report for our GHG emissions reporting .\nc. Describe the targets used by the organization to manage climate-related risks and opportunities and performance against targets ( C4.1b , C4.2 , C4.2a , C4.2b ) : We have committed to reducing our emissions to achieve net-zero climate impact by 2030 .\nAs a critical milestone on that journey , we have set science-based targets that have been validated by the Science Based Targets initiative ( SBTi ) in line with a 1.5-degree pathway .\nFrom a 2019 baseline , by 2025 , we aim to : - reduce our Scope 1 and 2 GHG emissions by 25 % , mainly through electrifying our fleet , transitioning to renewable electricity , and making our global office space more sustainable - reduce our Scope 3 GHG emissions from internal and client-related travel by 30 % per colleague , mostly through hybrid working models and sustainable aviation fuels In 2018 , we became the first global consultancy to join RE100 , a coalition of organizations committed to using 100 % renewable electricity .\nWe contract directly with local providers or purchase energy attribute certificates , such as renewable energy certificates , in line with RE100 \u2019 s technical criteria ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-8",
+                "title": "Sustainability: Key highlights",
+                "text": "- Partnered with Alphabet , Meta , Shopify , and Stripe to found Frontier , a new $ + billion advance market commitmentto purchase permanent carbon removal before 2030 - Introduced a 'global internal carbon fee on all air travel to accelerate decarbonization and generate funding for carbon reduction efforts - Launched a Global Decarbonization Hubin Houston to accelerate the energy transition for our communities and clients , successfully delivering 30+ client engagements , including a roadmap to abate up to 50 mega-tons of carbon over 10 years for a major oil and gas company - Earned a on CDP 's Climate Change A List for our transparency and leadership spot - Engaged 1,200+colleagues across our 120 Green Teams to reduce our environmental footprint globally - 30 % reduction in absolute Scope 1 and Scope 2emissions in 2022 ( vs. 2019 baseline ) - 48 % reduction in Scope 3 emissions from travel per colleague in 2022 ( vs. 2019 baseline )"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-26",
+                "title": "Reducing our supply chain emissions (Scope 3)",
+                "text": "We are committed to engaging with our suppliers to help them improve the social and environmental impact of the goods and services they offer .\nBecause indirect emissions from travel account for more than 90 percent of our carbon footprint , we have made engaging with our travel-related suppliers on sustainability In 2022 , we launched the CDP Supply Chain program with suppliers accounting for more than 80 percent of our Scope 3 business travel emissions .\nEngaging our suppliers through the CDP Supply Chain program will enable us to more easily identify risks and opportunities related to emissions reductions in our own supply chain and will support and encourage our suppliers to reduce their own emissions . We continue to discuss opportunities with our suppliers to provide our colleagues with more sustainable options .\nLearn more about driving supplier environmental sustainabilityE . We engage suppliers accounting"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-7",
+                "title": "Sustainability at a glance",
+                "text": "Our sustainability agenda comprises two main priorities . We aspire to be the leading private sector catalyst for decarbonization through our work to help accelerate the transition to net-zero greenhouse gas ( GHG ) emissions .\nWe are also committed as a firm to achieving net-zero climate impact by 2030 , in line with validated , near-term , science based targets as an important milestone on the pathway toward stabilizing global warming temperatures at 1.5 ' C ."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-1",
+        "disclosure_code": "GRI 308-1",
+        "disclosure_title": "Environmental Screening of New suppliers",
+        "section_ids": [
+            "mckinsey-esg-2022-91"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph reasonably addresses the disclosure by mentioning the inclusion of environmental sustainability in the supplier screening process. However, it lacks specific examples or details of the environmental screening criteria used. The mention of the commitment to the UN Guiding Principles on Business and Human Rights and the risk-based approach in the due diligence process indicates the materiality of the topic to the business and stakeholders. The paragraph could have provided more specific information on how the environmental screening aligns with stakeholder concerns or business impact to enhance materiality scoring.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-91",
+                "title": "Supplier due diligence",
+                "text": "Our supplier due diligence process is part of a risk-based approach commitment to the UN Guiding Principles on Business and Human Rights .\nAs one component of our due diligence process , during supplier sourcing and selection stages the standard request for proposal templates used by our sourcing team includes questions used to screen potential suppliers on practices and policies in areas including environmental sustainability , diversity , and data privacy : New suppliers go through an onboarding process that includes risk based screening to ensure the supplier follows applicable laws and meets our standards .\nThis process includes additional questions for suppliers with potentially higher ESG risk based on considerations carry out periodic diligence checks to assess changes in suppliers ' circumstances at intervals determined by the suppliers ' risk profile .\nIn 2022 , we strengthened our supplier due diligence processes by adding a supplementary ESG-specific risk analysis tool and launching collaboration with a third-party supplier assessment platform . The supplier assessments conducted through this platform require document verification and review by an independent third party against globally recognized standards and frameworks .\nMoving forward , based on assessment results , McKinsey may request corrective actions from suppliers to address ESG improvement areas"
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "mckinsey-esg-2022-26",
+            "mckinsey-esg-2022-88",
+            "mckinsey-esg-2022-90"
+        ],
+        "completeness": 5,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure by providing some information on engaging with travel-related suppliers on sustainability, launching the CDP Supply Chain program, and outlining the Supplier Code of Conduct. However, it lacks specific examples or details of the actions taken to assess suppliers for environmental impacts. The mention of engaging with suppliers and the Supplier Code of Conduct indicates some relevance to the business and stakeholders, aligning with stakeholder interest and business impact. However, the significance and full context of these actions could be better demonstrated to improve materiality score.",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-26",
+                "title": "Reducing our supply chain emissions (Scope 3)",
+                "text": "We are committed to engaging with our suppliers to help them improve the social and environmental impact of the goods and services they offer .\nBecause indirect emissions from travel account for more than 90 percent of our carbon footprint , we have made engaging with our travel-related suppliers on sustainability In 2022 , we launched the CDP Supply Chain program with suppliers accounting for more than 80 percent of our Scope 3 business travel emissions .\nEngaging our suppliers through the CDP Supply Chain program will enable us to more easily identify risks and opportunities related to emissions reductions in our own supply chain and will support and encourage our suppliers to reduce their own emissions . We continue to discuss opportunities with our suppliers to provide our colleagues with more sustainable options .\nLearn more about driving supplier environmental sustainabilityE . We engage suppliers accounting"
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-88",
+                "title": "Working with suppliers",
+                "text": "As a global firm with ofices in more than 65 countries , we have a significant opportunity and responsibility to drive positive social and environmental impact through our procurement operations and buying decisions . We enable this by striving to source from and partner with suppliers that share our values and commitment to responsible conduct ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-90",
+                "title": "Supplier standards and values",
+                "text": "Buying Policy outlines our ambition to deliver positive social and disposal of products and services , and through how we work with our suppliers to improve the social and environmental impact of the goods and services they offer .\nSince we strive to partner with suppliers that share our values and commitment to responsible conduct , we ask suppliers to agree to our Supplier Code of Conduct . 32 This code sets the standards and values we expect of all our suppliers and is embedded in our standard contract template . The code is available to download on"
+            }
+        ]
+    },
+    {
+        "topic": "gri_401",
+        "topic_title": "Employment",
+        "disclosure": "gri_401-3",
+        "disclosure_code": "GRI 401-3",
+        "disclosure_title": "Parental leave",
+        "section_ids": [
+            "mckinsey-esg-2022-76",
+            "mckinsey-esg-2022-64"
+        ],
+        "completeness": 8,
+        "materiality": 8,
+        "comment": " The paragraph addresses the disclosure of Employees entitled to parental leave reasonably well, providing details about the reboarding program for partners returning from parental leave, the extended global parental leave policy for all colleagues, and the reintegration program. However, it lacks specific information about the duration and benefits of the parental leave, and the eligibility criteria. The mention of the global parental leave policy and reintegration program demonstrates the relevance of the topic to the business and stakeholders, showing alignment with employee well-being and talent retention. Therefore, the disclosure reasonably addresses the completeness and materiality",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-76",
+                "title": "Our parental leave program",
+                "text": "We launched a reboarding program at the firm for partners returning from parental leave that is now being extended around the world . This includes extended time to bond with and care for a new infant for return to client work The program inspired a newly expanded global parental leave policy for all colleagues that we shared in 2022 .\nThis policy extends firmwide parental leave ( in most regions ) and includes a reintegration program to help ensure returning colleagues can maintain their career growth ."
+            },
+            {
+                "section_idx": "mckinsey-esg-2022-64",
+                "title": "Responsible practices: Key highlights ",
+                "text": "- At least three hours of ethics , integrity , and/or compliance learning completed per colleague - Shared our new 'global parental leave policy , which extends firmwide parental leave ( in most regions ) and includes a reintegration program to support colleagues ' career growth upon their return to work - Achieved our 10 Actions goal to double our spending with diverse suppliers within three years - Rights Working Group to operationalize our approach to human rights due diligence and management - Updated our Acceptable Use of Technology Policy and implemented enhanced cybersecurity measures and controls"
+            }
+        ]
+    },
+    {
+        "topic": "gri_403",
+        "topic_title": "Occupational Health and Safety",
+        "disclosure": "gri_403-2",
+        "disclosure_code": "GRI 403-2",
+        "disclosure_title": "Hazard identification, risk assessment, and incident investigation",
+        "section_ids": [
+            "mckinsey-esg-2022-111"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing information on the organization's processes for identifying and assessing climate-related risks, including integration into firmwide risk management, annual risk assessment, monitoring, and situational identification. It also mentions the factors considered for materiality determination and provides examples of responses. However, it lacks specific details on the incident investigation process and may benefit from more explicit information in this area. The materiality score is high as the paragraph clearly demonstrates the importance of climate risk identification to the business and stakeholders, aligning with revenue impact, client",
+        "paragraphs": [
+            {
+                "section_idx": "mckinsey-esg-2022-111",
+                "title": "TCDF Risks",
+                "text": "a . Describe the organization 's processes for identifying and assessing climate-related risks ( C2.1 , C2.2 , C2.2a ) : Identification : Climate risk identification is integrated into firmwide risk management through our annual risk assessment , year-round monitoring , and situational identification . Outputs are taken into consideration as we define operational resilience requirements and actions .\nRisk and opportunity identification is embedded within our `` cells '' ( geographic offices , industry practices , functional practices , and growth platforms ) , which are most similar to the traditional meaning of `` assets '' within an organization .\nSpecifically , the partners of the firm who lead each geographic office are responsible for identifying and evaluating risks , including climate-related risks , arising from the operations of their local offices . With support from the broader firm , they work through local operating committees and management teams .\nIn a top-down approach , an internal working team of sustainability experts identifies climate-related transition risks across all climate-related risk categories based on current sources of emissions , regulatory and standards research , and interviews with colleagues across the firm . Assessment : Our collective risk management functions are overseen by our chief risk officer .\nThe risk management functions routinely and systematically undertake risk assessments , which include climate where relevant . These reviews incorporate diverse qualitative and quantitative inputs as well as external benchmarks and third-party verification of emissions to produce a comprehensive view of risk . They also inform the integration of cross-cutting risk mitigation work across McKinsey .\nWe prioritize management of our climate-related risks and opportunities based on their materiality to McKinsey at a firmwide level and at an organizational cluster level . b . Describe the organization 's processes for managing climate-related risks ( C2.1 , C2.2 ) : Our response to climate risk is unique to the risk type and materiality .\nResponses may be executed by internal functions as well as local managing partners or McKinsey Security , supported and reviewed by our risk management function . Any physical security risk to the well-being of our colleagues takes precedence over any other risk .\nMateriality is determined by a combination of factors , such as the ability to impact 4 % of firm revenue , client relationships , and the ability to attract and retain colleagues . Examples of responses include documented guidance for extreme weather , scenario training for local security coordinators and leadership , and reviews of our physical premises .\nc. Describe how processes for identifying , assessing , and managing climate-related risks are integrated into the organization \u2019 s overall risk management ( C2.1 , C2.2 ) : We identify , assess , and respond to climate risks across our direct operations through a risk management process that is integrated into our multidisciplinary company-wide risk management process .\nWe complete these assessments more than once a year , and look at short- , medium- , and long-term horizons . Central to our climate risk management is our risk framework , which provides the insight , integration , and technology we need to anticipate and proactively address risks .\nWe are in the process of enhancing our climate risk identification and assessment capabilities , for example , with the recent incorporation of more advanced scenario analysis into our climate reporting . We continually seek ways to better identify , analyze , and mitigate risk .\nProviding strategic direction for the management of climate-related risks is our Shareholders \u2019 Council , akin to a board of directors ."
+            }
+        ]
+    }
+]

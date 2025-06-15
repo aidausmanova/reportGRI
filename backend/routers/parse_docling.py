@@ -18,6 +18,7 @@ from docling.datamodel.pipeline_options import (
     EasyOcrOptions,
 )
 import warnings
+from utils.utils import *
 
 warnings.filterwarnings("ignore")
 
@@ -35,7 +36,7 @@ def clean_text(text, rgx_list=[]):
 def parse(report_file):
     logging.basicConfig(level=logging.INFO)
 
-    input_doc_path = report_file
+    input_doc_path = f"data/reports/original/{report_file}.pdf"
 
     pipeline_options = PdfPipelineOptions()
     pipeline_options.do_ocr = True
@@ -65,13 +66,16 @@ def parse(report_file):
     _log.info(f"Document converted in {end_time:.2f} seconds.")
 
     ## Export results
-    output_dir = os.path.dirname(input_doc_path)
+    report_name = "-".join(report_file.lower().split())
+    # output_dir = os.path.dir(f"data/reports/{report_name}/")
+    # output_dir = os.path.dirname(input_doc_path)
     doc_filename = conv_result.input.file.stem
 
     # Export Text format:
-    with open(
-        os.path.join(output_dir, f"{doc_filename}.txt"), "w", encoding="utf-8"
-    ) as fp:
+    # with open(os.path.join(output_dir, f"{doc_filename}.txt"), "w", encoding="utf-8") as fp:
+    if not os.path.exists(f'data/reports/{report_name}/'):
+        os.makedirs(f'data/reports/{report_name}/')
+    with open(os.path.join(f"data/reports/{report_name}/{doc_filename}.txt"), "w", encoding="utf-8") as fp:
         text = conv_result.document.export_to_text()
         fp.write(conv_result.document.export_to_text())
     _log.info("Converted document saved as txt file")
@@ -128,17 +132,22 @@ def run_parser(report_file):
                         row["text"] += sec_text
 
     # output_dir = os.path.dirname(report_file)
-    output_file = report_file.replace(".pdf", "-corpus.json")
-    with open(output_file, "w") as f:
-        json.dump(chunked_paragraphs, f, indent=4)
+    # output_file = report_file.replace(".pdf", "-corpus.json")
+    # with open(output_file, "w") as f:
+    #     json.dump(chunked_paragraphs, f, indent=4)
 
-    print(f"[INFO] Saving processed json as {output_file}")
-    return output_file
+    # if not os.path.exists(f'data/{file_name}/'):
+    #     os.makedirs(f'data/{file_name}/')
+    output_dir = Path("data/reports/"+file_name)
+    save_json(output_dir / f"{file_name}_corpus.json", chunked_paragraphs)
+    print(f"[INFO] Saving processed report to {output_dir}/{file_name}_corpus.json")
+    _log.info(f"Document chunked and saved as json at {output_dir}/{file_name}_corpus.json")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter)
     parser.add_argument("--report", type=str)
+    print("PATH: ", os.getcwd())
 
     args = parser.parse_args()
     report_file = args.report

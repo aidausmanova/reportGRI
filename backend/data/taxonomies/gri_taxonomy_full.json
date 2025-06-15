@@ -1,0 +1,477 @@
+[
+    { 
+        "idx": 0,
+        "code": "GRI 2",
+        "title": "General Disclosures",
+        "topics": ["organization reporting practices", "legal structure", "board composition", "oversight responsibilities", "code of ethics", "policy implementation", "sustainability strategy", "ESG risk management", "industry association membership"],
+        "indicators": [
+            {
+                "indicator": "GRI 2-1",
+                "disclosure": "Organizational details",
+                "details": "What is organization's legal name and the nature of ownership?"
+            },
+            {
+                "indicator": "GRI 2-2",
+                "disclosure": "Entities included in the organization’s sustainability reporting",
+                "details": "What is the list of all entities included in sustainability reporting?"
+            },
+            {
+                "indicator": "GRI 2-5",
+                "disclosure": "External assurance",
+                "details": "Describe organization's policy and practice for seeking external assurance, external climate change policies or goals"
+            },
+            {
+                "indicator": "GRI 2-9",
+                "disclosure": "Governance structure and composition",
+                "details": "Describe organization's governance structure, including committees of the highest governance body"
+            },
+            {
+                "indicator": "GRI 2-13",
+                "disclosure": "Delegation of responsibility for managing impacts",
+                "details": "Describe how the highest governance body delegates responsibility for managing the organization’s impacts on the economy, environment, and people"
+            },
+            {
+                "indicator": "GRI 2-22",
+                "disclosure": "Statement on sustainable development strategy and climate goals",
+                "details": "Report a statement from the highest governance body or most senior executive of the organization about the relevance of sustainable development to the organization and its strategy for contributing to sustainable development"
+            },
+            {
+                "indicator": "GRI 2-23",
+                "disclosure": "Policy commitments",
+                "details": "Describe organization's policy commitments for responsible business conduct"
+            },
+            {
+                "indicator": "GRI 2-24",
+                "disclosure": "Embedding policy commitments",
+                "details": "Describe how organization embeds each of its policy commitments for responsible business conduct throughout its activities and business relationships"
+            },
+            {
+                "indicator": "GRI 2-25",
+                "disclosure": "Processes to remediate negative impacts (climate change adaptation)",
+                "details": "Describe organization's commitments to provide for or cooperate in the remediation of negative impacts that the organization identifies it has caused or contributed to"
+            },
+            {
+                "indicator": "GRI 2-27",
+                "disclosure": "Compliance with laws and regulations",
+                "details": "Report the total number of significant instances of non-compliance with laws and regulations during the reporting period"
+            },
+            {
+                "indicator": "GRI 2-28",
+                "disclosure": "Membership associations (industry peers)",
+                "details": "Report industry associations, other membership associations, and national or international advocacy organizations in which organization participates in a significant role"
+            },
+            {
+                "indicator": "GRI 2-29",
+                "disclosure": "Approach to stakeholder engagement",
+                "details": "Does the company disclose its process for identifying relevant stakeholders across its value chain and how it considers their needs in decision-making?"
+            }
+        ]
+    },
+    { 
+        "idx": 1,
+        "code": "GRI 201",
+        "title": "Economic Performance",
+        "sdgs": ["sdg_8", "sdg_9"],
+        "topics": ["revenue", "financial risks", "climate risk assessment"],
+        "indicators": [
+            {
+                "indicator": "GRI 201-1",
+                "disclosure": "Direct economic value generated and distributed",
+                "details": "How much direct economic value (revenue) does the company generate?"
+            },
+            {
+                "indicator": "GRI 201-2",
+                "disclosure": "Financial implications and other risks and opportunities due to climate change",
+                "details": "Risks and opportunities posed by climate change that have the potential to generate substantive changes in operations, revenue, or expenditure"
+            }
+        ]
+    },
+    { 
+        "idx": 2,
+        "code": "GRI 301",
+        "title": "Materials",
+        "sdgs": ["sdg_8", "sdg_12"],
+        "topics": ["recycled materials", "circular economy"],
+        "indicators": [
+            {
+                "indicator": "GRI 301-1",
+                "disclosure": "Materials used by weight or volume",
+                "details": "What is the total weight of materials that are used to produce and package the organization's primary products and services?"
+            },
+            {
+                "indicator": "GRI 301-2",
+                "disclosure": "Recycled input materials used",
+                "details": "What percentage of materials used are recycled input materials?"
+            },
+            {
+                "indicator": "GRI 301-3",
+                "disclosure": "Reclaimed products and their packaging materials",
+                "details": "What is the percentage of products and their packaging materials sold by the company that are reclaimed?"
+            }
+        ]
+    },
+    { 
+        "idx": 3,
+        "code": "GRI 302",
+        "title": "Energy",
+        "sdgs": ["sdg_7", "sdg_8", "sdg_12", "sdg_13"],
+        "topics": ["energy management", "fuel consumption", "grid electricity"],
+        "indicators": [
+            {
+                "indicator": "GRI 302-1",
+                "disclosure": "Energy consumption within the organization",
+                "details": "What is the company's total energy consumption (renewable and non-renewable sources)?"
+            },
+            {
+                "indicator": "GRI 302-2",
+                "disclosure": "Energy consumption outside the organization",
+                "details": "What is the total amount of energy consumption outside of the organization?"
+            },
+            {
+                "indicator": "GRI 302-3",
+                "disclosure": "Energy intensity",
+                "details": "What is the energy intensity ratio for the organization?"
+            },
+            {
+                "indicator": "GRI 302-4",
+                "disclosure": "Reduction of energy consumption",
+                "details": "In relation to the previous year, how much has the company reduced its energy consumption as a direct result of conservation and efficiency initiatives?"
+            },
+            {
+                "indicator": "GRI 302-5",
+                "disclosure": "Reductions in energy requirements of products and services",
+                "details": "In relation to the previous year, how much has the company reduced the energy requirements of its products and/or services?"
+            }
+        ]
+    },
+    { 
+        "idx": 4,
+        "code": "GRI 303",
+        "title": "Water and Effluents",
+        "sdgs": ["sdg_6"],
+        "topics": ["natural resource use", "water withdrawal", "water conservation", "water recycling"],
+        "indicators": [
+            {
+                "indicator": "GRI 303-1",
+                "disclosure": "Interactions with water as a shared resource",
+                "details": "A description of how and where water is withdrawn, consumed, and discharged, and the water-related impacts the organization has caused or contributed to, or that are directly linked to its operations, products, or services by its business relationships"
+            },
+            {
+                "indicator": "GRI 303-2",
+                "disclosure": "Management of water discharge-related impacts",
+                "details": "A description of any minimum standards set for the quality of effluent discharge"
+            },
+            {
+                "indicator": "GRI 303-3",
+                "disclosure": "Water withdrawal",
+                "details": "How much water did the company withdraw (seawater, groundwater, surface and third-party water)?"
+            },
+            {
+                "indicator": "GRI 303-4",
+                "disclosure": "Water discharge",
+                "details": "Total water discharge to all areas (seawater, groundwater, surface and third-party water)"
+            },
+            {
+                "indicator": "GRI 303-5",
+                "disclosure": "Water consumption",
+                "details": "What volume of water consumed by the company?"
+            }
+        ]
+    },
+    { 
+        "idx": 5,
+        "code": "GRI 304",
+        "title": "Biodiversity",
+        "sdgs": ["sdg_6", "sdg_14", "sdg_15"],
+        "topics": ["corporate accountability", "wildlife"],
+        "indicators": [
+            {
+                "indicator": "GRI 304-1",
+                "disclosure": "Operational sites owned, leased, managed in, or adjacent to, protected areas and areas of high biodiversity value outside protected areas",
+                "details": "Does the company disclose all the locations (owned and controlled) where it conducts activities?"
+            },
+            {
+                "indicator": "GRI 304-2",
+                "disclosure": "Significant impacts of activities, products, and services on biodiversity",
+                "details": "Does the company report its impact on biodiversity and management plan?"
+            },
+            {
+                "indicator": "GRI 304-3",
+                "disclosure": "Habitats protected or restored",
+                "details": "Does the company disclose species populations existing in or adjacent to its own locations?"
+            },
+            {
+                "indicator": "GRI 304-4",
+                "disclosure": "Affected IUCN Red List and Conservation List Species",
+                "details": "What is the total number of IUCN Red List species and national conservation list species with habitats in areas affected by the companies' operations?"
+            }
+        ]
+    },
+    { 
+        "idx": 6,
+        "code": "GRI 305",
+        "title": "Emissions",
+        "sdgs": ["sdg_3", "sdg_12", "sdg_13", "sdg_15"],
+        "topics": ["climate change", "pollution"],
+        "indicators": [
+            {
+                "indicator": "GRI 305-1",
+                "disclosure": "Direct greenhouse gas (GHG) emissions (Scope 1)",
+                "details": "What is the amount of greenhouse gas (GHG) emissions that the organization is directly responsible for?"
+            },
+            {
+                "indicator": "GRI 305-2",
+                "disclosure": "Indirect greenhouse gas (GHG) emissions (Scope 2)",
+                "details": "What is the amount of greenhouse gas (GHG) emissions that the organization is indirectly responsible for?"
+            },
+            {
+                "indicator": "GRI 305-3",
+                "disclosure": "Indirect greenhouse gas (GHG) emissions (Scope 3)",
+                "details": "What is the amount of other indirect (Scope 3) greenhouse gas (GHG) emissions that the organization is indirectly responsible for?"
+            },
+            {
+                "indicator": "GRI 305-4",
+                "disclosure": "GHG emissions intensity",
+                "details": "GHG emissions intensity ratio for the organization"
+            },
+            {
+                "indicator": "GRI 305-5",
+                "disclosure": "Reduction of GHG emissions",
+                "details": "Does the company disclose quantitative reductions for its emissions?"
+            }
+        ]
+    },
+    { 
+        "idx": 7,
+        "code": "GRI 306",
+        "title": "Effluents and Waste",
+        "sdgs": ["sdg_3", "sdg_6", "sdg_12"],
+        "topics": ["waste management", "waste generation and reduction"],
+        "indicators": [
+            {
+                "indicator": "GRI 306-1",
+                "disclosure": "Waste generation and significant waste-related impacts",
+                "details": "What is impacted by the organization's waste?"
+            },
+            {
+                "indicator": "GRI 306-2",
+                "disclosure": "Management of significant waste related impacts",
+                "details": "How does the organization recycles waste?"
+            },
+            {
+                "indicator": "GRI 306-3",
+                "disclosure": "Waste generated",
+                "details": "What is the total amount of waste generated by the organization (in metric tonnes)?"
+            }
+        ]
+    },
+    { 
+        "idx": 8,
+        "code": "GRI 307",
+        "title": "Environmental Compliance",
+        "sdgs": ["sdg_16"],
+        "topics": ["environmental laws and regulations", "sanctions"],
+        "indicators": [
+            {
+                "indicator": "GRI 307-1",
+                "disclosure": "Environmental Fines",
+                "details": "What is the total monetary value of significant fines for non-compliance with environmental laws and regulations incurred by the organization?"
+            },
+            {
+                "indicator": "GRI 307-2",
+                "disclosure": "Environmental Non-Monetary Sanctions",
+                "details": "What is the total number of non-monetary sanctions for non-compliance with environmental laws and regulations incurred by the organization? "
+            }
+        ]
+    },
+    { 
+        "idx": 9,
+        "code": "GRI 308",
+        "title": "Supplier Environmental Assessment",
+        "sdgs": ["sdg_9", "sdg_12"],
+        "topics": ["environmental due dilligence", "supply chain transparency"],
+        "indicators": [
+            {
+                "indicator": "GRI 308-1",
+                "disclosure": "Environmental Screening of New suppliers",
+                "details": "What percentage of new suppliers were screened using environmental criteria?"
+            },
+            {
+                "indicator": "GRI 308-2",
+                "disclosure": "Negative environmental impacts in the supply chain and actions taken",
+                "details": "Number of suppliers assessed for environmental impacts"
+            }
+        ]
+    },
+    { 
+        "idx": 10,
+        "code": "GRI 401",
+        "title": "Employment",
+        "sdgs": ["sdg_8"],
+        "topics": ["recruitment", "employee benefits"],
+        "indicators": [
+            {
+                "indicator": "GRI 401-1",
+                "disclosure": "New employee hires and employee turnover ",
+                "details": "Total number and rate of new employee hires during the reporting period"
+            },
+            {
+                "indicator": "GRI 401-2",
+                "disclosure": "Employee benefits",
+                "details": "Benefits which are standard for full-time employees of the organization but are not provided to temporary or part-time employees"
+            },
+            {
+                "indicator": "GRI 401-3",
+                "disclosure": "Parental leave",
+                "details": "Total number of employees that were entitled to parental leave"
+            }
+        ]
+    },
+    { 
+        "idx": 11,
+        "code": "GRI 403",
+        "title": "Occupational Health and Safety",
+        "sdgs": ["sdg_3", "sdg_8"],
+        "topics": ["safety training", "workplace injuries and safety"],
+        "indicators": [
+            {
+                "indicator": "GRI 403-1",
+                "disclosure": "Occupational health and safety management systems",
+                "details": "A statement of whether an occupational health and safety management system has been implemented"
+            },
+            {
+                "indicator": "GRI 403-2",
+                "disclosure": "Hazard identification, risk assessment, and incident investigation",
+                "details": "A description of the processes used to identify work-related hazards and assess risks on a routine and non-routine basis, and to apply the hierarchy of controls in order to eliminate hazards and minimize risks"
+            },
+            {
+                "indicator": "GRI 403-3",
+                "disclosure": "Occupational health services",
+                "details": "A description of the occupational health services' functions that contribute to the identification and elimination of hazards and minimization of risks, and an explanation of how the organization ensures the quality of these services and facilitates workers' access to them"
+            },
+            {
+                "indicator": "GRI 403-5",
+                "disclosure": "Worker training on occupational health and safety",
+                "details": "A description of any occupational health and safety training provided to workers, including generic training as well as training on specific work-related hazards, hazardous activities, or hazardous situations"
+            }
+        ]
+    },
+    {
+        "idx": 12,
+        "code": "GRI 404",
+        "title": "Training and Education",
+        "sdgs": ["sdg_5", "sdg_10"],
+        "topics": ["workforce development", "professional growth", "employee training"],
+        "indicators": [
+            {
+                "indicator": "GRI 404-1",
+                "disclosure": "Average hours of training per year per employee",
+                "details": ""
+            },
+            {
+                "indicator": "GRI 404-2",
+                "disclosure": "Programs for upgrading employee skills and transition assistance programs",
+                "details": ""
+            }
+        ]
+    },
+    { 
+        "idx": 13,
+        "code": "GRI 405",
+        "title": "Diversity and Equal Opportunity",
+        "sdgs": ["sdg_5", "sdg_10"],
+        "topics": ["anti-discrimination", "gender equality", "workforce equity"],
+        "indicators": [
+            {
+                "indicator": "GRI 405-1",
+                "disclosure": "Diversity of governance bodies and employees",
+                "details": " Percentage of individuals within the organization's governance bodies in diversity categories (gender, age group)"
+            },
+            {
+                "indicator": "GRI 405-2",
+                "disclosure": "Ratio of basic salary and remuneration of women to men",
+                "details": "Ratio of the basic salary and remuneration of women to men for each employee category"
+            }
+        ]
+    },
+    { 
+        "idx": "gri_406",
+        "code": "GRI 406",
+        "title": "Non-Discrimination",
+        "sdgs": ["sdg_5", "sdg_10"],
+        "topics": ["anti-discrimination", "human rights"],
+        "details": "How the organization prevents and responds to discrimination based on race, gender, religion, disability, sexual orientation.",
+        "indicators": []
+    },
+    { 
+        "idx": 14,
+        "code": "GRI 413",
+        "title": "Local Communities",
+        "sdgs": ["sdg_17"],
+        "topics": ["community engagement", "community impact assessment"],
+        "indicators": [
+            {
+                "indicator": "GRI 413-1",
+                "disclosure": "Operations with local community engagement",
+                "details": "Percentage of operations with implemented local community engagement, impact assessments, and/or development programs"
+            },
+            {
+                "indicator": "GRI 413-2",
+                "disclosure": "Operations with significant actual and potential negative impacts on local communities",
+                "details": ""
+            }
+        ]
+    },
+    { 
+        "idx": 15,
+        "code": "GRI 415",
+        "title": "Public Policy",
+        "sdgs": ["sdg_16"],
+        "topics": ["lobbying", "advocacy", "political influence"],
+        "indicators": [
+            {
+                "indicator": "GRI 415-1",
+                "disclosure": "Operations with local community engagement",
+                "details": "Percentage of operations with implemented local community engagement, impact assessments, and/or development programs"
+            },
+            {
+                "indicator": "GRI 415-2",
+                "disclosure": "Operations with significant actual and potential negative impacts on local communities",
+                "details": ""
+            }
+        ]
+    },
+    {
+        "idx": 16,
+        "code": "GRI 416",
+        "title": "Customer Health and Safety",
+        "sdgs": ["sdg_5", "sdg_10"],
+        "topics": ["product safety", "safety certifications"],
+        "indicators": [
+            {
+                "indicator": "GRI 416-1",
+                "disclosure": "Assessment of the health and safety impacts of product and service categories",
+                "details": ""
+            },
+            {
+                "indicator": "GRI 416-2",
+                "disclosure": "Incidents of noncompliance concerning the health and safety impacts of products and services",
+                "details": ""
+            }
+        ]
+    },
+    {
+        "idx": 17,
+        "code": "GRI 418",
+        "title": "Customer Privacy",
+        "sdgs": ["sdg_16"],
+        "topics": ["data privacy", "cybersecurity", "personal information protection"],
+        "indicators": [
+            {
+                "indicator": "GRI 418-1",
+                "disclosure": "Substantiated complaints concerning breaches of customer privacy and losses of customer data",
+                "details": "Customer data leaks, thefts and losses"
+            }
+        ]
+    }
+]
