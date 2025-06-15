@@ -1,62 +1,54 @@
-# Sustainability Reports Analyzer
+# ReportGRI: Automating GRI Alignment and Report Assessment 
 
 Prepared for the DEMO paper submission for CIKM 2025 (https://cikm2025.org/calls/demo-papers)
 ---
 
-## 🚀 Features
+## Features
 
-- **GRI Distribution** of few already published reports
+- **GRI disclosure coverage distribution** of few already published reports
+- **Report topical focus** with respect to GRI standard topics
+- **Disclosure assessment** for completeness and materiality
 - **Upload your report** to view the GRI distribution and do comparative analysis with industry peers
-- 
--
 
 ---
 
-## 🧠 Prerequisites
+## Prerequisites
 
 - Node.js (>=18) and npm
-- Python 3.9+ with pip
-- git
+- Python 3.10+ with pip
+- Docker + Docker Compose (optional for Docker setup)
 
-### Optional (for Docker setup):
-- Docker + Docker Compose
-
----
-
-## 🛠️ Setup Instructions
-
-### ✅ Clone the Repository
+Clone the repository
 ```bash
-git clone https://github.com/abdullah-rana/sustainability-reports-analyzer.git
-cd sustainability-reports-analyzer
+git clone https://github.com/aidausmanova/reportGRI.git
+cd reportGRI
 ```
-
 ---
 
-## ⚙️ Backend Setup (FastAPI)
+## Backend Setup (FastAPI)
 
-### 📦 Step 1: Create Virtual Environment
+### Step 1: Create Virtual Environment
 
-#### 🪟 Windows
+#### Windows
 ```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
 ```
 
-#### 🐧 Linux / macOS
+#### Linux / macOS
 ```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-### 📦 Step 2: Install Dependencies
+### Step 2: Install Dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-### ▶️ Step 3: Run FastAPI
+### Step 3: Run FastAPI
 ```bash
 uvicorn main:app --reload
 ```
@@ -65,15 +57,15 @@ uvicorn main:app --reload
 
 ---
 
-## 🎨 Frontend Setup (React 19 + TailwindCSS)
+## Frontend Setup (React 19 + TailwindCSS)
 
-### 📦 Step 1: Install Frontend Packages
+### Step 1: Install Frontend Packages
 ```bash
 cd frontend
 npm install
 ```
 
-### ▶️ Step 2: Run Vite Dev Server
+### Step 2: Run Vite Dev Server
 ```bash
 npm run dev
 ```
@@ -82,7 +74,7 @@ npm run dev
 
 ---
 
-## 🧪 Optional: Docker Setup (Combined)
+## Optional: Docker Setup (Combined)
 
 ### Step 1: Build and Start All Containers
 ```bash
@@ -94,7 +86,5 @@ docker-compose up --build
 
 ---
 
-## 👋 Acknowledgements
+## Acknowledgements
 - Leuphana University
--
--
