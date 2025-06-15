@@ -243,17 +243,17 @@ def get_chart_data_new(
     if not report_names:
         raise HTTPException(status_code=400, detail="No reported selected.")
 
-    base_path = os.path.join(DATA_FOLDER, f"reports/{report_name}")
+    base_path = os.path.join(DATA_FOLDER, f"reports/")
 
     response_data = {}
     all_rows = []
-    bar_chart_data = defaultdict(lambda: defaultdict(int))
-    radar_chart_data = defaultdict(lambda: defaultdict(int))
+    bar_chart_data = defaultdict(lambda: defaultdict(list))
+    radar_chart_data =defaultdict(lambda: defaultdict(list))
     scatter_chart_data = defaultdict(list)
 
     for report_name in report_names:
         json_filename = f"{report_name}_final.json"
-        json_path = os.path.join(base_path, json_filename)
+        json_path = os.path.join(base_path, report_name, json_filename)
 
         if not os.path.exists(json_path):
             continue  # Optionally log missing file
@@ -264,11 +264,12 @@ def get_chart_data_new(
 
             for item in report_data:
                 disclosure = item.get("disclosure")
+                disclosure_title = item.get("disclosure_title")
                 section_count = len(item.get("section_ids", []))
-                bar_chart_data[report_name][disclosure] = section_count
-                standard = item.get("topic")
-                standard_title = item.get("topic_title")
-                # standard = disclosure.split("-")[0]
+                standard = disclosure.split("-")[0]
+                # standard = item.get("topic")
+                # standard_title = item.get("topic_title")
+                # paragraphs = item.get("paragraphs", [])
 
                 if standard in reported_disclosure_topics.keys():
                     reported_disclosure_topics[standard] += 1
@@ -278,9 +279,8 @@ def get_chart_data_new(
                 completeness = item.get("completeness", 0)
                 materiality = item.get("materiality", 0)
                 comment = item.get("comment", "")
-                disclosure_title = item.get("disclosure_title")
                 # disclosure_title = gri_disclosure_titles[disclosure]
-                
+
                 disclosure_esg = None
                 if "gri_2" in disclosure:
                     disclosure_esg = "g"
@@ -288,6 +288,15 @@ def get_chart_data_new(
                     disclosure_esg = "e"
                 else:
                     disclosure_esg = "s"
+
+                # bar_chart_data[report_name][disclosure] = section_count
+                bar_chart_data[report_name][disclosure].append(
+                    {
+                        "gri_disclosure": " ".join(disclosure.upper().split("_")),
+                        "gri_disclosure_title": disclosure_title,
+                        "paragraph_count": section_count,
+                    }
+                )
 
                 scatter_chart_data[report_name].append(
                     {
@@ -304,16 +313,25 @@ def get_chart_data_new(
                 total = gri_topic_counts[standard]
                 percentage = (reported_count / total * 100) if total > 0 else 0
                 topic = gri_topic_map[standard]
-                radar_chart_data[report_name][topic] = round(percentage, 2)
+                # radar_chart_data[report_name][topic] = round(percentage, 2)
+                radar_chart_data[report_name][topic].append(
+                    {
+                        "gri_topic": " ".join(standard.upper().split("_")),
+                        "gri_topic_title": topic,
+                        "value": round(percentage, 2),
+                        "description": ""
+                    }
+                )
 
         except Exception as e:
             raise HTTPException(
                 status_code=500, detail=f"Error processing {json_filename}: {e}"
             )
-    response_data["bar_chart"] = {k: dict(v) for k, v in bar_chart_data.items()}
-    response_data["radar_chart"] = {k: dict(v) for k, v in radar_chart_data.items()}
+    # response_data["bar_chart"] = {k: dict(v) for k, v in bar_chart_data.items()}
+    # response_data["radar_chart"] = {k: dict(v) for k, v in radar_chart_data.items()}
+    response_data["bar_chart"] = dict(bar_chart_data)
+    response_data["radar_chart"] = dict(radar_chart_data)
     response_data["scatter_chart"] = dict(scatter_chart_data)
-    # print(response_data['scatter_chart'])
     return response_data
 
 

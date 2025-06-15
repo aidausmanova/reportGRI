@@ -5,8 +5,8 @@ import logo from "/leuphana_logo.png";
 const API_URL = "http://localhost:8000";
 
 type ReportData = {
-  bar_chart: Record<string, Record<string, number>>;
-  radar_chart: Record<string, {Environmental: number, Social: number, Governance: number}>;
+  bar_chart: Record<string, {gri_disclosure: string, gri_disclosure_title: string, paragraph_count: number}>;
+  radar_chart: Record<string, {gri_topic: string, gri_topic_title: string, value: number, description: string}>;
   scatter_chart: Record<string, {disclosure: string, title: string, esg: string, completeness: number, materiality: number, comment: string}[]>;
 };
 
@@ -176,10 +176,10 @@ function App() {
           <input type="file" accept="application/pdf" onChange={handleFileUpload} className="mb-2" />
           <p className="text-green-600 text-sm">Status: Processed</p>
 
-          <label className="block text-sm font-medium text-gray-700 mt-4">Export alignments</label>
+          <label className="block text-sm font-medium text-gray-700 mt-4">Export assessment</label>
           <select className="w-full border px-2 py-1 rounded mt-1">
-            <option value="csv">CSV</option>
             <option value="json">JSON</option>
+            <option value="csv">CSV</option>
           </select>
           <button className="mt-2 w-full bg-gray-200 text-sm text-gray-700 py-1 rounded hover:bg-gray-300">
             Export

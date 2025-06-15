@@ -1,10 +1,17 @@
 import React, { useEffect, useRef } from "react";
 import * as echarts from "echarts";
 
+interface BarChartItem {
+  gri_disclosure: string,
+  gri_disclosure_title: string,
+  paragraph_count: number
+}
+
 interface RadarChartItem {
-  Environmental: number;
-  Social: number;
-  Governance: number;
+  gri_topic: string,
+  gri_topic_title: string,
+  value: number,
+  description: string
 }
 
 interface ScatterChatItem {
@@ -17,7 +24,7 @@ interface ScatterChatItem {
 }
 
 interface ChartViewProps {
-  barChartData: Record<string, Record<string, number>>; // report -> GRI -> count
+  barChartData: Record<string, BarChartItem>;
   radarChartData: Record<string, RadarChartItem>;
   scatterChartData: Record<string, ScatterChatItem[]>
 }
@@ -36,22 +43,59 @@ const ChartView: React.FC<ChartViewProps> = ({
     if (!barRef.current) return;
     const chart = echarts.init(barRef.current);
     const griSet = new Set<string>();
+    const disclosureMeta = {};
     const reportNames = Object.keys(barChartData);
 
+    // reportNames.forEach((report) => {
+    //   Object.keys(barChartData[report]).forEach((gri) => griSet.add(gri));
+    // });
     reportNames.forEach((report) => {
-      Object.keys(barChartData[report]).forEach((gri) => griSet.add(gri));
+      const disclosures = barChartData[report];
+      for (const disclosureKey in disclosures) {
+        disclosures[disclosureKey].forEach(item => {
+          griSet.add(item.gri_disclosure);
+          disclosureMeta[item.gri_disclosure] = item.gri_disclosure_title;
+        });
+      }
     });
     const griList = Array.from(griSet).sort();
 
-    const series = reportNames.map((report) => ({
-      name: report,
-      type: "bar",
-      data: griList.map((gri) => barChartData[report][gri] || 0),
-    }));
+    // const series = reportNames.map((report) => ({
+    //   name: report,
+    //   type: "bar",
+    //   data: griList.map((gri) => barChartData[report][gri] || 0),
+    // }));
+    const series = reportNames.map((report) => {
+      const data = griList.map((gri) => {
+        const disclosureItems = barChartData[report];
+        for (const disclosureKey in disclosureItems) {
+          const match = disclosureItems[disclosureKey].find(item => item.gri_disclosure === gri);
+          if (match) return match.paragraph_count;
+        }
+        return 0;
+      });
+
+      return {
+        name: report,
+        type: "bar",
+        data,
+      };
+    });
 
     chart.setOption({
       // title: { text: "GRI Coverage Distribution", left: "center" },
-      tooltip: { trigger: "axis" },
+      tooltip: {
+        trigger: "axis",
+        // axisPointer: { type: "shadow" },
+        formatter: (params) => {
+          return params
+            .map((p) => {
+              const title = disclosureMeta[p.axisValue] || "";
+              return `<strong>${p.axisValue}</strong><br/>Title: ${title}<br/>Paragraphs: ${p.data}`;
+            })
+            .join("<br/><br/>");
+        }
+      },
       legend: { top: 30 },
       toolbox: {
             show : true,
@@ -80,35 +124,76 @@ const ChartView: React.FC<ChartViewProps> = ({
     if (!radarChartData) return;
     const chart = echarts.init(radarRef.current);
     const reportNames = Object.keys(radarChartData);
+    // const disclosureMeta = {};
 
-    const seriesData = reportNames.map(reportName => ({
-      value: [
-        radarChartData[reportName]["General disclosure"] || 0,
-        radarChartData[reportName]["Economic performance"] || 0,
-        radarChartData[reportName]["Materials"] || 0,
-        radarChartData[reportName]["Energy"] || 0,
-        radarChartData[reportName]["Water"] || 0,
-        radarChartData[reportName]["Biodiversity"] || 0,
-        radarChartData[reportName]["Emissions"] || 0,
-        radarChartData[reportName]["Waste"] || 0,
-        radarChartData[reportName]["Environmental compliance"] || 0,
-        radarChartData[reportName]["Supplier assessment"] || 0,
-        radarChartData[reportName]["Employment"] || 0,
-        radarChartData[reportName]["Employee safety"] || 0,
-        radarChartData[reportName]["Training"] || 0,
-        radarChartData[reportName]["Diversity"] || 0,
-        radarChartData[reportName]["Communities"] || 0,
-        radarChartData[reportName]["Public policy"] || 0,
-        radarChartData[reportName]["Customer safety"] || 0,
-        radarChartData[reportName]["Customer privacy"] || 0
-      ],
-      name: reportName
-    }));    
+    const allTopics = new Set<string>();
+    reportNames.forEach((reportName) => {
+      Object.keys(radarChartData[reportName]).forEach((topic) => {
+        allTopics.add(topic);
+      });
+    });
+
+    const sortedTopics = Array.from(allTopics).sort();
+    const indicator = sortedTopics.map((topic) => ({
+      text: topic,
+      max: 100 // % value (0–100)
+    }));
+
+    const seriesData = reportNames.map((reportName) => {
+      const topicEntries = Object.entries(radarChartData[reportName] || {});
+      const topics = topicEntries.map(([_, entries]) => entries[0]);
+
+      return {
+        value: topics.map(t => t.value),
+        name: reportName,
+        metadata: topics
+      };
+    });
+    // const seriesData = reportNames.map(reportName => ({
+    //   value: [
+    //     radarChartData[reportName]["General disclosure"] || 0,
+    //     radarChartData[reportName]["Economic performance"] || 0,
+    //     radarChartData[reportName]["Materials"] || 0,
+    //     radarChartData[reportName]["Energy"] || 0,
+    //     radarChartData[reportName]["Water"] || 0,
+    //     radarChartData[reportName]["Biodiversity"] || 0,
+    //     radarChartData[reportName]["Emissions"] || 0,
+    //     radarChartData[reportName]["Waste"] || 0,
+    //     radarChartData[reportName]["Environmental compliance"] || 0,
+    //     radarChartData[reportName]["Supplier assessment"] || 0,
+    //     radarChartData[reportName]["Employment"] || 0,
+    //     radarChartData[reportName]["Employee safety"] || 0,
+    //     radarChartData[reportName]["Training"] || 0,
+    //     radarChartData[reportName]["Diversity"] || 0,
+    //     radarChartData[reportName]["Communities"] || 0,
+    //     radarChartData[reportName]["Public policy"] || 0,
+    //     radarChartData[reportName]["Customer safety"] || 0,
+    //     radarChartData[reportName]["Customer privacy"] || 0
+    //   ],
+    //   name: reportName
+    // }));
 
     const option = {
       // title: { text: "GRI standards focus", left: "center"},
-      tooltip : {trigger: 'axis'},
-      legend: {orient : 'vertical', right: 100, y:"center", data: reportNames},
+      tooltip : {
+        trigger: 'item',
+        position: 'bottom',
+        formatter: function (params) {
+          const { value, name, data} = params;
+          const metadata = data.metadata;
+
+          let tooltipContent = `<strong>${name}</strong><br/>`;
+            metadata.forEach((item) => {
+              tooltipContent += `
+                <div style="margin-bottom: 6px;">
+                  <strong>${item.gri_topic}</strong> (${item.gri_topic_title}): ${item.value}%
+                </div>
+              `;
+            });
+          return tooltipContent
+        }
+      },
+      legend: {show: true, orient : 'horizontal', x: "center", top: 10 , data: reportNames},
       toolbox: {
         show : true,
         feature : {
@@ -139,8 +224,15 @@ const ChartView: React.FC<ChartViewProps> = ({
           {text: 'Customer safety'},
           {text: 'Customer privacy'}
         ],
+        // indicator: indicator,
         center: ['50%', '50%'],
         radius: '60%',
+        name: {
+          textStyle: {
+            fontSize: 18,
+            fontWeight: "bold"
+          }
+        }
       },
       calculable : true,
       series: [{
@@ -242,11 +334,12 @@ const ChartView: React.FC<ChartViewProps> = ({
         }
       },
       legend: {
-        type: "scroll",
-        orient: 'vertical',
-        right: 10,
-        top: 20,
-        bottom: 20,
+        // type: "scroll",
+        orient: 'horizontal',
+        // right: 10,
+        top: 10,
+        x:"center",
+        // bottom: 20,
         itemWidth: 10,
         itemHeight: 20,
         pageIconSize: 10,

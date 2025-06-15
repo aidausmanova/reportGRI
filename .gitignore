@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+.idea/
 *.pyc
 venv/
 .venv/
@@ -7,6 +8,7 @@ venv/
 .vscode
 .ipynb
 backend/logs/
+backend/venv/
 
 
 # Node
