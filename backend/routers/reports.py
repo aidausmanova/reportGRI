@@ -22,6 +22,7 @@ from fastapi import (
     Body,
     HTTPException,
 )
+from fastapi.responses import FileResponse
 
 router = APIRouter()
 DATA_FOLDER = Path("data")
@@ -89,14 +90,15 @@ async def upload_file(
     session_id: str = Depends(get_or_create_session_id),
 ):
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
-    Path(session_folder).mkdir(exist_ok=True)
+    os.makedirs(session_folder)
+    # Path(session_folder).mkdir(exist_ok=True)
 
     uploaded_report = os.path.join(session_folder, file.filename)
     with open(uploaded_report, "wb") as buffer:
         shutil.copyfileobj(file.file, buffer)
 
     # Parse the uploaded report and generate the json output file
-    run_parser(uploaded_report)
+    report_name = run_parser(uploaded_report)
 
     # await asyncio.sleep(5)
 
@@ -114,7 +116,7 @@ async def upload_file(
     #     json.dump(data, f, indent=4)
 
     files = list_uploaded_files(session_id)
-    return {"uploaded": file.filename, "my_reports": files}
+    return {"session_id": session_id, "uploaded": file.filename, "my_reports": files}
 
 
 def list_uploaded_files(session_id: str) -> List[str]:
@@ -129,6 +131,16 @@ def list_uploaded_files(session_id: str) -> List[str]:
         ]
     )
 
+@router.post("/export")
+def export_report_assessment(session_id: str):
+    print("IN EXPORT")
+    session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
+    for f in Path(session_folder).glob("*.json"):
+        session_file = os.path.join(session_folder, f.name)
+        return FileResponse(path=session_file,
+                            filename=f.name,
+                            media_type='application/json',
+                            headers={"Content-Disposition": f'attachment; filename="{f.name}"'})
 
 @router.get("/my-reports")
 def get_my_reports(session_id: str = Depends(get_or_create_session_id)) -> Any:

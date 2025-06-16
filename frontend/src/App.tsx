@@ -16,6 +16,7 @@ function App() {
   const [existingReports, setExistingReports] = useState<string[]>([]);
   const [selectedExistingReports, setSelectedExistingReports] = useState<string[]>([]);
   const [myReports, setMyReports] = useState<string[]>([]);
+  const [sessionId, setSessionId] = useState<string | null>(null);
   const [selectedMyReports, setSelectedMyReports] = useState<string[]>([]);
   // const [griLevel, setGriLevel] = useState<"l1" | "l2">("l1");
   // const [chartType, setChartType] = useState<"bar"| "radar" | "heatmap">("bar");
@@ -88,7 +89,36 @@ function App() {
     });
     const result = await res.json();
     setMyReports(result.my_reports);
+    setSessionId(result.session_id);
     setIsLoading(false);
+  };
+
+  const exportReport = async () => {
+    if (!sessionId) {
+      alert("No session ID available");
+      return;
+    }
+
+    const res = await fetch(`${API_URL}/export?session_id=${sessionId}`, {
+      method: "POST",
+    });
+
+    if (!res.ok) {
+      alert("Failed to export report");
+      return;
+    }
+
+    const blob = await res.blob();
+    const contentDisposition = res.headers.get("Content-Disposition");
+    const filenameMatch = contentDisposition?.match(/filename="?(.+)"?/);
+    const filename = filenameMatch?.[1] || "ReportGRI assessment.json";
+
+    const url = window.URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = filename;
+    a.click();
+    window.URL.revokeObjectURL(url);
   };
 
   // useEffect(() => {
@@ -104,7 +134,7 @@ function App() {
       <aside className="w-80 bg-white border-r p-6 space-y-6">
         <div className="flex items-center space-x-3">
           {/* <img src={logo} alt="Leuphana Logo" className="h-10" /> */}
-          <h1 className="text-2xl font-bold">Sustainability Report Analyzer</h1>
+          <h1 className="text-2xl font-bold">ReportGRI</h1>
         </div>
         <p className="text-sm text-gray-500">
           This tool helps index your report to align with GRI framework. The report is also assessed by LLM on how well it covers disclosures.
@@ -166,22 +196,22 @@ function App() {
           </select>
         </div> */}
 
-        <button className="w-full bg-blue-600 text-white py-2 rounded hover:bg-blue-700">
-          Display
+        <button className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">
+          Clear
         </button>
 
         <div className="pt-6 border-t">
         <label className="text-lg font-semibold text-gray-700 py-3">My Reports</label>
           <label className="block mb-1 text-sm text-gray-700">Upload report</label>
           <input type="file" accept="application/pdf" onChange={handleFileUpload} className="mb-2" />
-          <p className="text-green-600 text-sm">Status: Processed</p>
+          {/*<p className="text-green-600 text-sm">Status: Processed</p>*/}
 
           <label className="block text-sm font-medium text-gray-700 mt-4">Export assessment</label>
-          <select className="w-full border px-2 py-1 rounded mt-1">
-            <option value="json">JSON</option>
-            <option value="csv">CSV</option>
-          </select>
-          <button className="mt-2 w-full bg-gray-200 text-sm text-gray-700 py-1 rounded hover:bg-gray-300">
+          {/*<select className="w-full border px-2 py-1 rounded mt-1">*/}
+          {/*  <option value="json">JSON</option>*/}
+          {/*  <option value="csv">CSV</option>*/}
+          {/*</select>*/}
+          <button onClick={exportReport} className="w-full bg-blue-600 text-sm text-white py-2 rounded hover:bg-blue-700">
             Export
           </button>
         </div>

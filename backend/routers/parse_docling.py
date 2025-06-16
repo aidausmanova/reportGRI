@@ -18,6 +18,7 @@ from docling.datamodel.pipeline_options import (
     EasyOcrOptions,
 )
 import warnings
+import shutil
 from utils.utils import *
 
 warnings.filterwarnings("ignore")
@@ -35,8 +36,13 @@ def clean_text(text, rgx_list=[]):
 
 def parse(report_file):
     logging.basicConfig(level=logging.INFO)
+    input_doc_path = report_file
+    # print("INPUT path: ", input_doc_path)
 
-    input_doc_path = f"data/reports/original/{report_file}.pdf"
+    # path_content = report_file.split("/")
+    # report_name = path_content[-1]
+    # # input_doc_path = f"data/reports/original/{report_file}.pdf"
+    # input_doc_path = f"data/reports/original/{report_name}"
 
     pipeline_options = PdfPipelineOptions()
     pipeline_options.do_ocr = True
@@ -93,55 +99,63 @@ def download_models():
 
 
 def run_parser(report_file):
-    print(f"[INFO] Parsing {report_file}")
-    text = parse(report_file)
+    file = report_file.lower().split("/")[-1].split(".")[0]
+    file_name = "-".join(file.split())
+    if os.path.exists(f'data/reports/{file_name}/'):
+        print(f"[INFO] Saving processed report to data/reports/{file_name}/{file_name}_corpus.json")
+        transfer_path =  "/".join(report_file.lower().split("/")[:-1])
+        shutil.copy2(f"data/reports/{file_name}/{file_name}_final.json", f"{transfer_path}/")
+    else:
+        print(f"[INFO] Parsing {report_file}")
+        text = parse(report_file)
 
-    print("[INFO] Text preprocessing ...")
-    p = re.compile("##.*\n")
-    section_titles = re.findall(p, text)
-    mod_section_titles = []
-    for title in section_titles:
-        mod_section_titles.append(title[3 : len(title) - 1])
+        print("[INFO] Text preprocessing ...")
+        p = re.compile("##.*\n")
+        section_titles = re.findall(p, text)
+        mod_section_titles = []
+        for title in section_titles:
+            mod_section_titles.append(title[3 : len(title) - 1])
 
-    sections = text.split("##")
-    sections.pop(0)
-    print(f"[INFO] # sections: {len(sections)}, # titles: {len(mod_section_titles)}")
-    # assert(len(sections) == len(mod_section_titles))
+        sections = text.split("##")
+        sections.pop(0)
+        print(f"[INFO] # sections: {len(sections)}, # titles: {len(mod_section_titles)}")
+        # assert(len(sections) == len(mod_section_titles))
 
-    file_name = "-".join(report_file.lower().split())
-    chunked_paragraphs = []
-    for idx, (section, title) in enumerate(
-        zip(sections[: len(mod_section_titles)], mod_section_titles)
-    ):
-        # Append paragraph data
-        sec_text = section[len(title) + 2 :]
-        sec_text = sec_text.split(". ")
-        if len(sec_text) > 2:
-            sec_text = ".".join(sec_text).replace("\n", "").replace("\u25cf", "")
-            if not any(row["title"] == title for row in chunked_paragraphs):
-                chunked_paragraphs.append(
-                    {
-                        "title": title,
-                        "text": sec_text,
-                        "section_idx": file_name + "-" + str(idx),
-                    }
-                )
-            else:
-                for row in chunked_paragraphs:
-                    if row["title"] == title:
-                        row["text"] += sec_text
 
-    # output_dir = os.path.dirname(report_file)
-    # output_file = report_file.replace(".pdf", "-corpus.json")
-    # with open(output_file, "w") as f:
-    #     json.dump(chunked_paragraphs, f, indent=4)
+        chunked_paragraphs = []
+        for idx, (section, title) in enumerate(
+            zip(sections[: len(mod_section_titles)], mod_section_titles)
+        ):
+            # Append paragraph data
+            sec_text = section[len(title) + 2 :]
+            sec_text = sec_text.split(". ")
+            if len(sec_text) > 2:
+                sec_text = ".".join(sec_text).replace("\n", "").replace("\u25cf", "")
+                if not any(row["title"] == title for row in chunked_paragraphs):
+                    chunked_paragraphs.append(
+                        {
+                            "title": title,
+                            "text": sec_text,
+                            "section_idx": file_name + "-" + str(idx),
+                        }
+                    )
+                else:
+                    for row in chunked_paragraphs:
+                        if row["title"] == title:
+                            row["text"] += sec_text
 
-    # if not os.path.exists(f'data/{file_name}/'):
-    #     os.makedirs(f'data/{file_name}/')
-    output_dir = Path("data/reports/"+file_name)
-    save_json(output_dir / f"{file_name}_corpus.json", chunked_paragraphs)
-    print(f"[INFO] Saving processed report to {output_dir}/{file_name}_corpus.json")
-    _log.info(f"Document chunked and saved as json at {output_dir}/{file_name}_corpus.json")
+        # output_dir = os.path.dirname(report_file)
+        # output_file = report_file.replace(".pdf", "-corpus.json")
+        # with open(output_file, "w") as f:
+        #     json.dump(chunked_paragraphs, f, indent=4)
+
+        # if not os.path.exists(f'data/{file_name}/'):
+        #     os.makedirs(f'data/{file_name}/')
+        output_dir = Path("data/reports/"+file_name)
+        save_json(output_dir / f"{file_name}_corpus.json", chunked_paragraphs)
+        print(f"[INFO] Saving processed report to {output_dir}/{file_name}_corpus.json")
+        _log.info(f"Document chunked and saved as json at {output_dir}/{file_name}_corpus.json")
+    return file_name
 
 
 if __name__ == "__main__":

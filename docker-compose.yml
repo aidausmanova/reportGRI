@@ -1,6 +1,6 @@
 services:
   backend:
-    container_name: sustainability-report-analyzer-backend
+    container_name: reportgri-backend
     build:
       context: ./backend/
       dockerfile: Dockerfile
@@ -11,7 +11,7 @@ services:
   nginx:
     depends_on: 
         - backend
-    container_name: sustainability-report-analyzer-frontend
+    container_name: reportgri-frontend
     build: 
         context: ./frontend/
         dockerfile: Dockerfile
