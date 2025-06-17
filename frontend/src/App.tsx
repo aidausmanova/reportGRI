@@ -125,6 +125,11 @@ function App() {
   //   setSelectedGRI(null); // reset when user changes level
   // }, [griLevel]);
 
+  useEffect(() => {
+    // Assume you want to preselect ALL reports:
+    setSelectedMyReports(myReports);
+  }, [myReports]);
+
   const allowHeatmap = [...selectedExistingReports, ...selectedMyReports].length === 1;
 
   return (
