@@ -5,10 +5,10 @@ Prepared for the DEMO paper submission for CIKM 2025 (https://cikm2025.org/calls
 Welcome to the ReportGRI project repository. This tool provides easy visual analytics for corporate sustainability reports (CSRs) based on Global Reporting Initiative (GRI) disclsoure requirements. The reports are checked for GRI disclosure completeness and materiality and receive GRI indexing suggestions. As part of this project we are primarily focusing on: **Standardising unstructured data from CSRs, Creating environemntal, social, governance (ESG) benchamrking and Generating LLM-based assessment of report coverage**.
 
 Main features of ReportGRI include:
-- **GRI disclosure coverage distribution** of few already published reports
+- **GRI disclosure-paragrph distribution** of reports
 - **Report topical focus** with respect to GRI standard topics
 - **Disclosure assessment** for completeness and materiality
-- **Upload your report** to view the GRI distribution and do comparative analysis with industry peers
+- **Upload your report** to view the GRI distribution and do comparative analysis with industry peers, and receive LLM-based indexing suggestions
 
 ---
 
