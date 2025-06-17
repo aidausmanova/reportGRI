@@ -206,6 +206,24 @@ function App() {
           <input type="file" accept="application/pdf" onChange={handleFileUpload} className="mb-2" />
           {/*<p className="text-green-600 text-sm">Status: Processed</p>*/}
 
+          <div className="mt-3 space-y-1">
+            {myReports.map((rep) => (
+              <label key={rep} className="block text-sm">
+                <input
+                  type="checkbox"
+                  className="mr-2"
+                  checked={selectedMyReports.includes(rep)}
+                  onChange={(e) => {
+                    setSelectedMyReports((prev) =>
+                      e.target.checked ? [...prev, rep] : prev.filter((r) => r !== rep)
+                    );
+                  }}
+                />
+                {rep}
+              </label>
+            ))}
+          </div>
+
           <label className="block text-sm font-medium text-gray-700 mt-4">Export assessment</label>
           {/*<select className="w-full border px-2 py-1 rounded mt-1">*/}
           {/*  <option value="json">JSON</option>*/}
