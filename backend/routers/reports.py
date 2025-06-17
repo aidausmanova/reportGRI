@@ -21,6 +21,7 @@ from fastapi import (
     Cookie,
     Body,
     HTTPException,
+    Query
 )
 from fastapi.responses import FileResponse
 
@@ -133,7 +134,6 @@ def list_uploaded_files(session_id: str) -> List[str]:
 
 @router.post("/export")
 def export_report_assessment(session_id: str):
-    print("IN EXPORT")
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
     for f in Path(session_folder).glob("*.json"):
         session_file = os.path.join(session_folder, f.name)
@@ -150,7 +150,7 @@ def get_my_reports(session_id: str = Depends(get_or_create_session_id)) -> Any:
 @router.post("/chart-data")
 def get_chart_data_new(
     body: dict = Body(...),
-    session_id: str = Depends(get_or_create_session_id),
+    session_id: str = Query(default=None),
 ):
     gri_topic_counts = {
         "gri_2": 11,
@@ -255,7 +255,10 @@ def get_chart_data_new(
     if not report_names:
         raise HTTPException(status_code=400, detail="No reported selected.")
 
-    base_path = os.path.join(DATA_FOLDER, f"reports/")
+    if session_id == "null":
+        base_path = os.path.join(DATA_FOLDER, f"reports/")
+    else:
+        base_path = os.path.join(DATA_FOLDER, f"uploaded_reports/")
 
     response_data = {}
     all_rows = []
@@ -264,10 +267,15 @@ def get_chart_data_new(
     scatter_chart_data = defaultdict(list)
 
     for report_name in report_names:
-        json_filename = f"{report_name}_final.json"
-        json_path = os.path.join(base_path, report_name, json_filename)
+        if session_id == "null":
+            json_filename = f"{report_name}_final.json"
+            json_path = os.path.join(base_path, report_name, json_filename)
+        else:
+            json_filename = f"{report_name}.json"
+            json_path = os.path.join(base_path, session_id, json_filename)
 
         if not os.path.exists(json_path):
+            print("[INFO] Path to report doesn't exist.")
             continue  # Optionally log missing file
         try:
             with open(json_path, "r", encoding="utf-8") as f:

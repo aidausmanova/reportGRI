@@ -61,7 +61,7 @@ function App() {
     // console.log("Current chart type: ", chartType)
 
     setIsLoading(true);
-    fetch(`${API_URL}/chart-data`, {
+    fetch(`${API_URL}/chart-data?session_id=${sessionId}`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       // body: JSON.stringify({ report_names: allReports, gri_level: griLevel, chart: chartType }),

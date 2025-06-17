@@ -102,7 +102,7 @@ def run_parser(report_file):
     file = report_file.lower().split("/")[-1].split(".")[0]
     file_name = "-".join(file.split())
     if os.path.exists(f'data/reports/{file_name}/'):
-        print(f"[INFO] Saving processed report to data/reports/{file_name}/{file_name}_corpus.json")
+        print(f"[INFO] Copying processed report from data/reports/{file_name}/{file_name}_corpus.json")
         transfer_path =  "/".join(report_file.lower().split("/")[:-1])
         shutil.copy2(f"data/reports/{file_name}/{file_name}_final.json", f"{transfer_path}/")
     else:
