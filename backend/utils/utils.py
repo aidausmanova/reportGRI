@@ -11,7 +11,7 @@ import numpy as np
 
 nltk.download('punkt')
 nltk.download('stopwords')
-# spacy.cli.download("en_core_web_sm")
+spacy.cli.download("en_core_web_sm")
 nlp = spacy.load("en_core_web_sm")
 
 boilerplate_patterns = [
