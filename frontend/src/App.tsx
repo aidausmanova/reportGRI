@@ -201,7 +201,7 @@ function App() {
           </select>
         </div> */}
 
-        <button className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">
+        <button onClick={() => setReportData([])} className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">
           Clear
         </button>
 

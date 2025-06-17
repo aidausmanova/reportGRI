@@ -9,6 +9,9 @@ venv/
 .ipynb
 backend/logs/
 backend/venv/
+backend/data/existing_reports/
+backend/data/uploaded_reports/
+.EasyOCR/
 
 
 # Node
