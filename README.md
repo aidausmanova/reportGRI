@@ -11,8 +11,9 @@ Main features of ReportGRI include:
 - **Upload your report** to view the GRI distribution and do comparative analysis with industry peers, and receive LLM-based indexing suggestions
 
 ---
+## Installation and Setup
 
-## Prerequisites
+### Prerequisites
 
 - Node.js (>=18) and npm
 - Python 3.10+ with pip
@@ -25,30 +26,27 @@ cd reportGRI
 ```
 ---
 
-## Backend Setup (FastAPI)
+### Backend Setup (FastAPI)
 
-### Step 1: Create Virtual Environment
+1 Create virtual environment and install dependencies
 
-#### Windows
+For Windows
 ```bash
 cd backend
 python -m venv venv
 venv\Scripts\activate
+pip install -r requirements.txt
 ```
 
-#### Linux / macOS
+For Linux / macOS
 ```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
-```
-
-### Step 2: Install Dependencies
-```bash
 pip install -r requirements.txt
 ```
 
-### Step 3: Run FastAPI
+2. Run FastAPI
 ```bash
 uvicorn main:app --reload
 ```
@@ -56,15 +54,15 @@ uvicorn main:app --reload
 > Server will start at: http://localhost:8000
 ---
 
-## Frontend Setup (React 19 + TailwindCSS)
+### Frontend Setup (React 19 + TailwindCSS)
 
-### Step 1: Install Frontend Packages
+1. Install Frontend Packages
 ```bash
 cd frontend
 npm install
 ```
 
-### Step 2: Run Vite Dev Server
+2. Run Vite Dev Server
 ```bash
 npm run dev
 ```
@@ -73,9 +71,9 @@ npm run dev
 
 ---
 
-## Optional: Docker Setup (Combined)
+### Optional: Docker Setup (Combined)
 
-### Step 1: Build and Start All Containers
+Build and Start All Containers
 ```bash
 docker-compose up --build
 ```
