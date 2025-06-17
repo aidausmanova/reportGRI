@@ -55,6 +55,12 @@ uvicorn main:app --reload
 
 > Server will start at: http://localhost:8000
 
+### Note
+To use gpt-3.5-turbo-1106, create .env file and add your api key as in the example below:
+```bash
+OPENAI_API_KEY=<Your OpenAI key>
+BASE_URL='https://api.openai.com/v1'
+```
 ---
 
 ## Frontend Setup (React 19 + TailwindCSS)
