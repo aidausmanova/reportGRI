@@ -1,6 +1,4 @@
-# ReportGRI: Automating GRI Alignment and Report Assessment 
-
-Prepared for the DEMO paper submission for CIKM 2025 (https://cikm2025.org/calls/demo-papers)
+# ReportGRI: Automating GRI Alignment and Report Assessment
 ---
 ![reportGRI](frontend/public/reportGRI.png)
 
