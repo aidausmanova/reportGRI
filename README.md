@@ -24,29 +24,22 @@ Clone the repository
 git clone https://github.com/aidausmanova/reportGRI.git
 cd reportGRI
 ```
+
+Environment setup
+```bash
+cd backend
+conda create --name reportgri python=3.10
+conda activate reportgri 
+pip install -r requirements.txt
+```
+
+To test pipeline only, add your report in PDF format to `data/original/` and run the script with your report name specified in `run_test_pipeline.sh`.
+```bash
+bash scirpts/run_test_pipeline.sh
+```
 ---
-
 ### Backend Setup (FastAPI)
-
-1 Create virtual environment and install dependencies
-
-For Windows
-```bash
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-```
-
-For Linux / macOS
-```bash
-cd backend
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
-
-2. Run FastAPI
+Run FastAPI
 ```bash
 uvicorn main:app --reload
 ```
@@ -55,14 +48,13 @@ uvicorn main:app --reload
 ---
 
 ### Frontend Setup (React 19 + TailwindCSS)
-
-1. Install Frontend Packages
+Install Frontend Packages
 ```bash
 cd frontend
 npm install
 ```
 
-2. Run Vite Dev Server
+Run Vite Dev Server
 ```bash
 npm run dev
 ```
