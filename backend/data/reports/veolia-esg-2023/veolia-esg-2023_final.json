@@ -1,0 +1,168 @@
+[
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-25",
+        "disclosure_code": "GRI 2-25",
+        "disclosure_title": "Processes to remediate negative impacts (climate change adaptation)",
+        "section_ids": [
+            "veolia-esg-2023-59"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing specific examples of circular economy solutions and mentioning the introduction of CO2 capture and voluntary offsetting. It also discusses the identification of high-risk sites and the inclusion of water stress and flooding in the corporate risk management process. However, it lacks specific details about the wider application of circular economy solutions and the specific actions taken for remediation. The text indicates the relevance of the topic to the business and stakeholders by highlighting the evolving physical risks and their inclusion in the corporate risk management process, but it could provide more context",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-59",
+                "title": "\u2192 Developing solutions to enable its customers to avoid emissions, which need (to be recognized as part of a future Scope 4),",
+                "text": "through wider application of its circular economy solutions (production of secondary raw materials and renewable energy from waste and wastewater) and the recovery of waste energy;- \u2192 CO2 capture and voluntary offsetting will ultimately be introduced during implementation of the Group's trajectory toward carbon neutrality.When it comes to adapting to climate change, the two main evolving physical risks likely to negatively impact Veolia's activities are water stress and flooding.These risks are included in the Group's corporate risk management process.In its 2020-2023 environmental plan, Veolia identified all its sites at high risk of water stress, with the aim of performing a full analysis over the duration of the plan."
+            }
+        ]
+    },
+    {
+        "topic": "gri_2-strategy",
+        "topic_title": "General Disclosures: Strategy, Risk, and Stakeholder Engagement",
+        "disclosure": "gri_2-29",
+        "disclosure_code": "GRI 2-29",
+        "disclosure_title": "Approach to stakeholder engagement",
+        "section_ids": [
+            "veolia-esg-2023-30"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing details on Veolia's approach to stakeholder engagement, including the process for identifying relevant stakeholders and how their needs are considered in decision-making. The disclosure covers the key elements of stakeholder engagement, such as listening and exchanging, co-construction, and commitment to impact. However, it lacks specific examples or details of how stakeholder input influences decision-making. The importance of stakeholder engagement is clearly demonstrated, aligning with Veolia's strategy for driving ecological transformation and addressing the expectations of various stakeholders. The",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-30",
+                "title": "OF SHARED PROGRESS WITH AND FOR OUR STAKEHOLDERS",
+                "text": "Given the scale and urgency of the ecological challenges we all face, Veolia is making use of collective intelligence through dialogue between stakeholders from different backgrounds.The Group works with and for its stakeholders to find points of convergence to genuinely drive ecological transformation.Veolia's approach to stakeholder relations focuses on three areas: listening and exchanging, co-construction and seeking solutions, and commitment and sincerity with regard to the impact created.This is an opportunity for Veolia to ascertain the expectations of all its different local, national and international stakeholders (employees, customers, suppliers, investors, public authorities, civil society, international organizations, multi-stakeholder platforms, local communities, consumers, etc.).The aim is to establish the Group locally, co-create useful solutions with a strong positive impact for all, and roll these out as widely as possible.This search for constant dialogue with its ecosystem is based on voluntary and regular Group exchanges, particularly between its leadership bodies, via various discussion forums: the Critical Friends Committee, the Veolia Institute Foresight Committee, the '+1, the ecology turned into actions' consultation process, working groups, conferences, and international events."
+            }
+        ]
+    },
+    {
+        "topic": "gri_304",
+        "topic_title": "Biodiversity",
+        "disclosure": "gri_304-1",
+        "disclosure_code": "GRI 304-1",
+        "disclosure_title": "Operational sites owned, leased, managed in, or adjacent to, protected areas and areas of high biodiversity value outside protected areas",
+        "section_ids": [
+            "veolia-esg-2023-97"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the company's management of sites in or adjacent to protected areas and areas of high biodiversity value. It provides information on the identification of priority sites and specific action plans, as well as initiatives related to ecological soil management and zero pesticide policies. However, it lacks specific examples of sites owned, leased, or managed in these areas. The paragraph indicates the relevance of the topic by aligning with the company's performance framework, TNFD recommendations, and incorporation of impacts into processes, showing a clear connection to business strategy and stakeholder concerns",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-97",
+                "title": "Sustainable Development Goals",
+                "text": "Veolia manages all the sites where it operates in such a way as to mitigate all their local impacts, even transforming them into biodiversity reservoirs.Within the multifaceted performance framework, more than a hundred 'priority' sites have been identified worldwide due to their sensitive location and/or the type of activity carried out there, and specific action plans have been assigned to them.Additionally, the Group is in the process of extending its ecological soil management and 'zero pesticide' policies to all its facilities.Lastly, in line with TNFD recommendations, the Group has reviewed all its value chain's impacts and nature dependencies.It is now incorporating the results into its processes, particularly its environmental risk management and purchasing policy."
+            }
+        ]
+    },
+    {
+        "topic": "gri_304",
+        "topic_title": "Biodiversity",
+        "disclosure": "gri_304-2",
+        "disclosure_code": "GRI 304-2",
+        "disclosure_title": "Significant impacts of activities, products, and services on biodiversity",
+        "section_ids": [
+            "veolia-esg-2023-97"
+        ],
+        "completeness": 7,
+        "materiality": 8,
+        "comment": " The disclosure reasonably well addresses the company's impact on biodiversity by providing specific actions taken to mitigate local impacts and transform sites into biodiversity reservoirs. It also mentions the identification of priority sites and the implementation of action plans. However, it lacks specific examples or details of the ecological soil management and 'zero pesticide' policies, which could enhance completeness. The materiality is high as it demonstrates the company's commitment to mitigating impacts on biodiversity, aligning with stakeholder interest and environmental risk management.",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-97",
+                "title": "Sustainable Development Goals",
+                "text": "Veolia manages all the sites where it operates in such a way as to mitigate all their local impacts, even transforming them into biodiversity reservoirs.Within the multifaceted performance framework, more than a hundred 'priority' sites have been identified worldwide due to their sensitive location and/or the type of activity carried out there, and specific action plans have been assigned to them.Additionally, the Group is in the process of extending its ecological soil management and 'zero pesticide' policies to all its facilities.Lastly, in line with TNFD recommendations, the Group has reviewed all its value chain's impacts and nature dependencies.It is now incorporating the results into its processes, particularly its environmental risk management and purchasing policy."
+            }
+        ]
+    },
+    {
+        "topic": "gri_305",
+        "topic_title": "Emissions",
+        "disclosure": "gri_305-5",
+        "disclosure_code": "GRI 305-5",
+        "disclosure_title": "Reduction of GHG emissions",
+        "section_ids": [
+            "veolia-esg-2023-60",
+            "veolia-esg-2023-64"
+        ],
+        "completeness": 3,
+        "materiality": 7,
+        "comment": " The paragraph partially addresses the disclosure by mentioning the company's commitment to reducing greenhouse gas emissions, signing initiatives, and considering changes to its scope due to acquisitions. However, it lacks specific details about the emission reduction efforts, such as targets, strategies, and actions taken. The importance of the disclosure is demonstrated by the company's alignment with initiatives like the Science-based Targets initiative and the UNFCCC Race to Zero, showing relevance to stakeholders and the business strategy.",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-60",
+                "title": "NET ZERO TARGET 2050",
+                "text": "In its sixth assessment report, (1)  the IPCC estimates that global warming will reach 1.5\u00b0C by the early 2030s.The rapid reduction of net global CO2 emissions to zero is one of its priority solutions for limiting warming to 1.5\u00b0C.Efforts to adapt infrastructure and lifestyles to new climate conditions must continue at the same time.Climate change demands that business transitions more quickly to a low-carbon economy and poses physical risks to which Veolia and its customers must now adapt.However, these conditions also present a wealth of business opportunities for the Group.In September 2021, Veolia signed the Science-based Targets initiative's Business Ambition for 1.5\u00b0C and joined the UNFCCC Race to Zero.In line with this commitment, the Group's roadmap will be submitted to the SBTi by the end of 2023 and will take into account the huge changes to Veolia's scope with the acquisition of Suez."
+            },
+            {
+                "section_idx": "veolia-esg-2023-64",
+                "title": "To help our customers avoid GHG emissions through the circular economy and the recovery of waste energy:",
+                "text": "\u2192 From 12.1 MtCO2 eq.avoided in 2019 to 14 MtCO2 eq.avoided in 2022 - target of 15 MtCO2 eq.avoided in 2023."
+            }
+        ]
+    },
+    {
+        "topic": "gri_306",
+        "topic_title": "Effluents and Waste",
+        "disclosure": "gri_306-2",
+        "disclosure_code": "GRI 306-2",
+        "disclosure_title": "Management of significant waste related impacts",
+        "section_ids": [
+            "veolia-esg-2023-82"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph provides a reasonably detailed and comprehensive overview of Veolia's efforts to manage significant waste-related impacts. It covers a wide range of waste treatment methods and efforts to reduce waste generation, including the production of secondary raw materials, renewable and recovered energy from waste and wastewater, and the reuse of treated wastewater. It also mentions the contribution to the mobilization of stakeholders to accelerate the implementation of circular economy solutions. However, it could benefit from more specific examples and details to fully address the disclosure. In terms of materiality, the paragraph clearly demonstrates why waste",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-82",
+                "title": "CHALLENGES AND AMBITIONS",
+                "text": "The worldwide explosion in consumption of natural resources is causing depletion of, and pressure on, strategic supplies for the digital and energy transitions.In addition, the intensive use of these resources is having major environmental impacts, including excessive water use, harm to biodiversity, and greenhouse gas emissions.The very essence of Veolia's business is to preserve natural resources.That is why the Group is offering its customers a range of solutions to achieve exactly that:- \u2192 Production of 'secondary raw materials' from waste (recycled plastics, rare metals from electronic waste, reclaimed solvents, compost, etc.);- \u2192 Production of renewable and recovered energy from waste and wastewater, and recovery of waste energy;- \u2192 Reuse of treated wastewater;- \u2192 Energy efficiency in buildings and industrial facilities;- \u2192 Synergies from multi-client sites (local industrial ecology, biomass heat networks).Veolia is also contributing to the mobilization of all public and private stakeholders to accelerate the implementation of circular economy solutions, for example, the debate around the anti-waste and circular economy law in France, and the European Union Green Deal and circular economy action plan.In particular, Veolia's proven expertise in the sustainable management of water resources enables it to make ambitious commitments on behalf of its municipal and industrial customers in relation to preventing water risks and meeting public expectations.This is based on a range of technical, business and behavioral solutions across the entire value chain.For example:- \u2192 General access to public water and sanitation services;- \u2192 Treatment of industrial wastewater and leachates, collection and treatment of hazardous liquid waste, sludge recovery, and soil decontamination;- \u2192 Reusing treated wastewater to preserve resources and safeguard access to water in troubled locations;- \u2192 Collection, management and recovery of solid waste (plastics, etc.) to keep it from entering the environment;- \u2192 Optimizing operational efficiency for heat networks, industrial services, and building management.Worldwide, only 56% of domestic wastewater is safely treated.(1)  Reliable sanitation services are key to public health, but are lacking for 4.2 billion people, more than half the world's population.(2) UNICEF and the WHO estimate that 80% of wastewater worldwide is discharged untreated into the environment.(3)  Soil quality and the chemical and ecological status of watercourses continue to deteriorate.Veolia's activities help to preserve natural environments and reduce a number of pressures on biodiversity (climate change, pollution, and overuse of natural resources including water).Sanitation activities ensure that high-quality water is discharged into the natural environment, helping maintain watercourses (flow-rate support and the creation of good ecological conditions) and protecting water resources against pollution.The development of centralized urban heat networks, constantly monitored and subject to strict regulation, and the selection of certified biomass streams to power them, also reduce environmental impacts compared with more polluting systems.Collecting and treating waste limits the spread of urban and industrial pollution into soils, bodies of water and the atmosphere.Veolia's activities prevent and repair the harm caused by toxic pollution, treating and recovering toxic waste to protect health and the environment, activities that require a high level of expertise.Industrial activities taking place on Group-operated sites can have direct or indirect negative local environmental impacts, though these are minuscule compared with the reduction in its customers' impacts.These include the consumption of natural resources through site activities, the residual pollution contained in operational discharges, the sites' greenhouse gas emissions, and the potential impact of their footprint on habitats.Control of these risks, which are classed as operational risks, is an integral part of the Group's environmental policy.Each of Veolia's activities is dependent on ecosystem services:\u2192 Drinking water production correlates directly with correct functioning of the large water cycle and the capacity of natural environments to purify themselves;\u2192 Sanitation activities depend on ecological factors: microbial activity and the capacity of aquatic environments to assimilate residual loads are critical to wastewater purification;- \u2192 For energy, biomass activity requires a sustainable supply of fuelwood or plant waste."
+            }
+        ]
+    },
+    {
+        "topic": "gri_308",
+        "topic_title": "Supplier Environmental Assessment",
+        "disclosure": "gri_308-2",
+        "disclosure_code": "GRI 308-2",
+        "disclosure_title": "Negative environmental impacts in the supply chain and actions taken",
+        "section_ids": [
+            "veolia-esg-2023-82"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph provides a reasonably detailed overview of Veolia's actions to address negative environmental impacts in the supply chain, including specific examples of initiatives and solutions. However, it lacks explicit information about the assessment of suppliers for environmental impacts. The importance of the disclosure is well demonstrated, showing alignment with the company's business of preserving natural resources and addressing major environmental impacts, including water use, biodiversity, and greenhouse gas emissions. It also highlights the relevance of the disclosure to stakeholder interests and the company's strategy, as it outlines Veolia's contributions to circular",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-82",
+                "title": "CHALLENGES AND AMBITIONS",
+                "text": "The worldwide explosion in consumption of natural resources is causing depletion of, and pressure on, strategic supplies for the digital and energy transitions.In addition, the intensive use of these resources is having major environmental impacts, including excessive water use, harm to biodiversity, and greenhouse gas emissions.The very essence of Veolia's business is to preserve natural resources.That is why the Group is offering its customers a range of solutions to achieve exactly that:- \u2192 Production of 'secondary raw materials' from waste (recycled plastics, rare metals from electronic waste, reclaimed solvents, compost, etc.);- \u2192 Production of renewable and recovered energy from waste and wastewater, and recovery of waste energy;- \u2192 Reuse of treated wastewater;- \u2192 Energy efficiency in buildings and industrial facilities;- \u2192 Synergies from multi-client sites (local industrial ecology, biomass heat networks).Veolia is also contributing to the mobilization of all public and private stakeholders to accelerate the implementation of circular economy solutions, for example, the debate around the anti-waste and circular economy law in France, and the European Union Green Deal and circular economy action plan.In particular, Veolia's proven expertise in the sustainable management of water resources enables it to make ambitious commitments on behalf of its municipal and industrial customers in relation to preventing water risks and meeting public expectations.This is based on a range of technical, business and behavioral solutions across the entire value chain.For example:- \u2192 General access to public water and sanitation services;- \u2192 Treatment of industrial wastewater and leachates, collection and treatment of hazardous liquid waste, sludge recovery, and soil decontamination;- \u2192 Reusing treated wastewater to preserve resources and safeguard access to water in troubled locations;- \u2192 Collection, management and recovery of solid waste (plastics, etc.) to keep it from entering the environment;- \u2192 Optimizing operational efficiency for heat networks, industrial services, and building management.Worldwide, only 56% of domestic wastewater is safely treated.(1)  Reliable sanitation services are key to public health, but are lacking for 4.2 billion people, more than half the world's population.(2) UNICEF and the WHO estimate that 80% of wastewater worldwide is discharged untreated into the environment.(3)  Soil quality and the chemical and ecological status of watercourses continue to deteriorate.Veolia's activities help to preserve natural environments and reduce a number of pressures on biodiversity (climate change, pollution, and overuse of natural resources including water).Sanitation activities ensure that high-quality water is discharged into the natural environment, helping maintain watercourses (flow-rate support and the creation of good ecological conditions) and protecting water resources against pollution.The development of centralized urban heat networks, constantly monitored and subject to strict regulation, and the selection of certified biomass streams to power them, also reduce environmental impacts compared with more polluting systems.Collecting and treating waste limits the spread of urban and industrial pollution into soils, bodies of water and the atmosphere.Veolia's activities prevent and repair the harm caused by toxic pollution, treating and recovering toxic waste to protect health and the environment, activities that require a high level of expertise.Industrial activities taking place on Group-operated sites can have direct or indirect negative local environmental impacts, though these are minuscule compared with the reduction in its customers' impacts.These include the consumption of natural resources through site activities, the residual pollution contained in operational discharges, the sites' greenhouse gas emissions, and the potential impact of their footprint on habitats.Control of these risks, which are classed as operational risks, is an integral part of the Group's environmental policy.Each of Veolia's activities is dependent on ecosystem services:\u2192 Drinking water production correlates directly with correct functioning of the large water cycle and the capacity of natural environments to purify themselves;\u2192 Sanitation activities depend on ecological factors: microbial activity and the capacity of aquatic environments to assimilate residual loads are critical to wastewater purification;- \u2192 For energy, biomass activity requires a sustainable supply of fuelwood or plant waste."
+            }
+        ]
+    },
+    {
+        "topic": "gri_403",
+        "topic_title": "Occupational Health and Safety",
+        "disclosure": "gri_403-5",
+        "disclosure_code": "GRI 403-5",
+        "disclosure_title": "Worker training on occupational health and safety",
+        "section_ids": [
+            "veolia-esg-2023-124"
+        ],
+        "completeness": 8,
+        "materiality": 9,
+        "comment": " The paragraph reasonably well addresses the disclosure by providing specific examples of occupational health and safety training initiatives, such as the Paths program and the distribution of standards and rules. However, it lacks detailed information on the content and effectiveness of the training. The materiality is high as it clearly demonstrates the importance of health and safety training to the business and stakeholders, aligning with risk management and stakeholder concerns.",
+        "paragraphs": [
+            {
+                "section_idx": "veolia-esg-2023-124",
+                "title": "Our action levers",
+                "text": "Engage the entire management chain \u2192 132,000 management safety visits.Control risks linked to health and safety \u2192 Distribution of 10 standards for managing high-risk activities and 12 'Lifesaving Rules': a course of 11 e-learning modules;\u2192 A center of excellence made up of international experts.Communicate and discuss \u2192 Health and Safety Week organized annually; \u2192 Believe News: monthly round-up of initiatives based on best practice.Train and engage all employees \u2192 Rollout of the Paths (Prevention &amp; training on health and safety) program: 62% of staff covered in 2022; \u2192 74.3% of employees received safety training, and 42.3% of training hours were devoted to safety.Monitor and control health and safety performance \u2192 A tool to analyze exposure to professional illnesses - health and safety data collected every three months and analyzed using an- in-house tool."
+            }
+        ]
+    }
+]
