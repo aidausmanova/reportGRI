@@ -2,7 +2,8 @@ import React, { useEffect, useState } from "react";
 import ChartView from "./components/ChartView";
 import logo from "/leuphana_logo.png";
 
-const API_URL = "http://localhost:8000";
+// const API_URL = "http://localhost:8000";
+const API_URL = "https://backend.reportgri.nliwod.org";
 
 type ReportData = {
   bar_chart: Record<string, {gri_disclosure: string, gri_disclosure_title: string, paragraph_count: number}>;
