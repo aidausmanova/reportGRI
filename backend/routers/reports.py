@@ -1,27 +1,21 @@
 import csv
 import os
 import shutil
-import uuid
 import json
 from pathlib import Path
 from collections import defaultdict
-import asyncio
 from routers.parse_docling import run_parser
-
-# from traceback import print_tb
-from typing import List, Optional, Any
+from routers.retrieval import run_retrieval
+from routers.llm_match import run_llm
+from typing import List, Any
 
 from fastapi import (
     APIRouter,
     Request,
     UploadFile,
     File,
-    Response,
-    Depends,
-    Cookie,
     Body,
     HTTPException,
-    Query,
 )
 from fastapi.responses import FileResponse
 
@@ -76,8 +70,8 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
     Path(session_folder).mkdir(parents=True, exist_ok=True)
 
     # get the uploaded file name without extension
-    uploaded_report_name = Path(file.filename).stem
-    uploaded_report_folder = os.path.join(session_folder, uploaded_report_name)
+    report_name = Path(file.filename).stem
+    uploaded_report_folder = os.path.join(session_folder, report_name)
 
     if not os.path.exists(uploaded_report_folder):
         Path(uploaded_report_folder).mkdir(parents=True, exist_ok=True)
@@ -88,11 +82,20 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
 
         print(f"[INFO] file copied {uploaded_report}")
 
-        # Parse the uploaded report and generate the json output file
-        parsed_file = run_parser(uploaded_report)
+        # Parse the uploaded pdf report and generate the corpus.json output file
+        print("Start file parsing")
+        run_parser(uploaded_report_folder, report_name)
+
+        print("Start disclosure-paragraph alignment")
+        run_retrieval(uploaded_report_folder, report_name)
+
+        print("Start report assessment")
+        # model = "meta-llama/Llama-3.1-8B"
+        # is_few_shot = "zero-shot"
+        # run_llm(uploaded_report_folder, report_name, model, is_few_shot)
 
     files = list_uploaded_files(session_id)
-    return {"my_reports": files, "parsed_file": uploaded_report}
+    return {"my_reports": files, "parsed_file": report_name}
 
 
 def list_uploaded_files(session_id: str) -> List[str]:
@@ -127,7 +130,7 @@ def get_my_reports(request: Request) -> Any:
 
 
 @router.post("/chart-data")
-def get_chart_data_new(request: Request, body: dict = Body(...)):
+def get_chart_data(request: Request, body: dict = Body(...)):
     session_id = request.headers.get("X-Session-ID", "unknown")
     print(f"[INFO] chart-data: {session_id}")
 
