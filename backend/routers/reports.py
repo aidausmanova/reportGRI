@@ -21,7 +21,7 @@ from fastapi import (
     Cookie,
     Body,
     HTTPException,
-    Query
+    Query,
 )
 from fastapi.responses import FileResponse
 
@@ -31,33 +31,12 @@ DATA_FOLDER = Path("data")
 # Ensure the data folder exists
 DATA_FOLDER.mkdir(exist_ok=True)
 
-SESSION_COOKIE_NAME = "session_id"
-
-
-# Dependency to get or create session ID
-def get_or_create_session_id(
-    session_id: Optional[str] = Cookie(None), response: Response = None
-) -> str:
-    if not session_id:
-        session_id = str(uuid.uuid4())
-        if response:
-            response.set_cookie(
-                key=SESSION_COOKIE_NAME, value=session_id, httponly=True
-            )
-    return session_id
-
-
-@router.get("/session-id")
-def get_session_id(request: Request, response: Response):
-    session_id = request.cookies.get(SESSION_COOKIE_NAME)
-    if not session_id:
-        session_id = str(uuid.uuid4())
-        response.set_cookie(key=SESSION_COOKIE_NAME, value=session_id, httponly=True)
-    return {"session_id": session_id}
-
 
 @router.get("/industries")
-def get_industries():
+def get_industries(request: Request):
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] industries: {session_id}")
+
     file_path = os.path.join(DATA_FOLDER, "industries_reports.csv")
     if not os.path.exists(file_path):
         raise HTTPException(status_code=404, detail="industries_reports.csv not found.")
@@ -74,7 +53,10 @@ def get_industries():
 
 
 @router.get("/reports/{industry}")
-def get_reports_by_industry(industry: str):
+def get_reports_by_industry(industry: str, request: Request):
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] reports - industry: {session_id}")
+
     file_path = os.path.join(DATA_FOLDER, "industries_reports.csv")
     orgs = set()
     with open(file_path, newline="", encoding="utf-8") as f:
@@ -86,72 +68,69 @@ def get_reports_by_industry(industry: str):
 
 
 @router.post("/upload")
-async def upload_file(
-    file: UploadFile = File(...),
-    session_id: str = Depends(get_or_create_session_id),
-):
+async def upload_file(request: Request, file: UploadFile = File(...)):
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] upload: {session_id}")
+
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
-    os.makedirs(session_folder)
-    # Path(session_folder).mkdir(exist_ok=True)
+    Path(session_folder).mkdir(parents=True, exist_ok=True)
 
-    uploaded_report = os.path.join(session_folder, file.filename)
-    with open(uploaded_report, "wb") as buffer:
-        shutil.copyfileobj(file.file, buffer)
+    # get the uploaded file name without extension
+    uploaded_report_name = Path(file.filename).stem
+    uploaded_report_folder = os.path.join(session_folder, uploaded_report_name)
 
-    # Parse the uploaded report and generate the json output file
-    report_name = run_parser(uploaded_report)
+    if not os.path.exists(uploaded_report_folder):
+        Path(uploaded_report_folder).mkdir(parents=True, exist_ok=True)
 
-    # await asyncio.sleep(5)
+        uploaded_report = os.path.join(uploaded_report_folder, file.filename)
+        with open(uploaded_report, "wb") as buffer:
+            shutil.copyfileobj(file.file, buffer)
 
-    # # Fake parsed CSV with same columns
-    # dummy_json = os.path.join(session_folder, file.filename.replace(".pdf", ".json"))
+        print(f"[INFO] file copied {uploaded_report}")
 
-    # data = {}
-    # for i in range(1, 5):
-    #     name = str(i)
-    #     x = i + 1
-    #     y = i + 2
-    #     z = i + 3
-    #     data[name] = {"x": x, "y": y, "z": z}
-    # with open(dummy_json, "w") as f:
-    #     json.dump(data, f, indent=4)
+        # Parse the uploaded report and generate the json output file
+        parsed_file = run_parser(uploaded_report)
 
     files = list_uploaded_files(session_id)
-    return {"session_id": session_id, "uploaded": file.filename, "my_reports": files}
+    return {"my_reports": files, "parsed_file": uploaded_report}
 
 
 def list_uploaded_files(session_id: str) -> List[str]:
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
     if not Path(session_folder).exists():
         return []
-    return sorted(
-        [
-            f.name.replace(".json", "")
-            for f in Path(session_folder).glob("*.json")
-            if f.is_file()
-        ]
-    )
+    return sorted(os.listdir(session_folder))
+
 
 @router.post("/export")
-def export_report_assessment(session_id: str):
+def export_report_assessment(request: Request):
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] export: {session_id}")
+
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
     for f in Path(session_folder).glob("*.json"):
         session_file = os.path.join(session_folder, f.name)
-        return FileResponse(path=session_file,
-                            filename=f.name,
-                            media_type='application/json',
-                            headers={"Content-Disposition": f'attachment; filename="{f.name}"'})
+        return FileResponse(
+            path=session_file,
+            filename=f.name,
+            media_type="application/json",
+            headers={"Content-Disposition": f'attachment; filename="{f.name}"'},
+        )
+
 
 @router.get("/my-reports")
-def get_my_reports(session_id: str = Depends(get_or_create_session_id)) -> Any:
+def get_my_reports(request: Request) -> Any:
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] my-reports: {session_id}")
+
     return list_uploaded_files(session_id)
 
 
 @router.post("/chart-data")
-def get_chart_data_new(
-    body: dict = Body(...),
-    session_id: str = Query(default=None),
-):
+def get_chart_data_new(request: Request, body: dict = Body(...)):
+    session_id = request.headers.get("X-Session-ID", "unknown")
+    print(f"[INFO] chart-data: {session_id}")
+
     gri_topic_counts = {
         "gri_2": 11,
         "gri_201": 2,
@@ -255,30 +234,44 @@ def get_chart_data_new(
     if not report_names:
         raise HTTPException(status_code=400, detail="No reported selected.")
 
-    if session_id == "null":
-        base_path = os.path.join(DATA_FOLDER, f"reports/")
-    else:
-        base_path = os.path.join(DATA_FOLDER, f"uploaded_reports/")
+    print(f"selected reports: {report_names}")
+
+    try:
+        existing_reports = os.listdir(os.path.join(DATA_FOLDER, "reports"))
+    except Exception as ex:
+        print(f"existing reports listing error: {ex}")
+
+    try:
+        current_session_uploaded_reports = os.listdir(
+            os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
+        )
+    except Exception as ex:
+        print(f"current session reports listing error: {ex}")
 
     response_data = {}
-    all_rows = []
     bar_chart_data = defaultdict(lambda: defaultdict(list))
-    radar_chart_data =defaultdict(lambda: defaultdict(list))
+    radar_chart_data = defaultdict(lambda: defaultdict(list))
     scatter_chart_data = defaultdict(list)
 
     for report_name in report_names:
-        if session_id == "null":
-            json_filename = f"{report_name}_final.json"
-            json_path = os.path.join(base_path, report_name, json_filename)
-        else:
-            json_filename = f"{report_name}.json"
-            json_path = os.path.join(base_path, session_id, json_filename)
+        if report_name in existing_reports:
+            final_json_report = os.path.join(
+                DATA_FOLDER, "reports", report_name, report_name + "_final.json"
+            )
+        elif report_name in current_session_uploaded_reports:
+            final_json_report = os.path.join(
+                DATA_FOLDER,
+                "uploaded_reports",
+                session_id,
+                report_name,
+                report_name + "_final.json",
+            )
 
-        if not os.path.exists(json_path):
+        if not os.path.exists(final_json_report):
             print("[INFO] Path to report doesn't exist.")
             continue  # Optionally log missing file
         try:
-            with open(json_path, "r", encoding="utf-8") as f:
+            with open(final_json_report, "r", encoding="utf-8") as f:
                 report_data = json.load(f)
             reported_disclosure_topics = {}
 
@@ -295,7 +288,7 @@ def get_chart_data_new(
                     reported_disclosure_topics[standard] += 1
                 else:
                     reported_disclosure_topics[standard] = 1
-                    
+
                 completeness = item.get("completeness", 0)
                 materiality = item.get("materiality", 0)
                 comment = item.get("comment", "")
@@ -339,263 +332,17 @@ def get_chart_data_new(
                         "gri_topic": " ".join(standard.upper().split("_")),
                         "gri_topic_title": topic,
                         "value": round(percentage, 2),
-                        "description": ""
+                        "description": "",
                     }
                 )
 
         except Exception as e:
             raise HTTPException(
-                status_code=500, detail=f"Error processing {json_filename}: {e}"
+                status_code=500, detail=f"Error processing {final_json_report}: {e}"
             )
     # response_data["bar_chart"] = {k: dict(v) for k, v in bar_chart_data.items()}
     # response_data["radar_chart"] = {k: dict(v) for k, v in radar_chart_data.items()}
     response_data["bar_chart"] = dict(bar_chart_data)
     response_data["radar_chart"] = dict(radar_chart_data)
     response_data["scatter_chart"] = dict(scatter_chart_data)
-    return response_data
-
-
-# @router.post("/chart-data")
-def get_chart_data(
-    body: dict = Body(...),
-    session_id: str = Depends(get_or_create_session_id),
-):
-    report_names = body.get("report_names", [])
-    if not report_names:
-        raise HTTPException(status_code=400, detail="No reported selected.")
-
-    # gri_level = body.get("gri_level", "l1")
-    # chart_type = body.get("chart", "bar")  # bar or heatmap
-
-    # assert gri_level in ("l1", "l2")
-    # assert chart_type in ("bar", "radar", "heatmap")
-
-    base_path = os.path.join(DATA_FOLDER, "existing_reports")
-
-    all_rows = []
-
-    response_data = {}
-
-    # Coverage distribution
-    def load_coverage_distribution_data(response_data):
-        bar_chart_data = defaultdict(lambda: defaultdict(int))  # report -> GRI -> count
-        nonlocal base_path, report_names
-        for report_name in report_names:
-            json_filename = f"{report_name}.json"
-            json_path = os.path.join(base_path, json_filename)
-
-            if not os.path.exists(json_path):
-                continue  # Optionally log missing file
-
-            try:
-                with open(json_path, "r", encoding="utf-8") as f:
-                    report_data = json.load(f)
-
-                print(report_data)
-
-                for item in report_data:
-                    disclosure = item.get("disclosure")
-                    section_ids = item.get("section_ids", [])
-                    if disclosure:
-                        bar_chart_data[report_name][disclosure] = len(section_ids)
-
-                response_data["bar_chart"] = bar_chart_data
-
-            except Exception as e:
-                raise HTTPException(
-                    status_code=500, detail=f"Error processing {json_filename}: {e}"
-                )
-
-    load_coverage_distribution_data(response_data)
-
-    # # Load from main data.csv
-    # with open(DATA_FOLDER / "data.csv", newline="", encoding="utf-8") as f:
-    #     reader = csv.DictReader(f)
-    #     for row in reader:
-    #         if row["organization"] in report_names:
-    #             all_rows.append(row)
-
-    # # Load from user's uploaded session files
-    # session_folder = DATA_FOLDER / session_id
-    # if session_folder.exists():
-    #     for path in session_folder.glob("*.csv"):
-    #         with open(path, newline="", encoding="utf-8") as f:
-    #             reader = csv.DictReader(f)
-    #             for row in reader:
-    #                 if row["organization"] in report_names:
-    #                     all_rows.append(row)
-
-    # Coverage distribution
-
-    # bar_chart_data = defaultdict(lambda: defaultdict(int))  # report -> GRI -> count
-    # sections_by_gri = defaultdict(list)
-
-    # for row in all_rows:
-    #     gri = row["gri_l2"]  # gri_disclosure
-    #     report = row["organization"]
-    #     bar_chart_data[report][gri] += 1
-
-    #     section = row["section"]
-    #     desc = row["gri_desc"]
-    #     sections_by_gri[gri].append({"section": section, "gri_desc": desc})
-
-    # response_data["bar_chart"] = bar_chart_data
-    # response_data["sections_by_gri"] = sections_by_gri
-
-    # e_category = ['gri_301', 'gri_302', 'gri_303', 'gri_304', 'gri_305', 'gri_306', 'gri_307', 'gri_308']
-    # s_category = ['gri_401', 'gri_402', 'gri_403', 'gri_404', 'gri_405', 'gri_413', 'gri_415', 'gri_416', 'gri_418']
-    # g_category = ['gri_2', 'gri_201']
-    #
-    # radar_chart_data = defaultdict(lambda: {"Environmental": 0, "Social": 0, "Governance": 0})
-    #
-    # for row in all_rows:
-    #     if gri_level == "l2":
-    #         gri = row["gri_l2"].split("-")[0]
-    #     else:
-    #         gri = row["gri_l1"]
-    #
-    #     report = row["organization"]
-    #
-    #     if gri in e_category:
-    #         radar_chart_data[report]["Environmental"] += 1
-    #     elif gri in s_category:
-    #         radar_chart_data[report]["Social"] += 1
-    #     elif gri in g_category:
-    #         radar_chart_data[report]["Governance"] += 1
-    #
-    # # Convert counts to percentages
-    # for report, counts in radar_chart_data.items():
-    #     total = sum(counts.values())
-    #     if total > 0:
-    #         for cat in ["Environmental", "Social", "Governance"]:
-    #             counts[cat] = float(round((counts[cat] / total) * 100, 2))
-    #     else:
-    #         for cat in ["Environmental", "Social", "Governance"]:
-    #             counts[cat] = float(0.0)
-    #
-    # response_data["radar_chart"] = radar_chart_data
-
-    # # Heatmap
-    # heatmap_data = []
-    # sections_by_gri = defaultdict(list)
-
-    # for row in all_rows:
-    #     gri = row["gri_l1"]  # gri_standards
-    #     section = row["section"]
-    #     score = float(row["sim_score"])
-    #     desc = row["gri_desc"]
-
-    #     heatmap_data.append(
-    #         {"section": section, "GRI_code": gri, "score": score, "gri_desc": desc}
-    #     )
-    #     sections_by_gri[gri].append({"section": section, "gri_desc": desc})
-
-    # response_data["heatmap_chart"] = heatmap_data
-    # response_data["sections_by_gri"] = sections_by_gri
-
-    # Radar
-    e_category = [
-        "gri_301",
-        "gri_302",
-        "gri_303",
-        "gri_304",
-        "gri_305",
-        "gri_306",
-        "gri_307",
-        "gri_308",
-    ]
-    s_category = [
-        "gri_401",
-        "gri_402",
-        "gri_403",
-        "gri_404",
-        "gri_405",
-        "gri_413",
-        "gri_415",
-        "gri_416",
-        "gri_418",
-    ]
-    g_category = ["gri_2", "gri_201"]
-
-    gri_standards = {
-        "gri_2": "General disclosure",
-        "gri_201": "Economic performance",
-        "gri_301": "Materials",
-        "gri_302": "Energy",
-        "gri_303": "Water",
-        "gri_304": "Biodiversity",
-        "gri_305": "Emissions",
-        "gri_306": "Waste",
-        "gri_307": "Environmental compliance",
-        "gri_308": "Supplier assessment",
-        "gri_401": "Employment",
-        "gri_403": "Employee safety",
-        "gri_404": "Training",
-        "gri_405": "Diversity",
-        "gri_413": "Communities",
-        "gri_415": "Public policy",
-        "gri_416": "Customer safety",
-        "gri_418": "Customer privacy",
-    }
-    radar_chart_data = defaultdict(
-        lambda: {"Environmental": 0, "Social": 0, "Governance": 0}
-    )
-    radar_chart_data = defaultdict(
-        lambda: {
-            "General disclosure": 0,
-            "Economic performance": 0,
-            "Materials": 0,
-            "Energy": 0,
-            "Water": 0,
-            "Biodiversity": 0,
-            "Emissions": 0,
-            "Waste": 0,
-            "Environmental compliance": 0,
-            "Supplier assessment": 0,
-            "Employment": 0,
-            "Employee safety": 0,
-            "Training": 0,
-            "Diversity": 0,
-            "Communities": 0,
-            "Public policy": 0,
-            "Customer safety": 0,
-            "Customer privacy": 0,
-        }
-    )
-    sections_by_gri = defaultdict(list)
-
-    # for row in all_rows:
-    #     gri = row["gri_l1"]
-    #     report = row["organization"]
-
-    #     radar_chart_data[report][gri_standards[gri]] += 1
-    #     # if gri in e_category:
-    #     #     radar_chart_data[report]["Environmental"] += 1
-    #     # elif gri in s_category:
-    #     #     radar_chart_data[report]["Social"] += 1
-    #     # elif gri in g_category:
-    #     #     radar_chart_data[report]["Governance"] += 1
-
-    # # Convert counts to percentages
-    # for report, counts in radar_chart_data.items():
-    #     total = sum(counts.values())
-    #     # if total > 0:
-    #     #     for cat in ["Environmental", "Social", "Governance"]:
-    #     #         counts[cat] = float(round((counts[cat] / total) * 100, 2))
-    #     # else:
-    #     #     for cat in ["Environmental", "Social", "Governance"]:
-    #     #         counts[cat] = float(0.0)
-    #     if total > 0:
-    #         for cat in gri_standards.values():
-    #             counts[cat] = float(round((counts[cat] / total) * 100, 2))
-    #     else:
-    #         for cat in gri_standards.values():
-    #             counts[cat] = float(0.0)
-
-    # response_data["radar_chart"] = radar_chart_data
-    # # response_data["bar_chart"] = bar_chart_data
-    # # response_data["sections_by_gri"] = sections_by_gri
-    # # print(response_data["radar_chart"])
-
-    # print(response_data)
     return response_data

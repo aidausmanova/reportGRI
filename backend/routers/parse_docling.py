@@ -79,9 +79,13 @@ def parse(report_file):
 
     # Export Text format:
     # with open(os.path.join(output_dir, f"{doc_filename}.txt"), "w", encoding="utf-8") as fp:
-    if not os.path.exists(f'data/reports/{report_name}/'):
-        os.makedirs(f'data/reports/{report_name}/')
-    with open(os.path.join(f"data/reports/{report_name}/{doc_filename}.txt"), "w", encoding="utf-8") as fp:
+    if not os.path.exists(f"data/reports/{report_name}/"):
+        os.makedirs(f"data/reports/{report_name}/")
+    with open(
+        os.path.join(f"data/reports/{report_name}/{doc_filename}.txt"),
+        "w",
+        encoding="utf-8",
+    ) as fp:
         text = conv_result.document.export_to_text()
         fp.write(conv_result.document.export_to_text())
     _log.info("Converted document saved as txt file")
@@ -99,63 +103,59 @@ def download_models():
 
 
 def run_parser(report_file):
+    print(f"[INFO] run parser - {report_file}")
     file = report_file.lower().split("/")[-1].split(".")[0]
     file_name = "-".join(file.split())
-    if os.path.exists(f'data/reports/{file_name}/'):
-        print(f"[INFO] Copying processed report from data/reports/{file_name}/{file_name}_corpus.json")
-        transfer_path =  "/".join(report_file.lower().split("/")[:-1])
-        shutil.copy2(f"data/reports/{file_name}/{file_name}_final.json", f"{transfer_path}/")
-    else:
-        print(f"[INFO] Parsing {report_file}")
-        text = parse(report_file)
+    # if os.path.exists(f'data/reports/{file_name}/'):
+    #     print(f"[INFO] Copying processed report from data/reports/{file_name}/{file_name}_corpus.json")
+    #     transfer_path =  "/".join(report_file.lower().split("/")[:-1])
+    #     shutil.copy2(f"data/reports/{file_name}/{file_name}_final.json", f"{transfer_path}/")
+    # else:
+    print(f"[INFO] Parsing {report_file}")
+    text = parse(report_file)
 
-        print("[INFO] Text preprocessing ...")
-        p = re.compile("##.*\n")
-        section_titles = re.findall(p, text)
-        mod_section_titles = []
-        for title in section_titles:
-            mod_section_titles.append(title[3 : len(title) - 1])
+    print("[INFO] Text preprocessing ...")
+    p = re.compile("##.*\n")
+    section_titles = re.findall(p, text)
+    mod_section_titles = []
+    for title in section_titles:
+        mod_section_titles.append(title[3 : len(title) - 1])
 
-        sections = text.split("##")
-        sections.pop(0)
-        print(f"[INFO] # sections: {len(sections)}, # titles: {len(mod_section_titles)}")
-        # assert(len(sections) == len(mod_section_titles))
+    sections = text.split("##")
+    sections.pop(0)
+    print(f"[INFO] # sections: {len(sections)}, # titles: {len(mod_section_titles)}")
+    # assert(len(sections) == len(mod_section_titles))
 
+    chunked_paragraphs = []
+    for idx, (section, title) in enumerate(
+        zip(sections[: len(mod_section_titles)], mod_section_titles)
+    ):
+        # Append paragraph data
+        sec_text = section[len(title) + 2 :]
+        sec_text = sec_text.split(". ")
+        if len(sec_text) > 2:
+            sec_text = ".".join(sec_text).replace("\n", "").replace("\u25cf", "")
+            if not any(row["title"] == title for row in chunked_paragraphs):
+                chunked_paragraphs.append(
+                    {
+                        "title": title,
+                        "text": sec_text,
+                        "section_idx": file_name + "-" + str(idx),
+                    }
+                )
+            else:
+                for row in chunked_paragraphs:
+                    if row["title"] == title:
+                        row["text"] += sec_text
 
-        chunked_paragraphs = []
-        for idx, (section, title) in enumerate(
-            zip(sections[: len(mod_section_titles)], mod_section_titles)
-        ):
-            # Append paragraph data
-            sec_text = section[len(title) + 2 :]
-            sec_text = sec_text.split(". ")
-            if len(sec_text) > 2:
-                sec_text = ".".join(sec_text).replace("\n", "").replace("\u25cf", "")
-                if not any(row["title"] == title for row in chunked_paragraphs):
-                    chunked_paragraphs.append(
-                        {
-                            "title": title,
-                            "text": sec_text,
-                            "section_idx": file_name + "-" + str(idx),
-                        }
-                    )
-                else:
-                    for row in chunked_paragraphs:
-                        if row["title"] == title:
-                            row["text"] += sec_text
+    # output_dir = os.path.dirname(report_file)
+    output_file = report_file.replace(".pdf", "-corpus.json")
+    with open(output_file, "w") as f:
+        json.dump(chunked_paragraphs, f, indent=4)
 
-        # output_dir = os.path.dirname(report_file)
-        # output_file = report_file.replace(".pdf", "-corpus.json")
-        # with open(output_file, "w") as f:
-        #     json.dump(chunked_paragraphs, f, indent=4)
-
-        # if not os.path.exists(f'data/{file_name}/'):
-        #     os.makedirs(f'data/{file_name}/')
-        output_dir = Path("data/reports/"+file_name)
-        save_json(output_dir / f"{file_name}_corpus.json", chunked_paragraphs)
-        print(f"[INFO] Saving processed report to {output_dir}/{file_name}_corpus.json")
-        _log.info(f"Document chunked and saved as json at {output_dir}/{file_name}_corpus.json")
-    return file_name
+    print(f"[INFO] Document chunked and saved as json: {output_file}")
+    _log.info(f"Document chunked and saved as json:  at {output_file}")
+    return output_file
 
 
 if __name__ == "__main__":

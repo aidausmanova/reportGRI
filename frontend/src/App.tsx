@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import ChartView from "./components/ChartView";
-import logo from "/leuphana_logo.png";
+import { getSessionId } from './sessionManager';
+// import logo from "/leuphana_logo.png";
 
-// const API_URL = "http://localhost:8000";
-const API_URL = "https://backend.reportgri.nliwod.org";
+const API_URL = "http://localhost:8000";
+// const API_URL = "https://backend.reportgri.nliwod.org";
 
 type ReportData = {
   bar_chart: Record<string, {gri_disclosure: string, gri_disclosure_title: string, paragraph_count: number}>;
@@ -17,7 +18,6 @@ function App() {
   const [existingReports, setExistingReports] = useState<string[]>([]);
   const [selectedExistingReports, setSelectedExistingReports] = useState<string[]>([]);
   const [myReports, setMyReports] = useState<string[]>([]);
-  const [sessionId, setSessionId] = useState<string | null>(null);
   const [selectedMyReports, setSelectedMyReports] = useState<string[]>([]);
   // const [griLevel, setGriLevel] = useState<"l1" | "l2">("l1");
   // const [chartType, setChartType] = useState<"bar"| "radar" | "heatmap">("bar");
@@ -37,19 +37,27 @@ function App() {
   //     }
   // }, [reportData]);
 
+  const sessionId = getSessionId();
+  const requestOptions = {
+    headers: { 
+      'Content-Type': 'application/json',
+      'X-Session-ID': sessionId,
+    },
+  };
+
   useEffect(() => {
-    fetch(`${API_URL}/industries`)
+    fetch(`${API_URL}/industries`, requestOptions)
       .then((res) => res.json())
       .then(setIndustries);
 
-    fetch(`${API_URL}/my-reports`)
+    fetch(`${API_URL}/my-reports`, requestOptions)
       .then((res) => res.json())
       .then(setMyReports);
   }, []);
 
   useEffect(() => {
     if (industry) {
-      fetch(`${API_URL}/reports/${industry}`)
+      fetch(`${API_URL}/reports/${industry}`, requestOptions)
         .then((res) => res.json())
         .then(setExistingReports);
     }
@@ -62,9 +70,12 @@ function App() {
     // console.log("Current chart type: ", chartType)
 
     setIsLoading(true);
-    fetch(`${API_URL}/chart-data?session_id=${sessionId}`, {
+    fetch(`${API_URL}/chart-data`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { 
+        "Content-Type": "application/json",
+        'X-Session-ID': sessionId,
+      },
       // body: JSON.stringify({ report_names: allReports, gri_level: griLevel, chart: chartType }),
       body: JSON.stringify({ report_names: allReports }),
     })
@@ -86,11 +97,14 @@ function App() {
 
     const res = await fetch(`${API_URL}/upload`, {
       method: "POST",
+      headers: { 
+        'X-Session-ID': sessionId,
+      },
       body: formData,
     });
     const result = await res.json();
-    setMyReports(result.my_reports);
-    setSessionId(result.session_id);
+    setMyReports(result.my_reports);  
+    console.log("File parsed: " + result.parsed_file)  
     setIsLoading(false);
   };
 
@@ -100,8 +114,11 @@ function App() {
       return;
     }
 
-    const res = await fetch(`${API_URL}/export?session_id=${sessionId}`, {
+    const res = await fetch(`${API_URL}/export`, {
       method: "POST",
+      headers: { 
+        'X-Session-ID': sessionId,
+      },
     });
 
     if (!res.ok) {

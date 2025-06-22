@@ -93,7 +93,7 @@ def process_causal_lm(section_corpus, gri_docs, model, tokenizer, report_name):
 
     gri_instructions = "\n".join(gri_docs)
 
-    print(f"[INFO] Start GRI predicstion for # {len(section_corpus)} pragraphs")
+    print(f"[INFO] Start GRI prediction for # {len(section_corpus)} pragraphs")
     tokenizer.pad_token_id = model.config.eos_token_id[0]
     pipe = pipeline("text-generation", 
                     model=model,
