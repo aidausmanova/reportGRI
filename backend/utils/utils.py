@@ -10,6 +10,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 
 nltk.download("punkt")
+nltk.download('punkt_tab')
 nltk.download("stopwords")
 spacy.cli.download("en_core_web_sm")
 nlp = spacy.load("en_core_web_sm")
@@ -225,11 +226,11 @@ def preprocess_paragraph(section_corpus):
     return new_section_corpus
 
 
-def process_llm_response(report_name):
-    with open(f"data/reports/{report_name}/gri_coverage_evaluation.json", "r") as f:
-        data = json.load(f)
+def process_llm_response(data, path):
+    # with open(f"data/reports/{report_name}/gri_coverage_evaluation.json", "r") as f:
+    #     data = json.load(f)
 
-    with open(f"data/reports/{report_name}/{report_name}_corpus.json", "r") as f:
+    with open(f"{path}/corpus.json", "r") as f:
         section_corpus = json.load(f)
     section_index_corpus = {}
     for passage in section_corpus:
@@ -317,6 +318,4 @@ def process_llm_response(report_name):
                 "paragraphs": paragraphs,
             }
         )
-
-    with open(f"data/reports/{report_name}/{report_name}_final.json", "w") as f:
-        json.dump(results, f)
+    return results

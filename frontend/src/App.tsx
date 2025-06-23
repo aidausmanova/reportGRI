@@ -165,7 +165,7 @@ function App() {
 
         <div>
           <label className="text-lg font-semibold text-gray-700 py-3">Existing reports</label>
-          <label className="block mb-1 text-sm text-gray-700">Industry</label>
+          <label className="block mb-1 text-sm text-gray-700">To see alignment and assessment, select from existing reports.</label>
           <select
             className="w-full border p-2 rounded mb-3"
             value={industry}
@@ -219,13 +219,13 @@ function App() {
           </select>
         </div> */}
 
-        <button onClick={() => setReportData([])} className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">
+        <button onClick={() => {setReportData([]); setSelectedExistingReports([]);}} className="w-full bg-blue-600 text-white py-1 rounded hover:bg-blue-700">
           Clear
         </button>
 
         <div className="pt-6 border-t">
         <label className="text-lg font-semibold text-gray-700 py-3">My Reports</label>
-          <label className="block mb-1 text-sm text-gray-700">Upload report</label>
+          <label className="block mb-1 text-sm text-gray-700">Upload your own report to get GRI indexing and assessment. Export final assessment in JSON format.</label>
           <input type="file" accept="application/pdf" onChange={handleFileUpload} className="mb-2" />
           {/*<p className="text-green-600 text-sm">Status: Processed</p>*/}
 
@@ -247,7 +247,7 @@ function App() {
             ))}
           </div>
 
-          <label className="block text-sm font-medium text-gray-700 mt-4">Export assessment</label>
+          {/*<label className="block text-sm font-medium text-gray-700 mt-4">Export assessment</label>*/}
           {/*<select className="w-full border px-2 py-1 rounded mt-1">*/}
           {/*  <option value="json">JSON</option>*/}
           {/*  <option value="csv">CSV</option>*/}

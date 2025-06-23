@@ -204,21 +204,16 @@ def evaluate_disclosure_coverage(
                 "response": responses,
             }
             evaluation_results.append(disclosure_output_entry)
-    with open(f"data/reports/{report_name}/gri_coverage_evaluation.json", "w") as f:
-        json.dump(evaluation_results, f)
+    return evaluation_results
 
 
 def run_llm(uploaded_report_folder, report_name, model_name, is_few_shot):
-    gri_standards_corpus, gri_standards = get_gri_standards(
-        "data/taxonomies/gri_taxonomy_full_new.json"
-    )
-    gri_disclosure_corpus, gri_disclosures = get_gri_disclosures(
-        "data/taxonomies/gri_taxonomy_full_new.json"
-    )
+    gri_standards_corpus, gri_standards = get_gri_standards("data/taxonomies/gri_taxonomy_full_new.json")
+    gri_disclosure_corpus, gri_disclosures = get_gri_disclosures("data/taxonomies/gri_taxonomy_full_new.json")
     print("[INFO] GRI taxonomy loaded")
 
     with open(
-        os.path.join(uploaded_report_folder, report_name, "-corpus.json"), "r"
+        os.path.join(uploaded_report_folder, "corpus.json"), "r"
     ) as f:
         corpus = json.load(f)
     # section_docs, section_corpus = get_section_passages(corpus)
@@ -231,7 +226,7 @@ def run_llm(uploaded_report_folder, report_name, model_name, is_few_shot):
 
     with open(
         os.path.join(
-            uploaded_report_folder, report_name, "-top_retrieved_paragraphs.json"
+            uploaded_report_folder, "top_retrieved_paragraphs.json"
         ),
         "r",
     ) as f:
@@ -241,16 +236,22 @@ def run_llm(uploaded_report_folder, report_name, model_name, is_few_shot):
     if "llama" in model_name:
         tokenizer = AutoTokenizer.from_pretrained(model_name)
         model = AutoModelForCausalLM.from_pretrained(model_name)
-        process_causal_lm(
+        evaluation_results = process_causal_lm(
             section_corpus, gri_standards, model, tokenizer, report_name, ""
         )
     else:
         # process_openai(section_corpus, gri_standards, gri_disclosures, model_name, report_name, is_few_shot)
-        evaluate_disclosure_coverage(
+        evaluation_results = evaluate_disclosure_coverage(
             report_name, data, gri_disclosure_corpus, section_index_corpus, is_few_shot
         )
+    # with open(f"{uploaded_report_folder}/gri_coverage_evaluation.json", "w") as f:
+    #     json.dump(evaluation_results, f)
 
-    print("Finished execution.")
+    final_results = process_llm_response(evaluation_results, uploaded_report_folder)
+
+    with open(f"{uploaded_report_folder}/{report_name}_final.json", "w") as f:
+        json.dump(final_results, f)
+    print(f"[INFO] Final file saved in {uploaded_report_folder}/{report_name}_final.json")
 
 
 if __name__ == "__main__":

@@ -9,6 +9,8 @@ import logging
 from pathlib import Path
 import json
 import docling
+import certifi
+import ssl
 from docling.datamodel.base_models import InputFormat
 from docling.document_converter import DocumentConverter, PdfFormatOption
 from docling.datamodel.pipeline_options import (
@@ -19,11 +21,12 @@ from docling.datamodel.pipeline_options import (
 )
 import warnings
 import shutil
-from utils.utils import *
 
 warnings.filterwarnings("ignore")
 
 _log = logging.getLogger(__name__)
+# ssl_context = ssl.create_default_context(cafile=certifi.where())
+# ssl._create_default_https_context = ssl._create_stdlib_context
 
 
 def clean_text(text, rgx_list=[]):
@@ -129,7 +132,13 @@ def run_parser(uploaded_report_folder, report_name):
                         row["text"] += sec_text
 
     # output_dir = os.path.dirname(report_file)
-    corpus_file = os.path.join(uploaded_report_folder, report_name+ "-corpus.json")
+    if "original" not in uploaded_report_folder:
+        corpus_file = os.path.join(uploaded_report_folder, "corpus.json")
+    else:
+        folders = uploaded_report_folder.split("/")
+        new_path = "/".join(folders[:-1])
+        corpus_file = os.path.join(new_path, file_name, "corpus.json")
+
     with open(corpus_file, "w") as f:
         json.dump(chunked_paragraphs, f, indent=4)
 

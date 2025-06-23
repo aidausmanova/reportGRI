@@ -64,38 +64,35 @@ def get_reports_by_industry(industry: str, request: Request):
 @router.post("/upload")
 async def upload_file(request: Request, file: UploadFile = File(...)):
     session_id = request.headers.get("X-Session-ID", "unknown")
-    print(f"[INFO] upload: {session_id}")
+    print(f"[INFO] Upload session: {session_id}")
 
     session_folder = os.path.join(DATA_FOLDER, "uploaded_reports", session_id)
     Path(session_folder).mkdir(parents=True, exist_ok=True)
 
     # get the uploaded file name without extension
     report_name = Path(file.filename).stem
-    uploaded_report_folder = os.path.join(session_folder, report_name)
+    file_name = "-".join(report_name.lower().split())
+    uploaded_report_folder = os.path.join(session_folder, file_name)
 
     if not os.path.exists(uploaded_report_folder):
         Path(uploaded_report_folder).mkdir(parents=True, exist_ok=True)
 
-        uploaded_report = os.path.join(uploaded_report_folder, file.filename)
+        uploaded_report = os.path.join(uploaded_report_folder, file_name+".pdf")
         with open(uploaded_report, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
-
-        print(f"[INFO] file copied {uploaded_report}")
-
+            print(f"[INFO] file copied {uploaded_report}")
         # Parse the uploaded pdf report and generate the corpus.json output file
         print("Start file parsing")
-        run_parser(uploaded_report_folder, report_name)
+        run_parser(uploaded_report_folder, file_name)
 
         print("Start disclosure-paragraph alignment")
-        run_retrieval(uploaded_report_folder, report_name)
+        run_retrieval(uploaded_report_folder, file_name)
 
         print("Start report assessment")
-        # model = "meta-llama/Llama-3.1-8B"
-        # is_few_shot = "zero-shot"
-        # run_llm(uploaded_report_folder, report_name, model, is_few_shot)
+        run_llm(uploaded_report_folder, file_name, "gpt-3.5-turbo-1106", "zero-shot")
 
     files = list_uploaded_files(session_id)
-    return {"my_reports": files, "parsed_file": report_name}
+    return {"my_reports": files, "parsed_file": file_name}
 
 
 def list_uploaded_files(session_id: str) -> List[str]:
@@ -291,6 +288,7 @@ def get_chart_data(request: Request, body: dict = Body(...)):
                     reported_disclosure_topics[standard] += 1
                 else:
                     reported_disclosure_topics[standard] = 1
+                # reported_disclosure_topics[standard] = reported_disclosure_topics.get(standard, 1) + 1
 
                 completeness = item.get("completeness", 0)
                 materiality = item.get("materiality", 0)
@@ -348,4 +346,5 @@ def get_chart_data(request: Request, body: dict = Body(...)):
     response_data["bar_chart"] = dict(bar_chart_data)
     response_data["radar_chart"] = dict(radar_chart_data)
     response_data["scatter_chart"] = dict(scatter_chart_data)
+    # print(response_data["radar_chart"])
     return response_data

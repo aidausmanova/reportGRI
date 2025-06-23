@@ -25,15 +25,16 @@ if __name__ == "__main__":
     report = args.report
     model = args.llm
     is_few_shot = args.run_type
-    
-    print("Start report parsing")
-    report_name = run_parser(report)
-    
-    print("Start disclosure-paragraph alignment")
-    run_retrieval(report_name)
-    
-    print("Start report assessment")
-    run_llm(report_name, model, is_few_shot)
-    process_llm_response(report_name)
 
+
+    print("Start report parsing")
+    run_parser("data/reports/original/", report)
+
+    file_name = "-".join(report.lower().split())
+    report_folder = f"data/reports/{file_name}/"
+    print("Start disclosure-paragraph alignment")
+    run_retrieval(report_folder, file_name)
+
+    print("Start report assessment")
+    run_llm(report_folder, file_name, model, is_few_shot)
     print("Finished exxecution")

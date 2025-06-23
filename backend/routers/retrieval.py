@@ -60,7 +60,7 @@ def paragraph2gri_matching(section_index_corpus, gri_data, model, tokenizer):
 def run_retrieval(uploaded_report_folder, report_name):
     # Prepare report data
     with open(
-        os.path.join(uploaded_report_folder, report_name + "-corpus.json"), "r"
+        os.path.join(uploaded_report_folder, "corpus.json"), "r"
     ) as f:
         section_corpus = json.load(f)
     section_index_corpus = {}
@@ -106,7 +106,7 @@ def run_retrieval(uploaded_report_folder, report_name):
         )
 
     top_retrieved_paragraphs_json_file = os.path.join(
-        uploaded_report_folder, report_name + "-top_retrieved_paragraphs.json"
+        uploaded_report_folder, "top_retrieved_paragraphs.json"
     )
     with open(top_retrieved_paragraphs_json_file, "w") as f:
         json.dump(data_dict, f)

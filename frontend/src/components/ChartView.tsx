@@ -126,27 +126,67 @@ const ChartView: React.FC<ChartViewProps> = ({
     const reportNames = Object.keys(radarChartData);
     // const disclosureMeta = {};
 
-    const allTopics = new Set<string>();
-    reportNames.forEach((reportName) => {
-      Object.keys(radarChartData[reportName]).forEach((topic) => {
-        allTopics.add(topic);
-      });
-    });
+    // const allTopics = new Set<string>();
+    // reportNames.forEach((reportName) => {
+    //   Object.keys(radarChartData[reportName]).forEach((topic) => {
+    //     allTopics.add(topic);
+    //   });
+    // });
 
-    const sortedTopics = Array.from(allTopics).sort();
-    const indicator = sortedTopics.map((topic) => ({
+    // const sortedTopics = Array.from(allTopics).sort();
+    // const indicator = sortedTopics.map((topic) => ({
+    //   text: topic,
+    //   max: 100 // % value (0–100)
+    // }));
+
+    const allTopics = [
+      'General disclosure', 'Economic performance', 'Materials', 'Energy', 'Water',
+      'Biodiversity', 'Emissions', 'Waste', 'Environmental compliance', 'Supplier assessment',
+      'Employment', 'Employee safety', 'Training', 'Diversity', 'Communities',
+      'Public policy', 'Customer safety', 'Customer privacy'
+    ];
+
+    const indicator = allTopics.map((topic) => ({
       text: topic,
-      max: 100 // % value (0–100)
+      max: 100,
     }));
 
     const seriesData = reportNames.map((reportName) => {
-      const topicEntries = Object.entries(radarChartData[reportName] || {});
-      const topics = topicEntries.map(([_, entries]) => entries[0]);
+      // const topicEntries = Object.entries(radarChartData[reportName] || {});
+      // const topics = topicEntries.map(([_, entries]) => entries[0]);
+      const topicMap = radarChartData[reportName] || {};
+      const values = allTopics.map(topic => {
+        const entries = topicMap[topic];
+        if (entries && entries.length > 0) {
+          return entries[0].value;
+        } else {
+          return 0; // Fill missing topics with 0%
+        }
+      });
+
+      // const metadata = allTopics.map(topic => {
+      //   const entries = topicMap[topic];
+      //   return entries && entries.length > 0 ? entries[0] : {
+      //     gri_topic: '',
+      //     gri_topic_title: topic,
+      //     value: 0,
+      //     description: '',
+      //   };
+      // });
+      const metadata = allTopics.flatMap(topic => {
+        const entries = topicMap[topic];
+        if (entries && entries.length > 0 && entries[0].value > 0) {
+          return [entries[0]];
+        } else {
+          return [];
+        }
+      });
 
       return {
-        value: topics.map(t => t.value),
+        // value: topics.map(t => t.value),
+        value: values,
         name: reportName,
-        metadata: topics
+        metadata: metadata
       };
     });
     // const seriesData = reportNames.map(reportName => ({
@@ -204,27 +244,27 @@ const ChartView: React.FC<ChartViewProps> = ({
         }
       },
       polar: {
-        indicator: [
-          {text: 'General disclosure'},
-          {text: 'Economic performance'},
-          {text: 'Materials'},
-          {text: 'Energy'},
-          {text: 'Water'},
-          {text: 'Biodiversity'},
-          {text: 'Emissions'},
-          {text: 'Waste'},
-          {text: 'Environmental compliance'},
-          {text: 'Supplier assessment'},
-          {text: 'Employment'},
-          {text: 'Employee safety'},
-          {text: 'Training'},
-          {text: 'Diversity'},
-          {text: 'Communities'},
-          {text: 'Public policy'},
-          {text: 'Customer safety'},
-          {text: 'Customer privacy'}
-        ],
-        // indicator: indicator,
+        // indicator: [
+        //   {text: 'General disclosure', max: 100},
+        //   {text: 'Economic performance', max: 100},
+        //   {text: 'Materials', max: 100},
+        //   {text: 'Energy', max: 100},
+        //   {text: 'Water', max: 100},
+        //   {text: 'Biodiversity', max: 100},
+        //   {text: 'Emissions', max: 100},
+        //   {text: 'Waste', max: 100},
+        //   {text: 'Environmental compliance', max: 100},
+        //   {text: 'Supplier assessment', max: 100},
+        //   {text: 'Employment', max: 100},
+        //   {text: 'Employee safety', max: 100},
+        //   {text: 'Training', max: 100},
+        //   {text: 'Diversity', max: 100},
+        //   {text: 'Communities', max: 100},
+        //   {text: 'Public policy', max: 100},
+        //   {text: 'Customer safety', max: 100},
+        //   {text: 'Customer privacy', max: 100}
+        // ],
+        indicator: indicator,
         center: ['50%', '50%'],
         radius: '60%',
         name: {
