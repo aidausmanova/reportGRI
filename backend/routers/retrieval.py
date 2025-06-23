@@ -39,7 +39,12 @@ def paragraph2gri_matching(section_index_corpus, gri_data, model, tokenizer):
             inputs = {k: v.to(device) for k, v in inputs.items()}
             model.eval()
             with torch.no_grad():
-                scores = model(**inputs).logits.squeeze().tolist()
+                # scores = model(**inputs).logits.squeeze().tolist()
+                scores = model(**inputs).logits
+                if scores.dim() == 1:
+                    scores = scores.tolist()
+                else:
+                    scores = scores.squeeze(1).tolist()
 
             scored_passages = list(zip(passage_ids, scores))
             scored_passages.sort(key=lambda x: x[1], reverse=True)
