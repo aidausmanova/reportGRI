@@ -10,6 +10,8 @@ Main features of ReportGRI include:
 - **Disclosure assessment** for completeness and materiality
 - **Upload your report** to view the GRI distribution and do comparative analysis with industry peers, and receive LLM-based indexing suggestions
 
+The deployed version could be tested on https://reportgri.nliwod.org/
+
 ---
 ## Installation and Setup
 
