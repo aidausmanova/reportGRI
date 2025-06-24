@@ -1,5 +1,5 @@
 # Step 1: Build the app using Node.js and Vite
-FROM node:20-alpine as build
+FROM node:20-alpine AS build
 
 # Set working directory
 WORKDIR /frontend

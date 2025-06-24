@@ -26,6 +26,16 @@ DATA_FOLDER = Path("data")
 DATA_FOLDER.mkdir(exist_ok=True)
 
 
+@router.get("/device")
+def check_device():
+    import torch
+
+    use_cuda = torch.cuda.is_available()
+    device = torch.device("cuda" if use_cuda else "cpu")
+    print("Device:", device)
+    return {"Device": str(device)}
+
+
 @router.get("/industries")
 def get_industries(request: Request):
     session_id = request.headers.get("X-Session-ID", "unknown")
@@ -77,7 +87,7 @@ async def upload_file(request: Request, file: UploadFile = File(...)):
     if not os.path.exists(uploaded_report_folder):
         Path(uploaded_report_folder).mkdir(parents=True, exist_ok=True)
 
-        uploaded_report = os.path.join(uploaded_report_folder, file_name+".pdf")
+        uploaded_report = os.path.join(uploaded_report_folder, file_name + ".pdf")
         with open(uploaded_report, "wb") as buffer:
             shutil.copyfileobj(file.file, buffer)
             print(f"[INFO] file copied {uploaded_report}")

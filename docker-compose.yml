@@ -7,6 +7,9 @@ services:
     ports:
       - "8000:8000"
     restart: unless-stopped
+    runtime: nvidia
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all  # Only GPU 1 will be visible inside the container 
   
   nginx:
     depends_on: 
