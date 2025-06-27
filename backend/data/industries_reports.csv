@@ -1,21 +1,21 @@
-industry,organization
-pharmaceuticals,astrazeneca-sustainability-2023
-telecommunications,at&t-sustainability-2022
-aviation,boeing-sustainability-2023
-technology,microsoft-sustainability-2022
-aviation,qantas-sustainability-2023
-energy,suncor-sustainability-2023
-fashion,aeo-esg-2022
-real estate,bxp-esg-2022
-real estate,ctreit-esg-2022
-consultancy,deloitte-global-2023
-fashion,hm-sustainability-2022
-consultancy,jpmorgan-climate-2022
-finances,mastercard-esg-2022
-consultancy,mckinsey-esg-2022
-technology,meta-sustainability-2023
-finances,paypal-global-2023
-technology,sony-sustainability-2023
-retail,starbucks-impact-2022
-energy,veolia-esg-2023
-retail,walmart-esg-2023
+industry,organization,link
+pharmaceuticals,astrazeneca-sustainability-2023,https://www.astrazeneca.com/content/dam/az/Sustainability/2024/pdf/Sustainability-Report-2023.pdf
+telecommunications,at&t-sustainability-2022,https://www.responsibilityreports.com/HostedData/ResponsibilityReportArchive/a/NYSE_T_2022.pdf
+aviation,boeing-sustainability-2023,https://www.boeing.com/content/dam/boeing/boeingdotcom/principles/sustainability/sustainability-report/2023/assets/2023-Boeing-Sustainability-Report.pdf
+technology,microsoft-sustainability-2022,https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/2022-Environmental-Sustainability-Report.pdf
+aviation,qantas-sustainability-2023,https://investor.qantas.com/FormBuilder/_Resource/_module/doLLG5ufYkCyEPjF1tpgyw/file/annual-reports/QAN_2023_Sustainability_Report.pdf
+energy,suncor-sustainability-2023,https://www.responsibilityreports.com/HostedData/ResponsibilityReports/PDF/TSX_SU_2023.pdf
+fashion,aeo-esg-2022,https://www.aeo-inc.com/wp-content/uploads/sites/4/2023/10/AEO_2022ESGReport_Digital.pdf
+real estate,bxp-esg-2022,https://www.bxp.com/wp-content/uploads/2023/04/2022_BXP_ESG_Report.pdf
+real estate,ctreit-esg-2022,https://www.responsibilityreports.com/HostedData/ResponsibilityReportArchive/c/TSX_CRT_2022.pdf
+consultancy,deloitte-global-2023,https://www.deloitte.com/content/dam/assets-shared/docs/about/2024/gx-about-deloitte-global-report-full-version.pdf
+fashion,hm-sustainability-2022,https://hmgroup.com/wp-content/uploads/2023/03/HM-Group-Sustainability-Disclosure-2022.pdf
+consultancy,jpmorgan-climate-2022,https://www.jpmorganchase.com/content/dam/jpmc/jpmorgan-chase-and-co/documents/Climate-Report-2022.pdf
+finances,mastercard-esg-2022,https://www.mastercard.com/news/media/iicoly3a/mastercard-esg-sustainabilty-report-2022.pdf
+consultancy,mckinsey-esg-2022,https://www.mckinsey.com/spcontent/bespoke/esg-2023-sean/pdfs/56297_373_mckinsey_esg_report-2022_aw6_v10_final.pdf
+technology,meta-sustainability-2023,https://sustainability.fb.com/wp-content/uploads/2023/07/Meta-2023-Sustainability-Report.pdf
+finances,paypal-global-2023,https://s205.q4cdn.com/210152132/files/doc_downloads/2023/05/2022-Global-Impact-Report_FINAL-73.pdf
+technology,sony-sustainability-2023,https://www.sony.com/en/SonyInfo/csr/library/reports/SustainabilityReport2023_E.pdf
+retail,starbucks-impact-2022,https://doyourpart.com/wp-content/uploads/2024/10/Starbucks-2022-Global-Environmental-and-Social-Impact-Report.pdf
+energy,veolia-esg-2023,https://www.veolia.com/sites/g/files/dvc4206/files/document/2023/08/veolia-esg-multifaceted-performance-progress-report-2023.pdf
+retail,walmart-esg-2023,https://corporate.walmart.com/content/dam/corporate/documents/esgreport/a-message-from-our-chief-sustainability-officer/fy2023-walmart-esg-highlights.pdf

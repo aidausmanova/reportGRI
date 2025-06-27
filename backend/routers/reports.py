@@ -53,12 +53,17 @@ def get_reports_by_industry(industry: str, request: Request):
 
     file_path = os.path.join(DATA_FOLDER, "industries_reports.csv")
     orgs = set()
+    reports = []
     with open(file_path, newline="", encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
             if row["industry"] == industry:
-                orgs.add(row["organization"])
-    return sorted(orgs)
+                # orgs.add(row["organization"])
+                reports.append({
+                    "organization": row["organization"],
+                    "link": row["link"]
+                })
+    return sorted(reports, key=lambda x: x["organization"])
 
 
 @router.post("/upload")

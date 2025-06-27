@@ -178,19 +178,30 @@ function App() {
           </select>
           <div className="mt-3 space-y-1">
             {existingReports.map((rep) => (
-              <label key={rep} className="block text-sm">
-                <input
-                  type="checkbox"
-                  className="mr-2"
-                  checked={selectedExistingReports.includes(rep)}
-                  onChange={(e) => {
-                    setSelectedExistingReports((prev) =>
-                      e.target.checked ? [...prev, rep] : prev.filter((r) => r !== rep)
-                    );
-                  }}
-                />
-                {rep}
-              </label>
+                <label key={rep.organization} className="block text-sm">
+                  <input
+                      type="checkbox"
+                      className="mr-2"
+                      checked={selectedExistingReports.includes(rep.organization)}
+                      onChange={(e) => {
+                        setSelectedExistingReports((prev) =>
+                            e.target.checked ? [...prev, rep.organization] : prev.filter((r) => r !== rep.organization)
+                        );
+                      }}
+                  />
+                  {/*{rep}*/}
+                  <span>{rep.organization}</span>
+                  {rep.link && (
+                    <a
+                      href={rep.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="ml-2 text-blue-600 underline"
+                    >
+                      ↗
+                    </a>
+                  )}
+                </label>
             ))}
           </div>
         </div>
