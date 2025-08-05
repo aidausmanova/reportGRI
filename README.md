@@ -12,6 +12,9 @@ Main features of ReportGRI include:
 
 The deployed version could be tested on https://reportgri.nliwod.org/
 
+
+> 📣 Paper got accepted to CIKM 2025 Demo Track!
+
 ---
 ## Installation and Setup
 
