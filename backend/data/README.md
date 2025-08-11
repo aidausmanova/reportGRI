@@ -18,6 +18,9 @@ We annotated 5 reports manually according to their GRI index.
 | McKinsey ESG Report 2022 | 123       |
 | Paypal Global Impact Report 2022 | 121        |
 
+
+![Annotated GRI disclosure distribution](https://github.com/aidausmanova/reportGRI/tree/main/frontend/public/counts.png)
+
 | GRI Code  | Disclosure | Frequency  |
 |----------|-----------|-----|
 | GRI 2-1 | Organizational details | 7 |
