@@ -18,8 +18,7 @@ We annotated 5 reports manually according to their GRI index.
 | McKinsey ESG Report 2022 | 123       |
 | Paypal Global Impact Report 2022 | 121        |
 
-
-![Annotated GRI disclosure distribution](https://github.com/aidausmanova/reportGRI/tree/main/frontend/public/counts.png)
+<img src="https://github.com/aidausmanova/reportGRI/tree/main/frontend/public/counts.png" alt="Annotated disclosure distribution">
 
 | GRI Code  | Disclosure | Frequency  |
 |----------|-----------|-----|
@@ -49,3 +48,38 @@ We annotated 5 reports manually according to their GRI index.
 | GRI 302-3 | Energy intensity        | 7|
 | GRI 302-4 | Reduction of energy consumption        | 26|
 | GRI 302-5 | Reductions in energy requirements of products and services        | 26|
+| GRI 303-1 | Interactions with water as a shared resource        | 19|
+| GRI 303-2 | Management of water discharge-related impacts       | 14|
+| GRI 303-3 | Water withdrawal       | 16|
+| GRI 303-4 | Water discharge        | 2|
+| GRI 303-5 | Water consumption        | 3|
+| GRI 304-2 | Significant impacts of activities, products and services on biodiversity      | 1|
+| GRI 304-3 | Habitats protected or restored     | 5|
+| GRI 305-1 | Direct (Scope 1) GHG emissions        | 20|
+| GRI 305-2 | Energy indirect (Scope 2) GHG emissions       | 15|
+| GRI 305-3 | Other indirect (Scope 3) GHG emissions     | 16|
+| GRI 305-4 | GHG emissions intensity      | 6|
+| GRI 305-5 | Reduction of GHG emissions       | 23|
+| GRI 306-1 | Water discharge by quality and destination       | 4|
+| GRI 306-2 | Waste by type and disposal method       | 13|
+| GRI 306-3 | Significant spills      | 4|
+| GRI 308-1 | New suppliers that were screened using environmental criteria     | 12|
+| GRI 308-2 | Negative environmental impacts in the supply chain and actions taken      | 4|
+| GRI 401-1 | New employee hires and employee turnover       | 4|
+| GRI 401-2 | Benefits provided to full-time employees       | 5|
+| GRI 401-3 | Parental leave     | 4|
+| GRI 403-1 | Occupational health and safety management system     | 19|
+| GRI 403-2 | Hazard identification, risk assessment, and incident investigation      | 6|
+| GRI 403-3 | Occupational health services      | 6|
+| GRI 403-4 | Worker participation, consultation, and communication on occupational health and safety      | 4|
+| GRI 403-5 | Worker training on occupational health and safety     | 7|
+| GRI 404-1 | Average hours of training per year per employee       | 7|
+| GRI 404-2 | Programs for upgrading employee skills and transition assistance programs      | 31|
+| GRI 405-1 | Diversity of governance bodies and employees     | 25|
+| GRI 405-2 | Ratio of basic salary and remuneration of women to men    | 3|
+| GRI 413-1 | Operations with local community engagement      |11|
+| GRI 413-2 | Operations with significant actual and potential negative impacts on local communities   | 1|
+| GRI 415-1 | Political contributions      | 1|
+| GRI 416-1 | Assessment of the health and safety impacts of product and service categories       | 6|
+| GRI 416-2 | Incidents of non-compliance concerning the health and safety impacts of products and services     | 2|
+| GRI 418-1 | Substantiated complaints concerning breaches of customer privacy and losses of customer data    |21|
